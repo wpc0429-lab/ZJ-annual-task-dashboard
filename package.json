@@ -7,8 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "test:sites": "node --test tests/sites-worker.test.mjs",
-    "deploy": "gh-pages -d dist"
+    "deploy": "wrangler pages deploy dist --project-name zj-annual-task-dashboard",
+    "deploy:ci": "wrangler pages deploy dist --project-name zj-annual-task-dashboard --commit-dirty=true"
   },
   "dependencies": {
     "@phosphor-icons/react": "^2.1.10",
@@ -18,7 +18,7 @@
     "vite": "6.4.2"
   },
   "devDependencies": {
-    "gh-pages": "^6.1.1",
-    "xlsx": "^0.18.5"
+    "xlsx": "^0.18.5",
+    "wrangler": "^3.101.0"
   }
 }

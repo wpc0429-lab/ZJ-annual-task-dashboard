@@ -1,11 +1,10 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
-// GitHub Pages 部署配置:
-//  - 项目页:  https://<user>.github.io/annual-task-dashboard/  → base: "/annual-task-dashboard/"
-//  - 用户页:  https://<user>.github.io/                       → base: "/"
-// 如果之后切到用户页,只需把 base 改成 "/" 再 push 即可。
-const repoBase = "/annual-task-dashboard/";
+// Cloudflare Pages 部署配置:
+//   部署到 zj-annual-task-dashboard.pages.dev 时,站点根路径就是 "/",不要带子路径前缀。
+//   如果之后想同时部署到 GitHub Pages(<user>.github.io/annual-task-dashboard/),把 base 改回 "/annual-task-dashboard/" 并重新打包即可。
+const repoBase = "/";
 
 export default defineConfig({
   base: repoBase,
