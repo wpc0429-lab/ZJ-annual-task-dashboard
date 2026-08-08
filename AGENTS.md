@@ -15,3 +15,9 @@ Build app UI in `src/`. Keep `.openai/hosting.json`, `worker/index.js`, `scripts
 - The current source is `/Users/huangxi/Desktop/人工智能场景计划表-0803.xlsx`; its green fills in the 应用场景 column drive the “年度拳头产品” state, and progress is derived from 是否已完成 (已完成/是 = 100%, 部分完成 = 50%, 否 = 0%).
 - The generated `src/ai-plan-data.json` is the replaceable normalized data layer, preserving the source’s department, scenario, subtask, due date, vendor, technical contact, business contact, and special-fill signals.
 - Detail drawer responsibility labels use “责任部门”, “需求方 / 业务负责人”, “技术部对接人”, and “研发单位”; business and technical contacts must remain separate rather than collapsing into one owner line.
+
+## Deployment configuration
+
+- `vite.config.mjs` 当前 `base` 为 `/annual-task-dashboard/`,针对 GitHub Pages 项目站点。
+- 部署走 `.github/workflows/deploy.yml`,push 到 `main` 自动 build 并发布到 GitHub Pages。
+- 历史结论:之前的 Cloudflare Pages 部署(根域 `zj-annual-task-dashboard.pages.dev`)需要 `base: "/"`,切换到 GitHub Pages 时务必改回 `/annual-task-dashboard/`(末尾带 `/`)。如需同时兼顾两个平台,建议用环境变量切换 `base`,而不是手改。
