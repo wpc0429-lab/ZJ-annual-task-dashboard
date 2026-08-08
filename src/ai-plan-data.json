@@ -1,0 +1,5390 @@
+{
+  "sourceFile": "人工智能场景计划表-0806.xlsx",
+  "sourceSheet": "应用建设",
+  "reportDate": "2026-08-06",
+  "currentDate": "2026-08-06",
+  "departments": [
+    {
+      "id": "dept-综合部",
+      "name": "综合部",
+      "thesis": "提升办公材料与舆情处理效率，形成可复制的智能办公能力。",
+      "scenarios": [
+        {
+          "id": "ai-01",
+          "name": "公文材料智能写作",
+          "department": "综合部",
+          "departmentId": "dept-综合部",
+          "sequence": "1",
+          "kind": "normal",
+          "priority": "yellow",
+          "progress": 75,
+          "due": "2026-08-07",
+          "businessOwner": "王炜",
+          "techOwner": "林烨",
+          "vendor": "华云数据",
+          "owner": "王炜",
+          "role": "业务负责人 · 王炜 / 技术部对接人 · 林烨",
+          "description": "word公文、格式转换、pdf拼接剪切、自动操作excel、加去水印等常用办公技能、ppt制作",
+          "next": "推进\"格式转换、pdf拼接剪切、自动操作excel、加去水印等常用办公技能\"，计划节点：2026-08-07。",
+          "risk": "",
+          "milestones": [
+            [
+              "word公文",
+              "2026-08-07",
+              "done"
+            ],
+            [
+              "格式转换、pdf拼接剪切、自动操作excel、加去水印等常用办公技能",
+              "2026-08-07",
+              "todo"
+            ],
+            [
+              "ppt制作",
+              "2026-08-07",
+              "done"
+            ],
+            [
+              "自动报表",
+              "2026-08-07",
+              "done"
+            ]
+          ],
+          "items": [
+            {
+              "detail": "word公文",
+              "status": "done",
+              "demo": "46234",
+              "due": "2026-08-07",
+              "integrated": "是",
+              "vendor": "华云数据",
+              "techOwner": "林烨",
+              "businessOwner": "王炜"
+            },
+            {
+              "detail": "格式转换、pdf拼接剪切、自动操作excel、加去水印等常用办公技能",
+              "status": "todo",
+              "demo": "",
+              "due": "2026-08-07",
+              "integrated": "是",
+              "vendor": "启明星",
+              "techOwner": "林烨",
+              "businessOwner": "王炜"
+            },
+            {
+              "detail": "ppt制作",
+              "status": "done",
+              "demo": "46234",
+              "due": "2026-08-07",
+              "integrated": "是",
+              "vendor": "华云数据",
+              "techOwner": "林烨",
+              "businessOwner": "王炜"
+            },
+            {
+              "detail": "自动报表",
+              "status": "done",
+              "demo": "46234",
+              "due": "2026-08-07",
+              "integrated": "是",
+              "vendor": "华云数据",
+              "techOwner": "林烨",
+              "businessOwner": "王炜"
+            }
+          ]
+        },
+        {
+          "id": "ai-02",
+          "name": "舆情管理智能",
+          "department": "综合部",
+          "departmentId": "dept-综合部",
+          "sequence": "2",
+          "kind": "punch",
+          "priority": "punch",
+          "progress": 0,
+          "due": "2026-12-30",
+          "businessOwner": "王炜",
+          "techOwner": "王林",
+          "vendor": "启明星",
+          "owner": "王炜",
+          "role": "业务负责人 · 王炜 / 技术部对接人 · 王林",
+          "description": "舆情监测、舆情研判、舆情预警",
+          "next": "推进\"舆情监测\"，计划节点：2026-08-15。",
+          "risk": "",
+          "milestones": [
+            [
+              "舆情监测",
+              "2026-08-15",
+              "todo"
+            ],
+            [
+              "舆情研判",
+              "2026-08-15",
+              "todo"
+            ],
+            [
+              "舆情预警",
+              "2026-08-15",
+              "todo"
+            ],
+            [
+              "舆情辅助处置",
+              "2026-12-30",
+              "todo"
+            ]
+          ],
+          "items": [
+            {
+              "detail": "舆情监测",
+              "status": "todo",
+              "demo": "",
+              "due": "2026-08-15",
+              "integrated": "否",
+              "vendor": "启明星",
+              "techOwner": "王林",
+              "businessOwner": "王炜"
+            },
+            {
+              "detail": "舆情研判",
+              "status": "todo",
+              "demo": "",
+              "due": "2026-08-15",
+              "integrated": "否",
+              "vendor": "启明星",
+              "techOwner": "王林",
+              "businessOwner": "王炜"
+            },
+            {
+              "detail": "舆情预警",
+              "status": "todo",
+              "demo": "",
+              "due": "2026-08-15",
+              "integrated": "否",
+              "vendor": "启明星",
+              "techOwner": "王林",
+              "businessOwner": "王炜"
+            },
+            {
+              "detail": "舆情辅助处置",
+              "status": "todo",
+              "demo": "",
+              "due": "2026-12-30",
+              "integrated": "否",
+              "vendor": "启明星",
+              "techOwner": "王林",
+              "businessOwner": "王炜"
+            }
+          ]
+        }
+      ],
+      "overall": 38,
+      "active": 2,
+      "nearest": "2026-08-07"
+    },
+    {
+      "id": "dept-市场部",
+      "name": "市场部",
+      "thesis": "强化市场规则、政策和仿真推演能力，提升业务研判效率。",
+      "scenarios": [
+        {
+          "id": "ai-03",
+          "name": "规则一致性校验",
+          "department": "市场部",
+          "departmentId": "dept-市场部",
+          "sequence": "3",
+          "kind": "punch",
+          "priority": "punch",
+          "progress": 50,
+          "due": "2026-09-30",
+          "businessOwner": "王炜",
+          "techOwner": "陈磊、庄晓丹",
+          "vendor": "启明星",
+          "owner": "王炜",
+          "role": "业务负责人 · 王炜 / 技术部对接人 · 陈磊、庄晓丹",
+          "description": "规则库建设、一致性校验",
+          "next": "推进\"一致性校验\"，计划节点：2026-09-30。",
+          "risk": "",
+          "milestones": [
+            [
+              "规则库建设",
+              "2026-07-21",
+              "done"
+            ],
+            [
+              "一致性校验",
+              "2026-09-30",
+              "todo"
+            ]
+          ],
+          "items": [
+            {
+              "detail": "规则库建设",
+              "status": "done",
+              "demo": "",
+              "due": "2026-07-21",
+              "integrated": "是",
+              "vendor": "启明星",
+              "techOwner": "陈磊",
+              "businessOwner": "王炜"
+            },
+            {
+              "detail": "一致性校验",
+              "status": "todo",
+              "demo": "",
+              "due": "2026-09-30",
+              "integrated": "是",
+              "vendor": "启明星",
+              "techOwner": "庄晓丹",
+              "businessOwner": "王炜"
+            }
+          ]
+        },
+        {
+          "id": "ai-04",
+          "name": "政策解读智能辅助场景",
+          "department": "市场部",
+          "departmentId": "dept-市场部",
+          "sequence": "4",
+          "kind": "normal",
+          "priority": "yellow",
+          "progress": 100,
+          "due": null,
+          "businessOwner": "王炜",
+          "techOwner": "陈磊",
+          "vendor": "华云数据",
+          "owner": "王炜",
+          "role": "业务负责人 · 王炜 / 技术部对接人 · 陈磊",
+          "description": "提炼政策文件辅助形成政策解读材料",
+          "next": "完成最终验收并准备交付。",
+          "risk": "",
+          "milestones": [
+            [
+              "提炼政策文件辅助形成政策解读材料",
+              "待定",
+              "done"
+            ]
+          ],
+          "items": [
+            {
+              "detail": "提炼政策文件辅助形成政策解读材料",
+              "status": "done",
+              "demo": "",
+              "due": null,
+              "integrated": "是",
+              "vendor": "华云数据",
+              "techOwner": "陈磊",
+              "businessOwner": "王炜"
+            }
+          ]
+        },
+        {
+          "id": "ai-05",
+          "name": "市场模拟与仿真推演场景",
+          "department": "市场部",
+          "departmentId": "dept-市场部",
+          "sequence": "5",
+          "kind": "punch",
+          "priority": "punch",
+          "progress": 0,
+          "due": "2026-08-15",
+          "businessOwner": "王鹏程",
+          "techOwner": "邓晖",
+          "vendor": "电科院",
+          "owner": "王鹏程",
+          "role": "业务负责人 · 王鹏程 / 技术部对接人 · 邓晖",
+          "description": "模拟交易平台、仿真交易机器人",
+          "next": "推进\"模拟交易平台\"，计划节点：2026-08-15。",
+          "risk": "",
+          "milestones": [
+            [
+              "模拟交易平台",
+              "2026-08-15",
+              "todo"
+            ],
+            [
+              "仿真交易机器人",
+              "2026-08-15",
+              "todo"
+            ]
+          ],
+          "items": [
+            {
+              "detail": "模拟交易平台",
+              "status": "todo",
+              "demo": "",
+              "due": "2026-08-15",
+              "integrated": "否",
+              "vendor": "电科院",
+              "techOwner": "邓晖",
+              "businessOwner": "王鹏程"
+            },
+            {
+              "detail": "仿真交易机器人",
+              "status": "todo",
+              "demo": "",
+              "due": "2026-08-15",
+              "integrated": "否",
+              "vendor": "电科院",
+              "techOwner": "邓晖",
+              "businessOwner": "王鹏程"
+            }
+          ]
+        }
+      ],
+      "overall": 50,
+      "active": 2,
+      "nearest": "2026-08-15"
+    },
+    {
+      "id": "dept-结算部",
+      "name": "结算部",
+      "thesis": "围绕核算、披露与结算稽核，构建智能化校验体系。",
+      "scenarios": [
+        {
+          "id": "ai-06",
+          "name": "绿色消费核算数据稽核",
+          "department": "结算部",
+          "departmentId": "dept-结算部",
+          "sequence": "6",
+          "kind": "normal",
+          "priority": "yellow",
+          "progress": 0,
+          "due": "2026-09-30",
+          "businessOwner": "王炜",
+          "techOwner": "张晓龙",
+          "vendor": "启明星",
+          "owner": "王炜",
+          "role": "业务负责人 · 王炜 / 技术部对接人 · 张晓龙",
+          "description": "绿电零售与绿电批发消费核算、自发自用消费核算、用网电量营销零售对比稽核",
+          "next": "推进\"绿电零售与绿电批发消费核算\"，计划节点：2026-09-30。",
+          "risk": "",
+          "milestones": [
+            [
+              "绿电零售与绿电批发消费核算",
+              "2026-09-30",
+              "todo"
+            ],
+            [
+              "自发自用消费核算",
+              "2026-09-30",
+              "todo"
+            ],
+            [
+              "用网电量营销零售对比稽核",
+              "2026-09-30",
+              "todo"
+            ]
+          ],
+          "items": [
+            {
+              "detail": "绿电零售与绿电批发消费核算",
+              "status": "todo",
+              "demo": "46234",
+              "due": "2026-09-30",
+              "integrated": "否",
+              "vendor": "启明星",
+              "techOwner": "张晓龙",
+              "businessOwner": "王炜"
+            },
+            {
+              "detail": "自发自用消费核算",
+              "status": "todo",
+              "demo": "46234",
+              "due": "2026-09-30",
+              "integrated": "否",
+              "vendor": "启明星",
+              "techOwner": "张晓龙",
+              "businessOwner": "王炜"
+            },
+            {
+              "detail": "用网电量营销零售对比稽核",
+              "status": "todo",
+              "demo": "46234",
+              "due": "2026-09-30",
+              "integrated": "否",
+              "vendor": "启明星",
+              "techOwner": "张晓龙",
+              "businessOwner": "王炜"
+            }
+          ]
+        },
+        {
+          "id": "ai-07",
+          "name": "新一代人工智能试点，非化石能源建设",
+          "department": "结算部",
+          "departmentId": "dept-结算部",
+          "sequence": "6",
+          "kind": "punch",
+          "priority": "punch",
+          "progress": 0,
+          "due": null,
+          "businessOwner": "王炜",
+          "techOwner": "待定",
+          "vendor": "启明星",
+          "owner": "王炜",
+          "role": "业务负责人 · 王炜",
+          "description": "场景建设推进",
+          "next": "推进\"场景建设推进\"。",
+          "risk": "",
+          "milestones": [
+            [
+              "场景建设推进",
+              "待定",
+              "todo"
+            ]
+          ],
+          "items": [
+            {
+              "detail": "场景建设推进",
+              "status": "todo",
+              "demo": "",
+              "due": null,
+              "integrated": "是",
+              "vendor": "启明星",
+              "techOwner": "",
+              "businessOwner": "王炜"
+            }
+          ]
+        },
+        {
+          "id": "ai-08",
+          "name": "结算信息披露智能问数",
+          "department": "结算部",
+          "departmentId": "dept-结算部",
+          "sequence": "7",
+          "kind": "punch",
+          "priority": "punch",
+          "progress": 0,
+          "due": "2026-10-31",
+          "businessOwner": "王炜",
+          "techOwner": "汪向阳",
+          "vendor": "启明星",
+          "owner": "王炜",
+          "role": "业务负责人 · 王炜 / 技术部对接人 · 汪向阳",
+          "description": "询问信息披露数据、信息披露的MCP制作",
+          "next": "推进\"询问信息披露数据\"，计划节点：2026-10-31。",
+          "risk": "",
+          "milestones": [
+            [
+              "询问信息披露数据",
+              "2026-10-31",
+              "todo"
+            ],
+            [
+              "信息披露的MCP制作",
+              "2026-08-07",
+              "todo"
+            ]
+          ],
+          "items": [
+            {
+              "detail": "询问信息披露数据",
+              "status": "todo",
+              "demo": "",
+              "due": "2026-10-31",
+              "integrated": "是",
+              "vendor": "启明星",
+              "techOwner": "汪向阳",
+              "businessOwner": "王炜"
+            },
+            {
+              "detail": "信息披露的MCP制作",
+              "status": "todo",
+              "demo": "",
+              "due": "2026-08-07",
+              "integrated": "是",
+              "vendor": "启明星",
+              "techOwner": "汪向阳",
+              "businessOwner": "王炜"
+            }
+          ]
+        },
+        {
+          "id": "ai-09",
+          "name": "智能结算",
+          "department": "结算部",
+          "departmentId": "dept-结算部",
+          "sequence": "8",
+          "kind": "normal",
+          "priority": "yellow",
+          "progress": 0,
+          "due": "2026-12-30",
+          "businessOwner": "王炜",
+          "techOwner": "龚建荣",
+          "vendor": "启明星",
+          "owner": "王炜",
+          "role": "业务负责人 · 王炜 / 技术部对接人 · 龚建荣",
+          "description": "事前基础数据稽核、事中全流程辅助分析、事后报表数据稽核",
+          "next": "推进\"事前基础数据稽核\"，计划节点：2026-12-30。",
+          "risk": "",
+          "milestones": [
+            [
+              "事前基础数据稽核",
+              "2026-12-30",
+              "todo"
+            ],
+            [
+              "事中全流程辅助分析",
+              "2026-12-30",
+              "todo"
+            ],
+            [
+              "事后报表数据稽核",
+              "2026-12-30",
+              "todo"
+            ]
+          ],
+          "items": [
+            {
+              "detail": "事前基础数据稽核",
+              "status": "todo",
+              "demo": "",
+              "due": "2026-12-30",
+              "integrated": "是",
+              "vendor": "启明星",
+              "techOwner": "龚建荣",
+              "businessOwner": "王炜"
+            },
+            {
+              "detail": "事中全流程辅助分析",
+              "status": "todo",
+              "demo": "",
+              "due": "2026-12-30",
+              "integrated": "是",
+              "vendor": "电科院",
+              "techOwner": "龚建荣",
+              "businessOwner": "王炜"
+            },
+            {
+              "detail": "事后报表数据稽核",
+              "status": "todo",
+              "demo": "46233",
+              "due": "2026-12-30",
+              "integrated": "是",
+              "vendor": "启明星",
+              "techOwner": "龚建荣",
+              "businessOwner": "王炜"
+            }
+          ]
+        }
+      ],
+      "overall": 0,
+      "active": 4,
+      "nearest": "2026-09-30"
+    },
+    {
+      "id": "dept-合规部",
+      "name": "合规部",
+      "thesis": "强化异常行为、业务流程与风险监测的智能化能力。",
+      "scenarios": [
+        {
+          "id": "ai-10",
+          "name": "市场主体异常行为风险分析",
+          "department": "合规部",
+          "departmentId": "dept-合规部",
+          "sequence": "9",
+          "kind": "normal",
+          "priority": "yellow",
+          "progress": 0,
+          "due": "2026-09-20",
+          "businessOwner": "王炜",
+          "techOwner": "陈成",
+          "vendor": "待定",
+          "owner": "王炜",
+          "role": "业务负责人 · 王炜 / 技术部对接人 · 陈成",
+          "description": "交叉分析市场主体报价行为是否有风险，人工智能售电公司盈利分析",
+          "next": "推进\"交叉分析市场主体报价行为是否有风险，人工智能售电公司盈利分析\"，计划节点：2026-09-20。",
+          "risk": "",
+          "milestones": [
+            [
+              "交叉分析市场主体报价行为是否有风险，人工智能售电公司盈利分析",
+              "2026-09-20",
+              "todo"
+            ]
+          ],
+          "items": [
+            {
+              "detail": "交叉分析市场主体报价行为是否有风险，人工智能售电公司盈利分析",
+              "status": "todo",
+              "demo": "46241",
+              "due": "2026-09-20",
+              "integrated": "是",
+              "vendor": "",
+              "techOwner": "陈成",
+              "businessOwner": "王炜"
+            }
+          ]
+        },
+        {
+          "id": "ai-11",
+          "name": "业务指标智能分析",
+          "department": "合规部",
+          "departmentId": "dept-合规部",
+          "sequence": "10",
+          "kind": "normal",
+          "priority": "yellow",
+          "progress": 0,
+          "due": "2026-12-31",
+          "businessOwner": "王炜",
+          "techOwner": "陈成",
+          "vendor": "待定",
+          "owner": "王炜",
+          "role": "业务负责人 · 王炜 / 技术部对接人 · 陈成",
+          "description": "稽核市场主体提交的资料",
+          "next": "推进\"稽核市场主体提交的资料\"，计划节点：2026-12-31。",
+          "risk": "",
+          "milestones": [
+            [
+              "稽核市场主体提交的资料",
+              "2026-12-31",
+              "todo"
+            ]
+          ],
+          "items": [
+            {
+              "detail": "稽核市场主体提交的资料",
+              "status": "todo",
+              "demo": "",
+              "due": "2026-12-31",
+              "integrated": "否",
+              "vendor": "",
+              "techOwner": "陈成",
+              "businessOwner": "王炜"
+            }
+          ]
+        },
+        {
+          "id": "ai-12",
+          "name": "业务流程智能稽核",
+          "department": "合规部",
+          "departmentId": "dept-合规部",
+          "sequence": "11",
+          "kind": "punch",
+          "priority": "punch",
+          "progress": 50,
+          "due": null,
+          "businessOwner": "王炜",
+          "techOwner": "陈成",
+          "vendor": "启明星",
+          "owner": "王炜",
+          "role": "业务负责人 · 王炜 / 技术部对接人 · 陈成",
+          "description": "交易平台流程稽核、决策中枢流程稽核",
+          "next": "推进\"交易平台流程稽核\"。",
+          "risk": "",
+          "milestones": [
+            [
+              "交易平台流程稽核",
+              "待定",
+              "todo"
+            ],
+            [
+              "决策中枢流程稽核",
+              "待定",
+              "done"
+            ]
+          ],
+          "items": [
+            {
+              "detail": "交易平台流程稽核",
+              "status": "todo",
+              "demo": "",
+              "due": null,
+              "integrated": "否",
+              "vendor": "启明星",
+              "techOwner": "陈成",
+              "businessOwner": "王炜"
+            },
+            {
+              "detail": "决策中枢流程稽核",
+              "status": "done",
+              "demo": "",
+              "due": null,
+              "integrated": "否",
+              "vendor": "华云数据",
+              "techOwner": "陈成",
+              "businessOwner": "王炜"
+            }
+          ]
+        },
+        {
+          "id": "ai-13",
+          "name": "合规风险监测的人工智能展示",
+          "department": "合规部",
+          "departmentId": "dept-合规部",
+          "sequence": "12",
+          "kind": "risk",
+          "priority": "yellow",
+          "progress": 0,
+          "due": "2026-08-07",
+          "businessOwner": "王炜",
+          "techOwner": "陈成",
+          "vendor": "待定",
+          "owner": "王炜",
+          "role": "业务负责人 · 王炜 / 技术部对接人 · 陈成",
+          "description": "页面展示异常行为、智能排序",
+          "next": "推进\"页面展示异常行为\"，计划节点：2026-08-07。",
+          "risk": "当前完成度 0%，最近节点为 2026-08-07，建议在本次汇报中确认推进责任与资源安排。",
+          "milestones": [
+            [
+              "页面展示异常行为",
+              "2026-08-07",
+              "todo"
+            ],
+            [
+              "智能排序",
+              "2026-08-07",
+              "todo"
+            ]
+          ],
+          "items": [
+            {
+              "detail": "页面展示异常行为",
+              "status": "todo",
+              "demo": "46234",
+              "due": "2026-08-07",
+              "integrated": "是",
+              "vendor": "",
+              "techOwner": "陈成",
+              "businessOwner": "王炜"
+            },
+            {
+              "detail": "智能排序",
+              "status": "todo",
+              "demo": "46234",
+              "due": "2026-08-07",
+              "integrated": "是",
+              "vendor": "",
+              "techOwner": "陈成",
+              "businessOwner": "王炜"
+            }
+          ]
+        }
+      ],
+      "overall": 13,
+      "active": 4,
+      "nearest": "2026-08-07"
+    },
+    {
+      "id": "dept-技术部",
+      "name": "技术部",
+      "thesis": "夯实平台运维、代码、数据和个人助手的 AI 能力底座。",
+      "scenarios": [
+        {
+          "id": "ai-14",
+          "name": "平台运行智能运维",
+          "department": "技术部",
+          "departmentId": "dept-技术部",
+          "sequence": "13",
+          "kind": "normal",
+          "priority": "yellow",
+          "progress": 30,
+          "due": "2026-12-31",
+          "businessOwner": "邵晨峰",
+          "techOwner": "黄隽弢",
+          "vendor": "华云集成",
+          "owner": "邵晨峰",
+          "role": "业务负责人 · 邵晨峰 / 技术部对接人 · 黄隽弢",
+          "description": "自动采集软硬件数据、自动回归测试、日志采集",
+          "next": "推进\"自动回归测试\"，计划节点：2026-08-30。",
+          "risk": "",
+          "milestones": [
+            [
+              "自动采集软硬件数据",
+              "2026-12-31",
+              "done"
+            ],
+            [
+              "自动回归测试",
+              "2026-08-30",
+              "current"
+            ],
+            [
+              "日志采集",
+              "2026-12-31",
+              "todo"
+            ],
+            [
+              "变更影响分析",
+              "2026-12-31",
+              "todo"
+            ],
+            [
+              "用户工单智能分析",
+              "2026-12-31",
+              "todo"
+            ]
+          ],
+          "items": [
+            {
+              "detail": "自动采集软硬件数据",
+              "status": "done",
+              "demo": "7月31日",
+              "due": "2026-12-31",
+              "integrated": "是",
+              "vendor": "华云集成",
+              "techOwner": "黄隽弢",
+              "businessOwner": "邵晨峰"
+            },
+            {
+              "detail": "自动回归测试",
+              "status": "partial",
+              "demo": "",
+              "due": "2026-08-30",
+              "integrated": "是",
+              "vendor": "华云集成",
+              "techOwner": "黄隽弢",
+              "businessOwner": "邵晨峰"
+            },
+            {
+              "detail": "日志采集",
+              "status": "todo",
+              "demo": "",
+              "due": "2026-12-31",
+              "integrated": "是",
+              "vendor": "华云集成",
+              "techOwner": "黄隽弢",
+              "businessOwner": "邵晨峰"
+            },
+            {
+              "detail": "变更影响分析",
+              "status": "todo",
+              "demo": "",
+              "due": "2026-12-31",
+              "integrated": "是",
+              "vendor": "华云集成",
+              "techOwner": "黄隽弢",
+              "businessOwner": "邵晨峰"
+            },
+            {
+              "detail": "用户工单智能分析",
+              "status": "todo",
+              "demo": "",
+              "due": "2026-12-31",
+              "integrated": "是",
+              "vendor": "启明星",
+              "techOwner": "黄隽弢",
+              "businessOwner": "邵晨峰"
+            }
+          ]
+        },
+        {
+          "id": "ai-15",
+          "name": "量化交易识别",
+          "department": "技术部",
+          "departmentId": "dept-技术部",
+          "sequence": "14",
+          "kind": "punch",
+          "priority": "punch",
+          "progress": 75,
+          "due": "2026-08-07",
+          "businessOwner": "邵晨峰",
+          "techOwner": "魏骁",
+          "vendor": "华云集成",
+          "owner": "邵晨峰",
+          "role": "业务负责人 · 邵晨峰 / 技术部对接人 · 魏骁",
+          "description": "采集异常行为、生成异常分析报告",
+          "next": "推进\"生成异常分析报告\"，计划节点：2026-08-07。",
+          "risk": "",
+          "milestones": [
+            [
+              "采集异常行为",
+              "2026-08-07",
+              "done"
+            ],
+            [
+              "生成异常分析报告",
+              "2026-08-07",
+              "current"
+            ]
+          ],
+          "items": [
+            {
+              "detail": "采集异常行为",
+              "status": "done",
+              "demo": "",
+              "due": null,
+              "integrated": "是",
+              "vendor": "华云集成",
+              "techOwner": "魏骁",
+              "businessOwner": "邵晨峰"
+            },
+            {
+              "detail": "生成异常分析报告",
+              "status": "partial",
+              "demo": "7月31日",
+              "due": "2026-08-07",
+              "integrated": "是",
+              "vendor": "华云集成",
+              "techOwner": "魏骁",
+              "businessOwner": "邵晨峰"
+            }
+          ]
+        },
+        {
+          "id": "ai-16",
+          "name": "平台功能智能巡检",
+          "department": "技术部",
+          "departmentId": "dept-技术部",
+          "sequence": "15",
+          "kind": "normal",
+          "priority": "yellow",
+          "progress": 17,
+          "due": "2026-10-31",
+          "businessOwner": "邵晨峰",
+          "techOwner": "黄隽弢、魏骁",
+          "vendor": "华云集成",
+          "owner": "邵晨峰",
+          "role": "业务负责人 · 邵晨峰 / 技术部对接人 · 黄隽弢、魏骁",
+          "description": "测试用例生成、自动巡检、生成巡检报告",
+          "next": "推进\"测试用例生成\"，计划节点：2026-08-31。",
+          "risk": "",
+          "milestones": [
+            [
+              "测试用例生成",
+              "2026-08-31",
+              "current"
+            ],
+            [
+              "自动巡检",
+              "2026-08-31",
+              "todo"
+            ],
+            [
+              "生成巡检报告",
+              "2026-10-31",
+              "todo"
+            ]
+          ],
+          "items": [
+            {
+              "detail": "测试用例生成",
+              "status": "partial",
+              "demo": "7月31日",
+              "due": "2026-08-31",
+              "integrated": "是",
+              "vendor": "华云集成",
+              "techOwner": "黄隽弢",
+              "businessOwner": "邵晨峰"
+            },
+            {
+              "detail": "自动巡检",
+              "status": "todo",
+              "demo": "7月31日",
+              "due": "2026-08-31",
+              "integrated": "是",
+              "vendor": "华云集成",
+              "techOwner": "魏骁",
+              "businessOwner": "邵晨峰"
+            },
+            {
+              "detail": "生成巡检报告",
+              "status": "todo",
+              "demo": "7月31日",
+              "due": "2026-10-31",
+              "integrated": "是",
+              "vendor": "华云集成",
+              "techOwner": "魏骁",
+              "businessOwner": "邵晨峰"
+            }
+          ]
+        },
+        {
+          "id": "ai-17",
+          "name": "PX-Code人工智能个人助手",
+          "department": "技术部",
+          "departmentId": "dept-技术部",
+          "sequence": "16",
+          "kind": "punch",
+          "priority": "punch",
+          "progress": 25,
+          "due": "2026-08-04",
+          "businessOwner": "邵晨峰",
+          "techOwner": "黄隽弢",
+          "vendor": "华云数据",
+          "owner": "邵晨峰",
+          "role": "业务负责人 · 邵晨峰 / 技术部对接人 · 黄隽弢",
+          "description": "浙电work部署、通过浙电work提升数据查询质量、统一mcp、接口开发逻辑、安全规范",
+          "next": "推进\"通过浙电work提升数据查询质量\"。",
+          "risk": "",
+          "milestones": [
+            [
+              "浙电work部署",
+              "2026-08-04",
+              "done"
+            ],
+            [
+              "通过浙电work提升数据查询质量",
+              "2026-08-04",
+              "todo"
+            ],
+            [
+              "统一mcp、接口开发逻辑、安全规范",
+              "2026-08-04",
+              "todo"
+            ],
+            [
+              "浙电work协同模式设计",
+              "2026-07-24",
+              "todo"
+            ]
+          ],
+          "items": [
+            {
+              "detail": "浙电work部署",
+              "status": "done",
+              "demo": "7月24日",
+              "due": "2026-08-04",
+              "integrated": "是",
+              "vendor": "华云数据",
+              "techOwner": "黄隽弢",
+              "businessOwner": "邵晨峰"
+            },
+            {
+              "detail": "通过浙电work提升数据查询质量",
+              "status": "todo",
+              "demo": "",
+              "due": null,
+              "integrated": "是",
+              "vendor": "启明星",
+              "techOwner": "黄隽弢",
+              "businessOwner": "邵晨峰"
+            },
+            {
+              "detail": "统一mcp、接口开发逻辑、安全规范",
+              "status": "todo",
+              "demo": "",
+              "due": null,
+              "integrated": "否",
+              "vendor": "启明星",
+              "techOwner": "黄隽弢",
+              "businessOwner": "邵晨峰"
+            },
+            {
+              "detail": "浙电work协同模式设计",
+              "status": "todo",
+              "demo": "7月24日",
+              "due": "2026-07-24",
+              "integrated": "是",
+              "vendor": "启明星",
+              "techOwner": "黄隽弢",
+              "businessOwner": "邵晨峰"
+            }
+          ]
+        },
+        {
+          "id": "ai-18",
+          "name": "人工智能整体框架及harness设计",
+          "department": "技术部",
+          "departmentId": "dept-技术部",
+          "sequence": "17",
+          "kind": "normal",
+          "priority": "yellow",
+          "progress": 0,
+          "due": null,
+          "businessOwner": "邵晨峰",
+          "techOwner": "黄隽弢",
+          "vendor": "启明星",
+          "owner": "邵晨峰",
+          "role": "业务负责人 · 邵晨峰 / 技术部对接人 · 黄隽弢",
+          "description": "场景建设推进",
+          "next": "推进\"场景建设推进\"。",
+          "risk": "",
+          "milestones": [
+            [
+              "场景建设推进",
+              "待定",
+              "todo"
+            ]
+          ],
+          "items": [
+            {
+              "detail": "场景建设推进",
+              "status": "todo",
+              "demo": "",
+              "due": null,
+              "integrated": "否",
+              "vendor": "启明星",
+              "techOwner": "黄隽弢",
+              "businessOwner": "邵晨峰"
+            }
+          ]
+        },
+        {
+          "id": "ai-19",
+          "name": "数据管理智能辅助",
+          "department": "技术部",
+          "departmentId": "dept-技术部",
+          "sequence": "18",
+          "kind": "normal",
+          "priority": "yellow",
+          "progress": 60,
+          "due": "2026-12-30",
+          "businessOwner": "王炜",
+          "techOwner": "魏骁、黄隽弢",
+          "vendor": "华云数据",
+          "owner": "王炜",
+          "role": "业务负责人 · 王炜 / 技术部对接人 · 魏骁、黄隽弢",
+          "description": "数据资产、数据指标资产搭建、业务本体搭建",
+          "next": "推进\"业务本体搭建\"。",
+          "risk": "",
+          "milestones": [
+            [
+              "数据资产",
+              "2026-12-30",
+              "done"
+            ],
+            [
+              "数据指标资产搭建",
+              "2026-12-30",
+              "done"
+            ],
+            [
+              "业务本体搭建",
+              "2026-12-30",
+              "todo"
+            ],
+            [
+              "数据维护追溯分析",
+              "2026-12-30",
+              "todo"
+            ],
+            [
+              "人工智能数据相关性合规辅助审查",
+              "2026-12-30",
+              "done"
+            ]
+          ],
+          "items": [
+            {
+              "detail": "数据资产",
+              "status": "done",
+              "demo": "11月30日",
+              "due": "2026-12-30",
+              "integrated": "否",
+              "vendor": "华云数据",
+              "techOwner": "魏骁",
+              "businessOwner": "王炜"
+            },
+            {
+              "detail": "数据指标资产搭建",
+              "status": "done",
+              "demo": "11月30日",
+              "due": "2026-12-30",
+              "integrated": "否",
+              "vendor": "华云数据",
+              "techOwner": "魏骁",
+              "businessOwner": "王炜"
+            },
+            {
+              "detail": "业务本体搭建",
+              "status": "todo",
+              "demo": "",
+              "due": null,
+              "integrated": "是",
+              "vendor": "启明星",
+              "techOwner": "黄隽弢",
+              "businessOwner": "王炜"
+            },
+            {
+              "detail": "数据维护追溯分析",
+              "status": "todo",
+              "demo": "",
+              "due": null,
+              "integrated": "是",
+              "vendor": "启明星",
+              "techOwner": "黄隽弢",
+              "businessOwner": "王炜"
+            },
+            {
+              "detail": "人工智能数据相关性合规辅助审查",
+              "status": "done",
+              "demo": "11月30日",
+              "due": "2026-12-30",
+              "integrated": "否",
+              "vendor": "华云集成",
+              "techOwner": "魏骁",
+              "businessOwner": "王炜"
+            }
+          ]
+        },
+        {
+          "id": "ai-20",
+          "name": "人工智能代码审计",
+          "department": "技术部",
+          "departmentId": "dept-技术部",
+          "sequence": "19",
+          "kind": "normal",
+          "priority": "yellow",
+          "progress": 0,
+          "due": null,
+          "businessOwner": "邵晨峰",
+          "techOwner": "黄隽弢",
+          "vendor": "华云数据",
+          "owner": "邵晨峰",
+          "role": "业务负责人 · 邵晨峰 / 技术部对接人 · 黄隽弢",
+          "description": "审计代码漏洞、分析和需求匹配度、AI参与测试、设计、迭代",
+          "next": "推进\"审计代码漏洞\"。",
+          "risk": "",
+          "milestones": [
+            [
+              "审计代码漏洞",
+              "待定",
+              "todo"
+            ],
+            [
+              "分析和需求匹配度",
+              "待定",
+              "todo"
+            ],
+            [
+              "AI参与测试、设计、迭代",
+              "待定",
+              "todo"
+            ]
+          ],
+          "items": [
+            {
+              "detail": "审计代码漏洞",
+              "status": "todo",
+              "demo": "",
+              "due": null,
+              "integrated": "是",
+              "vendor": "华云数据",
+              "techOwner": "黄隽弢",
+              "businessOwner": "邵晨峰"
+            },
+            {
+              "detail": "分析和需求匹配度",
+              "status": "todo",
+              "demo": "",
+              "due": null,
+              "integrated": "是",
+              "vendor": "华云数据",
+              "techOwner": "黄隽弢",
+              "businessOwner": "邵晨峰"
+            },
+            {
+              "detail": "AI参与测试、设计、迭代",
+              "status": "todo",
+              "demo": "",
+              "due": null,
+              "integrated": "是",
+              "vendor": "华云数据",
+              "techOwner": "黄隽弢",
+              "businessOwner": "邵晨峰"
+            }
+          ]
+        },
+        {
+          "id": "ai-21",
+          "name": "市场成员人工智能助手",
+          "department": "技术部",
+          "departmentId": "dept-技术部",
+          "sequence": "20",
+          "kind": "normal",
+          "priority": "yellow",
+          "progress": 0,
+          "due": "长期",
+          "businessOwner": "邵晨峰",
+          "techOwner": "黄隽弢",
+          "vendor": "各团队",
+          "owner": "邵晨峰",
+          "role": "业务负责人 · 邵晨峰 / 技术部对接人 · 黄隽弢",
+          "description": "结合市场成员画像，辅助市场成员参与市场、辅助决策等便利性操作",
+          "next": "推进\"结合市场成员画像，辅助市场成员参与市场\"，计划节点：长期。",
+          "risk": "",
+          "milestones": [
+            [
+              "结合市场成员画像，辅助市场成员参与市场",
+              "长期",
+              "todo"
+            ],
+            [
+              "辅助决策等便利性操作",
+              "长期",
+              "todo"
+            ]
+          ],
+          "items": [
+            {
+              "detail": "结合市场成员画像，辅助市场成员参与市场",
+              "status": "todo",
+              "demo": "",
+              "due": "长期",
+              "integrated": "否",
+              "vendor": "各团队",
+              "techOwner": "黄隽弢",
+              "businessOwner": "邵晨峰"
+            },
+            {
+              "detail": "辅助决策等便利性操作",
+              "status": "todo",
+              "demo": "",
+              "due": "长期",
+              "integrated": "否",
+              "vendor": "各团队",
+              "techOwner": "黄隽弢",
+              "businessOwner": "邵晨峰"
+            }
+          ]
+        }
+      ],
+      "overall": 26,
+      "active": 8,
+      "nearest": "2026-08-04"
+    },
+    {
+      "id": "dept-交易部",
+      "name": "交易部",
+      "thesis": "推动交易全流程自动化，提升交易执行与复核效率。",
+      "scenarios": [
+        {
+          "id": "ai-22",
+          "name": "交易全流程自动化",
+          "department": "交易部",
+          "departmentId": "dept-交易部",
+          "sequence": "21",
+          "kind": "punch",
+          "priority": "punch",
+          "progress": 0,
+          "due": "2026-12-30",
+          "businessOwner": "王鹏程",
+          "techOwner": "骆希",
+          "vendor": "华云数据",
+          "owner": "王鹏程",
+          "role": "业务负责人 · 王鹏程 / 技术部对接人 · 骆希",
+          "description": "交易序列创建、设置限额、交易公告发布",
+          "next": "推进\"交易序列创建\"，计划节点：2026-08-07。",
+          "risk": "",
+          "milestones": [
+            [
+              "交易序列创建",
+              "2026-08-07",
+              "todo"
+            ],
+            [
+              "设置限额",
+              "2026-08-31",
+              "todo"
+            ],
+            [
+              "交易公告发布",
+              "2026-08-31",
+              "todo"
+            ],
+            [
+              "信息披露发布",
+              "2026-08-31",
+              "todo"
+            ],
+            [
+              "事前辅助出清各元素的智能校核",
+              "2026-12-30",
+              "todo"
+            ],
+            [
+              "全省市场化响应自助交易",
+              "2026-12-30",
+              "todo"
+            ]
+          ],
+          "items": [
+            {
+              "detail": "交易序列创建",
+              "status": "todo",
+              "demo": "46234",
+              "due": "2026-08-07",
+              "integrated": "是",
+              "vendor": "华云数据",
+              "techOwner": "骆希",
+              "businessOwner": "王鹏程"
+            },
+            {
+              "detail": "设置限额",
+              "status": "todo",
+              "demo": "46234",
+              "due": "2026-08-31",
+              "integrated": "是",
+              "vendor": "华云数据",
+              "techOwner": "骆希",
+              "businessOwner": "王鹏程"
+            },
+            {
+              "detail": "交易公告发布",
+              "status": "todo",
+              "demo": "46234",
+              "due": "2026-08-31",
+              "integrated": "是",
+              "vendor": "华云数据",
+              "techOwner": "骆希",
+              "businessOwner": "王鹏程"
+            },
+            {
+              "detail": "信息披露发布",
+              "status": "todo",
+              "demo": "46234",
+              "due": "2026-08-31",
+              "integrated": "是",
+              "vendor": "华云数据",
+              "techOwner": "骆希",
+              "businessOwner": "王鹏程"
+            },
+            {
+              "detail": "事前辅助出清各元素的智能校核",
+              "status": "todo",
+              "demo": "46234",
+              "due": "2026-12-30",
+              "integrated": "是",
+              "vendor": "华云数据",
+              "techOwner": "骆希",
+              "businessOwner": "王鹏程"
+            },
+            {
+              "detail": "事后出清结果的智能复核",
+              "status": "todo",
+              "demo": "46234",
+              "due": "2026-12-30",
+              "integrated": "是",
+              "vendor": "华云数据",
+              "techOwner": "骆希",
+              "businessOwner": "王鹏程"
+            },
+            {
+              "detail": "一键触发交易",
+              "status": "todo",
+              "demo": "",
+              "due": null,
+              "integrated": "是",
+              "vendor": "华云数据",
+              "techOwner": "骆希",
+              "businessOwner": "王鹏程"
+            },
+            {
+              "detail": "全省市场化响应自助交易",
+              "status": "todo",
+              "demo": "",
+              "due": null,
+              "integrated": "是",
+              "vendor": "华云数据",
+              "techOwner": "骆希",
+              "businessOwner": "王鹏程"
+            }
+          ]
+        },
+        {
+          "id": "ai-23",
+          "name": "省间交易/全国统一电力市场",
+          "department": "交易部",
+          "departmentId": "dept-交易部",
+          "sequence": "22",
+          "kind": "pending",
+          "priority": "blue",
+          "progress": 0,
+          "due": null,
+          "businessOwner": "王鹏程",
+          "techOwner": "待定",
+          "vendor": "待定",
+          "owner": "王鹏程",
+          "role": "业务负责人 · 王鹏程",
+          "description": "场景建设推进",
+          "next": "推进\"场景建设推进\"。",
+          "risk": "",
+          "milestones": [
+            [
+              "场景建设推进",
+              "待定",
+              "todo"
+            ]
+          ],
+          "items": [
+            {
+              "detail": "场景建设推进",
+              "status": "todo",
+              "demo": "",
+              "due": null,
+              "integrated": "",
+              "vendor": "",
+              "techOwner": "",
+              "businessOwner": "王鹏程"
+            }
+          ]
+        }
+      ],
+      "overall": 0,
+      "active": 2,
+      "nearest": "2026-12-30"
+    },
+    {
+      "id": "dept-客服中心",
+      "name": "客服中心",
+      "thesis": "打造智能客服、语音、工单与融媒体服务能力。",
+      "scenarios": [
+        {
+          "id": "ai-24",
+          "name": "智能客服辅助",
+          "department": "客服中心",
+          "departmentId": "dept-客服中心",
+          "sequence": "23",
+          "kind": "normal",
+          "priority": "yellow",
+          "progress": 0,
+          "due": "2026-08-31",
+          "businessOwner": "王鹏程",
+          "techOwner": "吕瑞扬",
+          "vendor": "启明星",
+          "owner": "王鹏程",
+          "role": "业务负责人 · 王鹏程 / 技术部对接人 · 吕瑞扬",
+          "description": "客服录音的人工智能全面介入，包括问答知识库",
+          "next": "推进\"客服录音的人工智能全面介入，包括问答知识库\"，计划节点：2026-08-31。",
+          "risk": "",
+          "milestones": [
+            [
+              "客服录音的人工智能全面介入，包括问答知识库",
+              "2026-08-31",
+              "todo"
+            ]
+          ],
+          "items": [
+            {
+              "detail": "客服录音的人工智能全面介入，包括问答知识库",
+              "status": "todo",
+              "demo": "46241",
+              "due": "2026-08-31",
+              "integrated": "否",
+              "vendor": "启明星",
+              "techOwner": "吕瑞扬",
+              "businessOwner": "王鹏程"
+            }
+          ]
+        },
+        {
+          "id": "ai-25",
+          "name": "智能语音客服",
+          "department": "客服中心",
+          "departmentId": "dept-客服中心",
+          "sequence": "25",
+          "kind": "normal",
+          "priority": "yellow",
+          "progress": 0,
+          "due": "2026-08-31",
+          "businessOwner": "王鹏程",
+          "techOwner": "吕瑞扬",
+          "vendor": "启明星",
+          "owner": "王鹏程",
+          "role": "业务负责人 · 王鹏程 / 技术部对接人 · 吕瑞扬",
+          "description": "流式输出、统计分析等",
+          "next": "推进\"流式输出\"，计划节点：2026-08-31。",
+          "risk": "",
+          "milestones": [
+            [
+              "流式输出",
+              "2026-08-31",
+              "todo"
+            ],
+            [
+              "统计分析等",
+              "2026-08-31",
+              "todo"
+            ]
+          ],
+          "items": [
+            {
+              "detail": "流式输出",
+              "status": "todo",
+              "demo": "46241",
+              "due": "2026-08-31",
+              "integrated": "否",
+              "vendor": "启明星",
+              "techOwner": "吕瑞扬",
+              "businessOwner": "王鹏程"
+            },
+            {
+              "detail": "统计分析等",
+              "status": "todo",
+              "demo": "46241",
+              "due": "2026-08-31",
+              "integrated": "否",
+              "vendor": "启明星",
+              "techOwner": "吕瑞扬",
+              "businessOwner": "王鹏程"
+            }
+          ]
+        },
+        {
+          "id": "ai-26",
+          "name": "市场主体智能服务场景",
+          "department": "客服中心",
+          "departmentId": "dept-客服中心",
+          "sequence": "24",
+          "kind": "normal",
+          "priority": "yellow",
+          "progress": 0,
+          "due": "2026-10-30",
+          "businessOwner": "王鹏程",
+          "techOwner": "吕瑞扬",
+          "vendor": "启明星",
+          "owner": "王鹏程",
+          "role": "业务负责人 · 王鹏程 / 技术部对接人 · 吕瑞扬",
+          "description": "建设智能问答、交易助手规则解答、信息查询",
+          "next": "推进\"建设智能问答\"，计划节点：2026-10-30。",
+          "risk": "",
+          "milestones": [
+            [
+              "建设智能问答",
+              "2026-10-30",
+              "todo"
+            ],
+            [
+              "交易助手规则解答",
+              "2026-10-30",
+              "todo"
+            ],
+            [
+              "信息查询",
+              "2026-10-30",
+              "todo"
+            ],
+            [
+              "结果解释和个性化服务提醒",
+              "2026-10-30",
+              "todo"
+            ]
+          ],
+          "items": [
+            {
+              "detail": "建设智能问答",
+              "status": "todo",
+              "demo": "",
+              "due": "2026-10-30",
+              "integrated": "否",
+              "vendor": "启明星",
+              "techOwner": "吕瑞扬",
+              "businessOwner": "王鹏程"
+            },
+            {
+              "detail": "交易助手规则解答",
+              "status": "todo",
+              "demo": "",
+              "due": "2026-10-30",
+              "integrated": "否",
+              "vendor": "启明星",
+              "techOwner": "吕瑞扬",
+              "businessOwner": "王鹏程"
+            },
+            {
+              "detail": "信息查询",
+              "status": "todo",
+              "demo": "",
+              "due": "2026-10-30",
+              "integrated": "否",
+              "vendor": "启明星",
+              "techOwner": "吕瑞扬",
+              "businessOwner": "王鹏程"
+            },
+            {
+              "detail": "结果解释和个性化服务提醒",
+              "status": "todo",
+              "demo": "",
+              "due": "2026-10-30",
+              "integrated": "否",
+              "vendor": "启明星",
+              "techOwner": "吕瑞扬",
+              "businessOwner": "王鹏程"
+            }
+          ]
+        },
+        {
+          "id": "ai-27",
+          "name": "话务工单智能分析",
+          "department": "客服中心",
+          "departmentId": "dept-客服中心",
+          "sequence": "25",
+          "kind": "punch",
+          "priority": "punch",
+          "progress": 0,
+          "due": "2026-09-30",
+          "businessOwner": "王鹏程",
+          "techOwner": "吕瑞扬",
+          "vendor": "启明星",
+          "owner": "王鹏程",
+          "role": "业务负责人 · 王鹏程 / 技术部对接人 · 吕瑞扬",
+          "description": "分析话务工单处理与服务记录自动归类、主题识别、热点统计和趋势分析",
+          "next": "推进\"分析话务工单处理与服务记录自动归类\"，计划节点：2026-09-30。",
+          "risk": "",
+          "milestones": [
+            [
+              "分析话务工单处理与服务记录自动归类",
+              "2026-09-30",
+              "todo"
+            ],
+            [
+              "主题识别",
+              "2026-09-30",
+              "todo"
+            ],
+            [
+              "热点统计和趋势分析",
+              "2026-09-30",
+              "todo"
+            ]
+          ],
+          "items": [
+            {
+              "detail": "分析话务工单处理与服务记录自动归类",
+              "status": "todo",
+              "demo": "",
+              "due": "2026-09-30",
+              "integrated": "是",
+              "vendor": "启明星",
+              "techOwner": "吕瑞扬",
+              "businessOwner": "王鹏程"
+            },
+            {
+              "detail": "主题识别",
+              "status": "todo",
+              "demo": "",
+              "due": "2026-09-30",
+              "integrated": "是",
+              "vendor": "启明星",
+              "techOwner": "吕瑞扬",
+              "businessOwner": "王鹏程"
+            },
+            {
+              "detail": "热点统计和趋势分析",
+              "status": "todo",
+              "demo": "",
+              "due": "2026-09-30",
+              "integrated": "是",
+              "vendor": "启明星",
+              "techOwner": "吕瑞扬",
+              "businessOwner": "王鹏程"
+            }
+          ]
+        },
+        {
+          "id": "ai-28",
+          "name": "融媒体智能制作",
+          "department": "客服中心",
+          "departmentId": "dept-客服中心",
+          "sequence": "27",
+          "kind": "risk",
+          "priority": "yellow",
+          "progress": 0,
+          "due": "2026-12-30",
+          "businessOwner": "王鹏程",
+          "techOwner": "吕瑞扬",
+          "vendor": "华云数据",
+          "owner": "王鹏程",
+          "role": "业务负责人 · 王鹏程 / 技术部对接人 · 吕瑞扬",
+          "description": "数字人、生成宣传脚本、图文素材",
+          "next": "推进\"数字人\"，计划节点：2026-08-15。",
+          "risk": "当前完成度 0%，最近节点为 2026-08-15，建议在本次汇报中确认推进责任与资源安排。",
+          "milestones": [
+            [
+              "数字人",
+              "2026-08-15",
+              "todo"
+            ],
+            [
+              "生成宣传脚本",
+              "2026-12-30",
+              "todo"
+            ],
+            [
+              "图文素材",
+              "2026-12-30",
+              "todo"
+            ],
+            [
+              "短视频文案",
+              "2026-12-30",
+              "todo"
+            ],
+            [
+              "海报文案和新媒体推送内容",
+              "2026-12-30",
+              "todo"
+            ]
+          ],
+          "items": [
+            {
+              "detail": "数字人",
+              "status": "todo",
+              "demo": "46241",
+              "due": "2026-08-15",
+              "integrated": "是",
+              "vendor": "华云数据",
+              "techOwner": "吕瑞扬",
+              "businessOwner": "王鹏程"
+            },
+            {
+              "detail": "生成宣传脚本",
+              "status": "todo",
+              "demo": "46241",
+              "due": "2026-12-30",
+              "integrated": "是",
+              "vendor": "华云数据",
+              "techOwner": "吕瑞扬",
+              "businessOwner": "王鹏程"
+            },
+            {
+              "detail": "图文素材",
+              "status": "todo",
+              "demo": "46241",
+              "due": "2026-12-30",
+              "integrated": "是",
+              "vendor": "华云数据",
+              "techOwner": "吕瑞扬",
+              "businessOwner": "王鹏程"
+            },
+            {
+              "detail": "短视频文案",
+              "status": "todo",
+              "demo": "46241",
+              "due": "2026-12-30",
+              "integrated": "是",
+              "vendor": "华云数据",
+              "techOwner": "吕瑞扬",
+              "businessOwner": "王鹏程"
+            },
+            {
+              "detail": "海报文案和新媒体推送内容",
+              "status": "todo",
+              "demo": "46241",
+              "due": "2026-12-30",
+              "integrated": "是",
+              "vendor": "华云数据",
+              "techOwner": "吕瑞扬",
+              "businessOwner": "王鹏程"
+            }
+          ]
+        }
+      ],
+      "overall": 0,
+      "active": 5,
+      "nearest": "2026-08-31"
+    },
+    {
+      "id": "dept-研究室",
+      "name": "研究室",
+      "thesis": "推进预测、市场推演和云边协同出清等研究场景。",
+      "scenarios": [
+        {
+          "id": "ai-29",
+          "name": "电量电价智能预测",
+          "department": "研究室",
+          "departmentId": "dept-研究室",
+          "sequence": "28",
+          "kind": "punch",
+          "priority": "punch",
+          "progress": 50,
+          "due": null,
+          "businessOwner": "王鹏程",
+          "techOwner": "何阳",
+          "vendor": "华云数据",
+          "owner": "王鹏程",
+          "role": "业务负责人 · 王鹏程 / 技术部对接人 · 何阳",
+          "description": "电价预测、电量预测",
+          "next": "推进\"电价预测\"。",
+          "risk": "",
+          "milestones": [
+            [
+              "电价预测",
+              "待定",
+              "current"
+            ],
+            [
+              "电量预测",
+              "待定",
+              "current"
+            ]
+          ],
+          "items": [
+            {
+              "detail": "电价预测",
+              "status": "partial",
+              "demo": "46241",
+              "due": null,
+              "integrated": "是",
+              "vendor": "华云数据",
+              "techOwner": "何阳",
+              "businessOwner": "王鹏程"
+            },
+            {
+              "detail": "电量预测",
+              "status": "partial",
+              "demo": "46241",
+              "due": null,
+              "integrated": "是",
+              "vendor": "华云数据",
+              "techOwner": "何阳",
+              "businessOwner": "王鹏程"
+            }
+          ]
+        },
+        {
+          "id": "ai-30",
+          "name": "mirofish市场推演",
+          "department": "研究室",
+          "departmentId": "dept-研究室",
+          "sequence": "29",
+          "kind": "risk",
+          "priority": "yellow",
+          "progress": 0,
+          "due": "2026-07-30",
+          "businessOwner": "邵晨峰",
+          "techOwner": "何阳",
+          "vendor": "电科院",
+          "owner": "邵晨峰",
+          "role": "业务负责人 · 邵晨峰 / 技术部对接人 · 何阳",
+          "description": "mirofish内网搭建",
+          "next": "推进\"mirofish内网搭建\"，计划节点：2026-07-30。",
+          "risk": "当前完成度 0%，最近节点为 2026-07-30，建议在本次汇报中确认推进责任与资源安排。",
+          "milestones": [
+            [
+              "mirofish内网搭建",
+              "2026-07-30",
+              "todo"
+            ]
+          ],
+          "items": [
+            {
+              "detail": "mirofish内网搭建",
+              "status": "todo",
+              "demo": "",
+              "due": "2026-07-30",
+              "integrated": "否",
+              "vendor": "电科院",
+              "techOwner": "何阳",
+              "businessOwner": "邵晨峰"
+            }
+          ]
+        },
+        {
+          "id": "ai-31",
+          "name": "大市场与微市场云边协同出清",
+          "department": "研究室",
+          "departmentId": "dept-研究室",
+          "sequence": "30",
+          "kind": "punch",
+          "priority": "punch",
+          "progress": 0,
+          "due": "2026-12-30",
+          "businessOwner": "王鹏程",
+          "techOwner": "何阳",
+          "vendor": "电科院",
+          "owner": "王鹏程",
+          "role": "业务负责人 · 王鹏程 / 技术部对接人 · 何阳",
+          "description": "实现资源聚合建模、智能匹配、自动撮合和快速滚动出清，支撑多主体",
+          "next": "推进\"实现资源聚合建模\"，计划节点：2026-12-30。",
+          "risk": "",
+          "milestones": [
+            [
+              "实现资源聚合建模",
+              "2026-12-30",
+              "todo"
+            ],
+            [
+              "智能匹配",
+              "2026-12-30",
+              "todo"
+            ],
+            [
+              "自动撮合和快速滚动出清，支撑多主体",
+              "2026-12-30",
+              "todo"
+            ],
+            [
+              "多时段自主交易",
+              "2026-12-30",
+              "todo"
+            ],
+            [
+              "场景建设推进",
+              "2026-12-30",
+              "todo"
+            ],
+            [
+              "场景建设推进",
+              "2026-12-30",
+              "todo"
+            ]
+          ],
+          "items": [
+            {
+              "detail": "实现资源聚合建模",
+              "status": "todo",
+              "demo": "",
+              "due": "2026-12-30",
+              "integrated": "否",
+              "vendor": "电科院",
+              "techOwner": "何阳",
+              "businessOwner": "王鹏程"
+            },
+            {
+              "detail": "智能匹配",
+              "status": "todo",
+              "demo": "",
+              "due": "2026-12-30",
+              "integrated": "否",
+              "vendor": "电科院",
+              "techOwner": "何阳",
+              "businessOwner": "王鹏程"
+            },
+            {
+              "detail": "自动撮合和快速滚动出清，支撑多主体",
+              "status": "todo",
+              "demo": "",
+              "due": "2026-12-30",
+              "integrated": "否",
+              "vendor": "电科院",
+              "techOwner": "何阳",
+              "businessOwner": "王鹏程"
+            },
+            {
+              "detail": "多时段自主交易",
+              "status": "todo",
+              "demo": "",
+              "due": "2026-12-30",
+              "integrated": "否",
+              "vendor": "电科院",
+              "techOwner": "何阳",
+              "businessOwner": "王鹏程"
+            },
+            {
+              "detail": "场景建设推进",
+              "status": "todo",
+              "demo": "",
+              "due": null,
+              "integrated": "",
+              "vendor": "",
+              "techOwner": "",
+              "businessOwner": ""
+            },
+            {
+              "detail": "场景建设推进",
+              "status": "todo",
+              "demo": "",
+              "due": null,
+              "integrated": "",
+              "vendor": "",
+              "techOwner": "",
+              "businessOwner": ""
+            },
+            {
+              "detail": "场景建设推进",
+              "status": "todo",
+              "demo": "",
+              "due": null,
+              "integrated": "",
+              "vendor": "",
+              "techOwner": "",
+              "businessOwner": ""
+            },
+            {
+              "detail": "场景建设推进",
+              "status": "todo",
+              "demo": "",
+              "due": null,
+              "integrated": "",
+              "vendor": "",
+              "techOwner": "",
+              "businessOwner": ""
+            },
+            {
+              "detail": "场景建设推进",
+              "status": "todo",
+              "demo": "",
+              "due": null,
+              "integrated": "",
+              "vendor": "",
+              "techOwner": "",
+              "businessOwner": ""
+            },
+            {
+              "detail": "场景建设推进",
+              "status": "todo",
+              "demo": "",
+              "due": null,
+              "integrated": "",
+              "vendor": "",
+              "techOwner": "",
+              "businessOwner": ""
+            },
+            {
+              "detail": "场景建设推进",
+              "status": "todo",
+              "demo": "",
+              "due": null,
+              "integrated": "",
+              "vendor": "",
+              "techOwner": "",
+              "businessOwner": ""
+            },
+            {
+              "detail": "场景建设推进",
+              "status": "todo",
+              "demo": "",
+              "due": null,
+              "integrated": "",
+              "vendor": "",
+              "techOwner": "",
+              "businessOwner": ""
+            },
+            {
+              "detail": "场景建设推进",
+              "status": "todo",
+              "demo": "",
+              "due": null,
+              "integrated": "",
+              "vendor": "",
+              "techOwner": "",
+              "businessOwner": ""
+            },
+            {
+              "detail": "场景建设推进",
+              "status": "todo",
+              "demo": "",
+              "due": null,
+              "integrated": "",
+              "vendor": "",
+              "techOwner": "",
+              "businessOwner": ""
+            },
+            {
+              "detail": "场景建设推进",
+              "status": "todo",
+              "demo": "",
+              "due": null,
+              "integrated": "",
+              "vendor": "",
+              "techOwner": "",
+              "businessOwner": ""
+            },
+            {
+              "detail": "场景建设推进",
+              "status": "todo",
+              "demo": "",
+              "due": null,
+              "integrated": "",
+              "vendor": "",
+              "techOwner": "",
+              "businessOwner": ""
+            },
+            {
+              "detail": "场景建设推进",
+              "status": "todo",
+              "demo": "",
+              "due": null,
+              "integrated": "",
+              "vendor": "",
+              "techOwner": "",
+              "businessOwner": ""
+            },
+            {
+              "detail": "场景建设推进",
+              "status": "todo",
+              "demo": "",
+              "due": null,
+              "integrated": "",
+              "vendor": "",
+              "techOwner": "",
+              "businessOwner": ""
+            },
+            {
+              "detail": "场景建设推进",
+              "status": "todo",
+              "demo": "",
+              "due": null,
+              "integrated": "",
+              "vendor": "",
+              "techOwner": "",
+              "businessOwner": ""
+            },
+            {
+              "detail": "场景建设推进",
+              "status": "todo",
+              "demo": "",
+              "due": null,
+              "integrated": "",
+              "vendor": "",
+              "techOwner": "",
+              "businessOwner": ""
+            },
+            {
+              "detail": "场景建设推进",
+              "status": "todo",
+              "demo": "",
+              "due": null,
+              "integrated": "",
+              "vendor": "",
+              "techOwner": "",
+              "businessOwner": ""
+            },
+            {
+              "detail": "场景建设推进",
+              "status": "todo",
+              "demo": "",
+              "due": null,
+              "integrated": "",
+              "vendor": "",
+              "techOwner": "",
+              "businessOwner": ""
+            },
+            {
+              "detail": "场景建设推进",
+              "status": "todo",
+              "demo": "",
+              "due": null,
+              "integrated": "",
+              "vendor": "",
+              "techOwner": "",
+              "businessOwner": ""
+            },
+            {
+              "detail": "场景建设推进",
+              "status": "todo",
+              "demo": "",
+              "due": null,
+              "integrated": "",
+              "vendor": "",
+              "techOwner": "",
+              "businessOwner": ""
+            },
+            {
+              "detail": "场景建设推进",
+              "status": "todo",
+              "demo": "",
+              "due": null,
+              "integrated": "",
+              "vendor": "",
+              "techOwner": "",
+              "businessOwner": ""
+            },
+            {
+              "detail": "场景建设推进",
+              "status": "todo",
+              "demo": "",
+              "due": null,
+              "integrated": "",
+              "vendor": "",
+              "techOwner": "",
+              "businessOwner": ""
+            },
+            {
+              "detail": "场景建设推进",
+              "status": "todo",
+              "demo": "",
+              "due": null,
+              "integrated": "",
+              "vendor": "",
+              "techOwner": "",
+              "businessOwner": ""
+            },
+            {
+              "detail": "场景建设推进",
+              "status": "todo",
+              "demo": "",
+              "due": null,
+              "integrated": "",
+              "vendor": "",
+              "techOwner": "",
+              "businessOwner": ""
+            },
+            {
+              "detail": "场景建设推进",
+              "status": "todo",
+              "demo": "",
+              "due": null,
+              "integrated": "",
+              "vendor": "",
+              "techOwner": "",
+              "businessOwner": ""
+            },
+            {
+              "detail": "场景建设推进",
+              "status": "todo",
+              "demo": "",
+              "due": null,
+              "integrated": "",
+              "vendor": "",
+              "techOwner": "",
+              "businessOwner": ""
+            },
+            {
+              "detail": "场景建设推进",
+              "status": "todo",
+              "demo": "",
+              "due": null,
+              "integrated": "",
+              "vendor": "",
+              "techOwner": "",
+              "businessOwner": ""
+            },
+            {
+              "detail": "场景建设推进",
+              "status": "todo",
+              "demo": "",
+              "due": null,
+              "integrated": "",
+              "vendor": "",
+              "techOwner": "",
+              "businessOwner": ""
+            },
+            {
+              "detail": "场景建设推进",
+              "status": "todo",
+              "demo": "",
+              "due": null,
+              "integrated": "",
+              "vendor": "",
+              "techOwner": "",
+              "businessOwner": ""
+            },
+            {
+              "detail": "场景建设推进",
+              "status": "todo",
+              "demo": "",
+              "due": null,
+              "integrated": "",
+              "vendor": "",
+              "techOwner": "",
+              "businessOwner": ""
+            },
+            {
+              "detail": "场景建设推进",
+              "status": "todo",
+              "demo": "",
+              "due": null,
+              "integrated": "",
+              "vendor": "",
+              "techOwner": "",
+              "businessOwner": ""
+            },
+            {
+              "detail": "场景建设推进",
+              "status": "todo",
+              "demo": "",
+              "due": null,
+              "integrated": "",
+              "vendor": "",
+              "techOwner": "",
+              "businessOwner": ""
+            },
+            {
+              "detail": "场景建设推进",
+              "status": "todo",
+              "demo": "",
+              "due": null,
+              "integrated": "",
+              "vendor": "",
+              "techOwner": "",
+              "businessOwner": ""
+            },
+            {
+              "detail": "场景建设推进",
+              "status": "todo",
+              "demo": "",
+              "due": null,
+              "integrated": "",
+              "vendor": "",
+              "techOwner": "",
+              "businessOwner": ""
+            },
+            {
+              "detail": "场景建设推进",
+              "status": "todo",
+              "demo": "",
+              "due": null,
+              "integrated": "",
+              "vendor": "",
+              "techOwner": "",
+              "businessOwner": ""
+            },
+            {
+              "detail": "场景建设推进",
+              "status": "todo",
+              "demo": "",
+              "due": null,
+              "integrated": "",
+              "vendor": "",
+              "techOwner": "",
+              "businessOwner": ""
+            },
+            {
+              "detail": "场景建设推进",
+              "status": "todo",
+              "demo": "",
+              "due": null,
+              "integrated": "",
+              "vendor": "",
+              "techOwner": "",
+              "businessOwner": ""
+            },
+            {
+              "detail": "场景建设推进",
+              "status": "todo",
+              "demo": "",
+              "due": null,
+              "integrated": "",
+              "vendor": "",
+              "techOwner": "",
+              "businessOwner": ""
+            },
+            {
+              "detail": "场景建设推进",
+              "status": "todo",
+              "demo": "",
+              "due": null,
+              "integrated": "",
+              "vendor": "",
+              "techOwner": "",
+              "businessOwner": ""
+            },
+            {
+              "detail": "场景建设推进",
+              "status": "todo",
+              "demo": "",
+              "due": null,
+              "integrated": "",
+              "vendor": "",
+              "techOwner": "",
+              "businessOwner": ""
+            },
+            {
+              "detail": "场景建设推进",
+              "status": "todo",
+              "demo": "",
+              "due": null,
+              "integrated": "",
+              "vendor": "",
+              "techOwner": "",
+              "businessOwner": ""
+            },
+            {
+              "detail": "场景建设推进",
+              "status": "todo",
+              "demo": "",
+              "due": null,
+              "integrated": "",
+              "vendor": "",
+              "techOwner": "",
+              "businessOwner": ""
+            },
+            {
+              "detail": "场景建设推进",
+              "status": "todo",
+              "demo": "",
+              "due": null,
+              "integrated": "",
+              "vendor": "",
+              "techOwner": "",
+              "businessOwner": ""
+            },
+            {
+              "detail": "场景建设推进",
+              "status": "todo",
+              "demo": "",
+              "due": null,
+              "integrated": "",
+              "vendor": "",
+              "techOwner": "",
+              "businessOwner": ""
+            },
+            {
+              "detail": "场景建设推进",
+              "status": "todo",
+              "demo": "",
+              "due": null,
+              "integrated": "",
+              "vendor": "",
+              "techOwner": "",
+              "businessOwner": ""
+            },
+            {
+              "detail": "场景建设推进",
+              "status": "todo",
+              "demo": "",
+              "due": null,
+              "integrated": "",
+              "vendor": "",
+              "techOwner": "",
+              "businessOwner": ""
+            },
+            {
+              "detail": "场景建设推进",
+              "status": "todo",
+              "demo": "",
+              "due": null,
+              "integrated": "",
+              "vendor": "",
+              "techOwner": "",
+              "businessOwner": ""
+            },
+            {
+              "detail": "场景建设推进",
+              "status": "todo",
+              "demo": "",
+              "due": null,
+              "integrated": "",
+              "vendor": "",
+              "techOwner": "",
+              "businessOwner": ""
+            },
+            {
+              "detail": "场景建设推进",
+              "status": "todo",
+              "demo": "",
+              "due": null,
+              "integrated": "",
+              "vendor": "",
+              "techOwner": "",
+              "businessOwner": ""
+            },
+            {
+              "detail": "场景建设推进",
+              "status": "todo",
+              "demo": "",
+              "due": null,
+              "integrated": "",
+              "vendor": "",
+              "techOwner": "",
+              "businessOwner": ""
+            },
+            {
+              "detail": "场景建设推进",
+              "status": "todo",
+              "demo": "",
+              "due": null,
+              "integrated": "",
+              "vendor": "",
+              "techOwner": "",
+              "businessOwner": ""
+            },
+            {
+              "detail": "场景建设推进",
+              "status": "todo",
+              "demo": "",
+              "due": null,
+              "integrated": "",
+              "vendor": "",
+              "techOwner": "",
+              "businessOwner": ""
+            },
+            {
+              "detail": "场景建设推进",
+              "status": "todo",
+              "demo": "",
+              "due": null,
+              "integrated": "",
+              "vendor": "",
+              "techOwner": "",
+              "businessOwner": ""
+            },
+            {
+              "detail": "场景建设推进",
+              "status": "todo",
+              "demo": "",
+              "due": null,
+              "integrated": "",
+              "vendor": "",
+              "techOwner": "",
+              "businessOwner": ""
+            },
+            {
+              "detail": "场景建设推进",
+              "status": "todo",
+              "demo": "",
+              "due": null,
+              "integrated": "",
+              "vendor": "",
+              "techOwner": "",
+              "businessOwner": ""
+            },
+            {
+              "detail": "场景建设推进",
+              "status": "todo",
+              "demo": "",
+              "due": null,
+              "integrated": "",
+              "vendor": "",
+              "techOwner": "",
+              "businessOwner": ""
+            },
+            {
+              "detail": "场景建设推进",
+              "status": "todo",
+              "demo": "",
+              "due": null,
+              "integrated": "",
+              "vendor": "",
+              "techOwner": "",
+              "businessOwner": ""
+            },
+            {
+              "detail": "场景建设推进",
+              "status": "todo",
+              "demo": "",
+              "due": null,
+              "integrated": "",
+              "vendor": "",
+              "techOwner": "",
+              "businessOwner": ""
+            },
+            {
+              "detail": "场景建设推进",
+              "status": "todo",
+              "demo": "",
+              "due": null,
+              "integrated": "",
+              "vendor": "",
+              "techOwner": "",
+              "businessOwner": ""
+            },
+            {
+              "detail": "场景建设推进",
+              "status": "todo",
+              "demo": "",
+              "due": null,
+              "integrated": "",
+              "vendor": "",
+              "techOwner": "",
+              "businessOwner": ""
+            },
+            {
+              "detail": "场景建设推进",
+              "status": "todo",
+              "demo": "",
+              "due": null,
+              "integrated": "",
+              "vendor": "",
+              "techOwner": "",
+              "businessOwner": ""
+            },
+            {
+              "detail": "场景建设推进",
+              "status": "todo",
+              "demo": "",
+              "due": null,
+              "integrated": "",
+              "vendor": "",
+              "techOwner": "",
+              "businessOwner": ""
+            },
+            {
+              "detail": "场景建设推进",
+              "status": "todo",
+              "demo": "",
+              "due": null,
+              "integrated": "",
+              "vendor": "",
+              "techOwner": "",
+              "businessOwner": ""
+            },
+            {
+              "detail": "场景建设推进",
+              "status": "todo",
+              "demo": "",
+              "due": null,
+              "integrated": "",
+              "vendor": "",
+              "techOwner": "",
+              "businessOwner": ""
+            },
+            {
+              "detail": "场景建设推进",
+              "status": "todo",
+              "demo": "",
+              "due": null,
+              "integrated": "",
+              "vendor": "",
+              "techOwner": "",
+              "businessOwner": ""
+            },
+            {
+              "detail": "场景建设推进",
+              "status": "todo",
+              "demo": "",
+              "due": null,
+              "integrated": "",
+              "vendor": "",
+              "techOwner": "",
+              "businessOwner": ""
+            }
+          ]
+        }
+      ],
+      "overall": 17,
+      "active": 3,
+      "nearest": "2026-07-30"
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "ai-01",
+      "name": "公文材料智能写作",
+      "department": "综合部",
+      "departmentId": "dept-综合部",
+      "sequence": "1",
+      "kind": "normal",
+      "priority": "yellow",
+      "progress": 75,
+      "due": "2026-08-07",
+      "businessOwner": "王炜",
+      "techOwner": "林烨",
+      "vendor": "华云数据",
+      "owner": "王炜",
+      "role": "业务负责人 · 王炜 / 技术部对接人 · 林烨",
+      "description": "word公文、格式转换、pdf拼接剪切、自动操作excel、加去水印等常用办公技能、ppt制作",
+      "next": "推进\"格式转换、pdf拼接剪切、自动操作excel、加去水印等常用办公技能\"，计划节点：2026-08-07。",
+      "risk": "",
+      "milestones": [
+        [
+          "word公文",
+          "2026-08-07",
+          "done"
+        ],
+        [
+          "格式转换、pdf拼接剪切、自动操作excel、加去水印等常用办公技能",
+          "2026-08-07",
+          "todo"
+        ],
+        [
+          "ppt制作",
+          "2026-08-07",
+          "done"
+        ],
+        [
+          "自动报表",
+          "2026-08-07",
+          "done"
+        ]
+      ],
+      "items": [
+        {
+          "detail": "word公文",
+          "status": "done",
+          "demo": "46234",
+          "due": "2026-08-07",
+          "integrated": "是",
+          "vendor": "华云数据",
+          "techOwner": "林烨",
+          "businessOwner": "王炜"
+        },
+        {
+          "detail": "格式转换、pdf拼接剪切、自动操作excel、加去水印等常用办公技能",
+          "status": "todo",
+          "demo": "",
+          "due": "2026-08-07",
+          "integrated": "是",
+          "vendor": "启明星",
+          "techOwner": "林烨",
+          "businessOwner": "王炜"
+        },
+        {
+          "detail": "ppt制作",
+          "status": "done",
+          "demo": "46234",
+          "due": "2026-08-07",
+          "integrated": "是",
+          "vendor": "华云数据",
+          "techOwner": "林烨",
+          "businessOwner": "王炜"
+        },
+        {
+          "detail": "自动报表",
+          "status": "done",
+          "demo": "46234",
+          "due": "2026-08-07",
+          "integrated": "是",
+          "vendor": "华云数据",
+          "techOwner": "林烨",
+          "businessOwner": "王炜"
+        }
+      ]
+    },
+    {
+      "id": "ai-02",
+      "name": "舆情管理智能",
+      "department": "综合部",
+      "departmentId": "dept-综合部",
+      "sequence": "2",
+      "kind": "punch",
+      "priority": "punch",
+      "progress": 0,
+      "due": "2026-12-30",
+      "businessOwner": "王炜",
+      "techOwner": "王林",
+      "vendor": "启明星",
+      "owner": "王炜",
+      "role": "业务负责人 · 王炜 / 技术部对接人 · 王林",
+      "description": "舆情监测、舆情研判、舆情预警",
+      "next": "推进\"舆情监测\"，计划节点：2026-08-15。",
+      "risk": "",
+      "milestones": [
+        [
+          "舆情监测",
+          "2026-08-15",
+          "todo"
+        ],
+        [
+          "舆情研判",
+          "2026-08-15",
+          "todo"
+        ],
+        [
+          "舆情预警",
+          "2026-08-15",
+          "todo"
+        ],
+        [
+          "舆情辅助处置",
+          "2026-12-30",
+          "todo"
+        ]
+      ],
+      "items": [
+        {
+          "detail": "舆情监测",
+          "status": "todo",
+          "demo": "",
+          "due": "2026-08-15",
+          "integrated": "否",
+          "vendor": "启明星",
+          "techOwner": "王林",
+          "businessOwner": "王炜"
+        },
+        {
+          "detail": "舆情研判",
+          "status": "todo",
+          "demo": "",
+          "due": "2026-08-15",
+          "integrated": "否",
+          "vendor": "启明星",
+          "techOwner": "王林",
+          "businessOwner": "王炜"
+        },
+        {
+          "detail": "舆情预警",
+          "status": "todo",
+          "demo": "",
+          "due": "2026-08-15",
+          "integrated": "否",
+          "vendor": "启明星",
+          "techOwner": "王林",
+          "businessOwner": "王炜"
+        },
+        {
+          "detail": "舆情辅助处置",
+          "status": "todo",
+          "demo": "",
+          "due": "2026-12-30",
+          "integrated": "否",
+          "vendor": "启明星",
+          "techOwner": "王林",
+          "businessOwner": "王炜"
+        }
+      ]
+    },
+    {
+      "id": "ai-03",
+      "name": "规则一致性校验",
+      "department": "市场部",
+      "departmentId": "dept-市场部",
+      "sequence": "3",
+      "kind": "punch",
+      "priority": "punch",
+      "progress": 50,
+      "due": "2026-09-30",
+      "businessOwner": "王炜",
+      "techOwner": "陈磊、庄晓丹",
+      "vendor": "启明星",
+      "owner": "王炜",
+      "role": "业务负责人 · 王炜 / 技术部对接人 · 陈磊、庄晓丹",
+      "description": "规则库建设、一致性校验",
+      "next": "推进\"一致性校验\"，计划节点：2026-09-30。",
+      "risk": "",
+      "milestones": [
+        [
+          "规则库建设",
+          "2026-07-21",
+          "done"
+        ],
+        [
+          "一致性校验",
+          "2026-09-30",
+          "todo"
+        ]
+      ],
+      "items": [
+        {
+          "detail": "规则库建设",
+          "status": "done",
+          "demo": "",
+          "due": "2026-07-21",
+          "integrated": "是",
+          "vendor": "启明星",
+          "techOwner": "陈磊",
+          "businessOwner": "王炜"
+        },
+        {
+          "detail": "一致性校验",
+          "status": "todo",
+          "demo": "",
+          "due": "2026-09-30",
+          "integrated": "是",
+          "vendor": "启明星",
+          "techOwner": "庄晓丹",
+          "businessOwner": "王炜"
+        }
+      ]
+    },
+    {
+      "id": "ai-04",
+      "name": "政策解读智能辅助场景",
+      "department": "市场部",
+      "departmentId": "dept-市场部",
+      "sequence": "4",
+      "kind": "normal",
+      "priority": "yellow",
+      "progress": 100,
+      "due": null,
+      "businessOwner": "王炜",
+      "techOwner": "陈磊",
+      "vendor": "华云数据",
+      "owner": "王炜",
+      "role": "业务负责人 · 王炜 / 技术部对接人 · 陈磊",
+      "description": "提炼政策文件辅助形成政策解读材料",
+      "next": "完成最终验收并准备交付。",
+      "risk": "",
+      "milestones": [
+        [
+          "提炼政策文件辅助形成政策解读材料",
+          "待定",
+          "done"
+        ]
+      ],
+      "items": [
+        {
+          "detail": "提炼政策文件辅助形成政策解读材料",
+          "status": "done",
+          "demo": "",
+          "due": null,
+          "integrated": "是",
+          "vendor": "华云数据",
+          "techOwner": "陈磊",
+          "businessOwner": "王炜"
+        }
+      ]
+    },
+    {
+      "id": "ai-05",
+      "name": "市场模拟与仿真推演场景",
+      "department": "市场部",
+      "departmentId": "dept-市场部",
+      "sequence": "5",
+      "kind": "punch",
+      "priority": "punch",
+      "progress": 0,
+      "due": "2026-08-15",
+      "businessOwner": "王鹏程",
+      "techOwner": "邓晖",
+      "vendor": "电科院",
+      "owner": "王鹏程",
+      "role": "业务负责人 · 王鹏程 / 技术部对接人 · 邓晖",
+      "description": "模拟交易平台、仿真交易机器人",
+      "next": "推进\"模拟交易平台\"，计划节点：2026-08-15。",
+      "risk": "",
+      "milestones": [
+        [
+          "模拟交易平台",
+          "2026-08-15",
+          "todo"
+        ],
+        [
+          "仿真交易机器人",
+          "2026-08-15",
+          "todo"
+        ]
+      ],
+      "items": [
+        {
+          "detail": "模拟交易平台",
+          "status": "todo",
+          "demo": "",
+          "due": "2026-08-15",
+          "integrated": "否",
+          "vendor": "电科院",
+          "techOwner": "邓晖",
+          "businessOwner": "王鹏程"
+        },
+        {
+          "detail": "仿真交易机器人",
+          "status": "todo",
+          "demo": "",
+          "due": "2026-08-15",
+          "integrated": "否",
+          "vendor": "电科院",
+          "techOwner": "邓晖",
+          "businessOwner": "王鹏程"
+        }
+      ]
+    },
+    {
+      "id": "ai-06",
+      "name": "绿色消费核算数据稽核",
+      "department": "结算部",
+      "departmentId": "dept-结算部",
+      "sequence": "6",
+      "kind": "normal",
+      "priority": "yellow",
+      "progress": 0,
+      "due": "2026-09-30",
+      "businessOwner": "王炜",
+      "techOwner": "张晓龙",
+      "vendor": "启明星",
+      "owner": "王炜",
+      "role": "业务负责人 · 王炜 / 技术部对接人 · 张晓龙",
+      "description": "绿电零售与绿电批发消费核算、自发自用消费核算、用网电量营销零售对比稽核",
+      "next": "推进\"绿电零售与绿电批发消费核算\"，计划节点：2026-09-30。",
+      "risk": "",
+      "milestones": [
+        [
+          "绿电零售与绿电批发消费核算",
+          "2026-09-30",
+          "todo"
+        ],
+        [
+          "自发自用消费核算",
+          "2026-09-30",
+          "todo"
+        ],
+        [
+          "用网电量营销零售对比稽核",
+          "2026-09-30",
+          "todo"
+        ]
+      ],
+      "items": [
+        {
+          "detail": "绿电零售与绿电批发消费核算",
+          "status": "todo",
+          "demo": "46234",
+          "due": "2026-09-30",
+          "integrated": "否",
+          "vendor": "启明星",
+          "techOwner": "张晓龙",
+          "businessOwner": "王炜"
+        },
+        {
+          "detail": "自发自用消费核算",
+          "status": "todo",
+          "demo": "46234",
+          "due": "2026-09-30",
+          "integrated": "否",
+          "vendor": "启明星",
+          "techOwner": "张晓龙",
+          "businessOwner": "王炜"
+        },
+        {
+          "detail": "用网电量营销零售对比稽核",
+          "status": "todo",
+          "demo": "46234",
+          "due": "2026-09-30",
+          "integrated": "否",
+          "vendor": "启明星",
+          "techOwner": "张晓龙",
+          "businessOwner": "王炜"
+        }
+      ]
+    },
+    {
+      "id": "ai-07",
+      "name": "新一代人工智能试点，非化石能源建设",
+      "department": "结算部",
+      "departmentId": "dept-结算部",
+      "sequence": "6",
+      "kind": "punch",
+      "priority": "punch",
+      "progress": 0,
+      "due": null,
+      "businessOwner": "王炜",
+      "techOwner": "待定",
+      "vendor": "启明星",
+      "owner": "王炜",
+      "role": "业务负责人 · 王炜",
+      "description": "场景建设推进",
+      "next": "推进\"场景建设推进\"。",
+      "risk": "",
+      "milestones": [
+        [
+          "场景建设推进",
+          "待定",
+          "todo"
+        ]
+      ],
+      "items": [
+        {
+          "detail": "场景建设推进",
+          "status": "todo",
+          "demo": "",
+          "due": null,
+          "integrated": "是",
+          "vendor": "启明星",
+          "techOwner": "",
+          "businessOwner": "王炜"
+        }
+      ]
+    },
+    {
+      "id": "ai-08",
+      "name": "结算信息披露智能问数",
+      "department": "结算部",
+      "departmentId": "dept-结算部",
+      "sequence": "7",
+      "kind": "punch",
+      "priority": "punch",
+      "progress": 0,
+      "due": "2026-10-31",
+      "businessOwner": "王炜",
+      "techOwner": "汪向阳",
+      "vendor": "启明星",
+      "owner": "王炜",
+      "role": "业务负责人 · 王炜 / 技术部对接人 · 汪向阳",
+      "description": "询问信息披露数据、信息披露的MCP制作",
+      "next": "推进\"询问信息披露数据\"，计划节点：2026-10-31。",
+      "risk": "",
+      "milestones": [
+        [
+          "询问信息披露数据",
+          "2026-10-31",
+          "todo"
+        ],
+        [
+          "信息披露的MCP制作",
+          "2026-08-07",
+          "todo"
+        ]
+      ],
+      "items": [
+        {
+          "detail": "询问信息披露数据",
+          "status": "todo",
+          "demo": "",
+          "due": "2026-10-31",
+          "integrated": "是",
+          "vendor": "启明星",
+          "techOwner": "汪向阳",
+          "businessOwner": "王炜"
+        },
+        {
+          "detail": "信息披露的MCP制作",
+          "status": "todo",
+          "demo": "",
+          "due": "2026-08-07",
+          "integrated": "是",
+          "vendor": "启明星",
+          "techOwner": "汪向阳",
+          "businessOwner": "王炜"
+        }
+      ]
+    },
+    {
+      "id": "ai-09",
+      "name": "智能结算",
+      "department": "结算部",
+      "departmentId": "dept-结算部",
+      "sequence": "8",
+      "kind": "normal",
+      "priority": "yellow",
+      "progress": 0,
+      "due": "2026-12-30",
+      "businessOwner": "王炜",
+      "techOwner": "龚建荣",
+      "vendor": "启明星",
+      "owner": "王炜",
+      "role": "业务负责人 · 王炜 / 技术部对接人 · 龚建荣",
+      "description": "事前基础数据稽核、事中全流程辅助分析、事后报表数据稽核",
+      "next": "推进\"事前基础数据稽核\"，计划节点：2026-12-30。",
+      "risk": "",
+      "milestones": [
+        [
+          "事前基础数据稽核",
+          "2026-12-30",
+          "todo"
+        ],
+        [
+          "事中全流程辅助分析",
+          "2026-12-30",
+          "todo"
+        ],
+        [
+          "事后报表数据稽核",
+          "2026-12-30",
+          "todo"
+        ]
+      ],
+      "items": [
+        {
+          "detail": "事前基础数据稽核",
+          "status": "todo",
+          "demo": "",
+          "due": "2026-12-30",
+          "integrated": "是",
+          "vendor": "启明星",
+          "techOwner": "龚建荣",
+          "businessOwner": "王炜"
+        },
+        {
+          "detail": "事中全流程辅助分析",
+          "status": "todo",
+          "demo": "",
+          "due": "2026-12-30",
+          "integrated": "是",
+          "vendor": "电科院",
+          "techOwner": "龚建荣",
+          "businessOwner": "王炜"
+        },
+        {
+          "detail": "事后报表数据稽核",
+          "status": "todo",
+          "demo": "46233",
+          "due": "2026-12-30",
+          "integrated": "是",
+          "vendor": "启明星",
+          "techOwner": "龚建荣",
+          "businessOwner": "王炜"
+        }
+      ]
+    },
+    {
+      "id": "ai-10",
+      "name": "市场主体异常行为风险分析",
+      "department": "合规部",
+      "departmentId": "dept-合规部",
+      "sequence": "9",
+      "kind": "normal",
+      "priority": "yellow",
+      "progress": 0,
+      "due": "2026-09-20",
+      "businessOwner": "王炜",
+      "techOwner": "陈成",
+      "vendor": "待定",
+      "owner": "王炜",
+      "role": "业务负责人 · 王炜 / 技术部对接人 · 陈成",
+      "description": "交叉分析市场主体报价行为是否有风险，人工智能售电公司盈利分析",
+      "next": "推进\"交叉分析市场主体报价行为是否有风险，人工智能售电公司盈利分析\"，计划节点：2026-09-20。",
+      "risk": "",
+      "milestones": [
+        [
+          "交叉分析市场主体报价行为是否有风险，人工智能售电公司盈利分析",
+          "2026-09-20",
+          "todo"
+        ]
+      ],
+      "items": [
+        {
+          "detail": "交叉分析市场主体报价行为是否有风险，人工智能售电公司盈利分析",
+          "status": "todo",
+          "demo": "46241",
+          "due": "2026-09-20",
+          "integrated": "是",
+          "vendor": "",
+          "techOwner": "陈成",
+          "businessOwner": "王炜"
+        }
+      ]
+    },
+    {
+      "id": "ai-11",
+      "name": "业务指标智能分析",
+      "department": "合规部",
+      "departmentId": "dept-合规部",
+      "sequence": "10",
+      "kind": "normal",
+      "priority": "yellow",
+      "progress": 0,
+      "due": "2026-12-31",
+      "businessOwner": "王炜",
+      "techOwner": "陈成",
+      "vendor": "待定",
+      "owner": "王炜",
+      "role": "业务负责人 · 王炜 / 技术部对接人 · 陈成",
+      "description": "稽核市场主体提交的资料",
+      "next": "推进\"稽核市场主体提交的资料\"，计划节点：2026-12-31。",
+      "risk": "",
+      "milestones": [
+        [
+          "稽核市场主体提交的资料",
+          "2026-12-31",
+          "todo"
+        ]
+      ],
+      "items": [
+        {
+          "detail": "稽核市场主体提交的资料",
+          "status": "todo",
+          "demo": "",
+          "due": "2026-12-31",
+          "integrated": "否",
+          "vendor": "",
+          "techOwner": "陈成",
+          "businessOwner": "王炜"
+        }
+      ]
+    },
+    {
+      "id": "ai-12",
+      "name": "业务流程智能稽核",
+      "department": "合规部",
+      "departmentId": "dept-合规部",
+      "sequence": "11",
+      "kind": "punch",
+      "priority": "punch",
+      "progress": 50,
+      "due": null,
+      "businessOwner": "王炜",
+      "techOwner": "陈成",
+      "vendor": "启明星",
+      "owner": "王炜",
+      "role": "业务负责人 · 王炜 / 技术部对接人 · 陈成",
+      "description": "交易平台流程稽核、决策中枢流程稽核",
+      "next": "推进\"交易平台流程稽核\"。",
+      "risk": "",
+      "milestones": [
+        [
+          "交易平台流程稽核",
+          "待定",
+          "todo"
+        ],
+        [
+          "决策中枢流程稽核",
+          "待定",
+          "done"
+        ]
+      ],
+      "items": [
+        {
+          "detail": "交易平台流程稽核",
+          "status": "todo",
+          "demo": "",
+          "due": null,
+          "integrated": "否",
+          "vendor": "启明星",
+          "techOwner": "陈成",
+          "businessOwner": "王炜"
+        },
+        {
+          "detail": "决策中枢流程稽核",
+          "status": "done",
+          "demo": "",
+          "due": null,
+          "integrated": "否",
+          "vendor": "华云数据",
+          "techOwner": "陈成",
+          "businessOwner": "王炜"
+        }
+      ]
+    },
+    {
+      "id": "ai-13",
+      "name": "合规风险监测的人工智能展示",
+      "department": "合规部",
+      "departmentId": "dept-合规部",
+      "sequence": "12",
+      "kind": "risk",
+      "priority": "yellow",
+      "progress": 0,
+      "due": "2026-08-07",
+      "businessOwner": "王炜",
+      "techOwner": "陈成",
+      "vendor": "待定",
+      "owner": "王炜",
+      "role": "业务负责人 · 王炜 / 技术部对接人 · 陈成",
+      "description": "页面展示异常行为、智能排序",
+      "next": "推进\"页面展示异常行为\"，计划节点：2026-08-07。",
+      "risk": "当前完成度 0%，最近节点为 2026-08-07，建议在本次汇报中确认推进责任与资源安排。",
+      "milestones": [
+        [
+          "页面展示异常行为",
+          "2026-08-07",
+          "todo"
+        ],
+        [
+          "智能排序",
+          "2026-08-07",
+          "todo"
+        ]
+      ],
+      "items": [
+        {
+          "detail": "页面展示异常行为",
+          "status": "todo",
+          "demo": "46234",
+          "due": "2026-08-07",
+          "integrated": "是",
+          "vendor": "",
+          "techOwner": "陈成",
+          "businessOwner": "王炜"
+        },
+        {
+          "detail": "智能排序",
+          "status": "todo",
+          "demo": "46234",
+          "due": "2026-08-07",
+          "integrated": "是",
+          "vendor": "",
+          "techOwner": "陈成",
+          "businessOwner": "王炜"
+        }
+      ]
+    },
+    {
+      "id": "ai-14",
+      "name": "平台运行智能运维",
+      "department": "技术部",
+      "departmentId": "dept-技术部",
+      "sequence": "13",
+      "kind": "normal",
+      "priority": "yellow",
+      "progress": 30,
+      "due": "2026-12-31",
+      "businessOwner": "邵晨峰",
+      "techOwner": "黄隽弢",
+      "vendor": "华云集成",
+      "owner": "邵晨峰",
+      "role": "业务负责人 · 邵晨峰 / 技术部对接人 · 黄隽弢",
+      "description": "自动采集软硬件数据、自动回归测试、日志采集",
+      "next": "推进\"自动回归测试\"，计划节点：2026-08-30。",
+      "risk": "",
+      "milestones": [
+        [
+          "自动采集软硬件数据",
+          "2026-12-31",
+          "done"
+        ],
+        [
+          "自动回归测试",
+          "2026-08-30",
+          "current"
+        ],
+        [
+          "日志采集",
+          "2026-12-31",
+          "todo"
+        ],
+        [
+          "变更影响分析",
+          "2026-12-31",
+          "todo"
+        ],
+        [
+          "用户工单智能分析",
+          "2026-12-31",
+          "todo"
+        ]
+      ],
+      "items": [
+        {
+          "detail": "自动采集软硬件数据",
+          "status": "done",
+          "demo": "7月31日",
+          "due": "2026-12-31",
+          "integrated": "是",
+          "vendor": "华云集成",
+          "techOwner": "黄隽弢",
+          "businessOwner": "邵晨峰"
+        },
+        {
+          "detail": "自动回归测试",
+          "status": "partial",
+          "demo": "",
+          "due": "2026-08-30",
+          "integrated": "是",
+          "vendor": "华云集成",
+          "techOwner": "黄隽弢",
+          "businessOwner": "邵晨峰"
+        },
+        {
+          "detail": "日志采集",
+          "status": "todo",
+          "demo": "",
+          "due": "2026-12-31",
+          "integrated": "是",
+          "vendor": "华云集成",
+          "techOwner": "黄隽弢",
+          "businessOwner": "邵晨峰"
+        },
+        {
+          "detail": "变更影响分析",
+          "status": "todo",
+          "demo": "",
+          "due": "2026-12-31",
+          "integrated": "是",
+          "vendor": "华云集成",
+          "techOwner": "黄隽弢",
+          "businessOwner": "邵晨峰"
+        },
+        {
+          "detail": "用户工单智能分析",
+          "status": "todo",
+          "demo": "",
+          "due": "2026-12-31",
+          "integrated": "是",
+          "vendor": "启明星",
+          "techOwner": "黄隽弢",
+          "businessOwner": "邵晨峰"
+        }
+      ]
+    },
+    {
+      "id": "ai-15",
+      "name": "量化交易识别",
+      "department": "技术部",
+      "departmentId": "dept-技术部",
+      "sequence": "14",
+      "kind": "punch",
+      "priority": "punch",
+      "progress": 75,
+      "due": "2026-08-07",
+      "businessOwner": "邵晨峰",
+      "techOwner": "魏骁",
+      "vendor": "华云集成",
+      "owner": "邵晨峰",
+      "role": "业务负责人 · 邵晨峰 / 技术部对接人 · 魏骁",
+      "description": "采集异常行为、生成异常分析报告",
+      "next": "推进\"生成异常分析报告\"，计划节点：2026-08-07。",
+      "risk": "",
+      "milestones": [
+        [
+          "采集异常行为",
+          "2026-08-07",
+          "done"
+        ],
+        [
+          "生成异常分析报告",
+          "2026-08-07",
+          "current"
+        ]
+      ],
+      "items": [
+        {
+          "detail": "采集异常行为",
+          "status": "done",
+          "demo": "",
+          "due": null,
+          "integrated": "是",
+          "vendor": "华云集成",
+          "techOwner": "魏骁",
+          "businessOwner": "邵晨峰"
+        },
+        {
+          "detail": "生成异常分析报告",
+          "status": "partial",
+          "demo": "7月31日",
+          "due": "2026-08-07",
+          "integrated": "是",
+          "vendor": "华云集成",
+          "techOwner": "魏骁",
+          "businessOwner": "邵晨峰"
+        }
+      ]
+    },
+    {
+      "id": "ai-16",
+      "name": "平台功能智能巡检",
+      "department": "技术部",
+      "departmentId": "dept-技术部",
+      "sequence": "15",
+      "kind": "normal",
+      "priority": "yellow",
+      "progress": 17,
+      "due": "2026-10-31",
+      "businessOwner": "邵晨峰",
+      "techOwner": "黄隽弢、魏骁",
+      "vendor": "华云集成",
+      "owner": "邵晨峰",
+      "role": "业务负责人 · 邵晨峰 / 技术部对接人 · 黄隽弢、魏骁",
+      "description": "测试用例生成、自动巡检、生成巡检报告",
+      "next": "推进\"测试用例生成\"，计划节点：2026-08-31。",
+      "risk": "",
+      "milestones": [
+        [
+          "测试用例生成",
+          "2026-08-31",
+          "current"
+        ],
+        [
+          "自动巡检",
+          "2026-08-31",
+          "todo"
+        ],
+        [
+          "生成巡检报告",
+          "2026-10-31",
+          "todo"
+        ]
+      ],
+      "items": [
+        {
+          "detail": "测试用例生成",
+          "status": "partial",
+          "demo": "7月31日",
+          "due": "2026-08-31",
+          "integrated": "是",
+          "vendor": "华云集成",
+          "techOwner": "黄隽弢",
+          "businessOwner": "邵晨峰"
+        },
+        {
+          "detail": "自动巡检",
+          "status": "todo",
+          "demo": "7月31日",
+          "due": "2026-08-31",
+          "integrated": "是",
+          "vendor": "华云集成",
+          "techOwner": "魏骁",
+          "businessOwner": "邵晨峰"
+        },
+        {
+          "detail": "生成巡检报告",
+          "status": "todo",
+          "demo": "7月31日",
+          "due": "2026-10-31",
+          "integrated": "是",
+          "vendor": "华云集成",
+          "techOwner": "魏骁",
+          "businessOwner": "邵晨峰"
+        }
+      ]
+    },
+    {
+      "id": "ai-17",
+      "name": "PX-Code人工智能个人助手",
+      "department": "技术部",
+      "departmentId": "dept-技术部",
+      "sequence": "16",
+      "kind": "punch",
+      "priority": "punch",
+      "progress": 25,
+      "due": "2026-08-04",
+      "businessOwner": "邵晨峰",
+      "techOwner": "黄隽弢",
+      "vendor": "华云数据",
+      "owner": "邵晨峰",
+      "role": "业务负责人 · 邵晨峰 / 技术部对接人 · 黄隽弢",
+      "description": "浙电work部署、通过浙电work提升数据查询质量、统一mcp、接口开发逻辑、安全规范",
+      "next": "推进\"通过浙电work提升数据查询质量\"。",
+      "risk": "",
+      "milestones": [
+        [
+          "浙电work部署",
+          "2026-08-04",
+          "done"
+        ],
+        [
+          "通过浙电work提升数据查询质量",
+          "2026-08-04",
+          "todo"
+        ],
+        [
+          "统一mcp、接口开发逻辑、安全规范",
+          "2026-08-04",
+          "todo"
+        ],
+        [
+          "浙电work协同模式设计",
+          "2026-07-24",
+          "todo"
+        ]
+      ],
+      "items": [
+        {
+          "detail": "浙电work部署",
+          "status": "done",
+          "demo": "7月24日",
+          "due": "2026-08-04",
+          "integrated": "是",
+          "vendor": "华云数据",
+          "techOwner": "黄隽弢",
+          "businessOwner": "邵晨峰"
+        },
+        {
+          "detail": "通过浙电work提升数据查询质量",
+          "status": "todo",
+          "demo": "",
+          "due": null,
+          "integrated": "是",
+          "vendor": "启明星",
+          "techOwner": "黄隽弢",
+          "businessOwner": "邵晨峰"
+        },
+        {
+          "detail": "统一mcp、接口开发逻辑、安全规范",
+          "status": "todo",
+          "demo": "",
+          "due": null,
+          "integrated": "否",
+          "vendor": "启明星",
+          "techOwner": "黄隽弢",
+          "businessOwner": "邵晨峰"
+        },
+        {
+          "detail": "浙电work协同模式设计",
+          "status": "todo",
+          "demo": "7月24日",
+          "due": "2026-07-24",
+          "integrated": "是",
+          "vendor": "启明星",
+          "techOwner": "黄隽弢",
+          "businessOwner": "邵晨峰"
+        }
+      ]
+    },
+    {
+      "id": "ai-18",
+      "name": "人工智能整体框架及harness设计",
+      "department": "技术部",
+      "departmentId": "dept-技术部",
+      "sequence": "17",
+      "kind": "normal",
+      "priority": "yellow",
+      "progress": 0,
+      "due": null,
+      "businessOwner": "邵晨峰",
+      "techOwner": "黄隽弢",
+      "vendor": "启明星",
+      "owner": "邵晨峰",
+      "role": "业务负责人 · 邵晨峰 / 技术部对接人 · 黄隽弢",
+      "description": "场景建设推进",
+      "next": "推进\"场景建设推进\"。",
+      "risk": "",
+      "milestones": [
+        [
+          "场景建设推进",
+          "待定",
+          "todo"
+        ]
+      ],
+      "items": [
+        {
+          "detail": "场景建设推进",
+          "status": "todo",
+          "demo": "",
+          "due": null,
+          "integrated": "否",
+          "vendor": "启明星",
+          "techOwner": "黄隽弢",
+          "businessOwner": "邵晨峰"
+        }
+      ]
+    },
+    {
+      "id": "ai-19",
+      "name": "数据管理智能辅助",
+      "department": "技术部",
+      "departmentId": "dept-技术部",
+      "sequence": "18",
+      "kind": "normal",
+      "priority": "yellow",
+      "progress": 60,
+      "due": "2026-12-30",
+      "businessOwner": "王炜",
+      "techOwner": "魏骁、黄隽弢",
+      "vendor": "华云数据",
+      "owner": "王炜",
+      "role": "业务负责人 · 王炜 / 技术部对接人 · 魏骁、黄隽弢",
+      "description": "数据资产、数据指标资产搭建、业务本体搭建",
+      "next": "推进\"业务本体搭建\"。",
+      "risk": "",
+      "milestones": [
+        [
+          "数据资产",
+          "2026-12-30",
+          "done"
+        ],
+        [
+          "数据指标资产搭建",
+          "2026-12-30",
+          "done"
+        ],
+        [
+          "业务本体搭建",
+          "2026-12-30",
+          "todo"
+        ],
+        [
+          "数据维护追溯分析",
+          "2026-12-30",
+          "todo"
+        ],
+        [
+          "人工智能数据相关性合规辅助审查",
+          "2026-12-30",
+          "done"
+        ]
+      ],
+      "items": [
+        {
+          "detail": "数据资产",
+          "status": "done",
+          "demo": "11月30日",
+          "due": "2026-12-30",
+          "integrated": "否",
+          "vendor": "华云数据",
+          "techOwner": "魏骁",
+          "businessOwner": "王炜"
+        },
+        {
+          "detail": "数据指标资产搭建",
+          "status": "done",
+          "demo": "11月30日",
+          "due": "2026-12-30",
+          "integrated": "否",
+          "vendor": "华云数据",
+          "techOwner": "魏骁",
+          "businessOwner": "王炜"
+        },
+        {
+          "detail": "业务本体搭建",
+          "status": "todo",
+          "demo": "",
+          "due": null,
+          "integrated": "是",
+          "vendor": "启明星",
+          "techOwner": "黄隽弢",
+          "businessOwner": "王炜"
+        },
+        {
+          "detail": "数据维护追溯分析",
+          "status": "todo",
+          "demo": "",
+          "due": null,
+          "integrated": "是",
+          "vendor": "启明星",
+          "techOwner": "黄隽弢",
+          "businessOwner": "王炜"
+        },
+        {
+          "detail": "人工智能数据相关性合规辅助审查",
+          "status": "done",
+          "demo": "11月30日",
+          "due": "2026-12-30",
+          "integrated": "否",
+          "vendor": "华云集成",
+          "techOwner": "魏骁",
+          "businessOwner": "王炜"
+        }
+      ]
+    },
+    {
+      "id": "ai-20",
+      "name": "人工智能代码审计",
+      "department": "技术部",
+      "departmentId": "dept-技术部",
+      "sequence": "19",
+      "kind": "normal",
+      "priority": "yellow",
+      "progress": 0,
+      "due": null,
+      "businessOwner": "邵晨峰",
+      "techOwner": "黄隽弢",
+      "vendor": "华云数据",
+      "owner": "邵晨峰",
+      "role": "业务负责人 · 邵晨峰 / 技术部对接人 · 黄隽弢",
+      "description": "审计代码漏洞、分析和需求匹配度、AI参与测试、设计、迭代",
+      "next": "推进\"审计代码漏洞\"。",
+      "risk": "",
+      "milestones": [
+        [
+          "审计代码漏洞",
+          "待定",
+          "todo"
+        ],
+        [
+          "分析和需求匹配度",
+          "待定",
+          "todo"
+        ],
+        [
+          "AI参与测试、设计、迭代",
+          "待定",
+          "todo"
+        ]
+      ],
+      "items": [
+        {
+          "detail": "审计代码漏洞",
+          "status": "todo",
+          "demo": "",
+          "due": null,
+          "integrated": "是",
+          "vendor": "华云数据",
+          "techOwner": "黄隽弢",
+          "businessOwner": "邵晨峰"
+        },
+        {
+          "detail": "分析和需求匹配度",
+          "status": "todo",
+          "demo": "",
+          "due": null,
+          "integrated": "是",
+          "vendor": "华云数据",
+          "techOwner": "黄隽弢",
+          "businessOwner": "邵晨峰"
+        },
+        {
+          "detail": "AI参与测试、设计、迭代",
+          "status": "todo",
+          "demo": "",
+          "due": null,
+          "integrated": "是",
+          "vendor": "华云数据",
+          "techOwner": "黄隽弢",
+          "businessOwner": "邵晨峰"
+        }
+      ]
+    },
+    {
+      "id": "ai-21",
+      "name": "市场成员人工智能助手",
+      "department": "技术部",
+      "departmentId": "dept-技术部",
+      "sequence": "20",
+      "kind": "normal",
+      "priority": "yellow",
+      "progress": 0,
+      "due": "长期",
+      "businessOwner": "邵晨峰",
+      "techOwner": "黄隽弢",
+      "vendor": "各团队",
+      "owner": "邵晨峰",
+      "role": "业务负责人 · 邵晨峰 / 技术部对接人 · 黄隽弢",
+      "description": "结合市场成员画像，辅助市场成员参与市场、辅助决策等便利性操作",
+      "next": "推进\"结合市场成员画像，辅助市场成员参与市场\"，计划节点：长期。",
+      "risk": "",
+      "milestones": [
+        [
+          "结合市场成员画像，辅助市场成员参与市场",
+          "长期",
+          "todo"
+        ],
+        [
+          "辅助决策等便利性操作",
+          "长期",
+          "todo"
+        ]
+      ],
+      "items": [
+        {
+          "detail": "结合市场成员画像，辅助市场成员参与市场",
+          "status": "todo",
+          "demo": "",
+          "due": "长期",
+          "integrated": "否",
+          "vendor": "各团队",
+          "techOwner": "黄隽弢",
+          "businessOwner": "邵晨峰"
+        },
+        {
+          "detail": "辅助决策等便利性操作",
+          "status": "todo",
+          "demo": "",
+          "due": "长期",
+          "integrated": "否",
+          "vendor": "各团队",
+          "techOwner": "黄隽弢",
+          "businessOwner": "邵晨峰"
+        }
+      ]
+    },
+    {
+      "id": "ai-22",
+      "name": "交易全流程自动化",
+      "department": "交易部",
+      "departmentId": "dept-交易部",
+      "sequence": "21",
+      "kind": "punch",
+      "priority": "punch",
+      "progress": 0,
+      "due": "2026-12-30",
+      "businessOwner": "王鹏程",
+      "techOwner": "骆希",
+      "vendor": "华云数据",
+      "owner": "王鹏程",
+      "role": "业务负责人 · 王鹏程 / 技术部对接人 · 骆希",
+      "description": "交易序列创建、设置限额、交易公告发布",
+      "next": "推进\"交易序列创建\"，计划节点：2026-08-07。",
+      "risk": "",
+      "milestones": [
+        [
+          "交易序列创建",
+          "2026-08-07",
+          "todo"
+        ],
+        [
+          "设置限额",
+          "2026-08-31",
+          "todo"
+        ],
+        [
+          "交易公告发布",
+          "2026-08-31",
+          "todo"
+        ],
+        [
+          "信息披露发布",
+          "2026-08-31",
+          "todo"
+        ],
+        [
+          "事前辅助出清各元素的智能校核",
+          "2026-12-30",
+          "todo"
+        ],
+        [
+          "全省市场化响应自助交易",
+          "2026-12-30",
+          "todo"
+        ]
+      ],
+      "items": [
+        {
+          "detail": "交易序列创建",
+          "status": "todo",
+          "demo": "46234",
+          "due": "2026-08-07",
+          "integrated": "是",
+          "vendor": "华云数据",
+          "techOwner": "骆希",
+          "businessOwner": "王鹏程"
+        },
+        {
+          "detail": "设置限额",
+          "status": "todo",
+          "demo": "46234",
+          "due": "2026-08-31",
+          "integrated": "是",
+          "vendor": "华云数据",
+          "techOwner": "骆希",
+          "businessOwner": "王鹏程"
+        },
+        {
+          "detail": "交易公告发布",
+          "status": "todo",
+          "demo": "46234",
+          "due": "2026-08-31",
+          "integrated": "是",
+          "vendor": "华云数据",
+          "techOwner": "骆希",
+          "businessOwner": "王鹏程"
+        },
+        {
+          "detail": "信息披露发布",
+          "status": "todo",
+          "demo": "46234",
+          "due": "2026-08-31",
+          "integrated": "是",
+          "vendor": "华云数据",
+          "techOwner": "骆希",
+          "businessOwner": "王鹏程"
+        },
+        {
+          "detail": "事前辅助出清各元素的智能校核",
+          "status": "todo",
+          "demo": "46234",
+          "due": "2026-12-30",
+          "integrated": "是",
+          "vendor": "华云数据",
+          "techOwner": "骆希",
+          "businessOwner": "王鹏程"
+        },
+        {
+          "detail": "事后出清结果的智能复核",
+          "status": "todo",
+          "demo": "46234",
+          "due": "2026-12-30",
+          "integrated": "是",
+          "vendor": "华云数据",
+          "techOwner": "骆希",
+          "businessOwner": "王鹏程"
+        },
+        {
+          "detail": "一键触发交易",
+          "status": "todo",
+          "demo": "",
+          "due": null,
+          "integrated": "是",
+          "vendor": "华云数据",
+          "techOwner": "骆希",
+          "businessOwner": "王鹏程"
+        },
+        {
+          "detail": "全省市场化响应自助交易",
+          "status": "todo",
+          "demo": "",
+          "due": null,
+          "integrated": "是",
+          "vendor": "华云数据",
+          "techOwner": "骆希",
+          "businessOwner": "王鹏程"
+        }
+      ]
+    },
+    {
+      "id": "ai-23",
+      "name": "省间交易/全国统一电力市场",
+      "department": "交易部",
+      "departmentId": "dept-交易部",
+      "sequence": "22",
+      "kind": "pending",
+      "priority": "blue",
+      "progress": 0,
+      "due": null,
+      "businessOwner": "王鹏程",
+      "techOwner": "待定",
+      "vendor": "待定",
+      "owner": "王鹏程",
+      "role": "业务负责人 · 王鹏程",
+      "description": "场景建设推进",
+      "next": "推进\"场景建设推进\"。",
+      "risk": "",
+      "milestones": [
+        [
+          "场景建设推进",
+          "待定",
+          "todo"
+        ]
+      ],
+      "items": [
+        {
+          "detail": "场景建设推进",
+          "status": "todo",
+          "demo": "",
+          "due": null,
+          "integrated": "",
+          "vendor": "",
+          "techOwner": "",
+          "businessOwner": "王鹏程"
+        }
+      ]
+    },
+    {
+      "id": "ai-24",
+      "name": "智能客服辅助",
+      "department": "客服中心",
+      "departmentId": "dept-客服中心",
+      "sequence": "23",
+      "kind": "normal",
+      "priority": "yellow",
+      "progress": 0,
+      "due": "2026-08-31",
+      "businessOwner": "王鹏程",
+      "techOwner": "吕瑞扬",
+      "vendor": "启明星",
+      "owner": "王鹏程",
+      "role": "业务负责人 · 王鹏程 / 技术部对接人 · 吕瑞扬",
+      "description": "客服录音的人工智能全面介入，包括问答知识库",
+      "next": "推进\"客服录音的人工智能全面介入，包括问答知识库\"，计划节点：2026-08-31。",
+      "risk": "",
+      "milestones": [
+        [
+          "客服录音的人工智能全面介入，包括问答知识库",
+          "2026-08-31",
+          "todo"
+        ]
+      ],
+      "items": [
+        {
+          "detail": "客服录音的人工智能全面介入，包括问答知识库",
+          "status": "todo",
+          "demo": "46241",
+          "due": "2026-08-31",
+          "integrated": "否",
+          "vendor": "启明星",
+          "techOwner": "吕瑞扬",
+          "businessOwner": "王鹏程"
+        }
+      ]
+    },
+    {
+      "id": "ai-25",
+      "name": "智能语音客服",
+      "department": "客服中心",
+      "departmentId": "dept-客服中心",
+      "sequence": "25",
+      "kind": "normal",
+      "priority": "yellow",
+      "progress": 0,
+      "due": "2026-08-31",
+      "businessOwner": "王鹏程",
+      "techOwner": "吕瑞扬",
+      "vendor": "启明星",
+      "owner": "王鹏程",
+      "role": "业务负责人 · 王鹏程 / 技术部对接人 · 吕瑞扬",
+      "description": "流式输出、统计分析等",
+      "next": "推进\"流式输出\"，计划节点：2026-08-31。",
+      "risk": "",
+      "milestones": [
+        [
+          "流式输出",
+          "2026-08-31",
+          "todo"
+        ],
+        [
+          "统计分析等",
+          "2026-08-31",
+          "todo"
+        ]
+      ],
+      "items": [
+        {
+          "detail": "流式输出",
+          "status": "todo",
+          "demo": "46241",
+          "due": "2026-08-31",
+          "integrated": "否",
+          "vendor": "启明星",
+          "techOwner": "吕瑞扬",
+          "businessOwner": "王鹏程"
+        },
+        {
+          "detail": "统计分析等",
+          "status": "todo",
+          "demo": "46241",
+          "due": "2026-08-31",
+          "integrated": "否",
+          "vendor": "启明星",
+          "techOwner": "吕瑞扬",
+          "businessOwner": "王鹏程"
+        }
+      ]
+    },
+    {
+      "id": "ai-26",
+      "name": "市场主体智能服务场景",
+      "department": "客服中心",
+      "departmentId": "dept-客服中心",
+      "sequence": "24",
+      "kind": "normal",
+      "priority": "yellow",
+      "progress": 0,
+      "due": "2026-10-30",
+      "businessOwner": "王鹏程",
+      "techOwner": "吕瑞扬",
+      "vendor": "启明星",
+      "owner": "王鹏程",
+      "role": "业务负责人 · 王鹏程 / 技术部对接人 · 吕瑞扬",
+      "description": "建设智能问答、交易助手规则解答、信息查询",
+      "next": "推进\"建设智能问答\"，计划节点：2026-10-30。",
+      "risk": "",
+      "milestones": [
+        [
+          "建设智能问答",
+          "2026-10-30",
+          "todo"
+        ],
+        [
+          "交易助手规则解答",
+          "2026-10-30",
+          "todo"
+        ],
+        [
+          "信息查询",
+          "2026-10-30",
+          "todo"
+        ],
+        [
+          "结果解释和个性化服务提醒",
+          "2026-10-30",
+          "todo"
+        ]
+      ],
+      "items": [
+        {
+          "detail": "建设智能问答",
+          "status": "todo",
+          "demo": "",
+          "due": "2026-10-30",
+          "integrated": "否",
+          "vendor": "启明星",
+          "techOwner": "吕瑞扬",
+          "businessOwner": "王鹏程"
+        },
+        {
+          "detail": "交易助手规则解答",
+          "status": "todo",
+          "demo": "",
+          "due": "2026-10-30",
+          "integrated": "否",
+          "vendor": "启明星",
+          "techOwner": "吕瑞扬",
+          "businessOwner": "王鹏程"
+        },
+        {
+          "detail": "信息查询",
+          "status": "todo",
+          "demo": "",
+          "due": "2026-10-30",
+          "integrated": "否",
+          "vendor": "启明星",
+          "techOwner": "吕瑞扬",
+          "businessOwner": "王鹏程"
+        },
+        {
+          "detail": "结果解释和个性化服务提醒",
+          "status": "todo",
+          "demo": "",
+          "due": "2026-10-30",
+          "integrated": "否",
+          "vendor": "启明星",
+          "techOwner": "吕瑞扬",
+          "businessOwner": "王鹏程"
+        }
+      ]
+    },
+    {
+      "id": "ai-27",
+      "name": "话务工单智能分析",
+      "department": "客服中心",
+      "departmentId": "dept-客服中心",
+      "sequence": "25",
+      "kind": "punch",
+      "priority": "punch",
+      "progress": 0,
+      "due": "2026-09-30",
+      "businessOwner": "王鹏程",
+      "techOwner": "吕瑞扬",
+      "vendor": "启明星",
+      "owner": "王鹏程",
+      "role": "业务负责人 · 王鹏程 / 技术部对接人 · 吕瑞扬",
+      "description": "分析话务工单处理与服务记录自动归类、主题识别、热点统计和趋势分析",
+      "next": "推进\"分析话务工单处理与服务记录自动归类\"，计划节点：2026-09-30。",
+      "risk": "",
+      "milestones": [
+        [
+          "分析话务工单处理与服务记录自动归类",
+          "2026-09-30",
+          "todo"
+        ],
+        [
+          "主题识别",
+          "2026-09-30",
+          "todo"
+        ],
+        [
+          "热点统计和趋势分析",
+          "2026-09-30",
+          "todo"
+        ]
+      ],
+      "items": [
+        {
+          "detail": "分析话务工单处理与服务记录自动归类",
+          "status": "todo",
+          "demo": "",
+          "due": "2026-09-30",
+          "integrated": "是",
+          "vendor": "启明星",
+          "techOwner": "吕瑞扬",
+          "businessOwner": "王鹏程"
+        },
+        {
+          "detail": "主题识别",
+          "status": "todo",
+          "demo": "",
+          "due": "2026-09-30",
+          "integrated": "是",
+          "vendor": "启明星",
+          "techOwner": "吕瑞扬",
+          "businessOwner": "王鹏程"
+        },
+        {
+          "detail": "热点统计和趋势分析",
+          "status": "todo",
+          "demo": "",
+          "due": "2026-09-30",
+          "integrated": "是",
+          "vendor": "启明星",
+          "techOwner": "吕瑞扬",
+          "businessOwner": "王鹏程"
+        }
+      ]
+    },
+    {
+      "id": "ai-28",
+      "name": "融媒体智能制作",
+      "department": "客服中心",
+      "departmentId": "dept-客服中心",
+      "sequence": "27",
+      "kind": "risk",
+      "priority": "yellow",
+      "progress": 0,
+      "due": "2026-12-30",
+      "businessOwner": "王鹏程",
+      "techOwner": "吕瑞扬",
+      "vendor": "华云数据",
+      "owner": "王鹏程",
+      "role": "业务负责人 · 王鹏程 / 技术部对接人 · 吕瑞扬",
+      "description": "数字人、生成宣传脚本、图文素材",
+      "next": "推进\"数字人\"，计划节点：2026-08-15。",
+      "risk": "当前完成度 0%，最近节点为 2026-08-15，建议在本次汇报中确认推进责任与资源安排。",
+      "milestones": [
+        [
+          "数字人",
+          "2026-08-15",
+          "todo"
+        ],
+        [
+          "生成宣传脚本",
+          "2026-12-30",
+          "todo"
+        ],
+        [
+          "图文素材",
+          "2026-12-30",
+          "todo"
+        ],
+        [
+          "短视频文案",
+          "2026-12-30",
+          "todo"
+        ],
+        [
+          "海报文案和新媒体推送内容",
+          "2026-12-30",
+          "todo"
+        ]
+      ],
+      "items": [
+        {
+          "detail": "数字人",
+          "status": "todo",
+          "demo": "46241",
+          "due": "2026-08-15",
+          "integrated": "是",
+          "vendor": "华云数据",
+          "techOwner": "吕瑞扬",
+          "businessOwner": "王鹏程"
+        },
+        {
+          "detail": "生成宣传脚本",
+          "status": "todo",
+          "demo": "46241",
+          "due": "2026-12-30",
+          "integrated": "是",
+          "vendor": "华云数据",
+          "techOwner": "吕瑞扬",
+          "businessOwner": "王鹏程"
+        },
+        {
+          "detail": "图文素材",
+          "status": "todo",
+          "demo": "46241",
+          "due": "2026-12-30",
+          "integrated": "是",
+          "vendor": "华云数据",
+          "techOwner": "吕瑞扬",
+          "businessOwner": "王鹏程"
+        },
+        {
+          "detail": "短视频文案",
+          "status": "todo",
+          "demo": "46241",
+          "due": "2026-12-30",
+          "integrated": "是",
+          "vendor": "华云数据",
+          "techOwner": "吕瑞扬",
+          "businessOwner": "王鹏程"
+        },
+        {
+          "detail": "海报文案和新媒体推送内容",
+          "status": "todo",
+          "demo": "46241",
+          "due": "2026-12-30",
+          "integrated": "是",
+          "vendor": "华云数据",
+          "techOwner": "吕瑞扬",
+          "businessOwner": "王鹏程"
+        }
+      ]
+    },
+    {
+      "id": "ai-29",
+      "name": "电量电价智能预测",
+      "department": "研究室",
+      "departmentId": "dept-研究室",
+      "sequence": "28",
+      "kind": "punch",
+      "priority": "punch",
+      "progress": 50,
+      "due": null,
+      "businessOwner": "王鹏程",
+      "techOwner": "何阳",
+      "vendor": "华云数据",
+      "owner": "王鹏程",
+      "role": "业务负责人 · 王鹏程 / 技术部对接人 · 何阳",
+      "description": "电价预测、电量预测",
+      "next": "推进\"电价预测\"。",
+      "risk": "",
+      "milestones": [
+        [
+          "电价预测",
+          "待定",
+          "current"
+        ],
+        [
+          "电量预测",
+          "待定",
+          "current"
+        ]
+      ],
+      "items": [
+        {
+          "detail": "电价预测",
+          "status": "partial",
+          "demo": "46241",
+          "due": null,
+          "integrated": "是",
+          "vendor": "华云数据",
+          "techOwner": "何阳",
+          "businessOwner": "王鹏程"
+        },
+        {
+          "detail": "电量预测",
+          "status": "partial",
+          "demo": "46241",
+          "due": null,
+          "integrated": "是",
+          "vendor": "华云数据",
+          "techOwner": "何阳",
+          "businessOwner": "王鹏程"
+        }
+      ]
+    },
+    {
+      "id": "ai-30",
+      "name": "mirofish市场推演",
+      "department": "研究室",
+      "departmentId": "dept-研究室",
+      "sequence": "29",
+      "kind": "risk",
+      "priority": "yellow",
+      "progress": 0,
+      "due": "2026-07-30",
+      "businessOwner": "邵晨峰",
+      "techOwner": "何阳",
+      "vendor": "电科院",
+      "owner": "邵晨峰",
+      "role": "业务负责人 · 邵晨峰 / 技术部对接人 · 何阳",
+      "description": "mirofish内网搭建",
+      "next": "推进\"mirofish内网搭建\"，计划节点：2026-07-30。",
+      "risk": "当前完成度 0%，最近节点为 2026-07-30，建议在本次汇报中确认推进责任与资源安排。",
+      "milestones": [
+        [
+          "mirofish内网搭建",
+          "2026-07-30",
+          "todo"
+        ]
+      ],
+      "items": [
+        {
+          "detail": "mirofish内网搭建",
+          "status": "todo",
+          "demo": "",
+          "due": "2026-07-30",
+          "integrated": "否",
+          "vendor": "电科院",
+          "techOwner": "何阳",
+          "businessOwner": "邵晨峰"
+        }
+      ]
+    },
+    {
+      "id": "ai-31",
+      "name": "大市场与微市场云边协同出清",
+      "department": "研究室",
+      "departmentId": "dept-研究室",
+      "sequence": "30",
+      "kind": "punch",
+      "priority": "punch",
+      "progress": 0,
+      "due": "2026-12-30",
+      "businessOwner": "王鹏程",
+      "techOwner": "何阳",
+      "vendor": "电科院",
+      "owner": "王鹏程",
+      "role": "业务负责人 · 王鹏程 / 技术部对接人 · 何阳",
+      "description": "实现资源聚合建模、智能匹配、自动撮合和快速滚动出清，支撑多主体",
+      "next": "推进\"实现资源聚合建模\"，计划节点：2026-12-30。",
+      "risk": "",
+      "milestones": [
+        [
+          "实现资源聚合建模",
+          "2026-12-30",
+          "todo"
+        ],
+        [
+          "智能匹配",
+          "2026-12-30",
+          "todo"
+        ],
+        [
+          "自动撮合和快速滚动出清，支撑多主体",
+          "2026-12-30",
+          "todo"
+        ],
+        [
+          "多时段自主交易",
+          "2026-12-30",
+          "todo"
+        ],
+        [
+          "场景建设推进",
+          "2026-12-30",
+          "todo"
+        ],
+        [
+          "场景建设推进",
+          "2026-12-30",
+          "todo"
+        ]
+      ],
+      "items": [
+        {
+          "detail": "实现资源聚合建模",
+          "status": "todo",
+          "demo": "",
+          "due": "2026-12-30",
+          "integrated": "否",
+          "vendor": "电科院",
+          "techOwner": "何阳",
+          "businessOwner": "王鹏程"
+        },
+        {
+          "detail": "智能匹配",
+          "status": "todo",
+          "demo": "",
+          "due": "2026-12-30",
+          "integrated": "否",
+          "vendor": "电科院",
+          "techOwner": "何阳",
+          "businessOwner": "王鹏程"
+        },
+        {
+          "detail": "自动撮合和快速滚动出清，支撑多主体",
+          "status": "todo",
+          "demo": "",
+          "due": "2026-12-30",
+          "integrated": "否",
+          "vendor": "电科院",
+          "techOwner": "何阳",
+          "businessOwner": "王鹏程"
+        },
+        {
+          "detail": "多时段自主交易",
+          "status": "todo",
+          "demo": "",
+          "due": "2026-12-30",
+          "integrated": "否",
+          "vendor": "电科院",
+          "techOwner": "何阳",
+          "businessOwner": "王鹏程"
+        },
+        {
+          "detail": "场景建设推进",
+          "status": "todo",
+          "demo": "",
+          "due": null,
+          "integrated": "",
+          "vendor": "",
+          "techOwner": "",
+          "businessOwner": ""
+        },
+        {
+          "detail": "场景建设推进",
+          "status": "todo",
+          "demo": "",
+          "due": null,
+          "integrated": "",
+          "vendor": "",
+          "techOwner": "",
+          "businessOwner": ""
+        },
+        {
+          "detail": "场景建设推进",
+          "status": "todo",
+          "demo": "",
+          "due": null,
+          "integrated": "",
+          "vendor": "",
+          "techOwner": "",
+          "businessOwner": ""
+        },
+        {
+          "detail": "场景建设推进",
+          "status": "todo",
+          "demo": "",
+          "due": null,
+          "integrated": "",
+          "vendor": "",
+          "techOwner": "",
+          "businessOwner": ""
+        },
+        {
+          "detail": "场景建设推进",
+          "status": "todo",
+          "demo": "",
+          "due": null,
+          "integrated": "",
+          "vendor": "",
+          "techOwner": "",
+          "businessOwner": ""
+        },
+        {
+          "detail": "场景建设推进",
+          "status": "todo",
+          "demo": "",
+          "due": null,
+          "integrated": "",
+          "vendor": "",
+          "techOwner": "",
+          "businessOwner": ""
+        },
+        {
+          "detail": "场景建设推进",
+          "status": "todo",
+          "demo": "",
+          "due": null,
+          "integrated": "",
+          "vendor": "",
+          "techOwner": "",
+          "businessOwner": ""
+        },
+        {
+          "detail": "场景建设推进",
+          "status": "todo",
+          "demo": "",
+          "due": null,
+          "integrated": "",
+          "vendor": "",
+          "techOwner": "",
+          "businessOwner": ""
+        },
+        {
+          "detail": "场景建设推进",
+          "status": "todo",
+          "demo": "",
+          "due": null,
+          "integrated": "",
+          "vendor": "",
+          "techOwner": "",
+          "businessOwner": ""
+        },
+        {
+          "detail": "场景建设推进",
+          "status": "todo",
+          "demo": "",
+          "due": null,
+          "integrated": "",
+          "vendor": "",
+          "techOwner": "",
+          "businessOwner": ""
+        },
+        {
+          "detail": "场景建设推进",
+          "status": "todo",
+          "demo": "",
+          "due": null,
+          "integrated": "",
+          "vendor": "",
+          "techOwner": "",
+          "businessOwner": ""
+        },
+        {
+          "detail": "场景建设推进",
+          "status": "todo",
+          "demo": "",
+          "due": null,
+          "integrated": "",
+          "vendor": "",
+          "techOwner": "",
+          "businessOwner": ""
+        },
+        {
+          "detail": "场景建设推进",
+          "status": "todo",
+          "demo": "",
+          "due": null,
+          "integrated": "",
+          "vendor": "",
+          "techOwner": "",
+          "businessOwner": ""
+        },
+        {
+          "detail": "场景建设推进",
+          "status": "todo",
+          "demo": "",
+          "due": null,
+          "integrated": "",
+          "vendor": "",
+          "techOwner": "",
+          "businessOwner": ""
+        },
+        {
+          "detail": "场景建设推进",
+          "status": "todo",
+          "demo": "",
+          "due": null,
+          "integrated": "",
+          "vendor": "",
+          "techOwner": "",
+          "businessOwner": ""
+        },
+        {
+          "detail": "场景建设推进",
+          "status": "todo",
+          "demo": "",
+          "due": null,
+          "integrated": "",
+          "vendor": "",
+          "techOwner": "",
+          "businessOwner": ""
+        },
+        {
+          "detail": "场景建设推进",
+          "status": "todo",
+          "demo": "",
+          "due": null,
+          "integrated": "",
+          "vendor": "",
+          "techOwner": "",
+          "businessOwner": ""
+        },
+        {
+          "detail": "场景建设推进",
+          "status": "todo",
+          "demo": "",
+          "due": null,
+          "integrated": "",
+          "vendor": "",
+          "techOwner": "",
+          "businessOwner": ""
+        },
+        {
+          "detail": "场景建设推进",
+          "status": "todo",
+          "demo": "",
+          "due": null,
+          "integrated": "",
+          "vendor": "",
+          "techOwner": "",
+          "businessOwner": ""
+        },
+        {
+          "detail": "场景建设推进",
+          "status": "todo",
+          "demo": "",
+          "due": null,
+          "integrated": "",
+          "vendor": "",
+          "techOwner": "",
+          "businessOwner": ""
+        },
+        {
+          "detail": "场景建设推进",
+          "status": "todo",
+          "demo": "",
+          "due": null,
+          "integrated": "",
+          "vendor": "",
+          "techOwner": "",
+          "businessOwner": ""
+        },
+        {
+          "detail": "场景建设推进",
+          "status": "todo",
+          "demo": "",
+          "due": null,
+          "integrated": "",
+          "vendor": "",
+          "techOwner": "",
+          "businessOwner": ""
+        },
+        {
+          "detail": "场景建设推进",
+          "status": "todo",
+          "demo": "",
+          "due": null,
+          "integrated": "",
+          "vendor": "",
+          "techOwner": "",
+          "businessOwner": ""
+        },
+        {
+          "detail": "场景建设推进",
+          "status": "todo",
+          "demo": "",
+          "due": null,
+          "integrated": "",
+          "vendor": "",
+          "techOwner": "",
+          "businessOwner": ""
+        },
+        {
+          "detail": "场景建设推进",
+          "status": "todo",
+          "demo": "",
+          "due": null,
+          "integrated": "",
+          "vendor": "",
+          "techOwner": "",
+          "businessOwner": ""
+        },
+        {
+          "detail": "场景建设推进",
+          "status": "todo",
+          "demo": "",
+          "due": null,
+          "integrated": "",
+          "vendor": "",
+          "techOwner": "",
+          "businessOwner": ""
+        },
+        {
+          "detail": "场景建设推进",
+          "status": "todo",
+          "demo": "",
+          "due": null,
+          "integrated": "",
+          "vendor": "",
+          "techOwner": "",
+          "businessOwner": ""
+        },
+        {
+          "detail": "场景建设推进",
+          "status": "todo",
+          "demo": "",
+          "due": null,
+          "integrated": "",
+          "vendor": "",
+          "techOwner": "",
+          "businessOwner": ""
+        },
+        {
+          "detail": "场景建设推进",
+          "status": "todo",
+          "demo": "",
+          "due": null,
+          "integrated": "",
+          "vendor": "",
+          "techOwner": "",
+          "businessOwner": ""
+        },
+        {
+          "detail": "场景建设推进",
+          "status": "todo",
+          "demo": "",
+          "due": null,
+          "integrated": "",
+          "vendor": "",
+          "techOwner": "",
+          "businessOwner": ""
+        },
+        {
+          "detail": "场景建设推进",
+          "status": "todo",
+          "demo": "",
+          "due": null,
+          "integrated": "",
+          "vendor": "",
+          "techOwner": "",
+          "businessOwner": ""
+        },
+        {
+          "detail": "场景建设推进",
+          "status": "todo",
+          "demo": "",
+          "due": null,
+          "integrated": "",
+          "vendor": "",
+          "techOwner": "",
+          "businessOwner": ""
+        },
+        {
+          "detail": "场景建设推进",
+          "status": "todo",
+          "demo": "",
+          "due": null,
+          "integrated": "",
+          "vendor": "",
+          "techOwner": "",
+          "businessOwner": ""
+        },
+        {
+          "detail": "场景建设推进",
+          "status": "todo",
+          "demo": "",
+          "due": null,
+          "integrated": "",
+          "vendor": "",
+          "techOwner": "",
+          "businessOwner": ""
+        },
+        {
+          "detail": "场景建设推进",
+          "status": "todo",
+          "demo": "",
+          "due": null,
+          "integrated": "",
+          "vendor": "",
+          "techOwner": "",
+          "businessOwner": ""
+        },
+        {
+          "detail": "场景建设推进",
+          "status": "todo",
+          "demo": "",
+          "due": null,
+          "integrated": "",
+          "vendor": "",
+          "techOwner": "",
+          "businessOwner": ""
+        },
+        {
+          "detail": "场景建设推进",
+          "status": "todo",
+          "demo": "",
+          "due": null,
+          "integrated": "",
+          "vendor": "",
+          "techOwner": "",
+          "businessOwner": ""
+        },
+        {
+          "detail": "场景建设推进",
+          "status": "todo",
+          "demo": "",
+          "due": null,
+          "integrated": "",
+          "vendor": "",
+          "techOwner": "",
+          "businessOwner": ""
+        },
+        {
+          "detail": "场景建设推进",
+          "status": "todo",
+          "demo": "",
+          "due": null,
+          "integrated": "",
+          "vendor": "",
+          "techOwner": "",
+          "businessOwner": ""
+        },
+        {
+          "detail": "场景建设推进",
+          "status": "todo",
+          "demo": "",
+          "due": null,
+          "integrated": "",
+          "vendor": "",
+          "techOwner": "",
+          "businessOwner": ""
+        },
+        {
+          "detail": "场景建设推进",
+          "status": "todo",
+          "demo": "",
+          "due": null,
+          "integrated": "",
+          "vendor": "",
+          "techOwner": "",
+          "businessOwner": ""
+        },
+        {
+          "detail": "场景建设推进",
+          "status": "todo",
+          "demo": "",
+          "due": null,
+          "integrated": "",
+          "vendor": "",
+          "techOwner": "",
+          "businessOwner": ""
+        },
+        {
+          "detail": "场景建设推进",
+          "status": "todo",
+          "demo": "",
+          "due": null,
+          "integrated": "",
+          "vendor": "",
+          "techOwner": "",
+          "businessOwner": ""
+        },
+        {
+          "detail": "场景建设推进",
+          "status": "todo",
+          "demo": "",
+          "due": null,
+          "integrated": "",
+          "vendor": "",
+          "techOwner": "",
+          "businessOwner": ""
+        },
+        {
+          "detail": "场景建设推进",
+          "status": "todo",
+          "demo": "",
+          "due": null,
+          "integrated": "",
+          "vendor": "",
+          "techOwner": "",
+          "businessOwner": ""
+        },
+        {
+          "detail": "场景建设推进",
+          "status": "todo",
+          "demo": "",
+          "due": null,
+          "integrated": "",
+          "vendor": "",
+          "techOwner": "",
+          "businessOwner": ""
+        },
+        {
+          "detail": "场景建设推进",
+          "status": "todo",
+          "demo": "",
+          "due": null,
+          "integrated": "",
+          "vendor": "",
+          "techOwner": "",
+          "businessOwner": ""
+        },
+        {
+          "detail": "场景建设推进",
+          "status": "todo",
+          "demo": "",
+          "due": null,
+          "integrated": "",
+          "vendor": "",
+          "techOwner": "",
+          "businessOwner": ""
+        },
+        {
+          "detail": "场景建设推进",
+          "status": "todo",
+          "demo": "",
+          "due": null,
+          "integrated": "",
+          "vendor": "",
+          "techOwner": "",
+          "businessOwner": ""
+        },
+        {
+          "detail": "场景建设推进",
+          "status": "todo",
+          "demo": "",
+          "due": null,
+          "integrated": "",
+          "vendor": "",
+          "techOwner": "",
+          "businessOwner": ""
+        },
+        {
+          "detail": "场景建设推进",
+          "status": "todo",
+          "demo": "",
+          "due": null,
+          "integrated": "",
+          "vendor": "",
+          "techOwner": "",
+          "businessOwner": ""
+        },
+        {
+          "detail": "场景建设推进",
+          "status": "todo",
+          "demo": "",
+          "due": null,
+          "integrated": "",
+          "vendor": "",
+          "techOwner": "",
+          "businessOwner": ""
+        },
+        {
+          "detail": "场景建设推进",
+          "status": "todo",
+          "demo": "",
+          "due": null,
+          "integrated": "",
+          "vendor": "",
+          "techOwner": "",
+          "businessOwner": ""
+        },
+        {
+          "detail": "场景建设推进",
+          "status": "todo",
+          "demo": "",
+          "due": null,
+          "integrated": "",
+          "vendor": "",
+          "techOwner": "",
+          "businessOwner": ""
+        },
+        {
+          "detail": "场景建设推进",
+          "status": "todo",
+          "demo": "",
+          "due": null,
+          "integrated": "",
+          "vendor": "",
+          "techOwner": "",
+          "businessOwner": ""
+        },
+        {
+          "detail": "场景建设推进",
+          "status": "todo",
+          "demo": "",
+          "due": null,
+          "integrated": "",
+          "vendor": "",
+          "techOwner": "",
+          "businessOwner": ""
+        },
+        {
+          "detail": "场景建设推进",
+          "status": "todo",
+          "demo": "",
+          "due": null,
+          "integrated": "",
+          "vendor": "",
+          "techOwner": "",
+          "businessOwner": ""
+        },
+        {
+          "detail": "场景建设推进",
+          "status": "todo",
+          "demo": "",
+          "due": null,
+          "integrated": "",
+          "vendor": "",
+          "techOwner": "",
+          "businessOwner": ""
+        },
+        {
+          "detail": "场景建设推进",
+          "status": "todo",
+          "demo": "",
+          "due": null,
+          "integrated": "",
+          "vendor": "",
+          "techOwner": "",
+          "businessOwner": ""
+        },
+        {
+          "detail": "场景建设推进",
+          "status": "todo",
+          "demo": "",
+          "due": null,
+          "integrated": "",
+          "vendor": "",
+          "techOwner": "",
+          "businessOwner": ""
+        },
+        {
+          "detail": "场景建设推进",
+          "status": "todo",
+          "demo": "",
+          "due": null,
+          "integrated": "",
+          "vendor": "",
+          "techOwner": "",
+          "businessOwner": ""
+        },
+        {
+          "detail": "场景建设推进",
+          "status": "todo",
+          "demo": "",
+          "due": null,
+          "integrated": "",
+          "vendor": "",
+          "techOwner": "",
+          "businessOwner": ""
+        },
+        {
+          "detail": "场景建设推进",
+          "status": "todo",
+          "demo": "",
+          "due": null,
+          "integrated": "",
+          "vendor": "",
+          "techOwner": "",
+          "businessOwner": ""
+        },
+        {
+          "detail": "场景建设推进",
+          "status": "todo",
+          "demo": "",
+          "due": null,
+          "integrated": "",
+          "vendor": "",
+          "techOwner": "",
+          "businessOwner": ""
+        },
+        {
+          "detail": "场景建设推进",
+          "status": "todo",
+          "demo": "",
+          "due": null,
+          "integrated": "",
+          "vendor": "",
+          "techOwner": "",
+          "businessOwner": ""
+        },
+        {
+          "detail": "场景建设推进",
+          "status": "todo",
+          "demo": "",
+          "due": null,
+          "integrated": "",
+          "vendor": "",
+          "techOwner": "",
+          "businessOwner": ""
+        }
+      ]
+    }
+  ],
+  "quarterMilestones": [
+    {
+      "id": "aug",
+      "label": "8月",
+      "range": "8月节点",
+      "title": "首批场景交付",
+      "date": "2026-07-30",
+      "taskId": "ai-30"
+    },
+    {
+      "id": "sep",
+      "label": "Q3",
+      "range": "7–9月",
+      "title": "三季度集成",
+      "date": "2026-08-07",
+      "taskId": "ai-15"
+    },
+    {
+      "id": "dec",
+      "label": "Q4",
+      "range": "10–12月",
+      "title": "年度目标收口",
+      "date": "2026-12-31",
+      "taskId": "ai-14"
+    },
+    {
+      "id": "long",
+      "label": "持续",
+      "range": "长期建设",
+      "title": "持续优化",
+      "date": "长期",
+      "taskId": "ai-21"
+    }
+  ]
+}

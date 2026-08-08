@@ -1,0 +1,9 @@
+node_modules
+dist
+.openai
+scripts
+tests
+worker
+.tmp
+.openai
+.openai
