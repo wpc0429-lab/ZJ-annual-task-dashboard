@@ -1,12 +1,10 @@
-name: Deploy to GitHub Pages
+﻿name: Deploy to GitHub Pages
 
 on:
   push:
     branches: [main]
   workflow_dispatch:
 
-# 在 GitHub Enterprise / 私有仓库上,默认 Workflow permissions 是只读,
-# 这里显式声明写权限可以避免 "Resource not accessible by integration" 类报错。
 permissions:
   contents: read
   pages: write
@@ -33,23 +31,19 @@ jobs:
           cache: npm
 
       - name: Install dependencies
-        # --legacy-peer-deps 避免 lockfile 在 CI 上抖动,避免 npm ci 失败
-        run: npm ci --legacy-peer-deps || npm install --legacy-peer-deps
+        run: npm install --legacy-peer-deps
 
       - name: Build
         run: npm run build
 
       - name: Verify dist output
-        # 确认产物真的生成了,避免 upload 报 "Cannot find any files to upload"
         run: |
           if [ ! -f dist/index.html ]; then
-            echo "::error::dist/index.html missing — vite build did not produce output"
+            echo "::error::dist/index.html missing - vite build did not produce output"
             exit 1
           fi
           ls -la dist
 
-      # upload-pages-artifact 必须使用 v3 及以上版本,
-      # v3 在新版 Pages 服务上偶尔会 404,这里升到 v4 与 deploy-pages@v4 配套。
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
         with:
