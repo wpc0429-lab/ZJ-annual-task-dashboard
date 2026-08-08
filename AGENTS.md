@@ -18,6 +18,7 @@ Build app UI in `src/`. Keep `.openai/hosting.json`, `worker/index.js`, `scripts
 
 ## Deployment configuration
 
-- `vite.config.mjs` 当前 `base` 为 `/annual-task-dashboard/`,针对 GitHub Pages 项目站点。
+- `vite.config.mjs` 当前 `base` 为 `/ZJ-annual-task-dashboard/`,针对 GitHub Pages 项目站点(仓库名区分大小写)。
 - 部署走 `.github/workflows/deploy.yml`,push 到 `main` 自动 build 并发布到 GitHub Pages。
-- 历史结论:之前的 Cloudflare Pages 部署(根域 `zj-annual-task-dashboard.pages.dev`)需要 `base: "/"`,切换到 GitHub Pages 时务必改回 `/annual-task-dashboard/`(末尾带 `/`)。如需同时兼顾两个平台,建议用环境变量切换 `base`,而不是手改。
+- 站点访问地址:https://wpc0429-lab.github.io/ZJ-annual-task-dashboard/
+- 历史结论:之前的 Cloudflare Pages 部署(根域 `zj-annual-task-dashboard.pages.dev`)需要 `base: "/"`,切换到 GitHub Pages 时务必改回仓库名(本仓库为 `/ZJ-annual-task-dashboard/`,末尾带 `/`)。如需同时兼顾两个平台,建议用环境变量切换 `base`,而不是手改。
