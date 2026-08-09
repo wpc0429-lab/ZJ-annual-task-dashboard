@@ -558,7 +558,7 @@ function App() {
               </select>
               <CaretDown size={14} weight="regular" aria-hidden="true" />
             </label>
-            <div className="data-source">最后更新：2026-08-09</div>
+            <div className="data-source">最后更新：{aiPlan.reportDate}</div>
           </div>
         </header>
 
@@ -619,7 +619,7 @@ function App() {
             <span><i className="legend-mark legend-mark-pending" />待定</span>
             <span><i className="legend-mark legend-mark-risk" />需要关注</span>
           </div>
-          <span>数据源：人工智能场景计划表-0809.xlsx · 进度按完成状态折算</span>
+          <span>数据源：{aiPlan.sourceFile} · 进度按完成状态折算</span>
         </footer>
       </main>
       {selectedScenario ? <DetailDrawer scenario={selectedScenario} year={year} onClose={() => setSelectedId(null)} /> : null}

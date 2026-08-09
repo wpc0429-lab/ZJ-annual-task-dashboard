@@ -3,7 +3,7 @@ import fs from "node:fs/promises";
 
 const SOURCE = "source/人工智能场景计划表-0810.xlsx";
 const OUTPUT = "src/ai-plan-data.json";
-const CURRENT_DATE = "2026-08-09";
+const CURRENT_DATE = "2026-08-10";
 const EXCLUDED_SCENARIOS = new Set(["智能大厅服务"]);
 
 const workbook = XLSX.readFile(SOURCE);
@@ -265,7 +265,7 @@ quarterMilestones.push({ id: "long", label: "持续", range: "长期建设", tit
 const output = {
   sourceFile: "人工智能场景计划表-0810.xlsx",
   sourceSheet: "应用建设",
-  reportDate: "2026-08-09",
+  reportDate: "2026-08-10",
   currentDate: CURRENT_DATE,
   departments,
   scenarios,
