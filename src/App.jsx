@@ -534,13 +534,6 @@ function App() {
           </div>
         </section>
 
-        <div className="table-head" aria-hidden="true">
-          <span>部门与战略重点</span>
-          <span>整体进度</span>
-          <span>进行中场景数</span>
-          <span>最近完成时间</span>
-          <span />
-        </div>
 
         <div className="department-list">
           {visibleDepartments.map((department) => (
