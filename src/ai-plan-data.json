@@ -1,8 +1,8 @@
 {
-  "sourceFile": "人工智能场景计划表-0806.xlsx",
+  "sourceFile": "人工智能场景计划表-0809.xlsx",
   "sourceSheet": "应用建设",
-  "reportDate": "2026-08-06",
-  "currentDate": "2026-08-06",
+  "reportDate": "2026-08-09",
+  "currentDate": "2026-08-09",
   "departments": [
     {
       "id": "dept-综合部",
@@ -18,14 +18,14 @@
           "kind": "normal",
           "priority": "yellow",
           "progress": 75,
-          "due": "2026-08-07",
-          "businessOwner": "王炜",
-          "techOwner": "林烨",
+          "due": "2026-08-30",
+          "businessOwner": "林烨",
+          "techOwner": "王炜",
           "vendor": "华云数据",
-          "owner": "王炜",
-          "role": "业务负责人 · 王炜 / 技术部对接人 · 林烨",
+          "owner": "林烨",
+          "role": "业务负责人 · 林烨 / 技术部对接人 · 王炜",
           "description": "word公文、格式转换、pdf拼接剪切、自动操作excel、加去水印等常用办公技能、ppt制作",
-          "next": "推进\"格式转换、pdf拼接剪切、自动操作excel、加去水印等常用办公技能\"，计划节点：2026-08-07。",
+          "next": "推进\"格式转换、pdf拼接剪切、自动操作excel、加去水印等常用办公技能\"，计划节点：2026-08-30。",
           "risk": "",
           "milestones": [
             [
@@ -35,7 +35,7 @@
             ],
             [
               "格式转换、pdf拼接剪切、自动操作excel、加去水印等常用办公技能",
-              "2026-08-07",
+              "2026-08-30",
               "todo"
             ],
             [
@@ -49,6 +49,9 @@
               "done"
             ]
           ],
+          "remarks": [
+            "自动操作Excel非可视化操作"
+          ],
           "items": [
             {
               "detail": "word公文",
@@ -57,18 +60,20 @@
               "due": "2026-08-07",
               "integrated": "是",
               "vendor": "华云数据",
-              "techOwner": "林烨",
-              "businessOwner": "王炜"
+              "techOwner": "王炜",
+              "businessOwner": "林烨",
+              "remark": ""
             },
             {
               "detail": "格式转换、pdf拼接剪切、自动操作excel、加去水印等常用办公技能",
               "status": "todo",
               "demo": "",
-              "due": "2026-08-07",
+              "due": "2026-08-30",
               "integrated": "是",
               "vendor": "启明星",
-              "techOwner": "林烨",
-              "businessOwner": "王炜"
+              "techOwner": "王炜",
+              "businessOwner": "林烨",
+              "remark": "自动操作Excel非可视化操作"
             },
             {
               "detail": "ppt制作",
@@ -77,8 +82,9 @@
               "due": "2026-08-07",
               "integrated": "是",
               "vendor": "华云数据",
-              "techOwner": "林烨",
-              "businessOwner": "王炜"
+              "techOwner": "王炜",
+              "businessOwner": "林烨",
+              "remark": ""
             },
             {
               "detail": "自动报表",
@@ -87,8 +93,9 @@
               "due": "2026-08-07",
               "integrated": "是",
               "vendor": "华云数据",
-              "techOwner": "林烨",
-              "businessOwner": "王炜"
+              "techOwner": "王炜",
+              "businessOwner": "林烨",
+              "remark": ""
             }
           ]
         },
@@ -102,28 +109,28 @@
           "priority": "punch",
           "progress": 0,
           "due": "2026-12-30",
-          "businessOwner": "王炜",
-          "techOwner": "王林",
+          "businessOwner": "王林",
+          "techOwner": "王炜",
           "vendor": "启明星",
-          "owner": "王炜",
-          "role": "业务负责人 · 王炜 / 技术部对接人 · 王林",
+          "owner": "王林",
+          "role": "业务负责人 · 王林 / 技术部对接人 · 王炜",
           "description": "舆情监测、舆情研判、舆情预警",
-          "next": "推进\"舆情监测\"，计划节点：2026-08-15。",
+          "next": "推进\"舆情监测\"，计划节点：2026-08-22。",
           "risk": "",
           "milestones": [
             [
               "舆情监测",
-              "2026-08-15",
+              "2026-08-22",
               "todo"
             ],
             [
               "舆情研判",
-              "2026-08-15",
+              "2026-08-22",
               "todo"
             ],
             [
               "舆情预警",
-              "2026-08-15",
+              "2026-08-31",
               "todo"
             ],
             [
@@ -132,36 +139,40 @@
               "todo"
             ]
           ],
+          "remarks": [],
           "items": [
             {
               "detail": "舆情监测",
               "status": "todo",
               "demo": "",
-              "due": "2026-08-15",
+              "due": "2026-08-22",
               "integrated": "否",
               "vendor": "启明星",
-              "techOwner": "王林",
-              "businessOwner": "王炜"
+              "techOwner": "王炜",
+              "businessOwner": "王林",
+              "remark": ""
             },
             {
               "detail": "舆情研判",
               "status": "todo",
               "demo": "",
-              "due": "2026-08-15",
+              "due": "2026-08-22",
               "integrated": "否",
               "vendor": "启明星",
-              "techOwner": "王林",
-              "businessOwner": "王炜"
+              "techOwner": "王炜",
+              "businessOwner": "王林",
+              "remark": ""
             },
             {
               "detail": "舆情预警",
               "status": "todo",
               "demo": "",
-              "due": "2026-08-15",
+              "due": "2026-08-31",
               "integrated": "否",
               "vendor": "启明星",
-              "techOwner": "王林",
-              "businessOwner": "王炜"
+              "techOwner": "王炜",
+              "businessOwner": "王林",
+              "remark": ""
             },
             {
               "detail": "舆情辅助处置",
@@ -170,15 +181,16 @@
               "due": "2026-12-30",
               "integrated": "否",
               "vendor": "启明星",
-              "techOwner": "王林",
-              "businessOwner": "王炜"
+              "techOwner": "王炜",
+              "businessOwner": "王林",
+              "remark": ""
             }
           ]
         }
       ],
       "overall": 38,
       "active": 2,
-      "nearest": "2026-08-07"
+      "nearest": "2026-08-30"
     },
     {
       "id": "dept-市场部",
@@ -195,11 +207,11 @@
           "priority": "punch",
           "progress": 50,
           "due": "2026-09-30",
-          "businessOwner": "王炜",
-          "techOwner": "陈磊、庄晓丹",
+          "businessOwner": "陈磊、庄晓丹",
+          "techOwner": "王炜",
           "vendor": "启明星",
-          "owner": "王炜",
-          "role": "业务负责人 · 王炜 / 技术部对接人 · 陈磊、庄晓丹",
+          "owner": "陈磊、庄晓丹",
+          "role": "业务负责人 · 陈磊、庄晓丹 / 技术部对接人 · 王炜",
           "description": "规则库建设、一致性校验",
           "next": "推进\"一致性校验\"，计划节点：2026-09-30。",
           "risk": "",
@@ -215,6 +227,9 @@
               "todo"
             ]
           ],
+          "remarks": [
+            "随国家能源局项目开展"
+          ],
           "items": [
             {
               "detail": "规则库建设",
@@ -223,8 +238,9 @@
               "due": "2026-07-21",
               "integrated": "是",
               "vendor": "启明星",
-              "techOwner": "陈磊",
-              "businessOwner": "王炜"
+              "techOwner": "王炜",
+              "businessOwner": "陈磊",
+              "remark": ""
             },
             {
               "detail": "一致性校验",
@@ -233,8 +249,9 @@
               "due": "2026-09-30",
               "integrated": "是",
               "vendor": "启明星",
-              "techOwner": "庄晓丹",
-              "businessOwner": "王炜"
+              "techOwner": "王炜",
+              "businessOwner": "庄晓丹",
+              "remark": "随国家能源局项目开展"
             }
           ]
         },
@@ -248,11 +265,11 @@
           "priority": "yellow",
           "progress": 100,
           "due": null,
-          "businessOwner": "王炜",
-          "techOwner": "陈磊",
+          "businessOwner": "陈磊",
+          "techOwner": "王炜",
           "vendor": "华云数据",
-          "owner": "王炜",
-          "role": "业务负责人 · 王炜 / 技术部对接人 · 陈磊",
+          "owner": "陈磊",
+          "role": "业务负责人 · 陈磊 / 技术部对接人 · 王炜",
           "description": "提炼政策文件辅助形成政策解读材料",
           "next": "完成最终验收并准备交付。",
           "risk": "",
@@ -263,6 +280,7 @@
               "done"
             ]
           ],
+          "remarks": [],
           "items": [
             {
               "detail": "提炼政策文件辅助形成政策解读材料",
@@ -271,8 +289,9 @@
               "due": null,
               "integrated": "是",
               "vendor": "华云数据",
-              "techOwner": "陈磊",
-              "businessOwner": "王炜"
+              "techOwner": "王炜",
+              "businessOwner": "陈磊",
+              "remark": ""
             }
           ]
         },
@@ -286,11 +305,11 @@
           "priority": "punch",
           "progress": 0,
           "due": "2026-08-15",
-          "businessOwner": "王鹏程",
-          "techOwner": "邓晖",
+          "businessOwner": "邓晖",
+          "techOwner": "王鹏程",
           "vendor": "电科院",
-          "owner": "王鹏程",
-          "role": "业务负责人 · 王鹏程 / 技术部对接人 · 邓晖",
+          "owner": "邓晖",
+          "role": "业务负责人 · 邓晖 / 技术部对接人 · 王鹏程",
           "description": "模拟交易平台、仿真交易机器人",
           "next": "推进\"模拟交易平台\"，计划节点：2026-08-15。",
           "risk": "",
@@ -306,6 +325,7 @@
               "todo"
             ]
           ],
+          "remarks": [],
           "items": [
             {
               "detail": "模拟交易平台",
@@ -314,8 +334,9 @@
               "due": "2026-08-15",
               "integrated": "否",
               "vendor": "电科院",
-              "techOwner": "邓晖",
-              "businessOwner": "王鹏程"
+              "techOwner": "王鹏程",
+              "businessOwner": "邓晖",
+              "remark": ""
             },
             {
               "detail": "仿真交易机器人",
@@ -324,8 +345,9 @@
               "due": "2026-08-15",
               "integrated": "否",
               "vendor": "电科院",
-              "techOwner": "邓晖",
-              "businessOwner": "王鹏程"
+              "techOwner": "王鹏程",
+              "businessOwner": "邓晖",
+              "remark": ""
             }
           ]
         }
@@ -349,11 +371,11 @@
           "priority": "yellow",
           "progress": 0,
           "due": "2026-09-30",
-          "businessOwner": "王炜",
-          "techOwner": "张晓龙",
+          "businessOwner": "张晓龙",
+          "techOwner": "王炜",
           "vendor": "启明星",
-          "owner": "王炜",
-          "role": "业务负责人 · 王炜 / 技术部对接人 · 张晓龙",
+          "owner": "张晓龙",
+          "role": "业务负责人 · 张晓龙 / 技术部对接人 · 王炜",
           "description": "绿电零售与绿电批发消费核算、自发自用消费核算、用网电量营销零售对比稽核",
           "next": "推进\"绿电零售与绿电批发消费核算\"，计划节点：2026-09-30。",
           "risk": "",
@@ -374,6 +396,7 @@
               "todo"
             ]
           ],
+          "remarks": [],
           "items": [
             {
               "detail": "绿电零售与绿电批发消费核算",
@@ -382,8 +405,9 @@
               "due": "2026-09-30",
               "integrated": "否",
               "vendor": "启明星",
-              "techOwner": "张晓龙",
-              "businessOwner": "王炜"
+              "techOwner": "王炜",
+              "businessOwner": "张晓龙",
+              "remark": ""
             },
             {
               "detail": "自发自用消费核算",
@@ -392,8 +416,9 @@
               "due": "2026-09-30",
               "integrated": "否",
               "vendor": "启明星",
-              "techOwner": "张晓龙",
-              "businessOwner": "王炜"
+              "techOwner": "王炜",
+              "businessOwner": "张晓龙",
+              "remark": ""
             },
             {
               "detail": "用网电量营销零售对比稽核",
@@ -402,8 +427,9 @@
               "due": "2026-09-30",
               "integrated": "否",
               "vendor": "启明星",
-              "techOwner": "张晓龙",
-              "businessOwner": "王炜"
+              "techOwner": "王炜",
+              "businessOwner": "张晓龙",
+              "remark": ""
             }
           ]
         },
@@ -416,32 +442,100 @@
           "kind": "punch",
           "priority": "punch",
           "progress": 0,
-          "due": null,
-          "businessOwner": "王炜",
-          "techOwner": "待定",
+          "due": "2026-12-30",
+          "businessOwner": "张晓龙",
+          "techOwner": "王炜",
           "vendor": "启明星",
-          "owner": "王炜",
-          "role": "业务负责人 · 王炜",
-          "description": "场景建设推进",
-          "next": "推进\"场景建设推进\"。",
+          "owner": "张晓龙",
+          "role": "业务负责人 · 张晓龙 / 技术部对接人 · 王炜",
+          "description": "基础数据校验、指标智能生成、非化石核算结果校验与溯源",
+          "next": "推进\"基础数据校验\"，计划节点：2026-12-30。",
           "risk": "",
           "milestones": [
             [
-              "场景建设推进",
-              "待定",
+              "基础数据校验",
+              "2026-12-30",
+              "todo"
+            ],
+            [
+              "指标智能生成",
+              "2026-12-30",
+              "todo"
+            ],
+            [
+              "非化石核算结果校验与溯源",
+              "2026-12-30",
+              "todo"
+            ],
+            [
+              "非化石指标分摊方案设计",
+              "2026-12-30",
+              "todo"
+            ],
+            [
+              "非化石计算过程skill",
+              "2026-12-30",
               "todo"
             ]
           ],
+          "remarks": [
+            "负责人黄恒孜，对接人张晓龙"
+          ],
           "items": [
             {
-              "detail": "场景建设推进",
+              "detail": "基础数据校验",
               "status": "todo",
               "demo": "",
-              "due": null,
+              "due": "2026-12-30",
+              "integrated": "否",
+              "vendor": "启明星",
+              "techOwner": "王炜",
+              "businessOwner": "张晓龙",
+              "remark": "负责人黄恒孜，对接人张晓龙"
+            },
+            {
+              "detail": "指标智能生成",
+              "status": "todo",
+              "demo": "",
+              "due": "2026-12-30",
+              "integrated": "否",
+              "vendor": "启明星",
+              "techOwner": "王炜",
+              "businessOwner": "张晓龙",
+              "remark": ""
+            },
+            {
+              "detail": "非化石核算结果校验与溯源",
+              "status": "todo",
+              "demo": "",
+              "due": "2026-12-30",
+              "integrated": "否",
+              "vendor": "启明星",
+              "techOwner": "王炜",
+              "businessOwner": "张晓龙",
+              "remark": ""
+            },
+            {
+              "detail": "非化石指标分摊方案设计",
+              "status": "todo",
+              "demo": "",
+              "due": "2026-12-30",
+              "integrated": "否",
+              "vendor": "启明星",
+              "techOwner": "王炜",
+              "businessOwner": "张晓龙",
+              "remark": ""
+            },
+            {
+              "detail": "非化石计算过程skill",
+              "status": "todo",
+              "demo": "",
+              "due": "2026-12-30",
               "integrated": "是",
               "vendor": "启明星",
-              "techOwner": "",
-              "businessOwner": "王炜"
+              "techOwner": "王炜",
+              "businessOwner": "张晓龙",
+              "remark": ""
             }
           ]
         },
@@ -455,11 +549,11 @@
           "priority": "punch",
           "progress": 0,
           "due": "2026-10-31",
-          "businessOwner": "王炜",
-          "techOwner": "汪向阳",
+          "businessOwner": "汪向阳",
+          "techOwner": "王炜",
           "vendor": "启明星",
-          "owner": "王炜",
-          "role": "业务负责人 · 王炜 / 技术部对接人 · 汪向阳",
+          "owner": "汪向阳",
+          "role": "业务负责人 · 汪向阳 / 技术部对接人 · 王炜",
           "description": "询问信息披露数据、信息披露的MCP制作",
           "next": "推进\"询问信息披露数据\"，计划节点：2026-10-31。",
           "risk": "",
@@ -471,10 +565,11 @@
             ],
             [
               "信息披露的MCP制作",
-              "2026-08-07",
+              "2026-08-31",
               "todo"
             ]
           ],
+          "remarks": [],
           "items": [
             {
               "detail": "询问信息披露数据",
@@ -483,18 +578,20 @@
               "due": "2026-10-31",
               "integrated": "是",
               "vendor": "启明星",
-              "techOwner": "汪向阳",
-              "businessOwner": "王炜"
+              "techOwner": "王炜",
+              "businessOwner": "汪向阳",
+              "remark": ""
             },
             {
               "detail": "信息披露的MCP制作",
               "status": "todo",
               "demo": "",
-              "due": "2026-08-07",
+              "due": "2026-08-31",
               "integrated": "是",
               "vendor": "启明星",
-              "techOwner": "汪向阳",
-              "businessOwner": "王炜"
+              "techOwner": "王炜",
+              "businessOwner": "汪向阳",
+              "remark": ""
             }
           ]
         },
@@ -503,25 +600,20 @@
           "name": "智能结算",
           "department": "结算部",
           "departmentId": "dept-结算部",
-          "sequence": "8",
+          "sequence": "7",
           "kind": "normal",
           "priority": "yellow",
           "progress": 0,
           "due": "2026-12-30",
-          "businessOwner": "王炜",
-          "techOwner": "龚建荣",
-          "vendor": "启明星",
-          "owner": "王炜",
-          "role": "业务负责人 · 王炜 / 技术部对接人 · 龚建荣",
-          "description": "事前基础数据稽核、事中全流程辅助分析、事后报表数据稽核",
-          "next": "推进\"事前基础数据稽核\"，计划节点：2026-12-30。",
+          "businessOwner": "龚建荣",
+          "techOwner": "王炜",
+          "vendor": "电科院",
+          "owner": "龚建荣",
+          "role": "业务负责人 · 龚建荣 / 技术部对接人 · 王炜",
+          "description": "事中全流程辅助分析、事后报表数据稽核",
+          "next": "推进\"事中全流程辅助分析\"，计划节点：2026-12-30。",
           "risk": "",
           "milestones": [
-            [
-              "事前基础数据稽核",
-              "2026-12-30",
-              "todo"
-            ],
             [
               "事中全流程辅助分析",
               "2026-12-30",
@@ -533,17 +625,8 @@
               "todo"
             ]
           ],
+          "remarks": [],
           "items": [
-            {
-              "detail": "事前基础数据稽核",
-              "status": "todo",
-              "demo": "",
-              "due": "2026-12-30",
-              "integrated": "是",
-              "vendor": "启明星",
-              "techOwner": "龚建荣",
-              "businessOwner": "王炜"
-            },
             {
               "detail": "事中全流程辅助分析",
               "status": "todo",
@@ -551,8 +634,9 @@
               "due": "2026-12-30",
               "integrated": "是",
               "vendor": "电科院",
-              "techOwner": "龚建荣",
-              "businessOwner": "王炜"
+              "techOwner": "王炜",
+              "businessOwner": "龚建荣",
+              "remark": ""
             },
             {
               "detail": "事后报表数据稽核",
@@ -561,8 +645,9 @@
               "due": "2026-12-30",
               "integrated": "是",
               "vendor": "启明星",
-              "techOwner": "龚建荣",
-              "businessOwner": "王炜"
+              "techOwner": "王炜",
+              "businessOwner": "龚建荣",
+              "remark": ""
             }
           ]
         }
@@ -586,11 +671,11 @@
           "priority": "yellow",
           "progress": 0,
           "due": "2026-09-20",
-          "businessOwner": "王炜",
-          "techOwner": "陈成",
-          "vendor": "待定",
-          "owner": "王炜",
-          "role": "业务负责人 · 王炜 / 技术部对接人 · 陈成",
+          "businessOwner": "陈成",
+          "techOwner": "王炜",
+          "vendor": "启明星",
+          "owner": "陈成",
+          "role": "业务负责人 · 陈成 / 技术部对接人 · 王炜",
           "description": "交叉分析市场主体报价行为是否有风险，人工智能售电公司盈利分析",
           "next": "推进\"交叉分析市场主体报价行为是否有风险，人工智能售电公司盈利分析\"，计划节点：2026-09-20。",
           "risk": "",
@@ -601,6 +686,7 @@
               "todo"
             ]
           ],
+          "remarks": [],
           "items": [
             {
               "detail": "交叉分析市场主体报价行为是否有风险，人工智能售电公司盈利分析",
@@ -608,9 +694,10 @@
               "demo": "46241",
               "due": "2026-09-20",
               "integrated": "是",
-              "vendor": "",
-              "techOwner": "陈成",
-              "businessOwner": "王炜"
+              "vendor": "启明星",
+              "techOwner": "王炜",
+              "businessOwner": "陈成",
+              "remark": ""
             }
           ]
         },
@@ -624,11 +711,11 @@
           "priority": "yellow",
           "progress": 0,
           "due": "2026-12-31",
-          "businessOwner": "王炜",
-          "techOwner": "陈成",
-          "vendor": "待定",
-          "owner": "王炜",
-          "role": "业务负责人 · 王炜 / 技术部对接人 · 陈成",
+          "businessOwner": "陈成",
+          "techOwner": "王炜",
+          "vendor": "启明星",
+          "owner": "陈成",
+          "role": "业务负责人 · 陈成 / 技术部对接人 · 王炜",
           "description": "稽核市场主体提交的资料",
           "next": "推进\"稽核市场主体提交的资料\"，计划节点：2026-12-31。",
           "risk": "",
@@ -639,6 +726,7 @@
               "todo"
             ]
           ],
+          "remarks": [],
           "items": [
             {
               "detail": "稽核市场主体提交的资料",
@@ -646,9 +734,10 @@
               "demo": "",
               "due": "2026-12-31",
               "integrated": "否",
-              "vendor": "",
-              "techOwner": "陈成",
-              "businessOwner": "王炜"
+              "vendor": "启明星",
+              "techOwner": "王炜",
+              "businessOwner": "陈成",
+              "remark": ""
             }
           ]
         },
@@ -662,11 +751,11 @@
           "priority": "punch",
           "progress": 50,
           "due": null,
-          "businessOwner": "王炜",
-          "techOwner": "陈成",
+          "businessOwner": "陈成",
+          "techOwner": "王炜",
           "vendor": "启明星",
-          "owner": "王炜",
-          "role": "业务负责人 · 王炜 / 技术部对接人 · 陈成",
+          "owner": "陈成",
+          "role": "业务负责人 · 陈成 / 技术部对接人 · 王炜",
           "description": "交易平台流程稽核、决策中枢流程稽核",
           "next": "推进\"交易平台流程稽核\"。",
           "risk": "",
@@ -682,6 +771,7 @@
               "done"
             ]
           ],
+          "remarks": [],
           "items": [
             {
               "detail": "交易平台流程稽核",
@@ -690,8 +780,9 @@
               "due": null,
               "integrated": "否",
               "vendor": "启明星",
-              "techOwner": "陈成",
-              "businessOwner": "王炜"
+              "techOwner": "王炜",
+              "businessOwner": "陈成",
+              "remark": ""
             },
             {
               "detail": "决策中枢流程稽核",
@@ -700,8 +791,9 @@
               "due": null,
               "integrated": "否",
               "vendor": "华云数据",
-              "techOwner": "陈成",
-              "businessOwner": "王炜"
+              "techOwner": "王炜",
+              "businessOwner": "陈成",
+              "remark": ""
             }
           ]
         },
@@ -715,11 +807,11 @@
           "priority": "yellow",
           "progress": 0,
           "due": "2026-08-07",
-          "businessOwner": "王炜",
-          "techOwner": "陈成",
-          "vendor": "待定",
-          "owner": "王炜",
-          "role": "业务负责人 · 王炜 / 技术部对接人 · 陈成",
+          "businessOwner": "陈成",
+          "techOwner": "王炜",
+          "vendor": "启明星",
+          "owner": "陈成",
+          "role": "业务负责人 · 陈成 / 技术部对接人 · 王炜",
           "description": "页面展示异常行为、智能排序",
           "next": "推进\"页面展示异常行为\"，计划节点：2026-08-07。",
           "risk": "当前完成度 0%，最近节点为 2026-08-07，建议在本次汇报中确认推进责任与资源安排。",
@@ -735,6 +827,7 @@
               "todo"
             ]
           ],
+          "remarks": [],
           "items": [
             {
               "detail": "页面展示异常行为",
@@ -742,9 +835,10 @@
               "demo": "46234",
               "due": "2026-08-07",
               "integrated": "是",
-              "vendor": "",
-              "techOwner": "陈成",
-              "businessOwner": "王炜"
+              "vendor": "启明星",
+              "techOwner": "王炜",
+              "businessOwner": "陈成",
+              "remark": ""
             },
             {
               "detail": "智能排序",
@@ -752,9 +846,10 @@
               "demo": "46234",
               "due": "2026-08-07",
               "integrated": "是",
-              "vendor": "",
-              "techOwner": "陈成",
-              "businessOwner": "王炜"
+              "vendor": "启明星",
+              "techOwner": "王炜",
+              "businessOwner": "陈成",
+              "remark": ""
             }
           ]
         }
@@ -776,15 +871,15 @@
           "sequence": "13",
           "kind": "normal",
           "priority": "yellow",
-          "progress": 30,
+          "progress": 40,
           "due": "2026-12-31",
-          "businessOwner": "邵晨峰",
-          "techOwner": "黄隽弢",
+          "businessOwner": "黄隽弢",
+          "techOwner": "邵晨峰",
           "vendor": "华云集成",
-          "owner": "邵晨峰",
-          "role": "业务负责人 · 邵晨峰 / 技术部对接人 · 黄隽弢",
+          "owner": "黄隽弢",
+          "role": "业务负责人 · 黄隽弢 / 技术部对接人 · 邵晨峰",
           "description": "自动采集软硬件数据、自动回归测试、日志采集",
-          "next": "推进\"自动回归测试\"，计划节点：2026-08-30。",
+          "next": "推进\"自动回归测试\"，计划节点：2026-12-31。",
           "risk": "",
           "milestones": [
             [
@@ -794,13 +889,13 @@
             ],
             [
               "自动回归测试",
-              "2026-08-30",
+              "2026-12-31",
               "current"
             ],
             [
               "日志采集",
               "2026-12-31",
-              "todo"
+              "current"
             ],
             [
               "变更影响分析",
@@ -813,6 +908,10 @@
               "todo"
             ]
           ],
+          "remarks": [
+            "待后续信创平台切换后，基于sls日志管理系统，完善交易平台日志管理",
+            "根据代码审计结果自动确定回归测试范围"
+          ],
           "items": [
             {
               "detail": "自动采集软硬件数据",
@@ -821,28 +920,31 @@
               "due": "2026-12-31",
               "integrated": "是",
               "vendor": "华云集成",
-              "techOwner": "黄隽弢",
-              "businessOwner": "邵晨峰"
+              "techOwner": "邵晨峰",
+              "businessOwner": "黄隽弢",
+              "remark": ""
             },
             {
               "detail": "自动回归测试",
               "status": "partial",
               "demo": "",
-              "due": "2026-08-30",
+              "due": "2026-12-31",
               "integrated": "是",
               "vendor": "华云集成",
-              "techOwner": "黄隽弢",
-              "businessOwner": "邵晨峰"
+              "techOwner": "邵晨峰",
+              "businessOwner": "黄隽弢",
+              "remark": ""
             },
             {
               "detail": "日志采集",
-              "status": "todo",
+              "status": "partial",
               "demo": "",
               "due": "2026-12-31",
               "integrated": "是",
               "vendor": "华云集成",
-              "techOwner": "黄隽弢",
-              "businessOwner": "邵晨峰"
+              "techOwner": "邵晨峰",
+              "businessOwner": "黄隽弢",
+              "remark": "待后续信创平台切换后，基于sls日志管理系统，完善交易平台日志管理"
             },
             {
               "detail": "变更影响分析",
@@ -851,8 +953,9 @@
               "due": "2026-12-31",
               "integrated": "是",
               "vendor": "华云集成",
-              "techOwner": "黄隽弢",
-              "businessOwner": "邵晨峰"
+              "techOwner": "邵晨峰",
+              "businessOwner": "黄隽弢",
+              "remark": "根据代码审计结果自动确定回归测试范围"
             },
             {
               "detail": "用户工单智能分析",
@@ -861,8 +964,9 @@
               "due": "2026-12-31",
               "integrated": "是",
               "vendor": "启明星",
-              "techOwner": "黄隽弢",
-              "businessOwner": "邵晨峰"
+              "techOwner": "邵晨峰",
+              "businessOwner": "黄隽弢",
+              "remark": ""
             }
           ]
         },
@@ -874,15 +978,15 @@
           "sequence": "14",
           "kind": "punch",
           "priority": "punch",
-          "progress": 75,
+          "progress": 100,
           "due": "2026-08-07",
-          "businessOwner": "邵晨峰",
-          "techOwner": "魏骁",
+          "businessOwner": "魏骁",
+          "techOwner": "邵晨峰",
           "vendor": "华云集成",
-          "owner": "邵晨峰",
-          "role": "业务负责人 · 邵晨峰 / 技术部对接人 · 魏骁",
+          "owner": "魏骁",
+          "role": "业务负责人 · 魏骁 / 技术部对接人 · 邵晨峰",
           "description": "采集异常行为、生成异常分析报告",
-          "next": "推进\"生成异常分析报告\"，计划节点：2026-08-07。",
+          "next": "完成最终验收并准备交付。",
           "risk": "",
           "milestones": [
             [
@@ -893,8 +997,11 @@
             [
               "生成异常分析报告",
               "2026-08-07",
-              "current"
+              "done"
             ]
+          ],
+          "remarks": [
+            "流量与检测功能待确认"
           ],
           "items": [
             {
@@ -904,18 +1011,20 @@
               "due": null,
               "integrated": "是",
               "vendor": "华云集成",
-              "techOwner": "魏骁",
-              "businessOwner": "邵晨峰"
+              "techOwner": "邵晨峰",
+              "businessOwner": "魏骁",
+              "remark": "流量与检测功能待确认"
             },
             {
               "detail": "生成异常分析报告",
-              "status": "partial",
+              "status": "done",
               "demo": "7月31日",
               "due": "2026-08-07",
               "integrated": "是",
               "vendor": "华云集成",
-              "techOwner": "魏骁",
-              "businessOwner": "邵晨峰"
+              "techOwner": "邵晨峰",
+              "businessOwner": "魏骁",
+              "remark": ""
             }
           ]
         },
@@ -927,13 +1036,13 @@
           "sequence": "15",
           "kind": "normal",
           "priority": "yellow",
-          "progress": 17,
-          "due": "2026-10-31",
-          "businessOwner": "邵晨峰",
-          "techOwner": "黄隽弢、魏骁",
+          "progress": 67,
+          "due": "2026-08-31",
+          "businessOwner": "黄隽弢、魏骁",
+          "techOwner": "邵晨峰",
           "vendor": "华云集成",
-          "owner": "邵晨峰",
-          "role": "业务负责人 · 邵晨峰 / 技术部对接人 · 黄隽弢、魏骁",
+          "owner": "黄隽弢、魏骁",
+          "role": "业务负责人 · 黄隽弢、魏骁 / 技术部对接人 · 邵晨峰",
           "description": "测试用例生成、自动巡检、生成巡检报告",
           "next": "推进\"测试用例生成\"，计划节点：2026-08-31。",
           "risk": "",
@@ -946,13 +1055,17 @@
             [
               "自动巡检",
               "2026-08-31",
-              "todo"
+              "current"
             ],
             [
               "生成巡检报告",
-              "2026-10-31",
-              "todo"
+              "2026-08-31",
+              "done"
             ]
+          ],
+          "remarks": [
+            "（远期）基于人工智能，让市场用户参与到测试、功能迭代的环节中：预览版测试、灰度测试、用户反馈",
+            "MCP已集成PX-Code，模型幻觉问题正在沟通解决"
           ],
           "items": [
             {
@@ -962,28 +1075,31 @@
               "due": "2026-08-31",
               "integrated": "是",
               "vendor": "华云集成",
-              "techOwner": "黄隽弢",
-              "businessOwner": "邵晨峰"
+              "techOwner": "邵晨峰",
+              "businessOwner": "黄隽弢",
+              "remark": "（远期）基于人工智能，让市场用户参与到测试、功能迭代的环节中：预览版测试、灰度测试、用户反馈"
             },
             {
               "detail": "自动巡检",
-              "status": "todo",
+              "status": "partial",
               "demo": "7月31日",
               "due": "2026-08-31",
               "integrated": "是",
               "vendor": "华云集成",
-              "techOwner": "魏骁",
-              "businessOwner": "邵晨峰"
+              "techOwner": "邵晨峰",
+              "businessOwner": "魏骁",
+              "remark": "MCP已集成PX-Code，模型幻觉问题正在沟通解决"
             },
             {
               "detail": "生成巡检报告",
-              "status": "todo",
+              "status": "done",
               "demo": "7月31日",
-              "due": "2026-10-31",
+              "due": "2026-08-31",
               "integrated": "是",
               "vendor": "华云集成",
-              "techOwner": "魏骁",
-              "businessOwner": "邵晨峰"
+              "techOwner": "邵晨峰",
+              "businessOwner": "魏骁",
+              "remark": ""
             }
           ]
         },
@@ -997,11 +1113,11 @@
           "priority": "punch",
           "progress": 25,
           "due": "2026-08-04",
-          "businessOwner": "邵晨峰",
-          "techOwner": "黄隽弢",
+          "businessOwner": "黄隽弢",
+          "techOwner": "邵晨峰",
           "vendor": "华云数据",
-          "owner": "邵晨峰",
-          "role": "业务负责人 · 邵晨峰 / 技术部对接人 · 黄隽弢",
+          "owner": "黄隽弢",
+          "role": "业务负责人 · 黄隽弢 / 技术部对接人 · 邵晨峰",
           "description": "浙电work部署、通过浙电work提升数据查询质量、统一mcp、接口开发逻辑、安全规范",
           "next": "推进\"通过浙电work提升数据查询质量\"。",
           "risk": "",
@@ -1027,6 +1143,10 @@
               "todo"
             ]
           ],
+          "remarks": [
+            "测试环境已有，尽快部生产，第一批指标集问数尽快上线",
+            "后续给所有研发单位会议宣贯"
+          ],
           "items": [
             {
               "detail": "浙电work部署",
@@ -1035,8 +1155,9 @@
               "due": "2026-08-04",
               "integrated": "是",
               "vendor": "华云数据",
-              "techOwner": "黄隽弢",
-              "businessOwner": "邵晨峰"
+              "techOwner": "邵晨峰",
+              "businessOwner": "黄隽弢",
+              "remark": "测试环境已有，尽快部生产，第一批指标集问数尽快上线"
             },
             {
               "detail": "通过浙电work提升数据查询质量",
@@ -1045,8 +1166,9 @@
               "due": null,
               "integrated": "是",
               "vendor": "启明星",
-              "techOwner": "黄隽弢",
-              "businessOwner": "邵晨峰"
+              "techOwner": "邵晨峰",
+              "businessOwner": "黄隽弢",
+              "remark": ""
             },
             {
               "detail": "统一mcp、接口开发逻辑、安全规范",
@@ -1055,8 +1177,9 @@
               "due": null,
               "integrated": "否",
               "vendor": "启明星",
-              "techOwner": "黄隽弢",
-              "businessOwner": "邵晨峰"
+              "techOwner": "邵晨峰",
+              "businessOwner": "黄隽弢",
+              "remark": "后续给所有研发单位会议宣贯"
             },
             {
               "detail": "浙电work协同模式设计",
@@ -1065,8 +1188,9 @@
               "due": "2026-07-24",
               "integrated": "是",
               "vendor": "启明星",
-              "techOwner": "黄隽弢",
-              "businessOwner": "邵晨峰"
+              "techOwner": "邵晨峰",
+              "businessOwner": "黄隽弢",
+              "remark": ""
             }
           ]
         },
@@ -1079,32 +1203,34 @@
           "kind": "normal",
           "priority": "yellow",
           "progress": 0,
-          "due": null,
-          "businessOwner": "邵晨峰",
-          "techOwner": "黄隽弢",
+          "due": "2026-12-30",
+          "businessOwner": "黄隽弢",
+          "techOwner": "王鹏程",
           "vendor": "启明星",
-          "owner": "邵晨峰",
-          "role": "业务负责人 · 邵晨峰 / 技术部对接人 · 黄隽弢",
-          "description": "场景建设推进",
-          "next": "推进\"场景建设推进\"。",
+          "owner": "黄隽弢",
+          "role": "业务负责人 · 黄隽弢 / 技术部对接人 · 王鹏程",
+          "description": "智能体流程节点鉴权",
+          "next": "推进\"智能体流程节点鉴权\"，计划节点：2026-12-30。",
           "risk": "",
           "milestones": [
             [
-              "场景建设推进",
-              "待定",
+              "智能体流程节点鉴权",
+              "2026-12-30",
               "todo"
             ]
           ],
+          "remarks": [],
           "items": [
             {
-              "detail": "场景建设推进",
+              "detail": "智能体流程节点鉴权",
               "status": "todo",
               "demo": "",
-              "due": null,
+              "due": "2026-12-30",
               "integrated": "否",
               "vendor": "启明星",
-              "techOwner": "黄隽弢",
-              "businessOwner": "邵晨峰"
+              "techOwner": "王鹏程",
+              "businessOwner": "黄隽弢",
+              "remark": ""
             }
           ]
         },
@@ -1118,11 +1244,11 @@
           "priority": "yellow",
           "progress": 60,
           "due": "2026-12-30",
-          "businessOwner": "王炜",
-          "techOwner": "魏骁、黄隽弢",
+          "businessOwner": "魏骁、黄隽弢",
+          "techOwner": "王炜",
           "vendor": "华云数据",
-          "owner": "王炜",
-          "role": "业务负责人 · 王炜 / 技术部对接人 · 魏骁、黄隽弢",
+          "owner": "魏骁、黄隽弢",
+          "role": "业务负责人 · 魏骁、黄隽弢 / 技术部对接人 · 王炜",
           "description": "数据资产、数据指标资产搭建、业务本体搭建",
           "next": "推进\"业务本体搭建\"。",
           "risk": "",
@@ -1153,6 +1279,10 @@
               "done"
             ]
           ],
+          "remarks": [
+            "分析数据维护工单，自动找到系统优化建议",
+            "通过流量数据进行异常行为监测"
+          ],
           "items": [
             {
               "detail": "数据资产",
@@ -1161,8 +1291,9 @@
               "due": "2026-12-30",
               "integrated": "否",
               "vendor": "华云数据",
-              "techOwner": "魏骁",
-              "businessOwner": "王炜"
+              "techOwner": "王炜",
+              "businessOwner": "魏骁",
+              "remark": ""
             },
             {
               "detail": "数据指标资产搭建",
@@ -1171,8 +1302,9 @@
               "due": "2026-12-30",
               "integrated": "否",
               "vendor": "华云数据",
-              "techOwner": "魏骁",
-              "businessOwner": "王炜"
+              "techOwner": "王炜",
+              "businessOwner": "魏骁",
+              "remark": ""
             },
             {
               "detail": "业务本体搭建",
@@ -1181,8 +1313,9 @@
               "due": null,
               "integrated": "是",
               "vendor": "启明星",
-              "techOwner": "黄隽弢",
-              "businessOwner": "王炜"
+              "techOwner": "王炜",
+              "businessOwner": "黄隽弢",
+              "remark": ""
             },
             {
               "detail": "数据维护追溯分析",
@@ -1191,8 +1324,9 @@
               "due": null,
               "integrated": "是",
               "vendor": "启明星",
-              "techOwner": "黄隽弢",
-              "businessOwner": "王炜"
+              "techOwner": "王炜",
+              "businessOwner": "黄隽弢",
+              "remark": "分析数据维护工单，自动找到系统优化建议"
             },
             {
               "detail": "人工智能数据相关性合规辅助审查",
@@ -1201,8 +1335,9 @@
               "due": "2026-12-30",
               "integrated": "否",
               "vendor": "华云集成",
-              "techOwner": "魏骁",
-              "businessOwner": "王炜"
+              "techOwner": "王炜",
+              "businessOwner": "魏骁",
+              "remark": "通过流量数据进行异常行为监测"
             }
           ]
         },
@@ -1216,11 +1351,11 @@
           "priority": "yellow",
           "progress": 0,
           "due": null,
-          "businessOwner": "邵晨峰",
-          "techOwner": "黄隽弢",
-          "vendor": "华云数据",
-          "owner": "邵晨峰",
-          "role": "业务负责人 · 邵晨峰 / 技术部对接人 · 黄隽弢",
+          "businessOwner": "黄隽弢",
+          "techOwner": "邵晨峰",
+          "vendor": "华云集成",
+          "owner": "黄隽弢",
+          "role": "业务负责人 · 黄隽弢 / 技术部对接人 · 邵晨峰",
           "description": "审计代码漏洞、分析和需求匹配度、AI参与测试、设计、迭代",
           "next": "推进\"审计代码漏洞\"。",
           "risk": "",
@@ -1241,6 +1376,7 @@
               "todo"
             ]
           ],
+          "remarks": [],
           "items": [
             {
               "detail": "审计代码漏洞",
@@ -1248,9 +1384,10 @@
               "demo": "",
               "due": null,
               "integrated": "是",
-              "vendor": "华云数据",
-              "techOwner": "黄隽弢",
-              "businessOwner": "邵晨峰"
+              "vendor": "华云集成",
+              "techOwner": "邵晨峰",
+              "businessOwner": "黄隽弢",
+              "remark": ""
             },
             {
               "detail": "分析和需求匹配度",
@@ -1258,9 +1395,10 @@
               "demo": "",
               "due": null,
               "integrated": "是",
-              "vendor": "华云数据",
-              "techOwner": "黄隽弢",
-              "businessOwner": "邵晨峰"
+              "vendor": "华云集成",
+              "techOwner": "邵晨峰",
+              "businessOwner": "黄隽弢",
+              "remark": ""
             },
             {
               "detail": "AI参与测试、设计、迭代",
@@ -1268,9 +1406,10 @@
               "demo": "",
               "due": null,
               "integrated": "是",
-              "vendor": "华云数据",
-              "techOwner": "黄隽弢",
-              "businessOwner": "邵晨峰"
+              "vendor": "华云集成",
+              "techOwner": "邵晨峰",
+              "businessOwner": "黄隽弢",
+              "remark": ""
             }
           ]
         },
@@ -1284,11 +1423,11 @@
           "priority": "yellow",
           "progress": 0,
           "due": "长期",
-          "businessOwner": "邵晨峰",
-          "techOwner": "黄隽弢",
+          "businessOwner": "黄隽弢",
+          "techOwner": "邵晨峰",
           "vendor": "各团队",
-          "owner": "邵晨峰",
-          "role": "业务负责人 · 邵晨峰 / 技术部对接人 · 黄隽弢",
+          "owner": "黄隽弢",
+          "role": "业务负责人 · 黄隽弢 / 技术部对接人 · 邵晨峰",
           "description": "结合市场成员画像，辅助市场成员参与市场、辅助决策等便利性操作",
           "next": "推进\"结合市场成员画像，辅助市场成员参与市场\"，计划节点：长期。",
           "risk": "",
@@ -1304,6 +1443,9 @@
               "todo"
             ]
           ],
+          "remarks": [
+            "各部门都参与"
+          ],
           "items": [
             {
               "detail": "结合市场成员画像，辅助市场成员参与市场",
@@ -1312,8 +1454,9 @@
               "due": "长期",
               "integrated": "否",
               "vendor": "各团队",
-              "techOwner": "黄隽弢",
-              "businessOwner": "邵晨峰"
+              "techOwner": "邵晨峰",
+              "businessOwner": "黄隽弢",
+              "remark": "各部门都参与"
             },
             {
               "detail": "辅助决策等便利性操作",
@@ -1322,14 +1465,15 @@
               "due": "长期",
               "integrated": "否",
               "vendor": "各团队",
-              "techOwner": "黄隽弢",
-              "businessOwner": "邵晨峰"
+              "techOwner": "邵晨峰",
+              "businessOwner": "黄隽弢",
+              "remark": ""
             }
           ]
         }
       ],
-      "overall": 26,
-      "active": 8,
+      "overall": 37,
+      "active": 7,
       "nearest": "2026-08-04"
     },
     {
@@ -1347,11 +1491,11 @@
           "priority": "punch",
           "progress": 0,
           "due": "2026-12-30",
-          "businessOwner": "王鹏程",
-          "techOwner": "骆希",
+          "businessOwner": "骆希",
+          "techOwner": "王鹏程",
           "vendor": "华云数据",
-          "owner": "王鹏程",
-          "role": "业务负责人 · 王鹏程 / 技术部对接人 · 骆希",
+          "owner": "骆希",
+          "role": "业务负责人 · 骆希 / 技术部对接人 · 王鹏程",
           "description": "交易序列创建、设置限额、交易公告发布",
           "next": "推进\"交易序列创建\"，计划节点：2026-08-07。",
           "risk": "",
@@ -1387,6 +1531,7 @@
               "todo"
             ]
           ],
+          "remarks": [],
           "items": [
             {
               "detail": "交易序列创建",
@@ -1395,8 +1540,9 @@
               "due": "2026-08-07",
               "integrated": "是",
               "vendor": "华云数据",
-              "techOwner": "骆希",
-              "businessOwner": "王鹏程"
+              "techOwner": "王鹏程",
+              "businessOwner": "骆希",
+              "remark": ""
             },
             {
               "detail": "设置限额",
@@ -1405,8 +1551,9 @@
               "due": "2026-08-31",
               "integrated": "是",
               "vendor": "华云数据",
-              "techOwner": "骆希",
-              "businessOwner": "王鹏程"
+              "techOwner": "王鹏程",
+              "businessOwner": "骆希",
+              "remark": ""
             },
             {
               "detail": "交易公告发布",
@@ -1415,8 +1562,9 @@
               "due": "2026-08-31",
               "integrated": "是",
               "vendor": "华云数据",
-              "techOwner": "骆希",
-              "businessOwner": "王鹏程"
+              "techOwner": "王鹏程",
+              "businessOwner": "骆希",
+              "remark": ""
             },
             {
               "detail": "信息披露发布",
@@ -1425,8 +1573,9 @@
               "due": "2026-08-31",
               "integrated": "是",
               "vendor": "华云数据",
-              "techOwner": "骆希",
-              "businessOwner": "王鹏程"
+              "techOwner": "王鹏程",
+              "businessOwner": "骆希",
+              "remark": ""
             },
             {
               "detail": "事前辅助出清各元素的智能校核",
@@ -1435,8 +1584,9 @@
               "due": "2026-12-30",
               "integrated": "是",
               "vendor": "华云数据",
-              "techOwner": "骆希",
-              "businessOwner": "王鹏程"
+              "techOwner": "王鹏程",
+              "businessOwner": "骆希",
+              "remark": ""
             },
             {
               "detail": "事后出清结果的智能复核",
@@ -1445,28 +1595,31 @@
               "due": "2026-12-30",
               "integrated": "是",
               "vendor": "华云数据",
-              "techOwner": "骆希",
-              "businessOwner": "王鹏程"
+              "techOwner": "王鹏程",
+              "businessOwner": "骆希",
+              "remark": ""
             },
             {
               "detail": "一键触发交易",
               "status": "todo",
               "demo": "",
-              "due": null,
+              "due": "2026-12-30",
               "integrated": "是",
               "vendor": "华云数据",
-              "techOwner": "骆希",
-              "businessOwner": "王鹏程"
+              "techOwner": "王鹏程",
+              "businessOwner": "骆希",
+              "remark": ""
             },
             {
               "detail": "全省市场化响应自助交易",
               "status": "todo",
               "demo": "",
-              "due": null,
+              "due": "2026-12-30",
               "integrated": "是",
               "vendor": "华云数据",
-              "techOwner": "骆希",
-              "businessOwner": "王鹏程"
+              "techOwner": "王鹏程",
+              "businessOwner": "骆希",
+              "remark": ""
             }
           ]
         },
@@ -1480,11 +1633,11 @@
           "priority": "blue",
           "progress": 0,
           "due": null,
-          "businessOwner": "王鹏程",
+          "businessOwner": "待定",
           "techOwner": "待定",
           "vendor": "待定",
-          "owner": "王鹏程",
-          "role": "业务负责人 · 王鹏程",
+          "owner": "待定",
+          "role": "责任人待定",
           "description": "场景建设推进",
           "next": "推进\"场景建设推进\"。",
           "risk": "",
@@ -1495,6 +1648,7 @@
               "todo"
             ]
           ],
+          "remarks": [],
           "items": [
             {
               "detail": "场景建设推进",
@@ -1504,7 +1658,8 @@
               "integrated": "",
               "vendor": "",
               "techOwner": "",
-              "businessOwner": "王鹏程"
+              "businessOwner": "",
+              "remark": ""
             }
           ]
         }
@@ -1528,11 +1683,11 @@
           "priority": "yellow",
           "progress": 0,
           "due": "2026-08-31",
-          "businessOwner": "王鹏程",
-          "techOwner": "吕瑞扬",
+          "businessOwner": "吕瑞扬",
+          "techOwner": "王鹏程",
           "vendor": "启明星",
-          "owner": "王鹏程",
-          "role": "业务负责人 · 王鹏程 / 技术部对接人 · 吕瑞扬",
+          "owner": "吕瑞扬",
+          "role": "业务负责人 · 吕瑞扬 / 技术部对接人 · 王鹏程",
           "description": "客服录音的人工智能全面介入，包括问答知识库",
           "next": "推进\"客服录音的人工智能全面介入，包括问答知识库\"，计划节点：2026-08-31。",
           "risk": "",
@@ -1543,6 +1698,7 @@
               "todo"
             ]
           ],
+          "remarks": [],
           "items": [
             {
               "detail": "客服录音的人工智能全面介入，包括问答知识库",
@@ -1551,8 +1707,9 @@
               "due": "2026-08-31",
               "integrated": "否",
               "vendor": "启明星",
-              "techOwner": "吕瑞扬",
-              "businessOwner": "王鹏程"
+              "techOwner": "王鹏程",
+              "businessOwner": "吕瑞扬",
+              "remark": ""
             }
           ]
         },
@@ -1566,11 +1723,11 @@
           "priority": "yellow",
           "progress": 0,
           "due": "2026-08-31",
-          "businessOwner": "王鹏程",
-          "techOwner": "吕瑞扬",
+          "businessOwner": "吕瑞扬",
+          "techOwner": "王鹏程",
           "vendor": "启明星",
-          "owner": "王鹏程",
-          "role": "业务负责人 · 王鹏程 / 技术部对接人 · 吕瑞扬",
+          "owner": "吕瑞扬",
+          "role": "业务负责人 · 吕瑞扬 / 技术部对接人 · 王鹏程",
           "description": "流式输出、统计分析等",
           "next": "推进\"流式输出\"，计划节点：2026-08-31。",
           "risk": "",
@@ -1586,6 +1743,7 @@
               "todo"
             ]
           ],
+          "remarks": [],
           "items": [
             {
               "detail": "流式输出",
@@ -1594,8 +1752,9 @@
               "due": "2026-08-31",
               "integrated": "否",
               "vendor": "启明星",
-              "techOwner": "吕瑞扬",
-              "businessOwner": "王鹏程"
+              "techOwner": "王鹏程",
+              "businessOwner": "吕瑞扬",
+              "remark": ""
             },
             {
               "detail": "统计分析等",
@@ -1604,8 +1763,9 @@
               "due": "2026-08-31",
               "integrated": "否",
               "vendor": "启明星",
-              "techOwner": "吕瑞扬",
-              "businessOwner": "王鹏程"
+              "techOwner": "王鹏程",
+              "businessOwner": "吕瑞扬",
+              "remark": ""
             }
           ]
         },
@@ -1619,11 +1779,11 @@
           "priority": "yellow",
           "progress": 0,
           "due": "2026-10-30",
-          "businessOwner": "王鹏程",
-          "techOwner": "吕瑞扬",
+          "businessOwner": "吕瑞扬",
+          "techOwner": "王鹏程",
           "vendor": "启明星",
-          "owner": "王鹏程",
-          "role": "业务负责人 · 王鹏程 / 技术部对接人 · 吕瑞扬",
+          "owner": "吕瑞扬",
+          "role": "业务负责人 · 吕瑞扬 / 技术部对接人 · 王鹏程",
           "description": "建设智能问答、交易助手规则解答、信息查询",
           "next": "推进\"建设智能问答\"，计划节点：2026-10-30。",
           "risk": "",
@@ -1649,6 +1809,7 @@
               "todo"
             ]
           ],
+          "remarks": [],
           "items": [
             {
               "detail": "建设智能问答",
@@ -1657,8 +1818,9 @@
               "due": "2026-10-30",
               "integrated": "否",
               "vendor": "启明星",
-              "techOwner": "吕瑞扬",
-              "businessOwner": "王鹏程"
+              "techOwner": "王鹏程",
+              "businessOwner": "吕瑞扬",
+              "remark": ""
             },
             {
               "detail": "交易助手规则解答",
@@ -1667,8 +1829,9 @@
               "due": "2026-10-30",
               "integrated": "否",
               "vendor": "启明星",
-              "techOwner": "吕瑞扬",
-              "businessOwner": "王鹏程"
+              "techOwner": "王鹏程",
+              "businessOwner": "吕瑞扬",
+              "remark": ""
             },
             {
               "detail": "信息查询",
@@ -1677,8 +1840,9 @@
               "due": "2026-10-30",
               "integrated": "否",
               "vendor": "启明星",
-              "techOwner": "吕瑞扬",
-              "businessOwner": "王鹏程"
+              "techOwner": "王鹏程",
+              "businessOwner": "吕瑞扬",
+              "remark": ""
             },
             {
               "detail": "结果解释和个性化服务提醒",
@@ -1687,8 +1851,9 @@
               "due": "2026-10-30",
               "integrated": "否",
               "vendor": "启明星",
-              "techOwner": "吕瑞扬",
-              "businessOwner": "王鹏程"
+              "techOwner": "王鹏程",
+              "businessOwner": "吕瑞扬",
+              "remark": ""
             }
           ]
         },
@@ -1701,12 +1866,12 @@
           "kind": "punch",
           "priority": "punch",
           "progress": 0,
-          "due": "2026-09-30",
-          "businessOwner": "王鹏程",
-          "techOwner": "吕瑞扬",
+          "due": "2026-12-30",
+          "businessOwner": "吕瑞扬",
+          "techOwner": "王鹏程",
           "vendor": "启明星",
-          "owner": "王鹏程",
-          "role": "业务负责人 · 王鹏程 / 技术部对接人 · 吕瑞扬",
+          "owner": "吕瑞扬",
+          "role": "业务负责人 · 吕瑞扬 / 技术部对接人 · 王鹏程",
           "description": "分析话务工单处理与服务记录自动归类、主题识别、热点统计和趋势分析",
           "next": "推进\"分析话务工单处理与服务记录自动归类\"，计划节点：2026-09-30。",
           "risk": "",
@@ -1725,8 +1890,14 @@
               "热点统计和趋势分析",
               "2026-09-30",
               "todo"
+            ],
+            [
+              "话务分析报告自动生成",
+              "2026-12-30",
+              "todo"
             ]
           ],
+          "remarks": [],
           "items": [
             {
               "detail": "分析话务工单处理与服务记录自动归类",
@@ -1735,8 +1906,9 @@
               "due": "2026-09-30",
               "integrated": "是",
               "vendor": "启明星",
-              "techOwner": "吕瑞扬",
-              "businessOwner": "王鹏程"
+              "techOwner": "王鹏程",
+              "businessOwner": "吕瑞扬",
+              "remark": ""
             },
             {
               "detail": "主题识别",
@@ -1745,8 +1917,9 @@
               "due": "2026-09-30",
               "integrated": "是",
               "vendor": "启明星",
-              "techOwner": "吕瑞扬",
-              "businessOwner": "王鹏程"
+              "techOwner": "王鹏程",
+              "businessOwner": "吕瑞扬",
+              "remark": ""
             },
             {
               "detail": "热点统计和趋势分析",
@@ -1755,8 +1928,20 @@
               "due": "2026-09-30",
               "integrated": "是",
               "vendor": "启明星",
-              "techOwner": "吕瑞扬",
-              "businessOwner": "王鹏程"
+              "techOwner": "王鹏程",
+              "businessOwner": "吕瑞扬",
+              "remark": ""
+            },
+            {
+              "detail": "话务分析报告自动生成",
+              "status": "todo",
+              "demo": "",
+              "due": "2026-12-30",
+              "integrated": "是",
+              "vendor": "启明星",
+              "techOwner": "王鹏程",
+              "businessOwner": "吕瑞扬",
+              "remark": ""
             }
           ]
         },
@@ -1770,11 +1955,11 @@
           "priority": "yellow",
           "progress": 0,
           "due": "2026-12-30",
-          "businessOwner": "王鹏程",
-          "techOwner": "吕瑞扬",
+          "businessOwner": "吕瑞扬",
+          "techOwner": "王鹏程",
           "vendor": "华云数据",
-          "owner": "王鹏程",
-          "role": "业务负责人 · 王鹏程 / 技术部对接人 · 吕瑞扬",
+          "owner": "吕瑞扬",
+          "role": "业务负责人 · 吕瑞扬 / 技术部对接人 · 王鹏程",
           "description": "数字人、生成宣传脚本、图文素材",
           "next": "推进\"数字人\"，计划节点：2026-08-15。",
           "risk": "当前完成度 0%，最近节点为 2026-08-15，建议在本次汇报中确认推进责任与资源安排。",
@@ -1805,6 +1990,7 @@
               "todo"
             ]
           ],
+          "remarks": [],
           "items": [
             {
               "detail": "数字人",
@@ -1813,8 +1999,9 @@
               "due": "2026-08-15",
               "integrated": "是",
               "vendor": "华云数据",
-              "techOwner": "吕瑞扬",
-              "businessOwner": "王鹏程"
+              "techOwner": "王鹏程",
+              "businessOwner": "吕瑞扬",
+              "remark": ""
             },
             {
               "detail": "生成宣传脚本",
@@ -1822,9 +2009,10 @@
               "demo": "46241",
               "due": "2026-12-30",
               "integrated": "是",
-              "vendor": "华云数据",
-              "techOwner": "吕瑞扬",
-              "businessOwner": "王鹏程"
+              "vendor": "启明星",
+              "techOwner": "王鹏程",
+              "businessOwner": "吕瑞扬",
+              "remark": ""
             },
             {
               "detail": "图文素材",
@@ -1832,9 +2020,10 @@
               "demo": "46241",
               "due": "2026-12-30",
               "integrated": "是",
-              "vendor": "华云数据",
-              "techOwner": "吕瑞扬",
-              "businessOwner": "王鹏程"
+              "vendor": "启明星",
+              "techOwner": "王鹏程",
+              "businessOwner": "吕瑞扬",
+              "remark": ""
             },
             {
               "detail": "短视频文案",
@@ -1842,9 +2031,10 @@
               "demo": "46241",
               "due": "2026-12-30",
               "integrated": "是",
-              "vendor": "华云数据",
-              "techOwner": "吕瑞扬",
-              "businessOwner": "王鹏程"
+              "vendor": "启明星",
+              "techOwner": "王鹏程",
+              "businessOwner": "吕瑞扬",
+              "remark": ""
             },
             {
               "detail": "海报文案和新媒体推送内容",
@@ -1852,9 +2042,10 @@
               "demo": "46241",
               "due": "2026-12-30",
               "integrated": "是",
-              "vendor": "华云数据",
-              "techOwner": "吕瑞扬",
-              "businessOwner": "王鹏程"
+              "vendor": "启明星",
+              "techOwner": "王鹏程",
+              "businessOwner": "吕瑞扬",
+              "remark": ""
             }
           ]
         }
@@ -1878,11 +2069,11 @@
           "priority": "punch",
           "progress": 50,
           "due": null,
-          "businessOwner": "王鹏程",
-          "techOwner": "何阳",
+          "businessOwner": "何阳",
+          "techOwner": "王鹏程",
           "vendor": "华云数据",
-          "owner": "王鹏程",
-          "role": "业务负责人 · 王鹏程 / 技术部对接人 · 何阳",
+          "owner": "何阳",
+          "role": "业务负责人 · 何阳 / 技术部对接人 · 王鹏程",
           "description": "电价预测、电量预测",
           "next": "推进\"电价预测\"。",
           "risk": "",
@@ -1898,6 +2089,7 @@
               "current"
             ]
           ],
+          "remarks": [],
           "items": [
             {
               "detail": "电价预测",
@@ -1906,8 +2098,9 @@
               "due": null,
               "integrated": "是",
               "vendor": "华云数据",
-              "techOwner": "何阳",
-              "businessOwner": "王鹏程"
+              "techOwner": "王鹏程",
+              "businessOwner": "何阳",
+              "remark": ""
             },
             {
               "detail": "电量预测",
@@ -1916,8 +2109,9 @@
               "due": null,
               "integrated": "是",
               "vendor": "华云数据",
-              "techOwner": "何阳",
-              "businessOwner": "王鹏程"
+              "techOwner": "王鹏程",
+              "businessOwner": "何阳",
+              "remark": ""
             }
           ]
         },
@@ -1931,11 +2125,11 @@
           "priority": "yellow",
           "progress": 0,
           "due": "2026-07-30",
-          "businessOwner": "邵晨峰",
-          "techOwner": "何阳",
+          "businessOwner": "何阳",
+          "techOwner": "邵晨峰",
           "vendor": "电科院",
-          "owner": "邵晨峰",
-          "role": "业务负责人 · 邵晨峰 / 技术部对接人 · 何阳",
+          "owner": "何阳",
+          "role": "业务负责人 · 何阳 / 技术部对接人 · 邵晨峰",
           "description": "mirofish内网搭建",
           "next": "推进\"mirofish内网搭建\"，计划节点：2026-07-30。",
           "risk": "当前完成度 0%，最近节点为 2026-07-30，建议在本次汇报中确认推进责任与资源安排。",
@@ -1946,6 +2140,7 @@
               "todo"
             ]
           ],
+          "remarks": [],
           "items": [
             {
               "detail": "mirofish内网搭建",
@@ -1954,8 +2149,9 @@
               "due": "2026-07-30",
               "integrated": "否",
               "vendor": "电科院",
-              "techOwner": "何阳",
-              "businessOwner": "邵晨峰"
+              "techOwner": "邵晨峰",
+              "businessOwner": "何阳",
+              "remark": ""
             }
           ]
         },
@@ -1969,11 +2165,11 @@
           "priority": "punch",
           "progress": 0,
           "due": "2026-12-30",
-          "businessOwner": "王鹏程",
-          "techOwner": "何阳",
+          "businessOwner": "何阳",
+          "techOwner": "王鹏程",
           "vendor": "电科院",
-          "owner": "王鹏程",
-          "role": "业务负责人 · 王鹏程 / 技术部对接人 · 何阳",
+          "owner": "何阳",
+          "role": "业务负责人 · 何阳 / 技术部对接人 · 王鹏程",
           "description": "实现资源聚合建模、智能匹配、自动撮合和快速滚动出清，支撑多主体",
           "next": "推进\"实现资源聚合建模\"，计划节点：2026-12-30。",
           "risk": "",
@@ -2009,6 +2205,7 @@
               "todo"
             ]
           ],
+          "remarks": [],
           "items": [
             {
               "detail": "实现资源聚合建模",
@@ -2017,8 +2214,9 @@
               "due": "2026-12-30",
               "integrated": "否",
               "vendor": "电科院",
-              "techOwner": "何阳",
-              "businessOwner": "王鹏程"
+              "techOwner": "王鹏程",
+              "businessOwner": "何阳",
+              "remark": ""
             },
             {
               "detail": "智能匹配",
@@ -2027,8 +2225,9 @@
               "due": "2026-12-30",
               "integrated": "否",
               "vendor": "电科院",
-              "techOwner": "何阳",
-              "businessOwner": "王鹏程"
+              "techOwner": "王鹏程",
+              "businessOwner": "何阳",
+              "remark": ""
             },
             {
               "detail": "自动撮合和快速滚动出清，支撑多主体",
@@ -2037,8 +2236,9 @@
               "due": "2026-12-30",
               "integrated": "否",
               "vendor": "电科院",
-              "techOwner": "何阳",
-              "businessOwner": "王鹏程"
+              "techOwner": "王鹏程",
+              "businessOwner": "何阳",
+              "remark": ""
             },
             {
               "detail": "多时段自主交易",
@@ -2047,8 +2247,9 @@
               "due": "2026-12-30",
               "integrated": "否",
               "vendor": "电科院",
-              "techOwner": "何阳",
-              "businessOwner": "王鹏程"
+              "techOwner": "王鹏程",
+              "businessOwner": "何阳",
+              "remark": ""
             },
             {
               "detail": "场景建设推进",
@@ -2058,7 +2259,8 @@
               "integrated": "",
               "vendor": "",
               "techOwner": "",
-              "businessOwner": ""
+              "businessOwner": "",
+              "remark": ""
             },
             {
               "detail": "场景建设推进",
@@ -2068,7 +2270,8 @@
               "integrated": "",
               "vendor": "",
               "techOwner": "",
-              "businessOwner": ""
+              "businessOwner": "",
+              "remark": ""
             },
             {
               "detail": "场景建设推进",
@@ -2078,7 +2281,8 @@
               "integrated": "",
               "vendor": "",
               "techOwner": "",
-              "businessOwner": ""
+              "businessOwner": "",
+              "remark": ""
             },
             {
               "detail": "场景建设推进",
@@ -2088,7 +2292,8 @@
               "integrated": "",
               "vendor": "",
               "techOwner": "",
-              "businessOwner": ""
+              "businessOwner": "",
+              "remark": ""
             },
             {
               "detail": "场景建设推进",
@@ -2098,7 +2303,8 @@
               "integrated": "",
               "vendor": "",
               "techOwner": "",
-              "businessOwner": ""
+              "businessOwner": "",
+              "remark": ""
             },
             {
               "detail": "场景建设推进",
@@ -2108,7 +2314,8 @@
               "integrated": "",
               "vendor": "",
               "techOwner": "",
-              "businessOwner": ""
+              "businessOwner": "",
+              "remark": ""
             },
             {
               "detail": "场景建设推进",
@@ -2118,7 +2325,8 @@
               "integrated": "",
               "vendor": "",
               "techOwner": "",
-              "businessOwner": ""
+              "businessOwner": "",
+              "remark": ""
             },
             {
               "detail": "场景建设推进",
@@ -2128,7 +2336,8 @@
               "integrated": "",
               "vendor": "",
               "techOwner": "",
-              "businessOwner": ""
+              "businessOwner": "",
+              "remark": ""
             },
             {
               "detail": "场景建设推进",
@@ -2138,7 +2347,8 @@
               "integrated": "",
               "vendor": "",
               "techOwner": "",
-              "businessOwner": ""
+              "businessOwner": "",
+              "remark": ""
             },
             {
               "detail": "场景建设推进",
@@ -2148,7 +2358,8 @@
               "integrated": "",
               "vendor": "",
               "techOwner": "",
-              "businessOwner": ""
+              "businessOwner": "",
+              "remark": ""
             },
             {
               "detail": "场景建设推进",
@@ -2158,7 +2369,8 @@
               "integrated": "",
               "vendor": "",
               "techOwner": "",
-              "businessOwner": ""
+              "businessOwner": "",
+              "remark": ""
             },
             {
               "detail": "场景建设推进",
@@ -2168,7 +2380,8 @@
               "integrated": "",
               "vendor": "",
               "techOwner": "",
-              "businessOwner": ""
+              "businessOwner": "",
+              "remark": ""
             },
             {
               "detail": "场景建设推进",
@@ -2178,7 +2391,8 @@
               "integrated": "",
               "vendor": "",
               "techOwner": "",
-              "businessOwner": ""
+              "businessOwner": "",
+              "remark": ""
             },
             {
               "detail": "场景建设推进",
@@ -2188,7 +2402,8 @@
               "integrated": "",
               "vendor": "",
               "techOwner": "",
-              "businessOwner": ""
+              "businessOwner": "",
+              "remark": ""
             },
             {
               "detail": "场景建设推进",
@@ -2198,7 +2413,8 @@
               "integrated": "",
               "vendor": "",
               "techOwner": "",
-              "businessOwner": ""
+              "businessOwner": "",
+              "remark": ""
             },
             {
               "detail": "场景建设推进",
@@ -2208,7 +2424,8 @@
               "integrated": "",
               "vendor": "",
               "techOwner": "",
-              "businessOwner": ""
+              "businessOwner": "",
+              "remark": ""
             },
             {
               "detail": "场景建设推进",
@@ -2218,7 +2435,8 @@
               "integrated": "",
               "vendor": "",
               "techOwner": "",
-              "businessOwner": ""
+              "businessOwner": "",
+              "remark": ""
             },
             {
               "detail": "场景建设推进",
@@ -2228,7 +2446,8 @@
               "integrated": "",
               "vendor": "",
               "techOwner": "",
-              "businessOwner": ""
+              "businessOwner": "",
+              "remark": ""
             },
             {
               "detail": "场景建设推进",
@@ -2238,7 +2457,8 @@
               "integrated": "",
               "vendor": "",
               "techOwner": "",
-              "businessOwner": ""
+              "businessOwner": "",
+              "remark": ""
             },
             {
               "detail": "场景建设推进",
@@ -2248,7 +2468,8 @@
               "integrated": "",
               "vendor": "",
               "techOwner": "",
-              "businessOwner": ""
+              "businessOwner": "",
+              "remark": ""
             },
             {
               "detail": "场景建设推进",
@@ -2258,7 +2479,8 @@
               "integrated": "",
               "vendor": "",
               "techOwner": "",
-              "businessOwner": ""
+              "businessOwner": "",
+              "remark": ""
             },
             {
               "detail": "场景建设推进",
@@ -2268,7 +2490,8 @@
               "integrated": "",
               "vendor": "",
               "techOwner": "",
-              "businessOwner": ""
+              "businessOwner": "",
+              "remark": ""
             },
             {
               "detail": "场景建设推进",
@@ -2278,7 +2501,8 @@
               "integrated": "",
               "vendor": "",
               "techOwner": "",
-              "businessOwner": ""
+              "businessOwner": "",
+              "remark": ""
             },
             {
               "detail": "场景建设推进",
@@ -2288,7 +2512,8 @@
               "integrated": "",
               "vendor": "",
               "techOwner": "",
-              "businessOwner": ""
+              "businessOwner": "",
+              "remark": ""
             },
             {
               "detail": "场景建设推进",
@@ -2298,7 +2523,8 @@
               "integrated": "",
               "vendor": "",
               "techOwner": "",
-              "businessOwner": ""
+              "businessOwner": "",
+              "remark": ""
             },
             {
               "detail": "场景建设推进",
@@ -2308,7 +2534,8 @@
               "integrated": "",
               "vendor": "",
               "techOwner": "",
-              "businessOwner": ""
+              "businessOwner": "",
+              "remark": ""
             },
             {
               "detail": "场景建设推进",
@@ -2318,7 +2545,8 @@
               "integrated": "",
               "vendor": "",
               "techOwner": "",
-              "businessOwner": ""
+              "businessOwner": "",
+              "remark": ""
             },
             {
               "detail": "场景建设推进",
@@ -2328,7 +2556,8 @@
               "integrated": "",
               "vendor": "",
               "techOwner": "",
-              "businessOwner": ""
+              "businessOwner": "",
+              "remark": ""
             },
             {
               "detail": "场景建设推进",
@@ -2338,7 +2567,8 @@
               "integrated": "",
               "vendor": "",
               "techOwner": "",
-              "businessOwner": ""
+              "businessOwner": "",
+              "remark": ""
             },
             {
               "detail": "场景建设推进",
@@ -2348,7 +2578,8 @@
               "integrated": "",
               "vendor": "",
               "techOwner": "",
-              "businessOwner": ""
+              "businessOwner": "",
+              "remark": ""
             },
             {
               "detail": "场景建设推进",
@@ -2358,7 +2589,8 @@
               "integrated": "",
               "vendor": "",
               "techOwner": "",
-              "businessOwner": ""
+              "businessOwner": "",
+              "remark": ""
             },
             {
               "detail": "场景建设推进",
@@ -2368,7 +2600,8 @@
               "integrated": "",
               "vendor": "",
               "techOwner": "",
-              "businessOwner": ""
+              "businessOwner": "",
+              "remark": ""
             },
             {
               "detail": "场景建设推进",
@@ -2378,7 +2611,8 @@
               "integrated": "",
               "vendor": "",
               "techOwner": "",
-              "businessOwner": ""
+              "businessOwner": "",
+              "remark": ""
             },
             {
               "detail": "场景建设推进",
@@ -2388,7 +2622,8 @@
               "integrated": "",
               "vendor": "",
               "techOwner": "",
-              "businessOwner": ""
+              "businessOwner": "",
+              "remark": ""
             },
             {
               "detail": "场景建设推进",
@@ -2398,7 +2633,8 @@
               "integrated": "",
               "vendor": "",
               "techOwner": "",
-              "businessOwner": ""
+              "businessOwner": "",
+              "remark": ""
             },
             {
               "detail": "场景建设推进",
@@ -2408,7 +2644,8 @@
               "integrated": "",
               "vendor": "",
               "techOwner": "",
-              "businessOwner": ""
+              "businessOwner": "",
+              "remark": ""
             },
             {
               "detail": "场景建设推进",
@@ -2418,7 +2655,8 @@
               "integrated": "",
               "vendor": "",
               "techOwner": "",
-              "businessOwner": ""
+              "businessOwner": "",
+              "remark": ""
             },
             {
               "detail": "场景建设推进",
@@ -2428,7 +2666,8 @@
               "integrated": "",
               "vendor": "",
               "techOwner": "",
-              "businessOwner": ""
+              "businessOwner": "",
+              "remark": ""
             },
             {
               "detail": "场景建设推进",
@@ -2438,7 +2677,8 @@
               "integrated": "",
               "vendor": "",
               "techOwner": "",
-              "businessOwner": ""
+              "businessOwner": "",
+              "remark": ""
             },
             {
               "detail": "场景建设推进",
@@ -2448,7 +2688,8 @@
               "integrated": "",
               "vendor": "",
               "techOwner": "",
-              "businessOwner": ""
+              "businessOwner": "",
+              "remark": ""
             },
             {
               "detail": "场景建设推进",
@@ -2458,7 +2699,8 @@
               "integrated": "",
               "vendor": "",
               "techOwner": "",
-              "businessOwner": ""
+              "businessOwner": "",
+              "remark": ""
             },
             {
               "detail": "场景建设推进",
@@ -2468,7 +2710,8 @@
               "integrated": "",
               "vendor": "",
               "techOwner": "",
-              "businessOwner": ""
+              "businessOwner": "",
+              "remark": ""
             },
             {
               "detail": "场景建设推进",
@@ -2478,7 +2721,8 @@
               "integrated": "",
               "vendor": "",
               "techOwner": "",
-              "businessOwner": ""
+              "businessOwner": "",
+              "remark": ""
             },
             {
               "detail": "场景建设推进",
@@ -2488,7 +2732,8 @@
               "integrated": "",
               "vendor": "",
               "techOwner": "",
-              "businessOwner": ""
+              "businessOwner": "",
+              "remark": ""
             },
             {
               "detail": "场景建设推进",
@@ -2498,7 +2743,8 @@
               "integrated": "",
               "vendor": "",
               "techOwner": "",
-              "businessOwner": ""
+              "businessOwner": "",
+              "remark": ""
             },
             {
               "detail": "场景建设推进",
@@ -2508,7 +2754,8 @@
               "integrated": "",
               "vendor": "",
               "techOwner": "",
-              "businessOwner": ""
+              "businessOwner": "",
+              "remark": ""
             },
             {
               "detail": "场景建设推进",
@@ -2518,7 +2765,8 @@
               "integrated": "",
               "vendor": "",
               "techOwner": "",
-              "businessOwner": ""
+              "businessOwner": "",
+              "remark": ""
             },
             {
               "detail": "场景建设推进",
@@ -2528,7 +2776,8 @@
               "integrated": "",
               "vendor": "",
               "techOwner": "",
-              "businessOwner": ""
+              "businessOwner": "",
+              "remark": ""
             },
             {
               "detail": "场景建设推进",
@@ -2538,7 +2787,8 @@
               "integrated": "",
               "vendor": "",
               "techOwner": "",
-              "businessOwner": ""
+              "businessOwner": "",
+              "remark": ""
             },
             {
               "detail": "场景建设推进",
@@ -2548,7 +2798,8 @@
               "integrated": "",
               "vendor": "",
               "techOwner": "",
-              "businessOwner": ""
+              "businessOwner": "",
+              "remark": ""
             },
             {
               "detail": "场景建设推进",
@@ -2558,7 +2809,8 @@
               "integrated": "",
               "vendor": "",
               "techOwner": "",
-              "businessOwner": ""
+              "businessOwner": "",
+              "remark": ""
             },
             {
               "detail": "场景建设推进",
@@ -2568,7 +2820,8 @@
               "integrated": "",
               "vendor": "",
               "techOwner": "",
-              "businessOwner": ""
+              "businessOwner": "",
+              "remark": ""
             },
             {
               "detail": "场景建设推进",
@@ -2578,7 +2831,8 @@
               "integrated": "",
               "vendor": "",
               "techOwner": "",
-              "businessOwner": ""
+              "businessOwner": "",
+              "remark": ""
             },
             {
               "detail": "场景建设推进",
@@ -2588,7 +2842,8 @@
               "integrated": "",
               "vendor": "",
               "techOwner": "",
-              "businessOwner": ""
+              "businessOwner": "",
+              "remark": ""
             },
             {
               "detail": "场景建设推进",
@@ -2598,7 +2853,8 @@
               "integrated": "",
               "vendor": "",
               "techOwner": "",
-              "businessOwner": ""
+              "businessOwner": "",
+              "remark": ""
             },
             {
               "detail": "场景建设推进",
@@ -2608,7 +2864,8 @@
               "integrated": "",
               "vendor": "",
               "techOwner": "",
-              "businessOwner": ""
+              "businessOwner": "",
+              "remark": ""
             },
             {
               "detail": "场景建设推进",
@@ -2618,7 +2875,8 @@
               "integrated": "",
               "vendor": "",
               "techOwner": "",
-              "businessOwner": ""
+              "businessOwner": "",
+              "remark": ""
             },
             {
               "detail": "场景建设推进",
@@ -2628,7 +2886,8 @@
               "integrated": "",
               "vendor": "",
               "techOwner": "",
-              "businessOwner": ""
+              "businessOwner": "",
+              "remark": ""
             },
             {
               "detail": "场景建设推进",
@@ -2638,7 +2897,8 @@
               "integrated": "",
               "vendor": "",
               "techOwner": "",
-              "businessOwner": ""
+              "businessOwner": "",
+              "remark": ""
             },
             {
               "detail": "场景建设推进",
@@ -2648,7 +2908,8 @@
               "integrated": "",
               "vendor": "",
               "techOwner": "",
-              "businessOwner": ""
+              "businessOwner": "",
+              "remark": ""
             },
             {
               "detail": "场景建设推进",
@@ -2658,7 +2919,8 @@
               "integrated": "",
               "vendor": "",
               "techOwner": "",
-              "businessOwner": ""
+              "businessOwner": "",
+              "remark": ""
             },
             {
               "detail": "场景建设推进",
@@ -2668,7 +2930,8 @@
               "integrated": "",
               "vendor": "",
               "techOwner": "",
-              "businessOwner": ""
+              "businessOwner": "",
+              "remark": ""
             },
             {
               "detail": "场景建设推进",
@@ -2678,7 +2941,8 @@
               "integrated": "",
               "vendor": "",
               "techOwner": "",
-              "businessOwner": ""
+              "businessOwner": "",
+              "remark": ""
             },
             {
               "detail": "场景建设推进",
@@ -2688,7 +2952,8 @@
               "integrated": "",
               "vendor": "",
               "techOwner": "",
-              "businessOwner": ""
+              "businessOwner": "",
+              "remark": ""
             },
             {
               "detail": "场景建设推进",
@@ -2698,7 +2963,8 @@
               "integrated": "",
               "vendor": "",
               "techOwner": "",
-              "businessOwner": ""
+              "businessOwner": "",
+              "remark": ""
             },
             {
               "detail": "场景建设推进",
@@ -2708,7 +2974,8 @@
               "integrated": "",
               "vendor": "",
               "techOwner": "",
-              "businessOwner": ""
+              "businessOwner": "",
+              "remark": ""
             }
           ]
         }
@@ -2728,14 +2995,14 @@
       "kind": "normal",
       "priority": "yellow",
       "progress": 75,
-      "due": "2026-08-07",
+      "due": "2026-08-30",
       "businessOwner": "林烨",
       "techOwner": "王炜",
       "vendor": "华云数据",
       "owner": "林烨",
       "role": "业务负责人 · 林烨 / 技术部对接人 · 王炜",
       "description": "word公文、格式转换、pdf拼接剪切、自动操作excel、加去水印等常用办公技能、ppt制作",
-      "next": "推进\"格式转换、pdf拼接剪切、自动操作excel、加去水印等常用办公技能\"，计划节点：2026-08-07。",
+      "next": "推进\"格式转换、pdf拼接剪切、自动操作excel、加去水印等常用办公技能\"，计划节点：2026-08-30。",
       "risk": "",
       "milestones": [
         [
@@ -2745,7 +3012,7 @@
         ],
         [
           "格式转换、pdf拼接剪切、自动操作excel、加去水印等常用办公技能",
-          "2026-08-07",
+          "2026-08-30",
           "todo"
         ],
         [
@@ -2759,6 +3026,9 @@
           "done"
         ]
       ],
+      "remarks": [
+        "自动操作Excel非可视化操作"
+      ],
       "items": [
         {
           "detail": "word公文",
@@ -2767,18 +3037,20 @@
           "due": "2026-08-07",
           "integrated": "是",
           "vendor": "华云数据",
-          "techOwner": "林烨",
-          "businessOwner": "王炜"
+          "techOwner": "王炜",
+          "businessOwner": "林烨",
+          "remark": ""
         },
         {
           "detail": "格式转换、pdf拼接剪切、自动操作excel、加去水印等常用办公技能",
           "status": "todo",
           "demo": "",
-          "due": "2026-08-07",
+          "due": "2026-08-30",
           "integrated": "是",
           "vendor": "启明星",
-          "techOwner": "林烨",
-          "businessOwner": "王炜"
+          "techOwner": "王炜",
+          "businessOwner": "林烨",
+          "remark": "自动操作Excel非可视化操作"
         },
         {
           "detail": "ppt制作",
@@ -2787,8 +3059,9 @@
           "due": "2026-08-07",
           "integrated": "是",
           "vendor": "华云数据",
-          "techOwner": "林烨",
-          "businessOwner": "王炜"
+          "techOwner": "王炜",
+          "businessOwner": "林烨",
+          "remark": ""
         },
         {
           "detail": "自动报表",
@@ -2797,12 +3070,10 @@
           "due": "2026-08-07",
           "integrated": "是",
           "vendor": "华云数据",
-          "techOwner": "林烨",
-          "businessOwner": "王炜"
+          "techOwner": "王炜",
+          "businessOwner": "林烨",
+          "remark": ""
         }
-      ],
-      "remarks": [
-        "自动操作Excel非可视化操作"
       ]
     },
     {
@@ -2821,22 +3092,22 @@
       "owner": "王林",
       "role": "业务负责人 · 王林 / 技术部对接人 · 王炜",
       "description": "舆情监测、舆情研判、舆情预警",
-      "next": "推进\"舆情监测\"，计划节点：2026-08-15。",
+      "next": "推进\"舆情监测\"，计划节点：2026-08-22。",
       "risk": "",
       "milestones": [
         [
           "舆情监测",
-          "2026-08-15",
+          "2026-08-22",
           "todo"
         ],
         [
           "舆情研判",
-          "2026-08-15",
+          "2026-08-22",
           "todo"
         ],
         [
           "舆情预警",
-          "2026-08-15",
+          "2026-08-31",
           "todo"
         ],
         [
@@ -2845,36 +3116,40 @@
           "todo"
         ]
       ],
+      "remarks": [],
       "items": [
         {
           "detail": "舆情监测",
           "status": "todo",
           "demo": "",
-          "due": "2026-08-15",
+          "due": "2026-08-22",
           "integrated": "否",
           "vendor": "启明星",
-          "techOwner": "王林",
-          "businessOwner": "王炜"
+          "techOwner": "王炜",
+          "businessOwner": "王林",
+          "remark": ""
         },
         {
           "detail": "舆情研判",
           "status": "todo",
           "demo": "",
-          "due": "2026-08-15",
+          "due": "2026-08-22",
           "integrated": "否",
           "vendor": "启明星",
-          "techOwner": "王林",
-          "businessOwner": "王炜"
+          "techOwner": "王炜",
+          "businessOwner": "王林",
+          "remark": ""
         },
         {
           "detail": "舆情预警",
           "status": "todo",
           "demo": "",
-          "due": "2026-08-15",
+          "due": "2026-08-31",
           "integrated": "否",
           "vendor": "启明星",
-          "techOwner": "王林",
-          "businessOwner": "王炜"
+          "techOwner": "王炜",
+          "businessOwner": "王林",
+          "remark": ""
         },
         {
           "detail": "舆情辅助处置",
@@ -2883,11 +3158,11 @@
           "due": "2026-12-30",
           "integrated": "否",
           "vendor": "启明星",
-          "techOwner": "王林",
-          "businessOwner": "王炜"
+          "techOwner": "王炜",
+          "businessOwner": "王林",
+          "remark": ""
         }
-      ],
-      "remarks": []
+      ]
     },
     {
       "id": "ai-03",
@@ -2919,6 +3194,9 @@
           "todo"
         ]
       ],
+      "remarks": [
+        "随国家能源局项目开展"
+      ],
       "items": [
         {
           "detail": "规则库建设",
@@ -2927,8 +3205,9 @@
           "due": "2026-07-21",
           "integrated": "是",
           "vendor": "启明星",
-          "techOwner": "陈磊",
-          "businessOwner": "王炜"
+          "techOwner": "王炜",
+          "businessOwner": "陈磊",
+          "remark": ""
         },
         {
           "detail": "一致性校验",
@@ -2937,12 +3216,10 @@
           "due": "2026-09-30",
           "integrated": "是",
           "vendor": "启明星",
-          "techOwner": "庄晓丹",
-          "businessOwner": "王炜"
+          "techOwner": "王炜",
+          "businessOwner": "庄晓丹",
+          "remark": "随国家能源局项目开展"
         }
-      ],
-      "remarks": [
-        "随国家能源局项目开展"
       ]
     },
     {
@@ -2970,6 +3247,7 @@
           "done"
         ]
       ],
+      "remarks": [],
       "items": [
         {
           "detail": "提炼政策文件辅助形成政策解读材料",
@@ -2978,11 +3256,11 @@
           "due": null,
           "integrated": "是",
           "vendor": "华云数据",
-          "techOwner": "陈磊",
-          "businessOwner": "王炜"
+          "techOwner": "王炜",
+          "businessOwner": "陈磊",
+          "remark": ""
         }
-      ],
-      "remarks": []
+      ]
     },
     {
       "id": "ai-05",
@@ -3014,6 +3292,7 @@
           "todo"
         ]
       ],
+      "remarks": [],
       "items": [
         {
           "detail": "模拟交易平台",
@@ -3022,8 +3301,9 @@
           "due": "2026-08-15",
           "integrated": "否",
           "vendor": "电科院",
-          "techOwner": "邓晖",
-          "businessOwner": "王鹏程"
+          "techOwner": "王鹏程",
+          "businessOwner": "邓晖",
+          "remark": ""
         },
         {
           "detail": "仿真交易机器人",
@@ -3032,11 +3312,11 @@
           "due": "2026-08-15",
           "integrated": "否",
           "vendor": "电科院",
-          "techOwner": "邓晖",
-          "businessOwner": "王鹏程"
+          "techOwner": "王鹏程",
+          "businessOwner": "邓晖",
+          "remark": ""
         }
-      ],
-      "remarks": []
+      ]
     },
     {
       "id": "ai-06",
@@ -3073,6 +3353,7 @@
           "todo"
         ]
       ],
+      "remarks": [],
       "items": [
         {
           "detail": "绿电零售与绿电批发消费核算",
@@ -3081,8 +3362,9 @@
           "due": "2026-09-30",
           "integrated": "否",
           "vendor": "启明星",
-          "techOwner": "张晓龙",
-          "businessOwner": "王炜"
+          "techOwner": "王炜",
+          "businessOwner": "张晓龙",
+          "remark": ""
         },
         {
           "detail": "自发自用消费核算",
@@ -3091,8 +3373,9 @@
           "due": "2026-09-30",
           "integrated": "否",
           "vendor": "启明星",
-          "techOwner": "张晓龙",
-          "businessOwner": "王炜"
+          "techOwner": "王炜",
+          "businessOwner": "张晓龙",
+          "remark": ""
         },
         {
           "detail": "用网电量营销零售对比稽核",
@@ -3101,11 +3384,11 @@
           "due": "2026-09-30",
           "integrated": "否",
           "vendor": "启明星",
-          "techOwner": "张晓龙",
-          "businessOwner": "王炜"
+          "techOwner": "王炜",
+          "businessOwner": "张晓龙",
+          "remark": ""
         }
-      ],
-      "remarks": []
+      ]
     },
     {
       "id": "ai-07",
@@ -3116,36 +3399,101 @@
       "kind": "punch",
       "priority": "punch",
       "progress": 0,
-      "due": null,
-      "businessOwner": "待定",
+      "due": "2026-12-30",
+      "businessOwner": "张晓龙",
       "techOwner": "王炜",
       "vendor": "启明星",
-      "owner": "王炜",
-      "role": "技术部对接人 · 王炜",
-      "description": "场景建设推进",
-      "next": "推进\"场景建设推进\"。",
+      "owner": "张晓龙",
+      "role": "业务负责人 · 张晓龙 / 技术部对接人 · 王炜",
+      "description": "基础数据校验、指标智能生成、非化石核算结果校验与溯源",
+      "next": "推进\"基础数据校验\"，计划节点：2026-12-30。",
       "risk": "",
       "milestones": [
         [
-          "场景建设推进",
-          "待定",
+          "基础数据校验",
+          "2026-12-30",
+          "todo"
+        ],
+        [
+          "指标智能生成",
+          "2026-12-30",
+          "todo"
+        ],
+        [
+          "非化石核算结果校验与溯源",
+          "2026-12-30",
+          "todo"
+        ],
+        [
+          "非化石指标分摊方案设计",
+          "2026-12-30",
+          "todo"
+        ],
+        [
+          "非化石计算过程skill",
+          "2026-12-30",
           "todo"
         ]
       ],
-      "items": [
-        {
-          "detail": "场景建设推进",
-          "status": "todo",
-          "demo": "",
-          "due": null,
-          "integrated": "是",
-          "vendor": "启明星",
-          "techOwner": "",
-          "businessOwner": "王炜"
-        }
-      ],
       "remarks": [
         "负责人黄恒孜，对接人张晓龙"
+      ],
+      "items": [
+        {
+          "detail": "基础数据校验",
+          "status": "todo",
+          "demo": "",
+          "due": "2026-12-30",
+          "integrated": "否",
+          "vendor": "启明星",
+          "techOwner": "王炜",
+          "businessOwner": "张晓龙",
+          "remark": "负责人黄恒孜，对接人张晓龙"
+        },
+        {
+          "detail": "指标智能生成",
+          "status": "todo",
+          "demo": "",
+          "due": "2026-12-30",
+          "integrated": "否",
+          "vendor": "启明星",
+          "techOwner": "王炜",
+          "businessOwner": "张晓龙",
+          "remark": ""
+        },
+        {
+          "detail": "非化石核算结果校验与溯源",
+          "status": "todo",
+          "demo": "",
+          "due": "2026-12-30",
+          "integrated": "否",
+          "vendor": "启明星",
+          "techOwner": "王炜",
+          "businessOwner": "张晓龙",
+          "remark": ""
+        },
+        {
+          "detail": "非化石指标分摊方案设计",
+          "status": "todo",
+          "demo": "",
+          "due": "2026-12-30",
+          "integrated": "否",
+          "vendor": "启明星",
+          "techOwner": "王炜",
+          "businessOwner": "张晓龙",
+          "remark": ""
+        },
+        {
+          "detail": "非化石计算过程skill",
+          "status": "todo",
+          "demo": "",
+          "due": "2026-12-30",
+          "integrated": "是",
+          "vendor": "启明星",
+          "techOwner": "王炜",
+          "businessOwner": "张晓龙",
+          "remark": ""
+        }
       ]
     },
     {
@@ -3174,10 +3522,11 @@
         ],
         [
           "信息披露的MCP制作",
-          "2026-08-07",
+          "2026-08-31",
           "todo"
         ]
       ],
+      "remarks": [],
       "items": [
         {
           "detail": "询问信息披露数据",
@@ -3186,46 +3535,42 @@
           "due": "2026-10-31",
           "integrated": "是",
           "vendor": "启明星",
-          "techOwner": "汪向阳",
-          "businessOwner": "王炜"
+          "techOwner": "王炜",
+          "businessOwner": "汪向阳",
+          "remark": ""
         },
         {
           "detail": "信息披露的MCP制作",
           "status": "todo",
           "demo": "",
-          "due": "2026-08-07",
+          "due": "2026-08-31",
           "integrated": "是",
           "vendor": "启明星",
-          "techOwner": "汪向阳",
-          "businessOwner": "王炜"
+          "techOwner": "王炜",
+          "businessOwner": "汪向阳",
+          "remark": ""
         }
-      ],
-      "remarks": []
+      ]
     },
     {
       "id": "ai-09",
       "name": "智能结算",
       "department": "结算部",
       "departmentId": "dept-结算部",
-      "sequence": "8",
+      "sequence": "7",
       "kind": "normal",
       "priority": "yellow",
       "progress": 0,
       "due": "2026-12-30",
       "businessOwner": "龚建荣",
       "techOwner": "王炜",
-      "vendor": "启明星",
+      "vendor": "电科院",
       "owner": "龚建荣",
       "role": "业务负责人 · 龚建荣 / 技术部对接人 · 王炜",
-      "description": "事前基础数据稽核、事中全流程辅助分析、事后报表数据稽核",
-      "next": "推进\"事前基础数据稽核\"，计划节点：2026-12-30。",
+      "description": "事中全流程辅助分析、事后报表数据稽核",
+      "next": "推进\"事中全流程辅助分析\"，计划节点：2026-12-30。",
       "risk": "",
       "milestones": [
-        [
-          "事前基础数据稽核",
-          "2026-12-30",
-          "todo"
-        ],
         [
           "事中全流程辅助分析",
           "2026-12-30",
@@ -3237,17 +3582,8 @@
           "todo"
         ]
       ],
+      "remarks": [],
       "items": [
-        {
-          "detail": "事前基础数据稽核",
-          "status": "todo",
-          "demo": "",
-          "due": "2026-12-30",
-          "integrated": "是",
-          "vendor": "启明星",
-          "techOwner": "龚建荣",
-          "businessOwner": "王炜"
-        },
         {
           "detail": "事中全流程辅助分析",
           "status": "todo",
@@ -3255,8 +3591,9 @@
           "due": "2026-12-30",
           "integrated": "是",
           "vendor": "电科院",
-          "techOwner": "龚建荣",
-          "businessOwner": "王炜"
+          "techOwner": "王炜",
+          "businessOwner": "龚建荣",
+          "remark": ""
         },
         {
           "detail": "事后报表数据稽核",
@@ -3265,11 +3602,11 @@
           "due": "2026-12-30",
           "integrated": "是",
           "vendor": "启明星",
-          "techOwner": "龚建荣",
-          "businessOwner": "王炜"
+          "techOwner": "王炜",
+          "businessOwner": "龚建荣",
+          "remark": ""
         }
-      ],
-      "remarks": []
+      ]
     },
     {
       "id": "ai-10",
@@ -3283,7 +3620,7 @@
       "due": "2026-09-20",
       "businessOwner": "陈成",
       "techOwner": "王炜",
-      "vendor": "待定",
+      "vendor": "启明星",
       "owner": "陈成",
       "role": "业务负责人 · 陈成 / 技术部对接人 · 王炜",
       "description": "交叉分析市场主体报价行为是否有风险，人工智能售电公司盈利分析",
@@ -3296,6 +3633,7 @@
           "todo"
         ]
       ],
+      "remarks": [],
       "items": [
         {
           "detail": "交叉分析市场主体报价行为是否有风险，人工智能售电公司盈利分析",
@@ -3303,12 +3641,12 @@
           "demo": "46241",
           "due": "2026-09-20",
           "integrated": "是",
-          "vendor": "",
-          "techOwner": "陈成",
-          "businessOwner": "王炜"
+          "vendor": "启明星",
+          "techOwner": "王炜",
+          "businessOwner": "陈成",
+          "remark": ""
         }
-      ],
-      "remarks": []
+      ]
     },
     {
       "id": "ai-11",
@@ -3322,7 +3660,7 @@
       "due": "2026-12-31",
       "businessOwner": "陈成",
       "techOwner": "王炜",
-      "vendor": "待定",
+      "vendor": "启明星",
       "owner": "陈成",
       "role": "业务负责人 · 陈成 / 技术部对接人 · 王炜",
       "description": "稽核市场主体提交的资料",
@@ -3335,6 +3673,7 @@
           "todo"
         ]
       ],
+      "remarks": [],
       "items": [
         {
           "detail": "稽核市场主体提交的资料",
@@ -3342,12 +3681,12 @@
           "demo": "",
           "due": "2026-12-31",
           "integrated": "否",
-          "vendor": "",
-          "techOwner": "陈成",
-          "businessOwner": "王炜"
+          "vendor": "启明星",
+          "techOwner": "王炜",
+          "businessOwner": "陈成",
+          "remark": ""
         }
-      ],
-      "remarks": []
+      ]
     },
     {
       "id": "ai-12",
@@ -3379,6 +3718,7 @@
           "done"
         ]
       ],
+      "remarks": [],
       "items": [
         {
           "detail": "交易平台流程稽核",
@@ -3387,8 +3727,9 @@
           "due": null,
           "integrated": "否",
           "vendor": "启明星",
-          "techOwner": "陈成",
-          "businessOwner": "王炜"
+          "techOwner": "王炜",
+          "businessOwner": "陈成",
+          "remark": ""
         },
         {
           "detail": "决策中枢流程稽核",
@@ -3397,11 +3738,11 @@
           "due": null,
           "integrated": "否",
           "vendor": "华云数据",
-          "techOwner": "陈成",
-          "businessOwner": "王炜"
+          "techOwner": "王炜",
+          "businessOwner": "陈成",
+          "remark": ""
         }
-      ],
-      "remarks": []
+      ]
     },
     {
       "id": "ai-13",
@@ -3415,7 +3756,7 @@
       "due": "2026-08-07",
       "businessOwner": "陈成",
       "techOwner": "王炜",
-      "vendor": "待定",
+      "vendor": "启明星",
       "owner": "陈成",
       "role": "业务负责人 · 陈成 / 技术部对接人 · 王炜",
       "description": "页面展示异常行为、智能排序",
@@ -3433,6 +3774,7 @@
           "todo"
         ]
       ],
+      "remarks": [],
       "items": [
         {
           "detail": "页面展示异常行为",
@@ -3440,9 +3782,10 @@
           "demo": "46234",
           "due": "2026-08-07",
           "integrated": "是",
-          "vendor": "",
-          "techOwner": "陈成",
-          "businessOwner": "王炜"
+          "vendor": "启明星",
+          "techOwner": "王炜",
+          "businessOwner": "陈成",
+          "remark": ""
         },
         {
           "detail": "智能排序",
@@ -3450,12 +3793,12 @@
           "demo": "46234",
           "due": "2026-08-07",
           "integrated": "是",
-          "vendor": "",
-          "techOwner": "陈成",
-          "businessOwner": "王炜"
+          "vendor": "启明星",
+          "techOwner": "王炜",
+          "businessOwner": "陈成",
+          "remark": ""
         }
-      ],
-      "remarks": []
+      ]
     },
     {
       "id": "ai-14",
@@ -3465,7 +3808,7 @@
       "sequence": "13",
       "kind": "normal",
       "priority": "yellow",
-      "progress": 30,
+      "progress": 40,
       "due": "2026-12-31",
       "businessOwner": "黄隽弢",
       "techOwner": "邵晨峰",
@@ -3473,7 +3816,7 @@
       "owner": "黄隽弢",
       "role": "业务负责人 · 黄隽弢 / 技术部对接人 · 邵晨峰",
       "description": "自动采集软硬件数据、自动回归测试、日志采集",
-      "next": "推进\"自动回归测试\"，计划节点：2026-08-30。",
+      "next": "推进\"自动回归测试\"，计划节点：2026-12-31。",
       "risk": "",
       "milestones": [
         [
@@ -3483,13 +3826,13 @@
         ],
         [
           "自动回归测试",
-          "2026-08-30",
+          "2026-12-31",
           "current"
         ],
         [
           "日志采集",
           "2026-12-31",
-          "todo"
+          "current"
         ],
         [
           "变更影响分析",
@@ -3502,6 +3845,10 @@
           "todo"
         ]
       ],
+      "remarks": [
+        "待后续信创平台切换后，基于sls日志管理系统，完善交易平台日志管理",
+        "根据代码审计结果自动确定回归测试范围"
+      ],
       "items": [
         {
           "detail": "自动采集软硬件数据",
@@ -3510,28 +3857,31 @@
           "due": "2026-12-31",
           "integrated": "是",
           "vendor": "华云集成",
-          "techOwner": "黄隽弢",
-          "businessOwner": "邵晨峰"
+          "techOwner": "邵晨峰",
+          "businessOwner": "黄隽弢",
+          "remark": ""
         },
         {
           "detail": "自动回归测试",
           "status": "partial",
           "demo": "",
-          "due": "2026-08-30",
+          "due": "2026-12-31",
           "integrated": "是",
           "vendor": "华云集成",
-          "techOwner": "黄隽弢",
-          "businessOwner": "邵晨峰"
+          "techOwner": "邵晨峰",
+          "businessOwner": "黄隽弢",
+          "remark": ""
         },
         {
           "detail": "日志采集",
-          "status": "todo",
+          "status": "partial",
           "demo": "",
           "due": "2026-12-31",
           "integrated": "是",
           "vendor": "华云集成",
-          "techOwner": "黄隽弢",
-          "businessOwner": "邵晨峰"
+          "techOwner": "邵晨峰",
+          "businessOwner": "黄隽弢",
+          "remark": "待后续信创平台切换后，基于sls日志管理系统，完善交易平台日志管理"
         },
         {
           "detail": "变更影响分析",
@@ -3540,8 +3890,9 @@
           "due": "2026-12-31",
           "integrated": "是",
           "vendor": "华云集成",
-          "techOwner": "黄隽弢",
-          "businessOwner": "邵晨峰"
+          "techOwner": "邵晨峰",
+          "businessOwner": "黄隽弢",
+          "remark": "根据代码审计结果自动确定回归测试范围"
         },
         {
           "detail": "用户工单智能分析",
@@ -3550,13 +3901,10 @@
           "due": "2026-12-31",
           "integrated": "是",
           "vendor": "启明星",
-          "techOwner": "黄隽弢",
-          "businessOwner": "邵晨峰"
+          "techOwner": "邵晨峰",
+          "businessOwner": "黄隽弢",
+          "remark": ""
         }
-      ],
-      "remarks": [
-        "待后续信创平台切换后，基于sls日志管理系统，完善交易平台日志管理",
-        "根据代码审计结果自动确定回归测试范围"
       ]
     },
     {
@@ -3567,7 +3915,7 @@
       "sequence": "14",
       "kind": "punch",
       "priority": "punch",
-      "progress": 75,
+      "progress": 100,
       "due": "2026-08-07",
       "businessOwner": "魏骁",
       "techOwner": "邵晨峰",
@@ -3575,7 +3923,7 @@
       "owner": "魏骁",
       "role": "业务负责人 · 魏骁 / 技术部对接人 · 邵晨峰",
       "description": "采集异常行为、生成异常分析报告",
-      "next": "推进\"生成异常分析报告\"，计划节点：2026-08-07。",
+      "next": "完成最终验收并准备交付。",
       "risk": "",
       "milestones": [
         [
@@ -3586,8 +3934,11 @@
         [
           "生成异常分析报告",
           "2026-08-07",
-          "current"
+          "done"
         ]
+      ],
+      "remarks": [
+        "流量与检测功能待确认"
       ],
       "items": [
         {
@@ -3597,22 +3948,21 @@
           "due": null,
           "integrated": "是",
           "vendor": "华云集成",
-          "techOwner": "魏骁",
-          "businessOwner": "邵晨峰"
+          "techOwner": "邵晨峰",
+          "businessOwner": "魏骁",
+          "remark": "流量与检测功能待确认"
         },
         {
           "detail": "生成异常分析报告",
-          "status": "partial",
+          "status": "done",
           "demo": "7月31日",
           "due": "2026-08-07",
           "integrated": "是",
           "vendor": "华云集成",
-          "techOwner": "魏骁",
-          "businessOwner": "邵晨峰"
+          "techOwner": "邵晨峰",
+          "businessOwner": "魏骁",
+          "remark": ""
         }
-      ],
-      "remarks": [
-        "流量与检测功能待确认"
       ]
     },
     {
@@ -3623,8 +3973,8 @@
       "sequence": "15",
       "kind": "normal",
       "priority": "yellow",
-      "progress": 17,
-      "due": "2026-10-31",
+      "progress": 67,
+      "due": "2026-08-31",
       "businessOwner": "黄隽弢、魏骁",
       "techOwner": "邵晨峰",
       "vendor": "华云集成",
@@ -3642,13 +3992,17 @@
         [
           "自动巡检",
           "2026-08-31",
-          "todo"
+          "current"
         ],
         [
           "生成巡检报告",
-          "2026-10-31",
-          "todo"
+          "2026-08-31",
+          "done"
         ]
+      ],
+      "remarks": [
+        "（远期）基于人工智能，让市场用户参与到测试、功能迭代的环节中：预览版测试、灰度测试、用户反馈",
+        "MCP已集成PX-Code，模型幻觉问题正在沟通解决"
       ],
       "items": [
         {
@@ -3658,33 +4012,32 @@
           "due": "2026-08-31",
           "integrated": "是",
           "vendor": "华云集成",
-          "techOwner": "黄隽弢",
-          "businessOwner": "邵晨峰"
+          "techOwner": "邵晨峰",
+          "businessOwner": "黄隽弢",
+          "remark": "（远期）基于人工智能，让市场用户参与到测试、功能迭代的环节中：预览版测试、灰度测试、用户反馈"
         },
         {
           "detail": "自动巡检",
-          "status": "todo",
+          "status": "partial",
           "demo": "7月31日",
           "due": "2026-08-31",
           "integrated": "是",
           "vendor": "华云集成",
-          "techOwner": "魏骁",
-          "businessOwner": "邵晨峰"
+          "techOwner": "邵晨峰",
+          "businessOwner": "魏骁",
+          "remark": "MCP已集成PX-Code，模型幻觉问题正在沟通解决"
         },
         {
           "detail": "生成巡检报告",
-          "status": "todo",
+          "status": "done",
           "demo": "7月31日",
-          "due": "2026-10-31",
+          "due": "2026-08-31",
           "integrated": "是",
           "vendor": "华云集成",
-          "techOwner": "魏骁",
-          "businessOwner": "邵晨峰"
+          "techOwner": "邵晨峰",
+          "businessOwner": "魏骁",
+          "remark": ""
         }
-      ],
-      "remarks": [
-        "（远期）基于人工智能，让市场用户参与到测试、功能迭代的环节中：预览版测试、灰度测试、用户反馈",
-        "MCP已集成PX-Code，模型幻觉问题正在沟通解决"
       ]
     },
     {
@@ -3727,6 +4080,10 @@
           "todo"
         ]
       ],
+      "remarks": [
+        "测试环境已有，尽快部生产，第一批指标集问数尽快上线",
+        "后续给所有研发单位会议宣贯"
+      ],
       "items": [
         {
           "detail": "浙电work部署",
@@ -3735,8 +4092,9 @@
           "due": "2026-08-04",
           "integrated": "是",
           "vendor": "华云数据",
-          "techOwner": "黄隽弢",
-          "businessOwner": "邵晨峰"
+          "techOwner": "邵晨峰",
+          "businessOwner": "黄隽弢",
+          "remark": "测试环境已有，尽快部生产，第一批指标集问数尽快上线"
         },
         {
           "detail": "通过浙电work提升数据查询质量",
@@ -3745,8 +4103,9 @@
           "due": null,
           "integrated": "是",
           "vendor": "启明星",
-          "techOwner": "黄隽弢",
-          "businessOwner": "邵晨峰"
+          "techOwner": "邵晨峰",
+          "businessOwner": "黄隽弢",
+          "remark": ""
         },
         {
           "detail": "统一mcp、接口开发逻辑、安全规范",
@@ -3755,8 +4114,9 @@
           "due": null,
           "integrated": "否",
           "vendor": "启明星",
-          "techOwner": "黄隽弢",
-          "businessOwner": "邵晨峰"
+          "techOwner": "邵晨峰",
+          "businessOwner": "黄隽弢",
+          "remark": "后续给所有研发单位会议宣贯"
         },
         {
           "detail": "浙电work协同模式设计",
@@ -3765,13 +4125,10 @@
           "due": "2026-07-24",
           "integrated": "是",
           "vendor": "启明星",
-          "techOwner": "黄隽弢",
-          "businessOwner": "邵晨峰"
+          "techOwner": "邵晨峰",
+          "businessOwner": "黄隽弢",
+          "remark": ""
         }
-      ],
-      "remarks": [
-        "测试环境已有，尽快部生产，第一批指标集问数尽快上线",
-        "后续给所有研发单位会议宣贯"
       ]
     },
     {
@@ -3783,35 +4140,36 @@
       "kind": "normal",
       "priority": "yellow",
       "progress": 0,
-      "due": null,
+      "due": "2026-12-30",
       "businessOwner": "黄隽弢",
-      "techOwner": "邵晨峰",
+      "techOwner": "王鹏程",
       "vendor": "启明星",
       "owner": "黄隽弢",
-      "role": "业务负责人 · 黄隽弢 / 技术部对接人 · 邵晨峰",
-      "description": "场景建设推进",
-      "next": "推进\"场景建设推进\"。",
+      "role": "业务负责人 · 黄隽弢 / 技术部对接人 · 王鹏程",
+      "description": "智能体流程节点鉴权",
+      "next": "推进\"智能体流程节点鉴权\"，计划节点：2026-12-30。",
       "risk": "",
       "milestones": [
         [
-          "场景建设推进",
-          "待定",
+          "智能体流程节点鉴权",
+          "2026-12-30",
           "todo"
         ]
       ],
+      "remarks": [],
       "items": [
         {
-          "detail": "场景建设推进",
+          "detail": "智能体流程节点鉴权",
           "status": "todo",
           "demo": "",
-          "due": null,
+          "due": "2026-12-30",
           "integrated": "否",
           "vendor": "启明星",
-          "techOwner": "黄隽弢",
-          "businessOwner": "邵晨峰"
+          "techOwner": "王鹏程",
+          "businessOwner": "黄隽弢",
+          "remark": ""
         }
-      ],
-      "remarks": []
+      ]
     },
     {
       "id": "ai-19",
@@ -3858,6 +4216,10 @@
           "done"
         ]
       ],
+      "remarks": [
+        "分析数据维护工单，自动找到系统优化建议",
+        "通过流量数据进行异常行为监测"
+      ],
       "items": [
         {
           "detail": "数据资产",
@@ -3866,8 +4228,9 @@
           "due": "2026-12-30",
           "integrated": "否",
           "vendor": "华云数据",
-          "techOwner": "魏骁",
-          "businessOwner": "王炜"
+          "techOwner": "王炜",
+          "businessOwner": "魏骁",
+          "remark": ""
         },
         {
           "detail": "数据指标资产搭建",
@@ -3876,8 +4239,9 @@
           "due": "2026-12-30",
           "integrated": "否",
           "vendor": "华云数据",
-          "techOwner": "魏骁",
-          "businessOwner": "王炜"
+          "techOwner": "王炜",
+          "businessOwner": "魏骁",
+          "remark": ""
         },
         {
           "detail": "业务本体搭建",
@@ -3886,8 +4250,9 @@
           "due": null,
           "integrated": "是",
           "vendor": "启明星",
-          "techOwner": "黄隽弢",
-          "businessOwner": "王炜"
+          "techOwner": "王炜",
+          "businessOwner": "黄隽弢",
+          "remark": ""
         },
         {
           "detail": "数据维护追溯分析",
@@ -3896,8 +4261,9 @@
           "due": null,
           "integrated": "是",
           "vendor": "启明星",
-          "techOwner": "黄隽弢",
-          "businessOwner": "王炜"
+          "techOwner": "王炜",
+          "businessOwner": "黄隽弢",
+          "remark": "分析数据维护工单，自动找到系统优化建议"
         },
         {
           "detail": "人工智能数据相关性合规辅助审查",
@@ -3906,13 +4272,10 @@
           "due": "2026-12-30",
           "integrated": "否",
           "vendor": "华云集成",
-          "techOwner": "魏骁",
-          "businessOwner": "王炜"
+          "techOwner": "王炜",
+          "businessOwner": "魏骁",
+          "remark": "通过流量数据进行异常行为监测"
         }
-      ],
-      "remarks": [
-        "分析数据维护工单，自动找到系统优化建议",
-        "通过流量数据进行异常行为监测"
       ]
     },
     {
@@ -3927,7 +4290,7 @@
       "due": null,
       "businessOwner": "黄隽弢",
       "techOwner": "邵晨峰",
-      "vendor": "华云数据",
+      "vendor": "华云集成",
       "owner": "黄隽弢",
       "role": "业务负责人 · 黄隽弢 / 技术部对接人 · 邵晨峰",
       "description": "审计代码漏洞、分析和需求匹配度、AI参与测试、设计、迭代",
@@ -3950,6 +4313,7 @@
           "todo"
         ]
       ],
+      "remarks": [],
       "items": [
         {
           "detail": "审计代码漏洞",
@@ -3957,9 +4321,10 @@
           "demo": "",
           "due": null,
           "integrated": "是",
-          "vendor": "华云数据",
-          "techOwner": "黄隽弢",
-          "businessOwner": "邵晨峰"
+          "vendor": "华云集成",
+          "techOwner": "邵晨峰",
+          "businessOwner": "黄隽弢",
+          "remark": ""
         },
         {
           "detail": "分析和需求匹配度",
@@ -3967,9 +4332,10 @@
           "demo": "",
           "due": null,
           "integrated": "是",
-          "vendor": "华云数据",
-          "techOwner": "黄隽弢",
-          "businessOwner": "邵晨峰"
+          "vendor": "华云集成",
+          "techOwner": "邵晨峰",
+          "businessOwner": "黄隽弢",
+          "remark": ""
         },
         {
           "detail": "AI参与测试、设计、迭代",
@@ -3977,12 +4343,12 @@
           "demo": "",
           "due": null,
           "integrated": "是",
-          "vendor": "华云数据",
-          "techOwner": "黄隽弢",
-          "businessOwner": "邵晨峰"
+          "vendor": "华云集成",
+          "techOwner": "邵晨峰",
+          "businessOwner": "黄隽弢",
+          "remark": ""
         }
-      ],
-      "remarks": []
+      ]
     },
     {
       "id": "ai-21",
@@ -4014,6 +4380,9 @@
           "todo"
         ]
       ],
+      "remarks": [
+        "各部门都参与"
+      ],
       "items": [
         {
           "detail": "结合市场成员画像，辅助市场成员参与市场",
@@ -4022,8 +4391,9 @@
           "due": "长期",
           "integrated": "否",
           "vendor": "各团队",
-          "techOwner": "黄隽弢",
-          "businessOwner": "邵晨峰"
+          "techOwner": "邵晨峰",
+          "businessOwner": "黄隽弢",
+          "remark": "各部门都参与"
         },
         {
           "detail": "辅助决策等便利性操作",
@@ -4032,12 +4402,10 @@
           "due": "长期",
           "integrated": "否",
           "vendor": "各团队",
-          "techOwner": "黄隽弢",
-          "businessOwner": "邵晨峰"
+          "techOwner": "邵晨峰",
+          "businessOwner": "黄隽弢",
+          "remark": ""
         }
-      ],
-      "remarks": [
-        "各部门都参与"
       ]
     },
     {
@@ -4090,6 +4458,7 @@
           "todo"
         ]
       ],
+      "remarks": [],
       "items": [
         {
           "detail": "交易序列创建",
@@ -4098,8 +4467,9 @@
           "due": "2026-08-07",
           "integrated": "是",
           "vendor": "华云数据",
-          "techOwner": "骆希",
-          "businessOwner": "王鹏程"
+          "techOwner": "王鹏程",
+          "businessOwner": "骆希",
+          "remark": ""
         },
         {
           "detail": "设置限额",
@@ -4108,8 +4478,9 @@
           "due": "2026-08-31",
           "integrated": "是",
           "vendor": "华云数据",
-          "techOwner": "骆希",
-          "businessOwner": "王鹏程"
+          "techOwner": "王鹏程",
+          "businessOwner": "骆希",
+          "remark": ""
         },
         {
           "detail": "交易公告发布",
@@ -4118,8 +4489,9 @@
           "due": "2026-08-31",
           "integrated": "是",
           "vendor": "华云数据",
-          "techOwner": "骆希",
-          "businessOwner": "王鹏程"
+          "techOwner": "王鹏程",
+          "businessOwner": "骆希",
+          "remark": ""
         },
         {
           "detail": "信息披露发布",
@@ -4128,8 +4500,9 @@
           "due": "2026-08-31",
           "integrated": "是",
           "vendor": "华云数据",
-          "techOwner": "骆希",
-          "businessOwner": "王鹏程"
+          "techOwner": "王鹏程",
+          "businessOwner": "骆希",
+          "remark": ""
         },
         {
           "detail": "事前辅助出清各元素的智能校核",
@@ -4138,8 +4511,9 @@
           "due": "2026-12-30",
           "integrated": "是",
           "vendor": "华云数据",
-          "techOwner": "骆希",
-          "businessOwner": "王鹏程"
+          "techOwner": "王鹏程",
+          "businessOwner": "骆希",
+          "remark": ""
         },
         {
           "detail": "事后出清结果的智能复核",
@@ -4148,31 +4522,33 @@
           "due": "2026-12-30",
           "integrated": "是",
           "vendor": "华云数据",
-          "techOwner": "骆希",
-          "businessOwner": "王鹏程"
+          "techOwner": "王鹏程",
+          "businessOwner": "骆希",
+          "remark": ""
         },
         {
           "detail": "一键触发交易",
           "status": "todo",
           "demo": "",
-          "due": null,
+          "due": "2026-12-30",
           "integrated": "是",
           "vendor": "华云数据",
-          "techOwner": "骆希",
-          "businessOwner": "王鹏程"
+          "techOwner": "王鹏程",
+          "businessOwner": "骆希",
+          "remark": ""
         },
         {
           "detail": "全省市场化响应自助交易",
           "status": "todo",
           "demo": "",
-          "due": null,
+          "due": "2026-12-30",
           "integrated": "是",
           "vendor": "华云数据",
-          "techOwner": "骆希",
-          "businessOwner": "王鹏程"
+          "techOwner": "王鹏程",
+          "businessOwner": "骆希",
+          "remark": ""
         }
-      ],
-      "remarks": []
+      ]
     },
     {
       "id": "ai-23",
@@ -4185,10 +4561,10 @@
       "progress": 0,
       "due": null,
       "businessOwner": "待定",
-      "techOwner": "王鹏程",
+      "techOwner": "待定",
       "vendor": "待定",
-      "owner": "王鹏程",
-      "role": "技术部对接人 · 王鹏程",
+      "owner": "待定",
+      "role": "责任人待定",
       "description": "场景建设推进",
       "next": "推进\"场景建设推进\"。",
       "risk": "",
@@ -4199,6 +4575,7 @@
           "todo"
         ]
       ],
+      "remarks": [],
       "items": [
         {
           "detail": "场景建设推进",
@@ -4208,10 +4585,10 @@
           "integrated": "",
           "vendor": "",
           "techOwner": "",
-          "businessOwner": "王鹏程"
+          "businessOwner": "",
+          "remark": ""
         }
-      ],
-      "remarks": []
+      ]
     },
     {
       "id": "ai-24",
@@ -4238,6 +4615,7 @@
           "todo"
         ]
       ],
+      "remarks": [],
       "items": [
         {
           "detail": "客服录音的人工智能全面介入，包括问答知识库",
@@ -4246,11 +4624,11 @@
           "due": "2026-08-31",
           "integrated": "否",
           "vendor": "启明星",
-          "techOwner": "吕瑞扬",
-          "businessOwner": "王鹏程"
+          "techOwner": "王鹏程",
+          "businessOwner": "吕瑞扬",
+          "remark": ""
         }
-      ],
-      "remarks": []
+      ]
     },
     {
       "id": "ai-25",
@@ -4282,6 +4660,7 @@
           "todo"
         ]
       ],
+      "remarks": [],
       "items": [
         {
           "detail": "流式输出",
@@ -4290,8 +4669,9 @@
           "due": "2026-08-31",
           "integrated": "否",
           "vendor": "启明星",
-          "techOwner": "吕瑞扬",
-          "businessOwner": "王鹏程"
+          "techOwner": "王鹏程",
+          "businessOwner": "吕瑞扬",
+          "remark": ""
         },
         {
           "detail": "统计分析等",
@@ -4300,11 +4680,11 @@
           "due": "2026-08-31",
           "integrated": "否",
           "vendor": "启明星",
-          "techOwner": "吕瑞扬",
-          "businessOwner": "王鹏程"
+          "techOwner": "王鹏程",
+          "businessOwner": "吕瑞扬",
+          "remark": ""
         }
-      ],
-      "remarks": []
+      ]
     },
     {
       "id": "ai-26",
@@ -4346,6 +4726,7 @@
           "todo"
         ]
       ],
+      "remarks": [],
       "items": [
         {
           "detail": "建设智能问答",
@@ -4354,8 +4735,9 @@
           "due": "2026-10-30",
           "integrated": "否",
           "vendor": "启明星",
-          "techOwner": "吕瑞扬",
-          "businessOwner": "王鹏程"
+          "techOwner": "王鹏程",
+          "businessOwner": "吕瑞扬",
+          "remark": ""
         },
         {
           "detail": "交易助手规则解答",
@@ -4364,8 +4746,9 @@
           "due": "2026-10-30",
           "integrated": "否",
           "vendor": "启明星",
-          "techOwner": "吕瑞扬",
-          "businessOwner": "王鹏程"
+          "techOwner": "王鹏程",
+          "businessOwner": "吕瑞扬",
+          "remark": ""
         },
         {
           "detail": "信息查询",
@@ -4374,8 +4757,9 @@
           "due": "2026-10-30",
           "integrated": "否",
           "vendor": "启明星",
-          "techOwner": "吕瑞扬",
-          "businessOwner": "王鹏程"
+          "techOwner": "王鹏程",
+          "businessOwner": "吕瑞扬",
+          "remark": ""
         },
         {
           "detail": "结果解释和个性化服务提醒",
@@ -4384,11 +4768,11 @@
           "due": "2026-10-30",
           "integrated": "否",
           "vendor": "启明星",
-          "techOwner": "吕瑞扬",
-          "businessOwner": "王鹏程"
+          "techOwner": "王鹏程",
+          "businessOwner": "吕瑞扬",
+          "remark": ""
         }
-      ],
-      "remarks": []
+      ]
     },
     {
       "id": "ai-27",
@@ -4399,7 +4783,7 @@
       "kind": "punch",
       "priority": "punch",
       "progress": 0,
-      "due": "2026-09-30",
+      "due": "2026-12-30",
       "businessOwner": "吕瑞扬",
       "techOwner": "王鹏程",
       "vendor": "启明星",
@@ -4423,8 +4807,14 @@
           "热点统计和趋势分析",
           "2026-09-30",
           "todo"
+        ],
+        [
+          "话务分析报告自动生成",
+          "2026-12-30",
+          "todo"
         ]
       ],
+      "remarks": [],
       "items": [
         {
           "detail": "分析话务工单处理与服务记录自动归类",
@@ -4433,8 +4823,9 @@
           "due": "2026-09-30",
           "integrated": "是",
           "vendor": "启明星",
-          "techOwner": "吕瑞扬",
-          "businessOwner": "王鹏程"
+          "techOwner": "王鹏程",
+          "businessOwner": "吕瑞扬",
+          "remark": ""
         },
         {
           "detail": "主题识别",
@@ -4443,8 +4834,9 @@
           "due": "2026-09-30",
           "integrated": "是",
           "vendor": "启明星",
-          "techOwner": "吕瑞扬",
-          "businessOwner": "王鹏程"
+          "techOwner": "王鹏程",
+          "businessOwner": "吕瑞扬",
+          "remark": ""
         },
         {
           "detail": "热点统计和趋势分析",
@@ -4453,11 +4845,22 @@
           "due": "2026-09-30",
           "integrated": "是",
           "vendor": "启明星",
-          "techOwner": "吕瑞扬",
-          "businessOwner": "王鹏程"
+          "techOwner": "王鹏程",
+          "businessOwner": "吕瑞扬",
+          "remark": ""
+        },
+        {
+          "detail": "话务分析报告自动生成",
+          "status": "todo",
+          "demo": "",
+          "due": "2026-12-30",
+          "integrated": "是",
+          "vendor": "启明星",
+          "techOwner": "王鹏程",
+          "businessOwner": "吕瑞扬",
+          "remark": ""
         }
-      ],
-      "remarks": []
+      ]
     },
     {
       "id": "ai-28",
@@ -4504,6 +4907,7 @@
           "todo"
         ]
       ],
+      "remarks": [],
       "items": [
         {
           "detail": "数字人",
@@ -4512,8 +4916,9 @@
           "due": "2026-08-15",
           "integrated": "是",
           "vendor": "华云数据",
-          "techOwner": "吕瑞扬",
-          "businessOwner": "王鹏程"
+          "techOwner": "王鹏程",
+          "businessOwner": "吕瑞扬",
+          "remark": ""
         },
         {
           "detail": "生成宣传脚本",
@@ -4521,9 +4926,10 @@
           "demo": "46241",
           "due": "2026-12-30",
           "integrated": "是",
-          "vendor": "华云数据",
-          "techOwner": "吕瑞扬",
-          "businessOwner": "王鹏程"
+          "vendor": "启明星",
+          "techOwner": "王鹏程",
+          "businessOwner": "吕瑞扬",
+          "remark": ""
         },
         {
           "detail": "图文素材",
@@ -4531,9 +4937,10 @@
           "demo": "46241",
           "due": "2026-12-30",
           "integrated": "是",
-          "vendor": "华云数据",
-          "techOwner": "吕瑞扬",
-          "businessOwner": "王鹏程"
+          "vendor": "启明星",
+          "techOwner": "王鹏程",
+          "businessOwner": "吕瑞扬",
+          "remark": ""
         },
         {
           "detail": "短视频文案",
@@ -4541,9 +4948,10 @@
           "demo": "46241",
           "due": "2026-12-30",
           "integrated": "是",
-          "vendor": "华云数据",
-          "techOwner": "吕瑞扬",
-          "businessOwner": "王鹏程"
+          "vendor": "启明星",
+          "techOwner": "王鹏程",
+          "businessOwner": "吕瑞扬",
+          "remark": ""
         },
         {
           "detail": "海报文案和新媒体推送内容",
@@ -4551,12 +4959,12 @@
           "demo": "46241",
           "due": "2026-12-30",
           "integrated": "是",
-          "vendor": "华云数据",
-          "techOwner": "吕瑞扬",
-          "businessOwner": "王鹏程"
+          "vendor": "启明星",
+          "techOwner": "王鹏程",
+          "businessOwner": "吕瑞扬",
+          "remark": ""
         }
-      ],
-      "remarks": []
+      ]
     },
     {
       "id": "ai-29",
@@ -4588,6 +4996,7 @@
           "current"
         ]
       ],
+      "remarks": [],
       "items": [
         {
           "detail": "电价预测",
@@ -4596,8 +5005,9 @@
           "due": null,
           "integrated": "是",
           "vendor": "华云数据",
-          "techOwner": "何阳",
-          "businessOwner": "王鹏程"
+          "techOwner": "王鹏程",
+          "businessOwner": "何阳",
+          "remark": ""
         },
         {
           "detail": "电量预测",
@@ -4606,11 +5016,11 @@
           "due": null,
           "integrated": "是",
           "vendor": "华云数据",
-          "techOwner": "何阳",
-          "businessOwner": "王鹏程"
+          "techOwner": "王鹏程",
+          "businessOwner": "何阳",
+          "remark": ""
         }
-      ],
-      "remarks": []
+      ]
     },
     {
       "id": "ai-30",
@@ -4637,6 +5047,7 @@
           "todo"
         ]
       ],
+      "remarks": [],
       "items": [
         {
           "detail": "mirofish内网搭建",
@@ -4645,11 +5056,11 @@
           "due": "2026-07-30",
           "integrated": "否",
           "vendor": "电科院",
-          "techOwner": "何阳",
-          "businessOwner": "邵晨峰"
+          "techOwner": "邵晨峰",
+          "businessOwner": "何阳",
+          "remark": ""
         }
-      ],
-      "remarks": []
+      ]
     },
     {
       "id": "ai-31",
@@ -4701,6 +5112,7 @@
           "todo"
         ]
       ],
+      "remarks": [],
       "items": [
         {
           "detail": "实现资源聚合建模",
@@ -4709,8 +5121,9 @@
           "due": "2026-12-30",
           "integrated": "否",
           "vendor": "电科院",
-          "techOwner": "何阳",
-          "businessOwner": "王鹏程"
+          "techOwner": "王鹏程",
+          "businessOwner": "何阳",
+          "remark": ""
         },
         {
           "detail": "智能匹配",
@@ -4719,8 +5132,9 @@
           "due": "2026-12-30",
           "integrated": "否",
           "vendor": "电科院",
-          "techOwner": "何阳",
-          "businessOwner": "王鹏程"
+          "techOwner": "王鹏程",
+          "businessOwner": "何阳",
+          "remark": ""
         },
         {
           "detail": "自动撮合和快速滚动出清，支撑多主体",
@@ -4729,8 +5143,9 @@
           "due": "2026-12-30",
           "integrated": "否",
           "vendor": "电科院",
-          "techOwner": "何阳",
-          "businessOwner": "王鹏程"
+          "techOwner": "王鹏程",
+          "businessOwner": "何阳",
+          "remark": ""
         },
         {
           "detail": "多时段自主交易",
@@ -4739,8 +5154,9 @@
           "due": "2026-12-30",
           "integrated": "否",
           "vendor": "电科院",
-          "techOwner": "何阳",
-          "businessOwner": "王鹏程"
+          "techOwner": "王鹏程",
+          "businessOwner": "何阳",
+          "remark": ""
         },
         {
           "detail": "场景建设推进",
@@ -4750,7 +5166,8 @@
           "integrated": "",
           "vendor": "",
           "techOwner": "",
-          "businessOwner": ""
+          "businessOwner": "",
+          "remark": ""
         },
         {
           "detail": "场景建设推进",
@@ -4760,7 +5177,8 @@
           "integrated": "",
           "vendor": "",
           "techOwner": "",
-          "businessOwner": ""
+          "businessOwner": "",
+          "remark": ""
         },
         {
           "detail": "场景建设推进",
@@ -4770,7 +5188,8 @@
           "integrated": "",
           "vendor": "",
           "techOwner": "",
-          "businessOwner": ""
+          "businessOwner": "",
+          "remark": ""
         },
         {
           "detail": "场景建设推进",
@@ -4780,7 +5199,8 @@
           "integrated": "",
           "vendor": "",
           "techOwner": "",
-          "businessOwner": ""
+          "businessOwner": "",
+          "remark": ""
         },
         {
           "detail": "场景建设推进",
@@ -4790,7 +5210,8 @@
           "integrated": "",
           "vendor": "",
           "techOwner": "",
-          "businessOwner": ""
+          "businessOwner": "",
+          "remark": ""
         },
         {
           "detail": "场景建设推进",
@@ -4800,7 +5221,8 @@
           "integrated": "",
           "vendor": "",
           "techOwner": "",
-          "businessOwner": ""
+          "businessOwner": "",
+          "remark": ""
         },
         {
           "detail": "场景建设推进",
@@ -4810,7 +5232,8 @@
           "integrated": "",
           "vendor": "",
           "techOwner": "",
-          "businessOwner": ""
+          "businessOwner": "",
+          "remark": ""
         },
         {
           "detail": "场景建设推进",
@@ -4820,7 +5243,8 @@
           "integrated": "",
           "vendor": "",
           "techOwner": "",
-          "businessOwner": ""
+          "businessOwner": "",
+          "remark": ""
         },
         {
           "detail": "场景建设推进",
@@ -4830,7 +5254,8 @@
           "integrated": "",
           "vendor": "",
           "techOwner": "",
-          "businessOwner": ""
+          "businessOwner": "",
+          "remark": ""
         },
         {
           "detail": "场景建设推进",
@@ -4840,7 +5265,8 @@
           "integrated": "",
           "vendor": "",
           "techOwner": "",
-          "businessOwner": ""
+          "businessOwner": "",
+          "remark": ""
         },
         {
           "detail": "场景建设推进",
@@ -4850,7 +5276,8 @@
           "integrated": "",
           "vendor": "",
           "techOwner": "",
-          "businessOwner": ""
+          "businessOwner": "",
+          "remark": ""
         },
         {
           "detail": "场景建设推进",
@@ -4860,7 +5287,8 @@
           "integrated": "",
           "vendor": "",
           "techOwner": "",
-          "businessOwner": ""
+          "businessOwner": "",
+          "remark": ""
         },
         {
           "detail": "场景建设推进",
@@ -4870,7 +5298,8 @@
           "integrated": "",
           "vendor": "",
           "techOwner": "",
-          "businessOwner": ""
+          "businessOwner": "",
+          "remark": ""
         },
         {
           "detail": "场景建设推进",
@@ -4880,7 +5309,8 @@
           "integrated": "",
           "vendor": "",
           "techOwner": "",
-          "businessOwner": ""
+          "businessOwner": "",
+          "remark": ""
         },
         {
           "detail": "场景建设推进",
@@ -4890,7 +5320,8 @@
           "integrated": "",
           "vendor": "",
           "techOwner": "",
-          "businessOwner": ""
+          "businessOwner": "",
+          "remark": ""
         },
         {
           "detail": "场景建设推进",
@@ -4900,7 +5331,8 @@
           "integrated": "",
           "vendor": "",
           "techOwner": "",
-          "businessOwner": ""
+          "businessOwner": "",
+          "remark": ""
         },
         {
           "detail": "场景建设推进",
@@ -4910,7 +5342,8 @@
           "integrated": "",
           "vendor": "",
           "techOwner": "",
-          "businessOwner": ""
+          "businessOwner": "",
+          "remark": ""
         },
         {
           "detail": "场景建设推进",
@@ -4920,7 +5353,8 @@
           "integrated": "",
           "vendor": "",
           "techOwner": "",
-          "businessOwner": ""
+          "businessOwner": "",
+          "remark": ""
         },
         {
           "detail": "场景建设推进",
@@ -4930,7 +5364,8 @@
           "integrated": "",
           "vendor": "",
           "techOwner": "",
-          "businessOwner": ""
+          "businessOwner": "",
+          "remark": ""
         },
         {
           "detail": "场景建设推进",
@@ -4940,7 +5375,8 @@
           "integrated": "",
           "vendor": "",
           "techOwner": "",
-          "businessOwner": ""
+          "businessOwner": "",
+          "remark": ""
         },
         {
           "detail": "场景建设推进",
@@ -4950,7 +5386,8 @@
           "integrated": "",
           "vendor": "",
           "techOwner": "",
-          "businessOwner": ""
+          "businessOwner": "",
+          "remark": ""
         },
         {
           "detail": "场景建设推进",
@@ -4960,7 +5397,8 @@
           "integrated": "",
           "vendor": "",
           "techOwner": "",
-          "businessOwner": ""
+          "businessOwner": "",
+          "remark": ""
         },
         {
           "detail": "场景建设推进",
@@ -4970,7 +5408,8 @@
           "integrated": "",
           "vendor": "",
           "techOwner": "",
-          "businessOwner": ""
+          "businessOwner": "",
+          "remark": ""
         },
         {
           "detail": "场景建设推进",
@@ -4980,7 +5419,8 @@
           "integrated": "",
           "vendor": "",
           "techOwner": "",
-          "businessOwner": ""
+          "businessOwner": "",
+          "remark": ""
         },
         {
           "detail": "场景建设推进",
@@ -4990,7 +5430,8 @@
           "integrated": "",
           "vendor": "",
           "techOwner": "",
-          "businessOwner": ""
+          "businessOwner": "",
+          "remark": ""
         },
         {
           "detail": "场景建设推进",
@@ -5000,7 +5441,8 @@
           "integrated": "",
           "vendor": "",
           "techOwner": "",
-          "businessOwner": ""
+          "businessOwner": "",
+          "remark": ""
         },
         {
           "detail": "场景建设推进",
@@ -5010,7 +5452,8 @@
           "integrated": "",
           "vendor": "",
           "techOwner": "",
-          "businessOwner": ""
+          "businessOwner": "",
+          "remark": ""
         },
         {
           "detail": "场景建设推进",
@@ -5020,7 +5463,8 @@
           "integrated": "",
           "vendor": "",
           "techOwner": "",
-          "businessOwner": ""
+          "businessOwner": "",
+          "remark": ""
         },
         {
           "detail": "场景建设推进",
@@ -5030,7 +5474,8 @@
           "integrated": "",
           "vendor": "",
           "techOwner": "",
-          "businessOwner": ""
+          "businessOwner": "",
+          "remark": ""
         },
         {
           "detail": "场景建设推进",
@@ -5040,7 +5485,8 @@
           "integrated": "",
           "vendor": "",
           "techOwner": "",
-          "businessOwner": ""
+          "businessOwner": "",
+          "remark": ""
         },
         {
           "detail": "场景建设推进",
@@ -5050,7 +5496,8 @@
           "integrated": "",
           "vendor": "",
           "techOwner": "",
-          "businessOwner": ""
+          "businessOwner": "",
+          "remark": ""
         },
         {
           "detail": "场景建设推进",
@@ -5060,7 +5507,8 @@
           "integrated": "",
           "vendor": "",
           "techOwner": "",
-          "businessOwner": ""
+          "businessOwner": "",
+          "remark": ""
         },
         {
           "detail": "场景建设推进",
@@ -5070,7 +5518,8 @@
           "integrated": "",
           "vendor": "",
           "techOwner": "",
-          "businessOwner": ""
+          "businessOwner": "",
+          "remark": ""
         },
         {
           "detail": "场景建设推进",
@@ -5080,7 +5529,8 @@
           "integrated": "",
           "vendor": "",
           "techOwner": "",
-          "businessOwner": ""
+          "businessOwner": "",
+          "remark": ""
         },
         {
           "detail": "场景建设推进",
@@ -5090,7 +5540,8 @@
           "integrated": "",
           "vendor": "",
           "techOwner": "",
-          "businessOwner": ""
+          "businessOwner": "",
+          "remark": ""
         },
         {
           "detail": "场景建设推进",
@@ -5100,7 +5551,8 @@
           "integrated": "",
           "vendor": "",
           "techOwner": "",
-          "businessOwner": ""
+          "businessOwner": "",
+          "remark": ""
         },
         {
           "detail": "场景建设推进",
@@ -5110,7 +5562,8 @@
           "integrated": "",
           "vendor": "",
           "techOwner": "",
-          "businessOwner": ""
+          "businessOwner": "",
+          "remark": ""
         },
         {
           "detail": "场景建设推进",
@@ -5120,7 +5573,8 @@
           "integrated": "",
           "vendor": "",
           "techOwner": "",
-          "businessOwner": ""
+          "businessOwner": "",
+          "remark": ""
         },
         {
           "detail": "场景建设推进",
@@ -5130,7 +5584,8 @@
           "integrated": "",
           "vendor": "",
           "techOwner": "",
-          "businessOwner": ""
+          "businessOwner": "",
+          "remark": ""
         },
         {
           "detail": "场景建设推进",
@@ -5140,7 +5595,8 @@
           "integrated": "",
           "vendor": "",
           "techOwner": "",
-          "businessOwner": ""
+          "businessOwner": "",
+          "remark": ""
         },
         {
           "detail": "场景建设推进",
@@ -5150,7 +5606,8 @@
           "integrated": "",
           "vendor": "",
           "techOwner": "",
-          "businessOwner": ""
+          "businessOwner": "",
+          "remark": ""
         },
         {
           "detail": "场景建设推进",
@@ -5160,7 +5617,8 @@
           "integrated": "",
           "vendor": "",
           "techOwner": "",
-          "businessOwner": ""
+          "businessOwner": "",
+          "remark": ""
         },
         {
           "detail": "场景建设推进",
@@ -5170,7 +5628,8 @@
           "integrated": "",
           "vendor": "",
           "techOwner": "",
-          "businessOwner": ""
+          "businessOwner": "",
+          "remark": ""
         },
         {
           "detail": "场景建设推进",
@@ -5180,7 +5639,8 @@
           "integrated": "",
           "vendor": "",
           "techOwner": "",
-          "businessOwner": ""
+          "businessOwner": "",
+          "remark": ""
         },
         {
           "detail": "场景建设推进",
@@ -5190,7 +5650,8 @@
           "integrated": "",
           "vendor": "",
           "techOwner": "",
-          "businessOwner": ""
+          "businessOwner": "",
+          "remark": ""
         },
         {
           "detail": "场景建设推进",
@@ -5200,7 +5661,8 @@
           "integrated": "",
           "vendor": "",
           "techOwner": "",
-          "businessOwner": ""
+          "businessOwner": "",
+          "remark": ""
         },
         {
           "detail": "场景建设推进",
@@ -5210,7 +5672,8 @@
           "integrated": "",
           "vendor": "",
           "techOwner": "",
-          "businessOwner": ""
+          "businessOwner": "",
+          "remark": ""
         },
         {
           "detail": "场景建设推进",
@@ -5220,7 +5683,8 @@
           "integrated": "",
           "vendor": "",
           "techOwner": "",
-          "businessOwner": ""
+          "businessOwner": "",
+          "remark": ""
         },
         {
           "detail": "场景建设推进",
@@ -5230,7 +5694,8 @@
           "integrated": "",
           "vendor": "",
           "techOwner": "",
-          "businessOwner": ""
+          "businessOwner": "",
+          "remark": ""
         },
         {
           "detail": "场景建设推进",
@@ -5240,7 +5705,8 @@
           "integrated": "",
           "vendor": "",
           "techOwner": "",
-          "businessOwner": ""
+          "businessOwner": "",
+          "remark": ""
         },
         {
           "detail": "场景建设推进",
@@ -5250,7 +5716,8 @@
           "integrated": "",
           "vendor": "",
           "techOwner": "",
-          "businessOwner": ""
+          "businessOwner": "",
+          "remark": ""
         },
         {
           "detail": "场景建设推进",
@@ -5260,7 +5727,8 @@
           "integrated": "",
           "vendor": "",
           "techOwner": "",
-          "businessOwner": ""
+          "businessOwner": "",
+          "remark": ""
         },
         {
           "detail": "场景建设推进",
@@ -5270,7 +5738,8 @@
           "integrated": "",
           "vendor": "",
           "techOwner": "",
-          "businessOwner": ""
+          "businessOwner": "",
+          "remark": ""
         },
         {
           "detail": "场景建设推进",
@@ -5280,7 +5749,8 @@
           "integrated": "",
           "vendor": "",
           "techOwner": "",
-          "businessOwner": ""
+          "businessOwner": "",
+          "remark": ""
         },
         {
           "detail": "场景建设推进",
@@ -5290,7 +5760,8 @@
           "integrated": "",
           "vendor": "",
           "techOwner": "",
-          "businessOwner": ""
+          "businessOwner": "",
+          "remark": ""
         },
         {
           "detail": "场景建设推进",
@@ -5300,7 +5771,8 @@
           "integrated": "",
           "vendor": "",
           "techOwner": "",
-          "businessOwner": ""
+          "businessOwner": "",
+          "remark": ""
         },
         {
           "detail": "场景建设推进",
@@ -5310,7 +5782,8 @@
           "integrated": "",
           "vendor": "",
           "techOwner": "",
-          "businessOwner": ""
+          "businessOwner": "",
+          "remark": ""
         },
         {
           "detail": "场景建设推进",
@@ -5320,7 +5793,8 @@
           "integrated": "",
           "vendor": "",
           "techOwner": "",
-          "businessOwner": ""
+          "businessOwner": "",
+          "remark": ""
         },
         {
           "detail": "场景建设推进",
@@ -5330,7 +5804,8 @@
           "integrated": "",
           "vendor": "",
           "techOwner": "",
-          "businessOwner": ""
+          "businessOwner": "",
+          "remark": ""
         },
         {
           "detail": "场景建设推进",
@@ -5340,7 +5815,8 @@
           "integrated": "",
           "vendor": "",
           "techOwner": "",
-          "businessOwner": ""
+          "businessOwner": "",
+          "remark": ""
         },
         {
           "detail": "场景建设推进",
@@ -5350,7 +5826,8 @@
           "integrated": "",
           "vendor": "",
           "techOwner": "",
-          "businessOwner": ""
+          "businessOwner": "",
+          "remark": ""
         },
         {
           "detail": "场景建设推进",
@@ -5360,7 +5837,8 @@
           "integrated": "",
           "vendor": "",
           "techOwner": "",
-          "businessOwner": ""
+          "businessOwner": "",
+          "remark": ""
         },
         {
           "detail": "场景建设推进",
@@ -5370,7 +5848,8 @@
           "integrated": "",
           "vendor": "",
           "techOwner": "",
-          "businessOwner": ""
+          "businessOwner": "",
+          "remark": ""
         },
         {
           "detail": "场景建设推进",
@@ -5380,7 +5859,8 @@
           "integrated": "",
           "vendor": "",
           "techOwner": "",
-          "businessOwner": ""
+          "businessOwner": "",
+          "remark": ""
         },
         {
           "detail": "场景建设推进",
@@ -5390,7 +5870,8 @@
           "integrated": "",
           "vendor": "",
           "techOwner": "",
-          "businessOwner": ""
+          "businessOwner": "",
+          "remark": ""
         },
         {
           "detail": "场景建设推进",
@@ -5400,10 +5881,10 @@
           "integrated": "",
           "vendor": "",
           "techOwner": "",
-          "businessOwner": ""
+          "businessOwner": "",
+          "remark": ""
         }
-      ],
-      "remarks": []
+      ]
     }
   ],
   "quarterMilestones": [
@@ -5420,8 +5901,8 @@
       "label": "Q3",
       "range": "7–9月",
       "title": "三季度集成",
-      "date": "2026-08-07",
-      "taskId": "ai-15"
+      "date": "2026-08-15",
+      "taskId": "ai-05"
     },
     {
       "id": "dec",

@@ -513,7 +513,7 @@ function App() {
               </select>
               <CaretDown size={14} weight="regular" aria-hidden="true" />
             </label>
-            <div className="data-source">最后更新：2026-08-06</div>
+            <div className="data-source">最后更新：2026-08-09</div>
           </div>
         </header>
 

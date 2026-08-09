@@ -1,9 +1,9 @@
 import XLSX from "xlsx";
 import fs from "node:fs/promises";
 
-const SOURCE = "source/人工智能场景计划表-0806.xlsx";
+const SOURCE = "source/人工智能场景计划表-0809.xlsx";
 const OUTPUT = "src/ai-plan-data.json";
-const CURRENT_DATE = "2026-08-06";
+const CURRENT_DATE = "2026-08-09";
 const EXCLUDED_SCENARIOS = new Set(["智能大厅服务"]);
 
 const workbook = XLSX.readFile(SOURCE);
@@ -139,6 +139,7 @@ rows.forEach((row, index) => {
     techOwner: cleanText(techOwner),
     businessOwner: cleanText(businessOwner),
     remark: cleanText(remark),
+  };
   const key = `${currentDepartment}::${currentScenario}`;
   if (!groups.has(key)) {
     groups.set(key, {
@@ -181,6 +182,7 @@ const scenarios = [...groups.values()].map((group, index) => {
   const businessOwner = uniqueText(group.items.map((item) => item.businessOwner));
   const techOwner = uniqueText(group.items.map((item) => item.techOwner));
   const vendorUnits = uniqueText(group.items.map((item) => item.vendor));
+  const remarks = group.items.map((item) => item.remark).filter(Boolean);
   const vendor = vendorUnits.split("、")[0] || "";
   const owner = businessOwner || techOwner || vendor || "待定";
   const incomplete = group.items.find((item) => item.status !== "done");
@@ -215,6 +217,7 @@ const scenarios = [...groups.values()].map((group, index) => {
     next,
     risk,
     milestones: buildMilestones(group, due),
+    remarks,
     items: group.items,
   };
 });
@@ -259,9 +262,9 @@ const longTermScenario = scenarios.find((scenario) => scenario.due === "长期")
 quarterMilestones.push({ id: "long", label: "持续", range: "长期建设", title: "持续优化", date: "长期", taskId: longTermScenario?.id ?? scenarios[0]?.id });
 
 const output = {
-  sourceFile: "人工智能场景计划表-0806.xlsx",
+  sourceFile: "人工智能场景计划表-0809.xlsx",
   sourceSheet: "应用建设",
-  reportDate: "2026-08-06",
+  reportDate: "2026-08-09",
   currentDate: CURRENT_DATE,
   departments,
   scenarios,
