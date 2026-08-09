@@ -1,5 +1,5 @@
 {
-  "sourceFile": "人工智能场景计划表-0809.xlsx",
+  "sourceFile": "人工智能场景计划表-0810.xlsx",
   "sourceSheet": "应用建设",
   "reportDate": "2026-08-09",
   "currentDate": "2026-08-09",
@@ -113,11 +113,11 @@
           "priority": "punch",
           "progress": 0,
           "due": "2026-12-30",
-          "businessOwner": "王林",
+          "businessOwner": "王凌",
           "techOwner": "王炜",
           "vendor": "启明星",
-          "owner": "王林",
-          "role": "业务负责人 · 王林 / 技术部对接人 · 王炜",
+          "owner": "王凌",
+          "role": "业务负责人 · 王凌 / 技术部对接人 · 王炜",
           "description": "舆情监测、舆情研判、舆情预警",
           "next": "推进\"舆情监测\"，计划节点：2026-08-22。",
           "risk": "",
@@ -154,7 +154,7 @@
               "integrated": "否",
               "vendor": "启明星",
               "techOwner": "王炜",
-              "businessOwner": "王林",
+              "businessOwner": "王凌",
               "remark": ""
             },
             {
@@ -166,7 +166,7 @@
               "integrated": "否",
               "vendor": "启明星",
               "techOwner": "王炜",
-              "businessOwner": "王林",
+              "businessOwner": "王凌",
               "remark": ""
             },
             {
@@ -178,7 +178,7 @@
               "integrated": "否",
               "vendor": "启明星",
               "techOwner": "王炜",
-              "businessOwner": "王林",
+              "businessOwner": "王凌",
               "remark": ""
             },
             {
@@ -190,7 +190,7 @@
               "integrated": "否",
               "vendor": "启明星",
               "techOwner": "王炜",
-              "businessOwner": "王林",
+              "businessOwner": "王凌",
               "remark": ""
             }
           ]
@@ -198,7 +198,7 @@
       ],
       "overall": 38,
       "active": 2,
-      "nearest": "2026-08-30"
+      "nearest": "2026-08-07"
     },
     {
       "id": "dept-市场部",
@@ -274,7 +274,7 @@
           "kind": "normal",
           "priority": "yellow",
           "progress": 100,
-          "due": null,
+          "due": "2026-08-15",
           "businessOwner": "陈磊",
           "techOwner": "王炜",
           "vendor": "华云数据",
@@ -286,7 +286,7 @@
           "milestones": [
             [
               "提炼政策文件辅助形成政策解读材料",
-              "待定",
+              "2026-08-15",
               "done"
             ]
           ],
@@ -296,7 +296,7 @@
               "detail": "提炼政策文件辅助形成政策解读材料",
               "status": "done",
               "demo": "",
-              "due": null,
+              "due": "2026-08-15",
               "canDemo": "是",
               "integrated": "是",
               "vendor": "华云数据",
@@ -367,7 +367,7 @@
       ],
       "overall": 83,
       "active": 1,
-      "nearest": "2026-08-15"
+      "nearest": "2026-07-21"
     },
     {
       "id": "dept-结算部",
@@ -679,7 +679,7 @@
       ],
       "overall": 21,
       "active": 4,
-      "nearest": "2026-09-30"
+      "nearest": "2026-08-31"
     },
     {
       "id": "dept-合规部",
@@ -777,24 +777,24 @@
           "kind": "punch",
           "priority": "punch",
           "progress": 0,
-          "due": null,
+          "due": "2026-12-31",
           "businessOwner": "陈成",
           "techOwner": "王炜",
           "vendor": "启明星",
           "owner": "陈成",
           "role": "业务负责人 · 陈成 / 技术部对接人 · 王炜",
           "description": "交易平台流程稽核、决策中枢流程稽核",
-          "next": "推进\"交易平台流程稽核\"。",
+          "next": "推进\"交易平台流程稽核\"，计划节点：2026-12-31。",
           "risk": "",
           "milestones": [
             [
               "交易平台流程稽核",
-              "待定",
+              "2026-12-31",
               "todo"
             ],
             [
               "决策中枢流程稽核",
-              "待定",
+              "2026-12-31",
               "todo"
             ]
           ],
@@ -804,7 +804,7 @@
               "detail": "交易平台流程稽核",
               "status": "todo",
               "demo": "",
-              "due": null,
+              "due": "2026-12-31",
               "canDemo": "否",
               "integrated": "否",
               "vendor": "启明星",
@@ -816,7 +816,7 @@
               "detail": "决策中枢流程稽核",
               "status": "todo",
               "demo": "",
-              "due": null,
+              "due": "2026-12-31",
               "canDemo": "否",
               "integrated": "否",
               "vendor": "华云数据",
@@ -900,7 +900,7 @@
           "department": "技术部",
           "departmentId": "dept-技术部",
           "sequence": "13",
-          "kind": "normal",
+          "kind": "risk",
           "priority": "yellow",
           "progress": 40,
           "due": "2026-12-31",
@@ -911,11 +911,11 @@
           "role": "业务负责人 · 黄隽弢 / 技术部对接人 · 邵晨峰",
           "description": "自动采集软硬件数据、自动回归测试、日志采集",
           "next": "推进\"自动回归测试\"，计划节点：2026-12-31。",
-          "risk": "",
+          "risk": "当前完成度 40%，最近节点为 2026-07-31，建议在本次汇报中确认推进责任与资源安排。",
           "milestones": [
             [
               "自动采集软硬件数据",
-              "2026-12-31",
+              "2026-07-31",
               "done"
             ],
             [
@@ -948,7 +948,7 @@
               "detail": "自动采集软硬件数据",
               "status": "done",
               "demo": "7月31日",
-              "due": "2026-12-31",
+              "due": "2026-07-31",
               "canDemo": "是",
               "integrated": "是",
               "vendor": "华云集成",
@@ -1044,7 +1044,7 @@
               "detail": "采集异常行为",
               "status": "done",
               "demo": "",
-              "due": null,
+              "due": "2026-08-07",
               "canDemo": "是",
               "integrated": "是",
               "vendor": "华云集成",
@@ -1075,29 +1075,29 @@
           "kind": "normal",
           "priority": "yellow",
           "progress": 67,
-          "due": "2026-08-31",
+          "due": "2026-08-20",
           "businessOwner": "黄隽弢、魏骁",
           "techOwner": "邵晨峰",
           "vendor": "华云集成",
           "owner": "黄隽弢、魏骁",
           "role": "业务负责人 · 黄隽弢、魏骁 / 技术部对接人 · 邵晨峰",
           "description": "测试用例生成、自动巡检、生成巡检报告",
-          "next": "推进\"测试用例生成\"，计划节点：2026-08-31。",
+          "next": "推进\"测试用例生成\"，计划节点：2026-08-20。",
           "risk": "",
           "milestones": [
             [
               "测试用例生成",
-              "2026-08-31",
+              "2026-08-20",
               "current"
             ],
             [
               "自动巡检",
-              "2026-08-31",
+              "2026-08-20",
               "current"
             ],
             [
               "生成巡检报告",
-              "2026-08-31",
+              "2026-08-20",
               "done"
             ]
           ],
@@ -1110,7 +1110,7 @@
               "detail": "测试用例生成",
               "status": "partial",
               "demo": "7月31日",
-              "due": "2026-08-31",
+              "due": "2026-08-20",
               "canDemo": "是",
               "integrated": "是",
               "vendor": "华云集成",
@@ -1122,7 +1122,7 @@
               "detail": "自动巡检",
               "status": "partial",
               "demo": "7月31日",
-              "due": "2026-08-31",
+              "due": "2026-08-20",
               "canDemo": "是",
               "integrated": "是",
               "vendor": "华云集成",
@@ -1134,7 +1134,7 @@
               "detail": "生成巡检报告",
               "status": "done",
               "demo": "7月31日",
-              "due": "2026-08-31",
+              "due": "2026-08-20",
               "canDemo": "是",
               "integrated": "是",
               "vendor": "华云集成",
@@ -1153,14 +1153,14 @@
           "kind": "punch",
           "priority": "punch",
           "progress": 25,
-          "due": "2026-08-04",
+          "due": "2026-08-31",
           "businessOwner": "黄隽弢",
-          "techOwner": "邵晨峰",
+          "techOwner": "邵晨峰、王炜、王鹏程",
           "vendor": "华云数据",
           "owner": "黄隽弢",
-          "role": "业务负责人 · 黄隽弢 / 技术部对接人 · 邵晨峰",
+          "role": "业务负责人 · 黄隽弢 / 技术部对接人 · 邵晨峰、王炜、王鹏程",
           "description": "浙电work部署、通过浙电work提升数据查询质量、统一mcp、接口开发逻辑、安全规范",
-          "next": "推进\"通过浙电work提升数据查询质量\"。",
+          "next": "推进\"通过浙电work提升数据查询质量\"，计划节点：2026-08-31。",
           "risk": "",
           "milestones": [
             [
@@ -1170,12 +1170,12 @@
             ],
             [
               "通过浙电work提升数据查询质量",
-              "2026-08-04",
+              "2026-08-31",
               "todo"
             ],
             [
               "统一mcp、接口开发逻辑、安全规范",
-              "2026-08-04",
+              "2026-08-18",
               "todo"
             ],
             [
@@ -1205,11 +1205,11 @@
               "detail": "通过浙电work提升数据查询质量",
               "status": "todo",
               "demo": "",
-              "due": null,
+              "due": "2026-08-31",
               "canDemo": "否",
               "integrated": "是",
               "vendor": "启明星",
-              "techOwner": "邵晨峰",
+              "techOwner": "王炜",
               "businessOwner": "黄隽弢",
               "remark": ""
             },
@@ -1217,11 +1217,11 @@
               "detail": "统一mcp、接口开发逻辑、安全规范",
               "status": "todo",
               "demo": "",
-              "due": null,
+              "due": "2026-08-18",
               "canDemo": "否",
               "integrated": "否",
               "vendor": "启明星",
-              "techOwner": "邵晨峰",
+              "techOwner": "王炜",
               "businessOwner": "黄隽弢",
               "remark": "后续给所有研发单位会议宣贯"
             },
@@ -1233,7 +1233,7 @@
               "canDemo": "否",
               "integrated": "是",
               "vendor": "启明星",
-              "techOwner": "邵晨峰",
+              "techOwner": "王鹏程",
               "businessOwner": "黄隽弢",
               "remark": ""
             }
@@ -1250,10 +1250,10 @@
           "progress": 0,
           "due": "2026-12-30",
           "businessOwner": "黄隽弢",
-          "techOwner": "王鹏程",
+          "techOwner": "王炜",
           "vendor": "启明星",
           "owner": "黄隽弢",
-          "role": "业务负责人 · 黄隽弢 / 技术部对接人 · 王鹏程",
+          "role": "业务负责人 · 黄隽弢 / 技术部对接人 · 王炜",
           "description": "智能体流程节点鉴权",
           "next": "推进\"智能体流程节点鉴权\"，计划节点：2026-12-30。",
           "risk": "",
@@ -1274,7 +1274,7 @@
               "canDemo": "否",
               "integrated": "否",
               "vendor": "启明星",
-              "techOwner": "王鹏程",
+              "techOwner": "王炜",
               "businessOwner": "黄隽弢",
               "remark": ""
             }
@@ -1291,12 +1291,12 @@
           "progress": 40,
           "due": "2026-12-30",
           "businessOwner": "魏骁、黄隽弢",
-          "techOwner": "王炜",
+          "techOwner": "王鹏程、王炜",
           "vendor": "华云数据",
           "owner": "魏骁、黄隽弢",
-          "role": "业务负责人 · 魏骁、黄隽弢 / 技术部对接人 · 王炜",
+          "role": "业务负责人 · 魏骁、黄隽弢 / 技术部对接人 · 王鹏程、王炜",
           "description": "数据资产、数据指标资产搭建、业务本体搭建",
-          "next": "推进\"业务本体搭建\"。",
+          "next": "推进\"业务本体搭建\"，计划节点：2026-12-30。",
           "risk": "",
           "milestones": [
             [
@@ -1338,7 +1338,7 @@
               "canDemo": "是",
               "integrated": "否",
               "vendor": "华云数据",
-              "techOwner": "王炜",
+              "techOwner": "王鹏程",
               "businessOwner": "魏骁",
               "remark": ""
             },
@@ -1350,7 +1350,7 @@
               "canDemo": "是",
               "integrated": "否",
               "vendor": "华云数据",
-              "techOwner": "王炜",
+              "techOwner": "王鹏程",
               "businessOwner": "魏骁",
               "remark": ""
             },
@@ -1358,7 +1358,7 @@
               "detail": "业务本体搭建",
               "status": "todo",
               "demo": "",
-              "due": null,
+              "due": "2026-12-30",
               "canDemo": "否",
               "integrated": "是",
               "vendor": "启明星",
@@ -1370,7 +1370,7 @@
               "detail": "数据维护追溯分析",
               "status": "todo",
               "demo": "",
-              "due": null,
+              "due": "2026-12-30",
               "canDemo": "否",
               "integrated": "是",
               "vendor": "启明星",
@@ -1401,29 +1401,29 @@
           "kind": "normal",
           "priority": "yellow",
           "progress": 0,
-          "due": null,
+          "due": "2026-12-30",
           "businessOwner": "黄隽弢",
           "techOwner": "邵晨峰",
           "vendor": "华云集成",
           "owner": "黄隽弢",
           "role": "业务负责人 · 黄隽弢 / 技术部对接人 · 邵晨峰",
           "description": "审计代码漏洞、分析和需求匹配度、AI参与测试、设计、迭代",
-          "next": "推进\"审计代码漏洞\"。",
+          "next": "推进\"审计代码漏洞\"，计划节点：2026-12-30。",
           "risk": "",
           "milestones": [
             [
               "审计代码漏洞",
-              "待定",
+              "2026-12-30",
               "todo"
             ],
             [
               "分析和需求匹配度",
-              "待定",
+              "2026-12-30",
               "todo"
             ],
             [
               "AI参与测试、设计、迭代",
-              "待定",
+              "2026-12-30",
               "todo"
             ]
           ],
@@ -1433,7 +1433,7 @@
               "detail": "审计代码漏洞",
               "status": "todo",
               "demo": "",
-              "due": null,
+              "due": "2026-12-30",
               "canDemo": "否",
               "integrated": "是",
               "vendor": "华云集成",
@@ -1445,7 +1445,7 @@
               "detail": "分析和需求匹配度",
               "status": "todo",
               "demo": "",
-              "due": null,
+              "due": "2026-12-30",
               "canDemo": "否",
               "integrated": "是",
               "vendor": "华云集成",
@@ -1457,7 +1457,7 @@
               "detail": "AI参与测试、设计、迭代",
               "status": "todo",
               "demo": "",
-              "due": null,
+              "due": "2026-12-30",
               "canDemo": "否",
               "integrated": "是",
               "vendor": "华云集成",
@@ -1530,7 +1530,7 @@
       ],
       "overall": 34,
       "active": 7,
-      "nearest": "2026-08-04"
+      "nearest": "2026-07-24"
     },
     {
       "id": "dept-交易部",
@@ -1731,7 +1731,7 @@
       ],
       "overall": 7,
       "active": 2,
-      "nearest": "2026-12-30"
+      "nearest": "2026-08-07"
     },
     {
       "id": "dept-客服中心",
@@ -1746,62 +1746,26 @@
           "sequence": "23",
           "kind": "normal",
           "priority": "yellow",
-          "progress": 0,
+          "progress": 67,
           "due": "2026-08-31",
           "businessOwner": "吕瑞扬",
           "techOwner": "王鹏程",
           "vendor": "启明星",
           "owner": "吕瑞扬",
           "role": "业务负责人 · 吕瑞扬 / 技术部对接人 · 王鹏程",
-          "description": "客服录音的人工智能全面介入，包括问答知识库",
-          "next": "推进\"客服录音的人工智能全面介入，包括问答知识库\"，计划节点：2026-08-31。",
+          "description": "客服录音的人工智能全面介入，包括问答知识库、流式输出、统计分析等",
+          "next": "推进\"统计分析等\"，计划节点：2026-08-31。",
           "risk": "",
           "milestones": [
             [
               "客服录音的人工智能全面介入，包括问答知识库",
               "2026-08-31",
-              "todo"
-            ]
-          ],
-          "remarks": [],
-          "items": [
-            {
-              "detail": "客服录音的人工智能全面介入，包括问答知识库",
-              "status": "todo",
-              "demo": "46241",
-              "due": "2026-08-31",
-              "canDemo": "否",
-              "integrated": "否",
-              "vendor": "启明星",
-              "techOwner": "王鹏程",
-              "businessOwner": "吕瑞扬",
-              "remark": ""
-            }
-          ]
-        },
-        {
-          "id": "ai-25",
-          "name": "智能语音客服",
-          "department": "客服中心",
-          "departmentId": "dept-客服中心",
-          "sequence": "25",
-          "kind": "normal",
-          "priority": "yellow",
-          "progress": 0,
-          "due": "2026-08-31",
-          "businessOwner": "吕瑞扬",
-          "techOwner": "王鹏程",
-          "vendor": "启明星",
-          "owner": "吕瑞扬",
-          "role": "业务负责人 · 吕瑞扬 / 技术部对接人 · 王鹏程",
-          "description": "流式输出、统计分析等",
-          "next": "推进\"流式输出\"，计划节点：2026-08-31。",
-          "risk": "",
-          "milestones": [
+              "done"
+            ],
             [
               "流式输出",
               "2026-08-31",
-              "todo"
+              "done"
             ],
             [
               "统计分析等",
@@ -1812,11 +1776,23 @@
           "remarks": [],
           "items": [
             {
-              "detail": "流式输出",
-              "status": "todo",
+              "detail": "客服录音的人工智能全面介入，包括问答知识库",
+              "status": "done",
               "demo": "46241",
               "due": "2026-08-31",
-              "canDemo": "否",
+              "canDemo": "是",
+              "integrated": "否",
+              "vendor": "启明星",
+              "techOwner": "王鹏程",
+              "businessOwner": "吕瑞扬",
+              "remark": ""
+            },
+            {
+              "detail": "流式输出",
+              "status": "done",
+              "demo": "46241",
+              "due": "2026-08-31",
+              "canDemo": "是",
               "integrated": "否",
               "vendor": "启明星",
               "techOwner": "王鹏程",
@@ -1838,7 +1814,7 @@
           ]
         },
         {
-          "id": "ai-26",
+          "id": "ai-25",
           "name": "市场主体智能服务场景",
           "department": "客服中心",
           "departmentId": "dept-客服中心",
@@ -1930,7 +1906,7 @@
           ]
         },
         {
-          "id": "ai-27",
+          "id": "ai-26",
           "name": "话务工单智能分析",
           "department": "客服中心",
           "departmentId": "dept-客服中心",
@@ -2022,7 +1998,7 @@
           ]
         },
         {
-          "id": "ai-28",
+          "id": "ai-27",
           "name": "融媒体智能制作",
           "department": "客服中心",
           "departmentId": "dept-客服中心",
@@ -2131,9 +2107,9 @@
           ]
         }
       ],
-      "overall": 4,
-      "active": 5,
-      "nearest": "2026-08-31"
+      "overall": 22,
+      "active": 4,
+      "nearest": "2026-08-15"
     },
     {
       "id": "dept-研究室",
@@ -2141,7 +2117,7 @@
       "thesis": "推进预测、市场推演和云边协同出清等研究场景。",
       "scenarios": [
         {
-          "id": "ai-29",
+          "id": "ai-28",
           "name": "电量电价智能预测",
           "department": "研究室",
           "departmentId": "dept-研究室",
@@ -2199,7 +2175,7 @@
           ]
         },
         {
-          "id": "ai-30",
+          "id": "ai-29",
           "name": "mirofish市场推演",
           "department": "研究室",
           "departmentId": "dept-研究室",
@@ -2240,7 +2216,7 @@
           ]
         },
         {
-          "id": "ai-31",
+          "id": "ai-30",
           "name": "大市场与微市场云边协同出清",
           "department": "研究室",
           "departmentId": "dept-研究室",
@@ -3244,11 +3220,11 @@
       "priority": "punch",
       "progress": 0,
       "due": "2026-12-30",
-      "businessOwner": "王林",
+      "businessOwner": "王凌",
       "techOwner": "王炜",
       "vendor": "启明星",
-      "owner": "王林",
-      "role": "业务负责人 · 王林 / 技术部对接人 · 王炜",
+      "owner": "王凌",
+      "role": "业务负责人 · 王凌 / 技术部对接人 · 王炜",
       "description": "舆情监测、舆情研判、舆情预警",
       "next": "推进\"舆情监测\"，计划节点：2026-08-22。",
       "risk": "",
@@ -3285,7 +3261,7 @@
           "integrated": "否",
           "vendor": "启明星",
           "techOwner": "王炜",
-          "businessOwner": "王林",
+          "businessOwner": "王凌",
           "remark": ""
         },
         {
@@ -3297,7 +3273,7 @@
           "integrated": "否",
           "vendor": "启明星",
           "techOwner": "王炜",
-          "businessOwner": "王林",
+          "businessOwner": "王凌",
           "remark": ""
         },
         {
@@ -3309,7 +3285,7 @@
           "integrated": "否",
           "vendor": "启明星",
           "techOwner": "王炜",
-          "businessOwner": "王林",
+          "businessOwner": "王凌",
           "remark": ""
         },
         {
@@ -3321,7 +3297,7 @@
           "integrated": "否",
           "vendor": "启明星",
           "techOwner": "王炜",
-          "businessOwner": "王林",
+          "businessOwner": "王凌",
           "remark": ""
         }
       ]
@@ -3395,7 +3371,7 @@
       "kind": "normal",
       "priority": "yellow",
       "progress": 100,
-      "due": null,
+      "due": "2026-08-15",
       "businessOwner": "陈磊",
       "techOwner": "王炜",
       "vendor": "华云数据",
@@ -3407,7 +3383,7 @@
       "milestones": [
         [
           "提炼政策文件辅助形成政策解读材料",
-          "待定",
+          "2026-08-15",
           "done"
         ]
       ],
@@ -3417,7 +3393,7 @@
           "detail": "提炼政策文件辅助形成政策解读材料",
           "status": "done",
           "demo": "",
-          "due": null,
+          "due": "2026-08-15",
           "canDemo": "是",
           "integrated": "是",
           "vendor": "华云数据",
@@ -3878,24 +3854,24 @@
       "kind": "punch",
       "priority": "punch",
       "progress": 0,
-      "due": null,
+      "due": "2026-12-31",
       "businessOwner": "陈成",
       "techOwner": "王炜",
       "vendor": "启明星",
       "owner": "陈成",
       "role": "业务负责人 · 陈成 / 技术部对接人 · 王炜",
       "description": "交易平台流程稽核、决策中枢流程稽核",
-      "next": "推进\"交易平台流程稽核\"。",
+      "next": "推进\"交易平台流程稽核\"，计划节点：2026-12-31。",
       "risk": "",
       "milestones": [
         [
           "交易平台流程稽核",
-          "待定",
+          "2026-12-31",
           "todo"
         ],
         [
           "决策中枢流程稽核",
-          "待定",
+          "2026-12-31",
           "todo"
         ]
       ],
@@ -3905,7 +3881,7 @@
           "detail": "交易平台流程稽核",
           "status": "todo",
           "demo": "",
-          "due": null,
+          "due": "2026-12-31",
           "canDemo": "否",
           "integrated": "否",
           "vendor": "启明星",
@@ -3917,7 +3893,7 @@
           "detail": "决策中枢流程稽核",
           "status": "todo",
           "demo": "",
-          "due": null,
+          "due": "2026-12-31",
           "canDemo": "否",
           "integrated": "否",
           "vendor": "华云数据",
@@ -3991,7 +3967,7 @@
       "department": "技术部",
       "departmentId": "dept-技术部",
       "sequence": "13",
-      "kind": "normal",
+      "kind": "risk",
       "priority": "yellow",
       "progress": 40,
       "due": "2026-12-31",
@@ -4002,11 +3978,11 @@
       "role": "业务负责人 · 黄隽弢 / 技术部对接人 · 邵晨峰",
       "description": "自动采集软硬件数据、自动回归测试、日志采集",
       "next": "推进\"自动回归测试\"，计划节点：2026-12-31。",
-      "risk": "",
+      "risk": "当前完成度 40%，最近节点为 2026-07-31，建议在本次汇报中确认推进责任与资源安排。",
       "milestones": [
         [
           "自动采集软硬件数据",
-          "2026-12-31",
+          "2026-07-31",
           "done"
         ],
         [
@@ -4039,7 +4015,7 @@
           "detail": "自动采集软硬件数据",
           "status": "done",
           "demo": "7月31日",
-          "due": "2026-12-31",
+          "due": "2026-07-31",
           "canDemo": "是",
           "integrated": "是",
           "vendor": "华云集成",
@@ -4135,7 +4111,7 @@
           "detail": "采集异常行为",
           "status": "done",
           "demo": "",
-          "due": null,
+          "due": "2026-08-07",
           "canDemo": "是",
           "integrated": "是",
           "vendor": "华云集成",
@@ -4166,29 +4142,29 @@
       "kind": "normal",
       "priority": "yellow",
       "progress": 67,
-      "due": "2026-08-31",
+      "due": "2026-08-20",
       "businessOwner": "黄隽弢、魏骁",
       "techOwner": "邵晨峰",
       "vendor": "华云集成",
       "owner": "黄隽弢、魏骁",
       "role": "业务负责人 · 黄隽弢、魏骁 / 技术部对接人 · 邵晨峰",
       "description": "测试用例生成、自动巡检、生成巡检报告",
-      "next": "推进\"测试用例生成\"，计划节点：2026-08-31。",
+      "next": "推进\"测试用例生成\"，计划节点：2026-08-20。",
       "risk": "",
       "milestones": [
         [
           "测试用例生成",
-          "2026-08-31",
+          "2026-08-20",
           "current"
         ],
         [
           "自动巡检",
-          "2026-08-31",
+          "2026-08-20",
           "current"
         ],
         [
           "生成巡检报告",
-          "2026-08-31",
+          "2026-08-20",
           "done"
         ]
       ],
@@ -4201,7 +4177,7 @@
           "detail": "测试用例生成",
           "status": "partial",
           "demo": "7月31日",
-          "due": "2026-08-31",
+          "due": "2026-08-20",
           "canDemo": "是",
           "integrated": "是",
           "vendor": "华云集成",
@@ -4213,7 +4189,7 @@
           "detail": "自动巡检",
           "status": "partial",
           "demo": "7月31日",
-          "due": "2026-08-31",
+          "due": "2026-08-20",
           "canDemo": "是",
           "integrated": "是",
           "vendor": "华云集成",
@@ -4225,7 +4201,7 @@
           "detail": "生成巡检报告",
           "status": "done",
           "demo": "7月31日",
-          "due": "2026-08-31",
+          "due": "2026-08-20",
           "canDemo": "是",
           "integrated": "是",
           "vendor": "华云集成",
@@ -4244,14 +4220,14 @@
       "kind": "punch",
       "priority": "punch",
       "progress": 25,
-      "due": "2026-08-04",
+      "due": "2026-08-31",
       "businessOwner": "黄隽弢",
-      "techOwner": "邵晨峰",
+      "techOwner": "邵晨峰、王炜、王鹏程",
       "vendor": "华云数据",
       "owner": "黄隽弢",
-      "role": "业务负责人 · 黄隽弢 / 技术部对接人 · 邵晨峰",
+      "role": "业务负责人 · 黄隽弢 / 技术部对接人 · 邵晨峰、王炜、王鹏程",
       "description": "浙电work部署、通过浙电work提升数据查询质量、统一mcp、接口开发逻辑、安全规范",
-      "next": "推进\"通过浙电work提升数据查询质量\"。",
+      "next": "推进\"通过浙电work提升数据查询质量\"，计划节点：2026-08-31。",
       "risk": "",
       "milestones": [
         [
@@ -4261,12 +4237,12 @@
         ],
         [
           "通过浙电work提升数据查询质量",
-          "2026-08-04",
+          "2026-08-31",
           "todo"
         ],
         [
           "统一mcp、接口开发逻辑、安全规范",
-          "2026-08-04",
+          "2026-08-18",
           "todo"
         ],
         [
@@ -4296,11 +4272,11 @@
           "detail": "通过浙电work提升数据查询质量",
           "status": "todo",
           "demo": "",
-          "due": null,
+          "due": "2026-08-31",
           "canDemo": "否",
           "integrated": "是",
           "vendor": "启明星",
-          "techOwner": "邵晨峰",
+          "techOwner": "王炜",
           "businessOwner": "黄隽弢",
           "remark": ""
         },
@@ -4308,11 +4284,11 @@
           "detail": "统一mcp、接口开发逻辑、安全规范",
           "status": "todo",
           "demo": "",
-          "due": null,
+          "due": "2026-08-18",
           "canDemo": "否",
           "integrated": "否",
           "vendor": "启明星",
-          "techOwner": "邵晨峰",
+          "techOwner": "王炜",
           "businessOwner": "黄隽弢",
           "remark": "后续给所有研发单位会议宣贯"
         },
@@ -4324,7 +4300,7 @@
           "canDemo": "否",
           "integrated": "是",
           "vendor": "启明星",
-          "techOwner": "邵晨峰",
+          "techOwner": "王鹏程",
           "businessOwner": "黄隽弢",
           "remark": ""
         }
@@ -4341,10 +4317,10 @@
       "progress": 0,
       "due": "2026-12-30",
       "businessOwner": "黄隽弢",
-      "techOwner": "王鹏程",
+      "techOwner": "王炜",
       "vendor": "启明星",
       "owner": "黄隽弢",
-      "role": "业务负责人 · 黄隽弢 / 技术部对接人 · 王鹏程",
+      "role": "业务负责人 · 黄隽弢 / 技术部对接人 · 王炜",
       "description": "智能体流程节点鉴权",
       "next": "推进\"智能体流程节点鉴权\"，计划节点：2026-12-30。",
       "risk": "",
@@ -4365,7 +4341,7 @@
           "canDemo": "否",
           "integrated": "否",
           "vendor": "启明星",
-          "techOwner": "王鹏程",
+          "techOwner": "王炜",
           "businessOwner": "黄隽弢",
           "remark": ""
         }
@@ -4382,12 +4358,12 @@
       "progress": 40,
       "due": "2026-12-30",
       "businessOwner": "魏骁、黄隽弢",
-      "techOwner": "王炜",
+      "techOwner": "王鹏程、王炜",
       "vendor": "华云数据",
       "owner": "魏骁、黄隽弢",
-      "role": "业务负责人 · 魏骁、黄隽弢 / 技术部对接人 · 王炜",
+      "role": "业务负责人 · 魏骁、黄隽弢 / 技术部对接人 · 王鹏程、王炜",
       "description": "数据资产、数据指标资产搭建、业务本体搭建",
-      "next": "推进\"业务本体搭建\"。",
+      "next": "推进\"业务本体搭建\"，计划节点：2026-12-30。",
       "risk": "",
       "milestones": [
         [
@@ -4429,7 +4405,7 @@
           "canDemo": "是",
           "integrated": "否",
           "vendor": "华云数据",
-          "techOwner": "王炜",
+          "techOwner": "王鹏程",
           "businessOwner": "魏骁",
           "remark": ""
         },
@@ -4441,7 +4417,7 @@
           "canDemo": "是",
           "integrated": "否",
           "vendor": "华云数据",
-          "techOwner": "王炜",
+          "techOwner": "王鹏程",
           "businessOwner": "魏骁",
           "remark": ""
         },
@@ -4449,7 +4425,7 @@
           "detail": "业务本体搭建",
           "status": "todo",
           "demo": "",
-          "due": null,
+          "due": "2026-12-30",
           "canDemo": "否",
           "integrated": "是",
           "vendor": "启明星",
@@ -4461,7 +4437,7 @@
           "detail": "数据维护追溯分析",
           "status": "todo",
           "demo": "",
-          "due": null,
+          "due": "2026-12-30",
           "canDemo": "否",
           "integrated": "是",
           "vendor": "启明星",
@@ -4492,29 +4468,29 @@
       "kind": "normal",
       "priority": "yellow",
       "progress": 0,
-      "due": null,
+      "due": "2026-12-30",
       "businessOwner": "黄隽弢",
       "techOwner": "邵晨峰",
       "vendor": "华云集成",
       "owner": "黄隽弢",
       "role": "业务负责人 · 黄隽弢 / 技术部对接人 · 邵晨峰",
       "description": "审计代码漏洞、分析和需求匹配度、AI参与测试、设计、迭代",
-      "next": "推进\"审计代码漏洞\"。",
+      "next": "推进\"审计代码漏洞\"，计划节点：2026-12-30。",
       "risk": "",
       "milestones": [
         [
           "审计代码漏洞",
-          "待定",
+          "2026-12-30",
           "todo"
         ],
         [
           "分析和需求匹配度",
-          "待定",
+          "2026-12-30",
           "todo"
         ],
         [
           "AI参与测试、设计、迭代",
-          "待定",
+          "2026-12-30",
           "todo"
         ]
       ],
@@ -4524,7 +4500,7 @@
           "detail": "审计代码漏洞",
           "status": "todo",
           "demo": "",
-          "due": null,
+          "due": "2026-12-30",
           "canDemo": "否",
           "integrated": "是",
           "vendor": "华云集成",
@@ -4536,7 +4512,7 @@
           "detail": "分析和需求匹配度",
           "status": "todo",
           "demo": "",
-          "due": null,
+          "due": "2026-12-30",
           "canDemo": "否",
           "integrated": "是",
           "vendor": "华云集成",
@@ -4548,7 +4524,7 @@
           "detail": "AI参与测试、设计、迭代",
           "status": "todo",
           "demo": "",
-          "due": null,
+          "due": "2026-12-30",
           "canDemo": "否",
           "integrated": "是",
           "vendor": "华云集成",
@@ -4817,62 +4793,26 @@
       "sequence": "23",
       "kind": "normal",
       "priority": "yellow",
-      "progress": 0,
+      "progress": 67,
       "due": "2026-08-31",
       "businessOwner": "吕瑞扬",
       "techOwner": "王鹏程",
       "vendor": "启明星",
       "owner": "吕瑞扬",
       "role": "业务负责人 · 吕瑞扬 / 技术部对接人 · 王鹏程",
-      "description": "客服录音的人工智能全面介入，包括问答知识库",
-      "next": "推进\"客服录音的人工智能全面介入，包括问答知识库\"，计划节点：2026-08-31。",
+      "description": "客服录音的人工智能全面介入，包括问答知识库、流式输出、统计分析等",
+      "next": "推进\"统计分析等\"，计划节点：2026-08-31。",
       "risk": "",
       "milestones": [
         [
           "客服录音的人工智能全面介入，包括问答知识库",
           "2026-08-31",
-          "todo"
-        ]
-      ],
-      "remarks": [],
-      "items": [
-        {
-          "detail": "客服录音的人工智能全面介入，包括问答知识库",
-          "status": "todo",
-          "demo": "46241",
-          "due": "2026-08-31",
-          "canDemo": "否",
-          "integrated": "否",
-          "vendor": "启明星",
-          "techOwner": "王鹏程",
-          "businessOwner": "吕瑞扬",
-          "remark": ""
-        }
-      ]
-    },
-    {
-      "id": "ai-25",
-      "name": "智能语音客服",
-      "department": "客服中心",
-      "departmentId": "dept-客服中心",
-      "sequence": "25",
-      "kind": "normal",
-      "priority": "yellow",
-      "progress": 0,
-      "due": "2026-08-31",
-      "businessOwner": "吕瑞扬",
-      "techOwner": "王鹏程",
-      "vendor": "启明星",
-      "owner": "吕瑞扬",
-      "role": "业务负责人 · 吕瑞扬 / 技术部对接人 · 王鹏程",
-      "description": "流式输出、统计分析等",
-      "next": "推进\"流式输出\"，计划节点：2026-08-31。",
-      "risk": "",
-      "milestones": [
+          "done"
+        ],
         [
           "流式输出",
           "2026-08-31",
-          "todo"
+          "done"
         ],
         [
           "统计分析等",
@@ -4883,11 +4823,23 @@
       "remarks": [],
       "items": [
         {
-          "detail": "流式输出",
-          "status": "todo",
+          "detail": "客服录音的人工智能全面介入，包括问答知识库",
+          "status": "done",
           "demo": "46241",
           "due": "2026-08-31",
-          "canDemo": "否",
+          "canDemo": "是",
+          "integrated": "否",
+          "vendor": "启明星",
+          "techOwner": "王鹏程",
+          "businessOwner": "吕瑞扬",
+          "remark": ""
+        },
+        {
+          "detail": "流式输出",
+          "status": "done",
+          "demo": "46241",
+          "due": "2026-08-31",
+          "canDemo": "是",
           "integrated": "否",
           "vendor": "启明星",
           "techOwner": "王鹏程",
@@ -4909,7 +4861,7 @@
       ]
     },
     {
-      "id": "ai-26",
+      "id": "ai-25",
       "name": "市场主体智能服务场景",
       "department": "客服中心",
       "departmentId": "dept-客服中心",
@@ -5001,7 +4953,7 @@
       ]
     },
     {
-      "id": "ai-27",
+      "id": "ai-26",
       "name": "话务工单智能分析",
       "department": "客服中心",
       "departmentId": "dept-客服中心",
@@ -5093,7 +5045,7 @@
       ]
     },
     {
-      "id": "ai-28",
+      "id": "ai-27",
       "name": "融媒体智能制作",
       "department": "客服中心",
       "departmentId": "dept-客服中心",
@@ -5202,7 +5154,7 @@
       ]
     },
     {
-      "id": "ai-29",
+      "id": "ai-28",
       "name": "电量电价智能预测",
       "department": "研究室",
       "departmentId": "dept-研究室",
@@ -5260,7 +5212,7 @@
       ]
     },
     {
-      "id": "ai-30",
+      "id": "ai-29",
       "name": "mirofish市场推演",
       "department": "研究室",
       "departmentId": "dept-研究室",
@@ -5301,7 +5253,7 @@
       ]
     },
     {
-      "id": "ai-31",
+      "id": "ai-30",
       "name": "大市场与微市场云边协同出清",
       "department": "研究室",
       "departmentId": "dept-研究室",
@@ -6202,7 +6154,7 @@
       "range": "8月节点",
       "title": "首批场景交付",
       "date": "2026-07-30",
-      "taskId": "ai-30"
+      "taskId": "ai-29"
     },
     {
       "id": "sep",

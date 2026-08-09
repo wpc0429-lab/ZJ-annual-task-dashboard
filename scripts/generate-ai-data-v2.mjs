@@ -1,7 +1,7 @@
 ﻿import XLSX from "xlsx";
 import fs from "node:fs/promises";
 
-const SOURCE = "source/人工智能场景计划表-0809.xlsx";
+const SOURCE = "source/人工智能场景计划表-0810.xlsx";
 const OUTPUT = "src/ai-plan-data.json";
 const CURRENT_DATE = "2026-08-09";
 const EXCLUDED_SCENARIOS = new Set(["智能大厅服务"]);
@@ -237,7 +237,7 @@ for (const department of departments) {
   const totalProgress = department.scenarios.reduce((sum, scenario) => sum + scenario.progress, 0);
   department.overall = Math.round(totalProgress / Math.max(department.scenarios.length, 1));
   department.active = department.scenarios.filter((scenario) => scenario.progress < 100).length;
-  const nearest = department.scenarios.map((scenario) => scenario.due).filter(Boolean).sort(compareDate)[0] ?? null;
+  const nearest = department.scenarios.flatMap((scenario) => scenario.items.map((item) => item.due)).filter(Boolean).sort(compareDate)[0] ?? null;
   department.nearest = nearest;
 }
 
@@ -263,7 +263,7 @@ const longTermScenario = scenarios.find((scenario) => scenario.due === "长期")
 quarterMilestones.push({ id: "long", label: "持续", range: "长期建设", title: "持续优化", date: "长期", taskId: longTermScenario?.id ?? scenarios[0]?.id });
 
 const output = {
-  sourceFile: "人工智能场景计划表-0809.xlsx",
+  sourceFile: "人工智能场景计划表-0810.xlsx",
   sourceSheet: "应用建设",
   reportDate: "2026-08-09",
   currentDate: CURRENT_DATE,
