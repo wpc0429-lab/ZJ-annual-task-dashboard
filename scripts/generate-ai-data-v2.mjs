@@ -121,7 +121,7 @@ let currentSequence = "";
 
 rows.forEach((row, index) => {
   const excelRow = index + 3;
-  const [sequence, department, scenario, detail, status, demo, due, integrated, vendor, techOwner, businessOwner] = row;
+  const [sequence, department, scenario, detail, status, demo, due, integrated, vendor, businessOwner, techOwner, completeStatus, remark] = row;
   if (cleanText(department)) currentDepartment = cleanText(department);
   if (cleanText(scenario)) currentScenario = cleanText(scenario);
   if (sequence !== null && sequence !== undefined && sequence !== "") currentSequence = String(sequence);
@@ -138,7 +138,7 @@ rows.forEach((row, index) => {
     vendor: normalizeVendor(cleanText(vendor)),
     techOwner: cleanText(techOwner),
     businessOwner: cleanText(businessOwner),
-  };
+    remark: cleanText(remark),
   const key = `${currentDepartment}::${currentScenario}`;
   if (!groups.has(key)) {
     groups.set(key, {

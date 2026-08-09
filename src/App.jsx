@@ -443,6 +443,14 @@ function DetailDrawer({ scenario, year, onClose }) {
           </div>
         </div>
       ) : null}
+      {scenario.remarks && scenario.remarks.length > 0 ? (
+        <div className="drawer-section drawer-remarks">
+          <div className="drawer-section-title">备注</div>
+          <ul className="remarks-list">
+            {scenario.remarks.map((remark, idx) => <li key={idx}>{remark}</li>)}
+          </ul>
+        </div>
+      ) : null}
     </aside>
   );
 }
@@ -494,7 +502,6 @@ function App() {
               <span>年度</span>
               <select value={year} onChange={(event) => setYear(event.target.value)} aria-label="选择年度">
                 <option value="2026">2026年</option>
-                <option value="2025">2025年</option>
               </select>
               <CaretDown size={14} weight="regular" aria-hidden="true" />
             </label>
@@ -506,7 +513,7 @@ function App() {
               </select>
               <CaretDown size={14} weight="regular" aria-hidden="true" />
             </label>
-            <div className="data-source">最后更新：2026-08-06 13:12</div>
+            <div className="data-source">最后更新：2026-08-06</div>
           </div>
         </header>
 

@@ -2729,11 +2729,11 @@
       "priority": "yellow",
       "progress": 75,
       "due": "2026-08-07",
-      "businessOwner": "王炜",
-      "techOwner": "林烨",
+      "businessOwner": "林烨",
+      "techOwner": "王炜",
       "vendor": "华云数据",
-      "owner": "王炜",
-      "role": "业务负责人 · 王炜 / 技术部对接人 · 林烨",
+      "owner": "林烨",
+      "role": "业务负责人 · 林烨 / 技术部对接人 · 王炜",
       "description": "word公文、格式转换、pdf拼接剪切、自动操作excel、加去水印等常用办公技能、ppt制作",
       "next": "推进\"格式转换、pdf拼接剪切、自动操作excel、加去水印等常用办公技能\"，计划节点：2026-08-07。",
       "risk": "",
@@ -2800,6 +2800,9 @@
           "techOwner": "林烨",
           "businessOwner": "王炜"
         }
+      ],
+      "remarks": [
+        "自动操作Excel非可视化操作"
       ]
     },
     {
@@ -2812,11 +2815,11 @@
       "priority": "punch",
       "progress": 0,
       "due": "2026-12-30",
-      "businessOwner": "王炜",
-      "techOwner": "王林",
+      "businessOwner": "王林",
+      "techOwner": "王炜",
       "vendor": "启明星",
-      "owner": "王炜",
-      "role": "业务负责人 · 王炜 / 技术部对接人 · 王林",
+      "owner": "王林",
+      "role": "业务负责人 · 王林 / 技术部对接人 · 王炜",
       "description": "舆情监测、舆情研判、舆情预警",
       "next": "推进\"舆情监测\"，计划节点：2026-08-15。",
       "risk": "",
@@ -2883,7 +2886,8 @@
           "techOwner": "王林",
           "businessOwner": "王炜"
         }
-      ]
+      ],
+      "remarks": []
     },
     {
       "id": "ai-03",
@@ -2895,11 +2899,11 @@
       "priority": "punch",
       "progress": 50,
       "due": "2026-09-30",
-      "businessOwner": "王炜",
-      "techOwner": "陈磊、庄晓丹",
+      "businessOwner": "陈磊、庄晓丹",
+      "techOwner": "王炜",
       "vendor": "启明星",
-      "owner": "王炜",
-      "role": "业务负责人 · 王炜 / 技术部对接人 · 陈磊、庄晓丹",
+      "owner": "陈磊、庄晓丹",
+      "role": "业务负责人 · 陈磊、庄晓丹 / 技术部对接人 · 王炜",
       "description": "规则库建设、一致性校验",
       "next": "推进\"一致性校验\"，计划节点：2026-09-30。",
       "risk": "",
@@ -2936,6 +2940,9 @@
           "techOwner": "庄晓丹",
           "businessOwner": "王炜"
         }
+      ],
+      "remarks": [
+        "随国家能源局项目开展"
       ]
     },
     {
@@ -2948,11 +2955,11 @@
       "priority": "yellow",
       "progress": 100,
       "due": null,
-      "businessOwner": "王炜",
-      "techOwner": "陈磊",
+      "businessOwner": "陈磊",
+      "techOwner": "王炜",
       "vendor": "华云数据",
-      "owner": "王炜",
-      "role": "业务负责人 · 王炜 / 技术部对接人 · 陈磊",
+      "owner": "陈磊",
+      "role": "业务负责人 · 陈磊 / 技术部对接人 · 王炜",
       "description": "提炼政策文件辅助形成政策解读材料",
       "next": "完成最终验收并准备交付。",
       "risk": "",
@@ -2974,7 +2981,8 @@
           "techOwner": "陈磊",
           "businessOwner": "王炜"
         }
-      ]
+      ],
+      "remarks": []
     },
     {
       "id": "ai-05",
@@ -2986,11 +2994,11 @@
       "priority": "punch",
       "progress": 0,
       "due": "2026-08-15",
-      "businessOwner": "王鹏程",
-      "techOwner": "邓晖",
+      "businessOwner": "邓晖",
+      "techOwner": "王鹏程",
       "vendor": "电科院",
-      "owner": "王鹏程",
-      "role": "业务负责人 · 王鹏程 / 技术部对接人 · 邓晖",
+      "owner": "邓晖",
+      "role": "业务负责人 · 邓晖 / 技术部对接人 · 王鹏程",
       "description": "模拟交易平台、仿真交易机器人",
       "next": "推进\"模拟交易平台\"，计划节点：2026-08-15。",
       "risk": "",
@@ -3027,7 +3035,8 @@
           "techOwner": "邓晖",
           "businessOwner": "王鹏程"
         }
-      ]
+      ],
+      "remarks": []
     },
     {
       "id": "ai-06",
@@ -3039,11 +3048,11 @@
       "priority": "yellow",
       "progress": 0,
       "due": "2026-09-30",
-      "businessOwner": "王炜",
-      "techOwner": "张晓龙",
+      "businessOwner": "张晓龙",
+      "techOwner": "王炜",
       "vendor": "启明星",
-      "owner": "王炜",
-      "role": "业务负责人 · 王炜 / 技术部对接人 · 张晓龙",
+      "owner": "张晓龙",
+      "role": "业务负责人 · 张晓龙 / 技术部对接人 · 王炜",
       "description": "绿电零售与绿电批发消费核算、自发自用消费核算、用网电量营销零售对比稽核",
       "next": "推进\"绿电零售与绿电批发消费核算\"，计划节点：2026-09-30。",
       "risk": "",
@@ -3095,7 +3104,8 @@
           "techOwner": "张晓龙",
           "businessOwner": "王炜"
         }
-      ]
+      ],
+      "remarks": []
     },
     {
       "id": "ai-07",
@@ -3107,11 +3117,11 @@
       "priority": "punch",
       "progress": 0,
       "due": null,
-      "businessOwner": "王炜",
-      "techOwner": "待定",
+      "businessOwner": "待定",
+      "techOwner": "王炜",
       "vendor": "启明星",
       "owner": "王炜",
-      "role": "业务负责人 · 王炜",
+      "role": "技术部对接人 · 王炜",
       "description": "场景建设推进",
       "next": "推进\"场景建设推进\"。",
       "risk": "",
@@ -3133,6 +3143,9 @@
           "techOwner": "",
           "businessOwner": "王炜"
         }
+      ],
+      "remarks": [
+        "负责人黄恒孜，对接人张晓龙"
       ]
     },
     {
@@ -3145,11 +3158,11 @@
       "priority": "punch",
       "progress": 0,
       "due": "2026-10-31",
-      "businessOwner": "王炜",
-      "techOwner": "汪向阳",
+      "businessOwner": "汪向阳",
+      "techOwner": "王炜",
       "vendor": "启明星",
-      "owner": "王炜",
-      "role": "业务负责人 · 王炜 / 技术部对接人 · 汪向阳",
+      "owner": "汪向阳",
+      "role": "业务负责人 · 汪向阳 / 技术部对接人 · 王炜",
       "description": "询问信息披露数据、信息披露的MCP制作",
       "next": "推进\"询问信息披露数据\"，计划节点：2026-10-31。",
       "risk": "",
@@ -3186,7 +3199,8 @@
           "techOwner": "汪向阳",
           "businessOwner": "王炜"
         }
-      ]
+      ],
+      "remarks": []
     },
     {
       "id": "ai-09",
@@ -3198,11 +3212,11 @@
       "priority": "yellow",
       "progress": 0,
       "due": "2026-12-30",
-      "businessOwner": "王炜",
-      "techOwner": "龚建荣",
+      "businessOwner": "龚建荣",
+      "techOwner": "王炜",
       "vendor": "启明星",
-      "owner": "王炜",
-      "role": "业务负责人 · 王炜 / 技术部对接人 · 龚建荣",
+      "owner": "龚建荣",
+      "role": "业务负责人 · 龚建荣 / 技术部对接人 · 王炜",
       "description": "事前基础数据稽核、事中全流程辅助分析、事后报表数据稽核",
       "next": "推进\"事前基础数据稽核\"，计划节点：2026-12-30。",
       "risk": "",
@@ -3254,7 +3268,8 @@
           "techOwner": "龚建荣",
           "businessOwner": "王炜"
         }
-      ]
+      ],
+      "remarks": []
     },
     {
       "id": "ai-10",
@@ -3266,11 +3281,11 @@
       "priority": "yellow",
       "progress": 0,
       "due": "2026-09-20",
-      "businessOwner": "王炜",
-      "techOwner": "陈成",
+      "businessOwner": "陈成",
+      "techOwner": "王炜",
       "vendor": "待定",
-      "owner": "王炜",
-      "role": "业务负责人 · 王炜 / 技术部对接人 · 陈成",
+      "owner": "陈成",
+      "role": "业务负责人 · 陈成 / 技术部对接人 · 王炜",
       "description": "交叉分析市场主体报价行为是否有风险，人工智能售电公司盈利分析",
       "next": "推进\"交叉分析市场主体报价行为是否有风险，人工智能售电公司盈利分析\"，计划节点：2026-09-20。",
       "risk": "",
@@ -3292,7 +3307,8 @@
           "techOwner": "陈成",
           "businessOwner": "王炜"
         }
-      ]
+      ],
+      "remarks": []
     },
     {
       "id": "ai-11",
@@ -3304,11 +3320,11 @@
       "priority": "yellow",
       "progress": 0,
       "due": "2026-12-31",
-      "businessOwner": "王炜",
-      "techOwner": "陈成",
+      "businessOwner": "陈成",
+      "techOwner": "王炜",
       "vendor": "待定",
-      "owner": "王炜",
-      "role": "业务负责人 · 王炜 / 技术部对接人 · 陈成",
+      "owner": "陈成",
+      "role": "业务负责人 · 陈成 / 技术部对接人 · 王炜",
       "description": "稽核市场主体提交的资料",
       "next": "推进\"稽核市场主体提交的资料\"，计划节点：2026-12-31。",
       "risk": "",
@@ -3330,7 +3346,8 @@
           "techOwner": "陈成",
           "businessOwner": "王炜"
         }
-      ]
+      ],
+      "remarks": []
     },
     {
       "id": "ai-12",
@@ -3342,11 +3359,11 @@
       "priority": "punch",
       "progress": 50,
       "due": null,
-      "businessOwner": "王炜",
-      "techOwner": "陈成",
+      "businessOwner": "陈成",
+      "techOwner": "王炜",
       "vendor": "启明星",
-      "owner": "王炜",
-      "role": "业务负责人 · 王炜 / 技术部对接人 · 陈成",
+      "owner": "陈成",
+      "role": "业务负责人 · 陈成 / 技术部对接人 · 王炜",
       "description": "交易平台流程稽核、决策中枢流程稽核",
       "next": "推进\"交易平台流程稽核\"。",
       "risk": "",
@@ -3383,7 +3400,8 @@
           "techOwner": "陈成",
           "businessOwner": "王炜"
         }
-      ]
+      ],
+      "remarks": []
     },
     {
       "id": "ai-13",
@@ -3395,11 +3413,11 @@
       "priority": "yellow",
       "progress": 0,
       "due": "2026-08-07",
-      "businessOwner": "王炜",
-      "techOwner": "陈成",
+      "businessOwner": "陈成",
+      "techOwner": "王炜",
       "vendor": "待定",
-      "owner": "王炜",
-      "role": "业务负责人 · 王炜 / 技术部对接人 · 陈成",
+      "owner": "陈成",
+      "role": "业务负责人 · 陈成 / 技术部对接人 · 王炜",
       "description": "页面展示异常行为、智能排序",
       "next": "推进\"页面展示异常行为\"，计划节点：2026-08-07。",
       "risk": "当前完成度 0%，最近节点为 2026-08-07，建议在本次汇报中确认推进责任与资源安排。",
@@ -3436,7 +3454,8 @@
           "techOwner": "陈成",
           "businessOwner": "王炜"
         }
-      ]
+      ],
+      "remarks": []
     },
     {
       "id": "ai-14",
@@ -3448,11 +3467,11 @@
       "priority": "yellow",
       "progress": 30,
       "due": "2026-12-31",
-      "businessOwner": "邵晨峰",
-      "techOwner": "黄隽弢",
+      "businessOwner": "黄隽弢",
+      "techOwner": "邵晨峰",
       "vendor": "华云集成",
-      "owner": "邵晨峰",
-      "role": "业务负责人 · 邵晨峰 / 技术部对接人 · 黄隽弢",
+      "owner": "黄隽弢",
+      "role": "业务负责人 · 黄隽弢 / 技术部对接人 · 邵晨峰",
       "description": "自动采集软硬件数据、自动回归测试、日志采集",
       "next": "推进\"自动回归测试\"，计划节点：2026-08-30。",
       "risk": "",
@@ -3534,6 +3553,10 @@
           "techOwner": "黄隽弢",
           "businessOwner": "邵晨峰"
         }
+      ],
+      "remarks": [
+        "待后续信创平台切换后，基于sls日志管理系统，完善交易平台日志管理",
+        "根据代码审计结果自动确定回归测试范围"
       ]
     },
     {
@@ -3546,11 +3569,11 @@
       "priority": "punch",
       "progress": 75,
       "due": "2026-08-07",
-      "businessOwner": "邵晨峰",
-      "techOwner": "魏骁",
+      "businessOwner": "魏骁",
+      "techOwner": "邵晨峰",
       "vendor": "华云集成",
-      "owner": "邵晨峰",
-      "role": "业务负责人 · 邵晨峰 / 技术部对接人 · 魏骁",
+      "owner": "魏骁",
+      "role": "业务负责人 · 魏骁 / 技术部对接人 · 邵晨峰",
       "description": "采集异常行为、生成异常分析报告",
       "next": "推进\"生成异常分析报告\"，计划节点：2026-08-07。",
       "risk": "",
@@ -3587,6 +3610,9 @@
           "techOwner": "魏骁",
           "businessOwner": "邵晨峰"
         }
+      ],
+      "remarks": [
+        "流量与检测功能待确认"
       ]
     },
     {
@@ -3599,11 +3625,11 @@
       "priority": "yellow",
       "progress": 17,
       "due": "2026-10-31",
-      "businessOwner": "邵晨峰",
-      "techOwner": "黄隽弢、魏骁",
+      "businessOwner": "黄隽弢、魏骁",
+      "techOwner": "邵晨峰",
       "vendor": "华云集成",
-      "owner": "邵晨峰",
-      "role": "业务负责人 · 邵晨峰 / 技术部对接人 · 黄隽弢、魏骁",
+      "owner": "黄隽弢、魏骁",
+      "role": "业务负责人 · 黄隽弢、魏骁 / 技术部对接人 · 邵晨峰",
       "description": "测试用例生成、自动巡检、生成巡检报告",
       "next": "推进\"测试用例生成\"，计划节点：2026-08-31。",
       "risk": "",
@@ -3655,6 +3681,10 @@
           "techOwner": "魏骁",
           "businessOwner": "邵晨峰"
         }
+      ],
+      "remarks": [
+        "（远期）基于人工智能，让市场用户参与到测试、功能迭代的环节中：预览版测试、灰度测试、用户反馈",
+        "MCP已集成PX-Code，模型幻觉问题正在沟通解决"
       ]
     },
     {
@@ -3667,11 +3697,11 @@
       "priority": "punch",
       "progress": 25,
       "due": "2026-08-04",
-      "businessOwner": "邵晨峰",
-      "techOwner": "黄隽弢",
+      "businessOwner": "黄隽弢",
+      "techOwner": "邵晨峰",
       "vendor": "华云数据",
-      "owner": "邵晨峰",
-      "role": "业务负责人 · 邵晨峰 / 技术部对接人 · 黄隽弢",
+      "owner": "黄隽弢",
+      "role": "业务负责人 · 黄隽弢 / 技术部对接人 · 邵晨峰",
       "description": "浙电work部署、通过浙电work提升数据查询质量、统一mcp、接口开发逻辑、安全规范",
       "next": "推进\"通过浙电work提升数据查询质量\"。",
       "risk": "",
@@ -3738,6 +3768,10 @@
           "techOwner": "黄隽弢",
           "businessOwner": "邵晨峰"
         }
+      ],
+      "remarks": [
+        "测试环境已有，尽快部生产，第一批指标集问数尽快上线",
+        "后续给所有研发单位会议宣贯"
       ]
     },
     {
@@ -3750,11 +3784,11 @@
       "priority": "yellow",
       "progress": 0,
       "due": null,
-      "businessOwner": "邵晨峰",
-      "techOwner": "黄隽弢",
+      "businessOwner": "黄隽弢",
+      "techOwner": "邵晨峰",
       "vendor": "启明星",
-      "owner": "邵晨峰",
-      "role": "业务负责人 · 邵晨峰 / 技术部对接人 · 黄隽弢",
+      "owner": "黄隽弢",
+      "role": "业务负责人 · 黄隽弢 / 技术部对接人 · 邵晨峰",
       "description": "场景建设推进",
       "next": "推进\"场景建设推进\"。",
       "risk": "",
@@ -3776,7 +3810,8 @@
           "techOwner": "黄隽弢",
           "businessOwner": "邵晨峰"
         }
-      ]
+      ],
+      "remarks": []
     },
     {
       "id": "ai-19",
@@ -3788,11 +3823,11 @@
       "priority": "yellow",
       "progress": 60,
       "due": "2026-12-30",
-      "businessOwner": "王炜",
-      "techOwner": "魏骁、黄隽弢",
+      "businessOwner": "魏骁、黄隽弢",
+      "techOwner": "王炜",
       "vendor": "华云数据",
-      "owner": "王炜",
-      "role": "业务负责人 · 王炜 / 技术部对接人 · 魏骁、黄隽弢",
+      "owner": "魏骁、黄隽弢",
+      "role": "业务负责人 · 魏骁、黄隽弢 / 技术部对接人 · 王炜",
       "description": "数据资产、数据指标资产搭建、业务本体搭建",
       "next": "推进\"业务本体搭建\"。",
       "risk": "",
@@ -3874,6 +3909,10 @@
           "techOwner": "魏骁",
           "businessOwner": "王炜"
         }
+      ],
+      "remarks": [
+        "分析数据维护工单，自动找到系统优化建议",
+        "通过流量数据进行异常行为监测"
       ]
     },
     {
@@ -3886,11 +3925,11 @@
       "priority": "yellow",
       "progress": 0,
       "due": null,
-      "businessOwner": "邵晨峰",
-      "techOwner": "黄隽弢",
+      "businessOwner": "黄隽弢",
+      "techOwner": "邵晨峰",
       "vendor": "华云数据",
-      "owner": "邵晨峰",
-      "role": "业务负责人 · 邵晨峰 / 技术部对接人 · 黄隽弢",
+      "owner": "黄隽弢",
+      "role": "业务负责人 · 黄隽弢 / 技术部对接人 · 邵晨峰",
       "description": "审计代码漏洞、分析和需求匹配度、AI参与测试、设计、迭代",
       "next": "推进\"审计代码漏洞\"。",
       "risk": "",
@@ -3942,7 +3981,8 @@
           "techOwner": "黄隽弢",
           "businessOwner": "邵晨峰"
         }
-      ]
+      ],
+      "remarks": []
     },
     {
       "id": "ai-21",
@@ -3954,11 +3994,11 @@
       "priority": "yellow",
       "progress": 0,
       "due": "长期",
-      "businessOwner": "邵晨峰",
-      "techOwner": "黄隽弢",
+      "businessOwner": "黄隽弢",
+      "techOwner": "邵晨峰",
       "vendor": "各团队",
-      "owner": "邵晨峰",
-      "role": "业务负责人 · 邵晨峰 / 技术部对接人 · 黄隽弢",
+      "owner": "黄隽弢",
+      "role": "业务负责人 · 黄隽弢 / 技术部对接人 · 邵晨峰",
       "description": "结合市场成员画像，辅助市场成员参与市场、辅助决策等便利性操作",
       "next": "推进\"结合市场成员画像，辅助市场成员参与市场\"，计划节点：长期。",
       "risk": "",
@@ -3995,6 +4035,9 @@
           "techOwner": "黄隽弢",
           "businessOwner": "邵晨峰"
         }
+      ],
+      "remarks": [
+        "各部门都参与"
       ]
     },
     {
@@ -4007,11 +4050,11 @@
       "priority": "punch",
       "progress": 0,
       "due": "2026-12-30",
-      "businessOwner": "王鹏程",
-      "techOwner": "骆希",
+      "businessOwner": "骆希",
+      "techOwner": "王鹏程",
       "vendor": "华云数据",
-      "owner": "王鹏程",
-      "role": "业务负责人 · 王鹏程 / 技术部对接人 · 骆希",
+      "owner": "骆希",
+      "role": "业务负责人 · 骆希 / 技术部对接人 · 王鹏程",
       "description": "交易序列创建、设置限额、交易公告发布",
       "next": "推进\"交易序列创建\"，计划节点：2026-08-07。",
       "risk": "",
@@ -4128,7 +4171,8 @@
           "techOwner": "骆希",
           "businessOwner": "王鹏程"
         }
-      ]
+      ],
+      "remarks": []
     },
     {
       "id": "ai-23",
@@ -4140,11 +4184,11 @@
       "priority": "blue",
       "progress": 0,
       "due": null,
-      "businessOwner": "王鹏程",
-      "techOwner": "待定",
+      "businessOwner": "待定",
+      "techOwner": "王鹏程",
       "vendor": "待定",
       "owner": "王鹏程",
-      "role": "业务负责人 · 王鹏程",
+      "role": "技术部对接人 · 王鹏程",
       "description": "场景建设推进",
       "next": "推进\"场景建设推进\"。",
       "risk": "",
@@ -4166,7 +4210,8 @@
           "techOwner": "",
           "businessOwner": "王鹏程"
         }
-      ]
+      ],
+      "remarks": []
     },
     {
       "id": "ai-24",
@@ -4178,11 +4223,11 @@
       "priority": "yellow",
       "progress": 0,
       "due": "2026-08-31",
-      "businessOwner": "王鹏程",
-      "techOwner": "吕瑞扬",
+      "businessOwner": "吕瑞扬",
+      "techOwner": "王鹏程",
       "vendor": "启明星",
-      "owner": "王鹏程",
-      "role": "业务负责人 · 王鹏程 / 技术部对接人 · 吕瑞扬",
+      "owner": "吕瑞扬",
+      "role": "业务负责人 · 吕瑞扬 / 技术部对接人 · 王鹏程",
       "description": "客服录音的人工智能全面介入，包括问答知识库",
       "next": "推进\"客服录音的人工智能全面介入，包括问答知识库\"，计划节点：2026-08-31。",
       "risk": "",
@@ -4204,7 +4249,8 @@
           "techOwner": "吕瑞扬",
           "businessOwner": "王鹏程"
         }
-      ]
+      ],
+      "remarks": []
     },
     {
       "id": "ai-25",
@@ -4216,11 +4262,11 @@
       "priority": "yellow",
       "progress": 0,
       "due": "2026-08-31",
-      "businessOwner": "王鹏程",
-      "techOwner": "吕瑞扬",
+      "businessOwner": "吕瑞扬",
+      "techOwner": "王鹏程",
       "vendor": "启明星",
-      "owner": "王鹏程",
-      "role": "业务负责人 · 王鹏程 / 技术部对接人 · 吕瑞扬",
+      "owner": "吕瑞扬",
+      "role": "业务负责人 · 吕瑞扬 / 技术部对接人 · 王鹏程",
       "description": "流式输出、统计分析等",
       "next": "推进\"流式输出\"，计划节点：2026-08-31。",
       "risk": "",
@@ -4257,7 +4303,8 @@
           "techOwner": "吕瑞扬",
           "businessOwner": "王鹏程"
         }
-      ]
+      ],
+      "remarks": []
     },
     {
       "id": "ai-26",
@@ -4269,11 +4316,11 @@
       "priority": "yellow",
       "progress": 0,
       "due": "2026-10-30",
-      "businessOwner": "王鹏程",
-      "techOwner": "吕瑞扬",
+      "businessOwner": "吕瑞扬",
+      "techOwner": "王鹏程",
       "vendor": "启明星",
-      "owner": "王鹏程",
-      "role": "业务负责人 · 王鹏程 / 技术部对接人 · 吕瑞扬",
+      "owner": "吕瑞扬",
+      "role": "业务负责人 · 吕瑞扬 / 技术部对接人 · 王鹏程",
       "description": "建设智能问答、交易助手规则解答、信息查询",
       "next": "推进\"建设智能问答\"，计划节点：2026-10-30。",
       "risk": "",
@@ -4340,7 +4387,8 @@
           "techOwner": "吕瑞扬",
           "businessOwner": "王鹏程"
         }
-      ]
+      ],
+      "remarks": []
     },
     {
       "id": "ai-27",
@@ -4352,11 +4400,11 @@
       "priority": "punch",
       "progress": 0,
       "due": "2026-09-30",
-      "businessOwner": "王鹏程",
-      "techOwner": "吕瑞扬",
+      "businessOwner": "吕瑞扬",
+      "techOwner": "王鹏程",
       "vendor": "启明星",
-      "owner": "王鹏程",
-      "role": "业务负责人 · 王鹏程 / 技术部对接人 · 吕瑞扬",
+      "owner": "吕瑞扬",
+      "role": "业务负责人 · 吕瑞扬 / 技术部对接人 · 王鹏程",
       "description": "分析话务工单处理与服务记录自动归类、主题识别、热点统计和趋势分析",
       "next": "推进\"分析话务工单处理与服务记录自动归类\"，计划节点：2026-09-30。",
       "risk": "",
@@ -4408,7 +4456,8 @@
           "techOwner": "吕瑞扬",
           "businessOwner": "王鹏程"
         }
-      ]
+      ],
+      "remarks": []
     },
     {
       "id": "ai-28",
@@ -4420,11 +4469,11 @@
       "priority": "yellow",
       "progress": 0,
       "due": "2026-12-30",
-      "businessOwner": "王鹏程",
-      "techOwner": "吕瑞扬",
+      "businessOwner": "吕瑞扬",
+      "techOwner": "王鹏程",
       "vendor": "华云数据",
-      "owner": "王鹏程",
-      "role": "业务负责人 · 王鹏程 / 技术部对接人 · 吕瑞扬",
+      "owner": "吕瑞扬",
+      "role": "业务负责人 · 吕瑞扬 / 技术部对接人 · 王鹏程",
       "description": "数字人、生成宣传脚本、图文素材",
       "next": "推进\"数字人\"，计划节点：2026-08-15。",
       "risk": "当前完成度 0%，最近节点为 2026-08-15，建议在本次汇报中确认推进责任与资源安排。",
@@ -4506,7 +4555,8 @@
           "techOwner": "吕瑞扬",
           "businessOwner": "王鹏程"
         }
-      ]
+      ],
+      "remarks": []
     },
     {
       "id": "ai-29",
@@ -4518,11 +4568,11 @@
       "priority": "punch",
       "progress": 50,
       "due": null,
-      "businessOwner": "王鹏程",
-      "techOwner": "何阳",
+      "businessOwner": "何阳",
+      "techOwner": "王鹏程",
       "vendor": "华云数据",
-      "owner": "王鹏程",
-      "role": "业务负责人 · 王鹏程 / 技术部对接人 · 何阳",
+      "owner": "何阳",
+      "role": "业务负责人 · 何阳 / 技术部对接人 · 王鹏程",
       "description": "电价预测、电量预测",
       "next": "推进\"电价预测\"。",
       "risk": "",
@@ -4559,7 +4609,8 @@
           "techOwner": "何阳",
           "businessOwner": "王鹏程"
         }
-      ]
+      ],
+      "remarks": []
     },
     {
       "id": "ai-30",
@@ -4571,11 +4622,11 @@
       "priority": "yellow",
       "progress": 0,
       "due": "2026-07-30",
-      "businessOwner": "邵晨峰",
-      "techOwner": "何阳",
+      "businessOwner": "何阳",
+      "techOwner": "邵晨峰",
       "vendor": "电科院",
-      "owner": "邵晨峰",
-      "role": "业务负责人 · 邵晨峰 / 技术部对接人 · 何阳",
+      "owner": "何阳",
+      "role": "业务负责人 · 何阳 / 技术部对接人 · 邵晨峰",
       "description": "mirofish内网搭建",
       "next": "推进\"mirofish内网搭建\"，计划节点：2026-07-30。",
       "risk": "当前完成度 0%，最近节点为 2026-07-30，建议在本次汇报中确认推进责任与资源安排。",
@@ -4597,7 +4648,8 @@
           "techOwner": "何阳",
           "businessOwner": "邵晨峰"
         }
-      ]
+      ],
+      "remarks": []
     },
     {
       "id": "ai-31",
@@ -4609,11 +4661,11 @@
       "priority": "punch",
       "progress": 0,
       "due": "2026-12-30",
-      "businessOwner": "王鹏程",
-      "techOwner": "何阳",
+      "businessOwner": "何阳",
+      "techOwner": "王鹏程",
       "vendor": "电科院",
-      "owner": "王鹏程",
-      "role": "业务负责人 · 王鹏程 / 技术部对接人 · 何阳",
+      "owner": "何阳",
+      "role": "业务负责人 · 何阳 / 技术部对接人 · 王鹏程",
       "description": "实现资源聚合建模、智能匹配、自动撮合和快速滚动出清，支撑多主体",
       "next": "推进\"实现资源聚合建模\"，计划节点：2026-12-30。",
       "risk": "",
@@ -5350,7 +5402,8 @@
           "techOwner": "",
           "businessOwner": ""
         }
-      ]
+      ],
+      "remarks": []
     }
   ],
   "quarterMilestones": [
