@@ -1,4 +1,4 @@
-import XLSX from "xlsx";
+﻿import XLSX from "xlsx";
 import fs from "node:fs/promises";
 
 const SOURCE = "source/人工智能场景计划表-0809.xlsx";
@@ -121,7 +121,7 @@ let currentSequence = "";
 
 rows.forEach((row, index) => {
   const excelRow = index + 3;
-  const [sequence, department, scenario, detail, status, demo, due, integrated, vendor, businessOwner, techOwner, completeStatus, remark] = row;
+  const [sequence, department, scenario, detail, status, demo, due, canDemo, integrated, vendor, businessOwner, techOwner, completeStatus, remark] = row;
   if (cleanText(department)) currentDepartment = cleanText(department);
   if (cleanText(scenario)) currentScenario = cleanText(scenario);
   if (sequence !== null && sequence !== undefined && sequence !== "") currentSequence = String(sequence);
@@ -134,6 +134,7 @@ rows.forEach((row, index) => {
     status: normalizeStatus(status),
     demo: cleanText(demo),
     due: dueDate,
+    canDemo: cleanText(canDemo),
     integrated: cleanText(integrated),
     vendor: normalizeVendor(cleanText(vendor)),
     techOwner: cleanText(techOwner),

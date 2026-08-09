@@ -1,4 +1,4 @@
-:root {
+﻿:root {
   color: #172033;
   background: #f3f1ec;
   font-family: "Noto Sans SC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
@@ -157,6 +157,10 @@ h1 {
 
 .department-select {
   min-width: 142px;
+}
+
+.demo-select {
+  min-width: 130px;
 }
 
 .data-source {
@@ -945,6 +949,82 @@ h1 {
 .responsibility-avatar-tech {
   color: var(--green);
   background: var(--green-soft);
+}
+
+/* ---- 820演示场景 ---- */
+.drawer-demo {
+  border-bottom: 1px solid var(--hairline);
+}
+
+.demo-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 3px 12px;
+  border: 1px solid var(--blue);
+  border-radius: 3px;
+  color: var(--blue);
+  background: var(--blue-soft);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}
+
+.demo-item-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.demo-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 6px 0;
+  border-bottom: 1px solid var(--hairline);
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.demo-item:last-child {
+  border-bottom: 0;
+}
+
+.demo-item-marker {
+  flex: 0 0 auto;
+  display: block;
+  width: 8px;
+  height: 8px;
+  margin-top: 4px;
+  border-radius: 50%;
+  background: #d7d9dd;
+}
+
+.demo-item-done .demo-item-marker {
+  background: var(--green);
+}
+
+.demo-item-partial .demo-item-marker {
+  background: var(--amber);
+}
+
+.demo-item-todo .demo-item-marker {
+  background: #d7d9dd;
+}
+
+.demo-item-detail {
+  flex: 1;
+  color: var(--ink);
+  min-width: 0;
+}
+
+.demo-item-meta {
+  flex: 0 0 auto;
+  color: var(--muted);
+  font-size: 11px;
+  white-space: nowrap;
 }
 
 .next-action p {

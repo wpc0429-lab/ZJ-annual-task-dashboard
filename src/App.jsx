@@ -1,4 +1,4 @@
-import { useMemo, useState } from "react";
+﻿import { useMemo, useState } from "react";
 import {
   ArrowUpRight,
   CaretDown,
@@ -292,6 +292,10 @@ function kindLabel(kind) {
   return "正常推进";
 }
 
+function isScenarioDemoable(scenario) {
+  return (scenario.items || []).some(item => item.canDemo === '是');
+}
+
 function ProgressLine({ value, kind = "normal" }) {
   return (
     <span className={`progress-line progress-line-${kind}`} aria-label={`进度 ${value}%`}>
@@ -430,6 +434,24 @@ function DetailDrawer({ scenario, year, onClose }) {
           </div>
         </div>
       </div>
+      {isScenarioDemoable(scenario) ? (
+        <div className="drawer-section drawer-demo">
+          <div className="drawer-section-title">
+            <span className="demo-badge">2026-08-20演示场景</span>
+          </div>
+          <ul className="demo-item-list">
+            {(scenario.items || []).filter((item) => item.canDemo === '是').map((item, idx) => (
+              <li key={idx} className={`demo-item demo-item-${item.status}`}>
+                <span className="demo-item-marker" aria-hidden="true" />
+                <span className="demo-item-detail">{item.detail}</span>
+                <span className="demo-item-meta">
+                  {item.status === 'done' ? '已完成' : item.status === 'partial' ? '部分完成' : '未完成'}
+                </span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      ) : null}
       <div className="drawer-section next-action">
         <div className="drawer-section-title">下一步行动</div>
         <p>{scenario.next}</p>
@@ -458,12 +480,18 @@ function DetailDrawer({ scenario, year, onClose }) {
 function App() {
   const [year, setYear] = useState("2026");
   const [departmentId, setDepartmentId] = useState("all");
+  const [demoFilter, setDemoFilter] = useState("all");
   const [selectedId, setSelectedId] = useState(sourceScenarios[0]?.id ?? null);
 
-  const visibleDepartments = useMemo(
-    () => (departmentId === "all" ? sourceDepartments : sourceDepartments.filter((department) => department.id === departmentId)),
-    [departmentId],
-  );
+  const visibleDepartments = useMemo(() => {
+    let depts = departmentId === "all" ? sourceDepartments : sourceDepartments.filter((department) => department.id === departmentId);
+    if (demoFilter === "820") {
+      depts = depts
+        .map((department) => ({ ...department, scenarios: department.scenarios.filter((scenario) => isScenarioDemoable(scenario)) }))
+        .filter((department) => department.scenarios.length > 0);
+    }
+    return depts;
+  }, [departmentId, demoFilter]);
   const selectedScenario = sourceScenarios.find((scenario) => scenario.id === selectedId) ?? null;
   const overall = Math.round(sourceScenarios.reduce((sum, scenario) => sum + scenario.progress, 0) / Math.max(sourceScenarios.length, 1));
   const totalScenarios = sourceScenarios.length;
@@ -479,6 +507,15 @@ function App() {
     if (nextDepartment !== "all") {
       const firstScenario = sourceDepartments.find((department) => department.id === nextDepartment)?.scenarios[0];
       if (firstScenario) setSelectedId(firstScenario.id);
+    }
+  }
+
+  function handleDemoFilterChange(event) {
+    const nextFilter = event.target.value;
+    setDemoFilter(nextFilter);
+    if (nextFilter === "820") {
+      const firstDemoable = sourceScenarios.find((scenario) => isScenarioDemoable(scenario));
+      if (firstDemoable) setSelectedId(firstDemoable.id);
     }
   }
 
@@ -510,6 +547,14 @@ function App() {
               <select value={departmentId} onChange={handleDepartmentChange} aria-label="按部门筛选">
                 <option value="all">全部部门</option>
                 {sourceDepartments.map((department) => <option key={department.id} value={department.id}>{department.name}</option>)}
+              </select>
+              <CaretDown size={14} weight="regular" aria-hidden="true" />
+            </label>
+            <label className="select-control demo-select">
+              <span>演示筛选</span>
+              <select value={demoFilter} onChange={handleDemoFilterChange} aria-label="820演示筛选">
+                <option value="all">全部场景</option>
+                <option value="820">820演示场景</option>
               </select>
               <CaretDown size={14} weight="regular" aria-hidden="true" />
             </label>
