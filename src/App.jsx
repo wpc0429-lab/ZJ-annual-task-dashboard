@@ -574,7 +574,7 @@ function App() {
             <span><i className="legend-mark legend-mark-pending" />待定</span>
             <span><i className="legend-mark legend-mark-risk" />需要关注</span>
           </div>
-          <span>数据源：人工智能场景计划表-0806.xlsx · 进度按完成状态折算</span>
+          <span>数据源：人工智能场景计划表-0809.xlsx · 进度按完成状态折算</span>
         </footer>
       </main>
       {selectedScenario ? <DetailDrawer scenario={selectedScenario} year={year} onClose={() => setSelectedId(null)} /> : null}
