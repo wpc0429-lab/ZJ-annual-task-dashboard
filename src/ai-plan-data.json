@@ -314,7 +314,7 @@
           "sequence": "5",
           "kind": "punch",
           "priority": "punch",
-          "progress": 0,
+          "progress": 100,
           "due": "2026-08-15",
           "businessOwner": "邓晖",
           "techOwner": "王鹏程",
@@ -322,25 +322,25 @@
           "owner": "邓晖",
           "role": "业务负责人 · 邓晖 / 技术部对接人 · 王鹏程",
           "description": "模拟交易平台、仿真交易机器人",
-          "next": "推进\"模拟交易平台\"，计划节点：2026-08-15。",
+          "next": "完成最终验收并准备交付。",
           "risk": "",
           "milestones": [
             [
               "模拟交易平台",
               "2026-08-15",
-              "todo"
+              "done"
             ],
             [
               "仿真交易机器人",
               "2026-08-15",
-              "todo"
+              "done"
             ]
           ],
           "remarks": [],
           "items": [
             {
               "detail": "模拟交易平台",
-              "status": "todo",
+              "status": "done",
               "demo": "",
               "due": "2026-08-15",
               "canDemo": "是",
@@ -352,7 +352,7 @@
             },
             {
               "detail": "仿真交易机器人",
-              "status": "todo",
+              "status": "done",
               "demo": "",
               "due": "2026-08-15",
               "canDemo": "是",
@@ -365,8 +365,8 @@
           ]
         }
       ],
-      "overall": 50,
-      "active": 2,
+      "overall": 83,
+      "active": 1,
       "nearest": "2026-08-15"
     },
     {
@@ -382,7 +382,7 @@
           "sequence": "6",
           "kind": "normal",
           "priority": "yellow",
-          "progress": 0,
+          "progress": 33,
           "due": "2026-09-30",
           "businessOwner": "张晓龙",
           "techOwner": "王炜",
@@ -390,13 +390,13 @@
           "owner": "张晓龙",
           "role": "业务负责人 · 张晓龙 / 技术部对接人 · 王炜",
           "description": "绿电零售与绿电批发消费核算、自发自用消费核算、用网电量营销零售对比稽核",
-          "next": "推进\"绿电零售与绿电批发消费核算\"，计划节点：2026-09-30。",
+          "next": "推进\"自发自用消费核算\"，计划节点：2026-09-30。",
           "risk": "",
           "milestones": [
             [
               "绿电零售与绿电批发消费核算",
               "2026-09-30",
-              "todo"
+              "done"
             ],
             [
               "自发自用消费核算",
@@ -413,7 +413,7 @@
           "items": [
             {
               "detail": "绿电零售与绿电批发消费核算",
-              "status": "todo",
+              "status": "done",
               "demo": "46234",
               "due": "2026-09-30",
               "canDemo": "是",
@@ -626,7 +626,7 @@
           "sequence": "7",
           "kind": "normal",
           "priority": "yellow",
-          "progress": 0,
+          "progress": 50,
           "due": "2026-12-30",
           "businessOwner": "龚建荣",
           "techOwner": "王炜",
@@ -645,7 +645,7 @@
             [
               "事后报表数据稽核",
               "2026-12-30",
-              "todo"
+              "done"
             ]
           ],
           "remarks": [],
@@ -664,7 +664,7 @@
             },
             {
               "detail": "事后报表数据稽核",
-              "status": "todo",
+              "status": "done",
               "demo": "46233",
               "due": "2026-12-30",
               "canDemo": "是",
@@ -677,7 +677,7 @@
           ]
         }
       ],
-      "overall": 0,
+      "overall": 21,
       "active": 4,
       "nearest": "2026-09-30"
     },
@@ -776,7 +776,7 @@
           "sequence": "11",
           "kind": "punch",
           "priority": "punch",
-          "progress": 50,
+          "progress": 0,
           "due": null,
           "businessOwner": "陈成",
           "techOwner": "王炜",
@@ -795,7 +795,7 @@
             [
               "决策中枢流程稽核",
               "待定",
-              "done"
+              "todo"
             ]
           ],
           "remarks": [],
@@ -814,7 +814,7 @@
             },
             {
               "detail": "决策中枢流程稽核",
-              "status": "done",
+              "status": "todo",
               "demo": "",
               "due": null,
               "canDemo": "否",
@@ -832,9 +832,9 @@
           "department": "合规部",
           "departmentId": "dept-合规部",
           "sequence": "12",
-          "kind": "risk",
+          "kind": "normal",
           "priority": "yellow",
-          "progress": 0,
+          "progress": 100,
           "due": "2026-08-07",
           "businessOwner": "陈成",
           "techOwner": "王炜",
@@ -842,25 +842,25 @@
           "owner": "陈成",
           "role": "业务负责人 · 陈成 / 技术部对接人 · 王炜",
           "description": "页面展示异常行为、智能排序",
-          "next": "推进\"页面展示异常行为\"，计划节点：2026-08-07。",
-          "risk": "当前完成度 0%，最近节点为 2026-08-07，建议在本次汇报中确认推进责任与资源安排。",
+          "next": "完成最终验收并准备交付。",
+          "risk": "",
           "milestones": [
             [
               "页面展示异常行为",
               "2026-08-07",
-              "todo"
+              "done"
             ],
             [
               "智能排序",
               "2026-08-07",
-              "todo"
+              "done"
             ]
           ],
           "remarks": [],
           "items": [
             {
               "detail": "页面展示异常行为",
-              "status": "todo",
+              "status": "done",
               "demo": "46234",
               "due": "2026-08-07",
               "canDemo": "是",
@@ -872,7 +872,7 @@
             },
             {
               "detail": "智能排序",
-              "status": "todo",
+              "status": "done",
               "demo": "46234",
               "due": "2026-08-07",
               "canDemo": "是",
@@ -885,8 +885,8 @@
           ]
         }
       ],
-      "overall": 13,
-      "active": 4,
+      "overall": 25,
+      "active": 3,
       "nearest": "2026-08-07"
     },
     {
@@ -1288,7 +1288,7 @@
           "sequence": "18",
           "kind": "normal",
           "priority": "yellow",
-          "progress": 60,
+          "progress": 40,
           "due": "2026-12-30",
           "businessOwner": "魏骁、黄隽弢",
           "techOwner": "王炜",
@@ -1322,7 +1322,7 @@
             [
               "人工智能数据相关性合规辅助审查",
               "2026-12-30",
-              "done"
+              "todo"
             ]
           ],
           "remarks": [
@@ -1380,7 +1380,7 @@
             },
             {
               "detail": "人工智能数据相关性合规辅助审查",
-              "status": "done",
+              "status": "todo",
               "demo": "11月30日",
               "due": "2026-12-30",
               "canDemo": "否",
@@ -1528,7 +1528,7 @@
           ]
         }
       ],
-      "overall": 37,
+      "overall": 34,
       "active": 7,
       "nearest": "2026-08-04"
     },
@@ -1545,7 +1545,7 @@
           "sequence": "21",
           "kind": "punch",
           "priority": "punch",
-          "progress": 0,
+          "progress": 13,
           "due": "2026-12-30",
           "businessOwner": "骆希",
           "techOwner": "王鹏程",
@@ -1553,13 +1553,13 @@
           "owner": "骆希",
           "role": "业务负责人 · 骆希 / 技术部对接人 · 王鹏程",
           "description": "交易序列创建、设置限额、交易公告发布",
-          "next": "推进\"交易序列创建\"，计划节点：2026-08-07。",
+          "next": "推进\"设置限额\"，计划节点：2026-08-31。",
           "risk": "",
           "milestones": [
             [
               "交易序列创建",
               "2026-08-07",
-              "todo"
+              "done"
             ],
             [
               "设置限额",
@@ -1591,7 +1591,7 @@
           "items": [
             {
               "detail": "交易序列创建",
-              "status": "todo",
+              "status": "done",
               "demo": "46234",
               "due": "2026-08-07",
               "canDemo": "是",
@@ -1729,7 +1729,7 @@
           ]
         }
       ],
-      "overall": 0,
+      "overall": 7,
       "active": 2,
       "nearest": "2026-12-30"
     },
@@ -2029,7 +2029,7 @@
           "sequence": "27",
           "kind": "risk",
           "priority": "yellow",
-          "progress": 0,
+          "progress": 20,
           "due": "2026-12-30",
           "businessOwner": "吕瑞扬",
           "techOwner": "王鹏程",
@@ -2037,13 +2037,13 @@
           "owner": "吕瑞扬",
           "role": "业务负责人 · 吕瑞扬 / 技术部对接人 · 王鹏程",
           "description": "数字人、生成宣传脚本、图文素材",
-          "next": "推进\"数字人\"，计划节点：2026-08-15。",
-          "risk": "当前完成度 0%，最近节点为 2026-08-15，建议在本次汇报中确认推进责任与资源安排。",
+          "next": "推进\"生成宣传脚本\"，计划节点：2026-12-30。",
+          "risk": "当前完成度 20%，最近节点为 2026-08-15，建议在本次汇报中确认推进责任与资源安排。",
           "milestones": [
             [
               "数字人",
               "2026-08-15",
-              "todo"
+              "done"
             ],
             [
               "生成宣传脚本",
@@ -2070,7 +2070,7 @@
           "items": [
             {
               "detail": "数字人",
-              "status": "todo",
+              "status": "done",
               "demo": "46241",
               "due": "2026-08-15",
               "canDemo": "是",
@@ -2131,7 +2131,7 @@
           ]
         }
       ],
-      "overall": 0,
+      "overall": 4,
       "active": 5,
       "nearest": "2026-08-31"
     },
@@ -3435,7 +3435,7 @@
       "sequence": "5",
       "kind": "punch",
       "priority": "punch",
-      "progress": 0,
+      "progress": 100,
       "due": "2026-08-15",
       "businessOwner": "邓晖",
       "techOwner": "王鹏程",
@@ -3443,25 +3443,25 @@
       "owner": "邓晖",
       "role": "业务负责人 · 邓晖 / 技术部对接人 · 王鹏程",
       "description": "模拟交易平台、仿真交易机器人",
-      "next": "推进\"模拟交易平台\"，计划节点：2026-08-15。",
+      "next": "完成最终验收并准备交付。",
       "risk": "",
       "milestones": [
         [
           "模拟交易平台",
           "2026-08-15",
-          "todo"
+          "done"
         ],
         [
           "仿真交易机器人",
           "2026-08-15",
-          "todo"
+          "done"
         ]
       ],
       "remarks": [],
       "items": [
         {
           "detail": "模拟交易平台",
-          "status": "todo",
+          "status": "done",
           "demo": "",
           "due": "2026-08-15",
           "canDemo": "是",
@@ -3473,7 +3473,7 @@
         },
         {
           "detail": "仿真交易机器人",
-          "status": "todo",
+          "status": "done",
           "demo": "",
           "due": "2026-08-15",
           "canDemo": "是",
@@ -3493,7 +3493,7 @@
       "sequence": "6",
       "kind": "normal",
       "priority": "yellow",
-      "progress": 0,
+      "progress": 33,
       "due": "2026-09-30",
       "businessOwner": "张晓龙",
       "techOwner": "王炜",
@@ -3501,13 +3501,13 @@
       "owner": "张晓龙",
       "role": "业务负责人 · 张晓龙 / 技术部对接人 · 王炜",
       "description": "绿电零售与绿电批发消费核算、自发自用消费核算、用网电量营销零售对比稽核",
-      "next": "推进\"绿电零售与绿电批发消费核算\"，计划节点：2026-09-30。",
+      "next": "推进\"自发自用消费核算\"，计划节点：2026-09-30。",
       "risk": "",
       "milestones": [
         [
           "绿电零售与绿电批发消费核算",
           "2026-09-30",
-          "todo"
+          "done"
         ],
         [
           "自发自用消费核算",
@@ -3524,7 +3524,7 @@
       "items": [
         {
           "detail": "绿电零售与绿电批发消费核算",
-          "status": "todo",
+          "status": "done",
           "demo": "46234",
           "due": "2026-09-30",
           "canDemo": "是",
@@ -3737,7 +3737,7 @@
       "sequence": "7",
       "kind": "normal",
       "priority": "yellow",
-      "progress": 0,
+      "progress": 50,
       "due": "2026-12-30",
       "businessOwner": "龚建荣",
       "techOwner": "王炜",
@@ -3756,7 +3756,7 @@
         [
           "事后报表数据稽核",
           "2026-12-30",
-          "todo"
+          "done"
         ]
       ],
       "remarks": [],
@@ -3775,7 +3775,7 @@
         },
         {
           "detail": "事后报表数据稽核",
-          "status": "todo",
+          "status": "done",
           "demo": "46233",
           "due": "2026-12-30",
           "canDemo": "是",
@@ -3877,7 +3877,7 @@
       "sequence": "11",
       "kind": "punch",
       "priority": "punch",
-      "progress": 50,
+      "progress": 0,
       "due": null,
       "businessOwner": "陈成",
       "techOwner": "王炜",
@@ -3896,7 +3896,7 @@
         [
           "决策中枢流程稽核",
           "待定",
-          "done"
+          "todo"
         ]
       ],
       "remarks": [],
@@ -3915,7 +3915,7 @@
         },
         {
           "detail": "决策中枢流程稽核",
-          "status": "done",
+          "status": "todo",
           "demo": "",
           "due": null,
           "canDemo": "否",
@@ -3933,9 +3933,9 @@
       "department": "合规部",
       "departmentId": "dept-合规部",
       "sequence": "12",
-      "kind": "risk",
+      "kind": "normal",
       "priority": "yellow",
-      "progress": 0,
+      "progress": 100,
       "due": "2026-08-07",
       "businessOwner": "陈成",
       "techOwner": "王炜",
@@ -3943,25 +3943,25 @@
       "owner": "陈成",
       "role": "业务负责人 · 陈成 / 技术部对接人 · 王炜",
       "description": "页面展示异常行为、智能排序",
-      "next": "推进\"页面展示异常行为\"，计划节点：2026-08-07。",
-      "risk": "当前完成度 0%，最近节点为 2026-08-07，建议在本次汇报中确认推进责任与资源安排。",
+      "next": "完成最终验收并准备交付。",
+      "risk": "",
       "milestones": [
         [
           "页面展示异常行为",
           "2026-08-07",
-          "todo"
+          "done"
         ],
         [
           "智能排序",
           "2026-08-07",
-          "todo"
+          "done"
         ]
       ],
       "remarks": [],
       "items": [
         {
           "detail": "页面展示异常行为",
-          "status": "todo",
+          "status": "done",
           "demo": "46234",
           "due": "2026-08-07",
           "canDemo": "是",
@@ -3973,7 +3973,7 @@
         },
         {
           "detail": "智能排序",
-          "status": "todo",
+          "status": "done",
           "demo": "46234",
           "due": "2026-08-07",
           "canDemo": "是",
@@ -4379,7 +4379,7 @@
       "sequence": "18",
       "kind": "normal",
       "priority": "yellow",
-      "progress": 60,
+      "progress": 40,
       "due": "2026-12-30",
       "businessOwner": "魏骁、黄隽弢",
       "techOwner": "王炜",
@@ -4413,7 +4413,7 @@
         [
           "人工智能数据相关性合规辅助审查",
           "2026-12-30",
-          "done"
+          "todo"
         ]
       ],
       "remarks": [
@@ -4471,7 +4471,7 @@
         },
         {
           "detail": "人工智能数据相关性合规辅助审查",
-          "status": "done",
+          "status": "todo",
           "demo": "11月30日",
           "due": "2026-12-30",
           "canDemo": "否",
@@ -4626,7 +4626,7 @@
       "sequence": "21",
       "kind": "punch",
       "priority": "punch",
-      "progress": 0,
+      "progress": 13,
       "due": "2026-12-30",
       "businessOwner": "骆希",
       "techOwner": "王鹏程",
@@ -4634,13 +4634,13 @@
       "owner": "骆希",
       "role": "业务负责人 · 骆希 / 技术部对接人 · 王鹏程",
       "description": "交易序列创建、设置限额、交易公告发布",
-      "next": "推进\"交易序列创建\"，计划节点：2026-08-07。",
+      "next": "推进\"设置限额\"，计划节点：2026-08-31。",
       "risk": "",
       "milestones": [
         [
           "交易序列创建",
           "2026-08-07",
-          "todo"
+          "done"
         ],
         [
           "设置限额",
@@ -4672,7 +4672,7 @@
       "items": [
         {
           "detail": "交易序列创建",
-          "status": "todo",
+          "status": "done",
           "demo": "46234",
           "due": "2026-08-07",
           "canDemo": "是",
@@ -5100,7 +5100,7 @@
       "sequence": "27",
       "kind": "risk",
       "priority": "yellow",
-      "progress": 0,
+      "progress": 20,
       "due": "2026-12-30",
       "businessOwner": "吕瑞扬",
       "techOwner": "王鹏程",
@@ -5108,13 +5108,13 @@
       "owner": "吕瑞扬",
       "role": "业务负责人 · 吕瑞扬 / 技术部对接人 · 王鹏程",
       "description": "数字人、生成宣传脚本、图文素材",
-      "next": "推进\"数字人\"，计划节点：2026-08-15。",
-      "risk": "当前完成度 0%，最近节点为 2026-08-15，建议在本次汇报中确认推进责任与资源安排。",
+      "next": "推进\"生成宣传脚本\"，计划节点：2026-12-30。",
+      "risk": "当前完成度 20%，最近节点为 2026-08-15，建议在本次汇报中确认推进责任与资源安排。",
       "milestones": [
         [
           "数字人",
           "2026-08-15",
-          "todo"
+          "done"
         ],
         [
           "生成宣传脚本",
@@ -5141,7 +5141,7 @@
       "items": [
         {
           "detail": "数字人",
-          "status": "todo",
+          "status": "done",
           "demo": "46241",
           "due": "2026-08-15",
           "canDemo": "是",
