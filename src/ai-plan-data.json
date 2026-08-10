@@ -108,7 +108,7 @@
           "name": "舆情管理智能",
           "department": "综合部",
           "departmentId": "dept-综合部",
-          "sequence": "2",
+          "sequence": "5",
           "kind": "punch",
           "priority": "punch",
           "progress": 0,
@@ -210,7 +210,7 @@
           "name": "规则一致性校验",
           "department": "市场部",
           "departmentId": "dept-市场部",
-          "sequence": "3",
+          "sequence": "9",
           "kind": "punch",
           "priority": "punch",
           "progress": 50,
@@ -267,10 +267,51 @@
         },
         {
           "id": "ai-04",
+          "name": "项目审查",
+          "department": "市场部",
+          "departmentId": "dept-市场部",
+          "sequence": "11",
+          "kind": "normal",
+          "priority": "yellow",
+          "progress": 0,
+          "due": "2026-10-30",
+          "businessOwner": "庄晓丹",
+          "techOwner": "王炜",
+          "vendor": "启明星",
+          "owner": "庄晓丹",
+          "role": "业务负责人 · 庄晓丹 / 技术部对接人 · 王炜",
+          "description": "重复立项审查",
+          "next": "推进\"重复立项审查\"，计划节点：2026-10-30。",
+          "risk": "",
+          "milestones": [
+            [
+              "重复立项审查",
+              "2026-10-30",
+              "todo"
+            ]
+          ],
+          "remarks": [],
+          "items": [
+            {
+              "detail": "重复立项审查",
+              "status": "todo",
+              "demo": "",
+              "due": "2026-10-30",
+              "canDemo": "否",
+              "integrated": "是",
+              "vendor": "启明星",
+              "techOwner": "王炜",
+              "businessOwner": "庄晓丹",
+              "remark": ""
+            }
+          ]
+        },
+        {
+          "id": "ai-05",
           "name": "政策解读智能辅助场景",
           "department": "市场部",
           "departmentId": "dept-市场部",
-          "sequence": "4",
+          "sequence": "12",
           "kind": "normal",
           "priority": "yellow",
           "progress": 100,
@@ -307,11 +348,11 @@
           ]
         },
         {
-          "id": "ai-05",
+          "id": "ai-06",
           "name": "市场模拟与仿真推演场景",
           "department": "市场部",
           "departmentId": "dept-市场部",
-          "sequence": "5",
+          "sequence": "13",
           "kind": "punch",
           "priority": "punch",
           "progress": 100,
@@ -365,8 +406,8 @@
           ]
         }
       ],
-      "overall": 83,
-      "active": 1,
+      "overall": 63,
+      "active": 2,
       "nearest": "2026-07-21"
     },
     {
@@ -375,11 +416,11 @@
       "thesis": "围绕核算、披露与结算稽核，构建智能化校验体系。",
       "scenarios": [
         {
-          "id": "ai-06",
+          "id": "ai-07",
           "name": "绿色消费核算数据稽核",
           "department": "结算部",
           "departmentId": "dept-结算部",
-          "sequence": "5",
+          "sequence": "15",
           "kind": "normal",
           "priority": "yellow",
           "progress": 25,
@@ -433,11 +474,11 @@
           ]
         },
         {
-          "id": "ai-07",
+          "id": "ai-08",
           "name": "新一代人工智能试点，非化石能源建设",
           "department": "结算部",
           "departmentId": "dept-结算部",
-          "sequence": "5",
+          "sequence": "17",
           "kind": "punch",
           "priority": "punch",
           "progress": 0,
@@ -525,11 +566,11 @@
           ]
         },
         {
-          "id": "ai-08",
+          "id": "ai-09",
           "name": "结算信息披露智能问数",
           "department": "结算部",
           "departmentId": "dept-结算部",
-          "sequence": "7",
+          "sequence": "21",
           "kind": "punch",
           "priority": "punch",
           "progress": 0,
@@ -583,11 +624,11 @@
           ]
         },
         {
-          "id": "ai-09",
+          "id": "ai-10",
           "name": "智能结算",
           "department": "结算部",
           "departmentId": "dept-结算部",
-          "sequence": "7",
+          "sequence": "23",
           "kind": "normal",
           "priority": "yellow",
           "progress": 25,
@@ -685,11 +726,11 @@
       "thesis": "强化异常行为、业务流程与风险监测的智能化能力。",
       "scenarios": [
         {
-          "id": "ai-10",
+          "id": "ai-11",
           "name": "市场主体异常行为风险分析",
           "department": "合规部",
           "departmentId": "dept-合规部",
-          "sequence": "9",
+          "sequence": "27",
           "kind": "normal",
           "priority": "yellow",
           "progress": 0,
@@ -726,11 +767,11 @@
           ]
         },
         {
-          "id": "ai-11",
+          "id": "ai-12",
           "name": "业务指标智能分析",
           "department": "合规部",
           "departmentId": "dept-合规部",
-          "sequence": "10",
+          "sequence": "28",
           "kind": "normal",
           "priority": "yellow",
           "progress": 0,
@@ -767,11 +808,11 @@
           ]
         },
         {
-          "id": "ai-12",
+          "id": "ai-13",
           "name": "业务流程智能稽核",
           "department": "合规部",
           "departmentId": "dept-合规部",
-          "sequence": "11",
+          "sequence": "29",
           "kind": "punch",
           "priority": "punch",
           "progress": 0,
@@ -825,11 +866,11 @@
           ]
         },
         {
-          "id": "ai-13",
+          "id": "ai-14",
           "name": "合规风险监测的人工智能展示",
           "department": "合规部",
           "departmentId": "dept-合规部",
-          "sequence": "12",
+          "sequence": "31",
           "kind": "normal",
           "priority": "yellow",
           "progress": 100,
@@ -893,11 +934,11 @@
       "thesis": "夯实平台运维、代码、数据和个人助手的 AI 能力底座。",
       "scenarios": [
         {
-          "id": "ai-14",
+          "id": "ai-15",
           "name": "平台运行智能运维",
           "department": "技术部",
           "departmentId": "dept-技术部",
-          "sequence": "13",
+          "sequence": "33",
           "kind": "risk",
           "priority": "yellow",
           "progress": 40,
@@ -1005,11 +1046,11 @@
           ]
         },
         {
-          "id": "ai-15",
+          "id": "ai-16",
           "name": "量化交易识别",
           "department": "技术部",
           "departmentId": "dept-技术部",
-          "sequence": "14",
+          "sequence": "38",
           "kind": "punch",
           "priority": "punch",
           "progress": 100,
@@ -1065,11 +1106,11 @@
           ]
         },
         {
-          "id": "ai-16",
+          "id": "ai-17",
           "name": "平台功能智能巡检",
           "department": "技术部",
           "departmentId": "dept-技术部",
-          "sequence": "15",
+          "sequence": "40",
           "kind": "normal",
           "priority": "yellow",
           "progress": 67,
@@ -1143,11 +1184,11 @@
           ]
         },
         {
-          "id": "ai-17",
+          "id": "ai-18",
           "name": "PX-Code人工智能个人助手",
           "department": "技术部",
           "departmentId": "dept-技术部",
-          "sequence": "16",
+          "sequence": "43",
           "kind": "punch",
           "priority": "punch",
           "progress": 25,
@@ -1238,11 +1279,11 @@
           ]
         },
         {
-          "id": "ai-18",
+          "id": "ai-19",
           "name": "人工智能整体框架及harness设计",
           "department": "技术部",
           "departmentId": "dept-技术部",
-          "sequence": "17",
+          "sequence": "47",
           "kind": "normal",
           "priority": "yellow",
           "progress": 0,
@@ -1279,11 +1320,11 @@
           ]
         },
         {
-          "id": "ai-19",
+          "id": "ai-20",
           "name": "数据管理智能辅助",
           "department": "技术部",
           "departmentId": "dept-技术部",
-          "sequence": "18",
+          "sequence": "48",
           "kind": "normal",
           "priority": "yellow",
           "progress": 40,
@@ -1391,11 +1432,11 @@
           ]
         },
         {
-          "id": "ai-20",
+          "id": "ai-21",
           "name": "人工智能代码审计",
           "department": "技术部",
           "departmentId": "dept-技术部",
-          "sequence": "19",
+          "sequence": "53",
           "kind": "normal",
           "priority": "yellow",
           "progress": 0,
@@ -1466,11 +1507,11 @@
           ]
         },
         {
-          "id": "ai-21",
+          "id": "ai-22",
           "name": "市场成员人工智能助手",
           "department": "技术部",
           "departmentId": "dept-技术部",
-          "sequence": "20",
+          "sequence": "56",
           "kind": "normal",
           "priority": "yellow",
           "progress": 0,
@@ -1536,11 +1577,11 @@
       "thesis": "推动交易全流程自动化，提升交易执行与复核效率。",
       "scenarios": [
         {
-          "id": "ai-22",
+          "id": "ai-23",
           "name": "交易快报智能生成",
           "department": "交易部",
           "departmentId": "dept-交易部",
-          "sequence": "21",
+          "sequence": "58",
           "kind": "normal",
           "priority": "yellow",
           "progress": 100,
@@ -1594,11 +1635,11 @@
           ]
         },
         {
-          "id": "ai-23",
+          "id": "ai-24",
           "name": "交易全流程自动化",
           "department": "交易部",
           "departmentId": "dept-交易部",
-          "sequence": "22",
+          "sequence": "60",
           "kind": "punch",
           "priority": "punch",
           "progress": 50,
@@ -1720,11 +1761,11 @@
           ]
         },
         {
-          "id": "ai-24",
+          "id": "ai-25",
           "name": "交易出清智能校核",
           "department": "交易部",
           "departmentId": "dept-交易部",
-          "sequence": "23",
+          "sequence": "66",
           "kind": "normal",
           "priority": "yellow",
           "progress": 0,
@@ -1778,11 +1819,11 @@
           ]
         },
         {
-          "id": "ai-25",
+          "id": "ai-26",
           "name": "省间交易/全国统一电力市场",
           "department": "交易部",
           "departmentId": "dept-交易部",
-          "sequence": "24",
+          "sequence": "68",
           "kind": "pending",
           "priority": "blue",
           "progress": 0,
@@ -1831,11 +1872,11 @@
       "thesis": "打造智能客服、语音、工单与融媒体服务能力。",
       "scenarios": [
         {
-          "id": "ai-26",
+          "id": "ai-27",
           "name": "智能客服辅助",
           "department": "客服中心",
           "departmentId": "dept-客服中心",
-          "sequence": "25",
+          "sequence": "69",
           "kind": "normal",
           "priority": "yellow",
           "progress": 67,
@@ -1906,11 +1947,11 @@
           ]
         },
         {
-          "id": "ai-27",
+          "id": "ai-28",
           "name": "市场主体智能服务场景",
           "department": "客服中心",
           "departmentId": "dept-客服中心",
-          "sequence": "26",
+          "sequence": "72",
           "kind": "normal",
           "priority": "yellow",
           "progress": 0,
@@ -1998,11 +2039,11 @@
           ]
         },
         {
-          "id": "ai-28",
+          "id": "ai-29",
           "name": "话务工单智能分析",
           "department": "客服中心",
           "departmentId": "dept-客服中心",
-          "sequence": "27",
+          "sequence": "76",
           "kind": "punch",
           "priority": "punch",
           "progress": 0,
@@ -2090,11 +2131,11 @@
           ]
         },
         {
-          "id": "ai-29",
+          "id": "ai-30",
           "name": "融媒体智能制作",
           "department": "客服中心",
           "departmentId": "dept-客服中心",
-          "sequence": "28",
+          "sequence": "80",
           "kind": "risk",
           "priority": "yellow",
           "progress": 20,
@@ -2209,11 +2250,11 @@
       "thesis": "推进预测、市场推演和云边协同出清等研究场景。",
       "scenarios": [
         {
-          "id": "ai-30",
+          "id": "ai-31",
           "name": "电量电价智能预测",
           "department": "研究室",
           "departmentId": "dept-研究室",
-          "sequence": "29",
+          "sequence": "85",
           "kind": "punch",
           "priority": "punch",
           "progress": 100,
@@ -2267,11 +2308,11 @@
           ]
         },
         {
-          "id": "ai-31",
+          "id": "ai-32",
           "name": "mirofish市场推演",
           "department": "研究室",
           "departmentId": "dept-研究室",
-          "sequence": "30",
+          "sequence": "87",
           "kind": "normal",
           "priority": "yellow",
           "progress": 0,
@@ -2308,11 +2349,11 @@
           ]
         },
         {
-          "id": "ai-32",
+          "id": "ai-33",
           "name": "大市场与微市场云边协同出清",
           "department": "研究室",
           "departmentId": "dept-研究室",
-          "sequence": "31",
+          "sequence": "88",
           "kind": "punch",
           "priority": "punch",
           "progress": 0,
@@ -3307,7 +3348,7 @@
       "name": "舆情管理智能",
       "department": "综合部",
       "departmentId": "dept-综合部",
-      "sequence": "2",
+      "sequence": "5",
       "kind": "punch",
       "priority": "punch",
       "progress": 0,
@@ -3399,7 +3440,7 @@
       "name": "规则一致性校验",
       "department": "市场部",
       "departmentId": "dept-市场部",
-      "sequence": "3",
+      "sequence": "9",
       "kind": "punch",
       "priority": "punch",
       "progress": 50,
@@ -3456,10 +3497,51 @@
     },
     {
       "id": "ai-04",
+      "name": "项目审查",
+      "department": "市场部",
+      "departmentId": "dept-市场部",
+      "sequence": "11",
+      "kind": "normal",
+      "priority": "yellow",
+      "progress": 0,
+      "due": "2026-10-30",
+      "businessOwner": "庄晓丹",
+      "techOwner": "王炜",
+      "vendor": "启明星",
+      "owner": "庄晓丹",
+      "role": "业务负责人 · 庄晓丹 / 技术部对接人 · 王炜",
+      "description": "重复立项审查",
+      "next": "推进\"重复立项审查\"，计划节点：2026-10-30。",
+      "risk": "",
+      "milestones": [
+        [
+          "重复立项审查",
+          "2026-10-30",
+          "todo"
+        ]
+      ],
+      "remarks": [],
+      "items": [
+        {
+          "detail": "重复立项审查",
+          "status": "todo",
+          "demo": "",
+          "due": "2026-10-30",
+          "canDemo": "否",
+          "integrated": "是",
+          "vendor": "启明星",
+          "techOwner": "王炜",
+          "businessOwner": "庄晓丹",
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "id": "ai-05",
       "name": "政策解读智能辅助场景",
       "department": "市场部",
       "departmentId": "dept-市场部",
-      "sequence": "4",
+      "sequence": "12",
       "kind": "normal",
       "priority": "yellow",
       "progress": 100,
@@ -3496,11 +3578,11 @@
       ]
     },
     {
-      "id": "ai-05",
+      "id": "ai-06",
       "name": "市场模拟与仿真推演场景",
       "department": "市场部",
       "departmentId": "dept-市场部",
-      "sequence": "5",
+      "sequence": "13",
       "kind": "punch",
       "priority": "punch",
       "progress": 100,
@@ -3554,11 +3636,11 @@
       ]
     },
     {
-      "id": "ai-06",
+      "id": "ai-07",
       "name": "绿色消费核算数据稽核",
       "department": "结算部",
       "departmentId": "dept-结算部",
-      "sequence": "5",
+      "sequence": "15",
       "kind": "normal",
       "priority": "yellow",
       "progress": 25,
@@ -3612,11 +3694,11 @@
       ]
     },
     {
-      "id": "ai-07",
+      "id": "ai-08",
       "name": "新一代人工智能试点，非化石能源建设",
       "department": "结算部",
       "departmentId": "dept-结算部",
-      "sequence": "5",
+      "sequence": "17",
       "kind": "punch",
       "priority": "punch",
       "progress": 0,
@@ -3704,11 +3786,11 @@
       ]
     },
     {
-      "id": "ai-08",
+      "id": "ai-09",
       "name": "结算信息披露智能问数",
       "department": "结算部",
       "departmentId": "dept-结算部",
-      "sequence": "7",
+      "sequence": "21",
       "kind": "punch",
       "priority": "punch",
       "progress": 0,
@@ -3762,11 +3844,11 @@
       ]
     },
     {
-      "id": "ai-09",
+      "id": "ai-10",
       "name": "智能结算",
       "department": "结算部",
       "departmentId": "dept-结算部",
-      "sequence": "7",
+      "sequence": "23",
       "kind": "normal",
       "priority": "yellow",
       "progress": 25,
@@ -3854,11 +3936,11 @@
       ]
     },
     {
-      "id": "ai-10",
+      "id": "ai-11",
       "name": "市场主体异常行为风险分析",
       "department": "合规部",
       "departmentId": "dept-合规部",
-      "sequence": "9",
+      "sequence": "27",
       "kind": "normal",
       "priority": "yellow",
       "progress": 0,
@@ -3895,11 +3977,11 @@
       ]
     },
     {
-      "id": "ai-11",
+      "id": "ai-12",
       "name": "业务指标智能分析",
       "department": "合规部",
       "departmentId": "dept-合规部",
-      "sequence": "10",
+      "sequence": "28",
       "kind": "normal",
       "priority": "yellow",
       "progress": 0,
@@ -3936,11 +4018,11 @@
       ]
     },
     {
-      "id": "ai-12",
+      "id": "ai-13",
       "name": "业务流程智能稽核",
       "department": "合规部",
       "departmentId": "dept-合规部",
-      "sequence": "11",
+      "sequence": "29",
       "kind": "punch",
       "priority": "punch",
       "progress": 0,
@@ -3994,11 +4076,11 @@
       ]
     },
     {
-      "id": "ai-13",
+      "id": "ai-14",
       "name": "合规风险监测的人工智能展示",
       "department": "合规部",
       "departmentId": "dept-合规部",
-      "sequence": "12",
+      "sequence": "31",
       "kind": "normal",
       "priority": "yellow",
       "progress": 100,
@@ -4052,11 +4134,11 @@
       ]
     },
     {
-      "id": "ai-14",
+      "id": "ai-15",
       "name": "平台运行智能运维",
       "department": "技术部",
       "departmentId": "dept-技术部",
-      "sequence": "13",
+      "sequence": "33",
       "kind": "risk",
       "priority": "yellow",
       "progress": 40,
@@ -4164,11 +4246,11 @@
       ]
     },
     {
-      "id": "ai-15",
+      "id": "ai-16",
       "name": "量化交易识别",
       "department": "技术部",
       "departmentId": "dept-技术部",
-      "sequence": "14",
+      "sequence": "38",
       "kind": "punch",
       "priority": "punch",
       "progress": 100,
@@ -4224,11 +4306,11 @@
       ]
     },
     {
-      "id": "ai-16",
+      "id": "ai-17",
       "name": "平台功能智能巡检",
       "department": "技术部",
       "departmentId": "dept-技术部",
-      "sequence": "15",
+      "sequence": "40",
       "kind": "normal",
       "priority": "yellow",
       "progress": 67,
@@ -4302,11 +4384,11 @@
       ]
     },
     {
-      "id": "ai-17",
+      "id": "ai-18",
       "name": "PX-Code人工智能个人助手",
       "department": "技术部",
       "departmentId": "dept-技术部",
-      "sequence": "16",
+      "sequence": "43",
       "kind": "punch",
       "priority": "punch",
       "progress": 25,
@@ -4397,11 +4479,11 @@
       ]
     },
     {
-      "id": "ai-18",
+      "id": "ai-19",
       "name": "人工智能整体框架及harness设计",
       "department": "技术部",
       "departmentId": "dept-技术部",
-      "sequence": "17",
+      "sequence": "47",
       "kind": "normal",
       "priority": "yellow",
       "progress": 0,
@@ -4438,11 +4520,11 @@
       ]
     },
     {
-      "id": "ai-19",
+      "id": "ai-20",
       "name": "数据管理智能辅助",
       "department": "技术部",
       "departmentId": "dept-技术部",
-      "sequence": "18",
+      "sequence": "48",
       "kind": "normal",
       "priority": "yellow",
       "progress": 40,
@@ -4550,11 +4632,11 @@
       ]
     },
     {
-      "id": "ai-20",
+      "id": "ai-21",
       "name": "人工智能代码审计",
       "department": "技术部",
       "departmentId": "dept-技术部",
-      "sequence": "19",
+      "sequence": "53",
       "kind": "normal",
       "priority": "yellow",
       "progress": 0,
@@ -4625,11 +4707,11 @@
       ]
     },
     {
-      "id": "ai-21",
+      "id": "ai-22",
       "name": "市场成员人工智能助手",
       "department": "技术部",
       "departmentId": "dept-技术部",
-      "sequence": "20",
+      "sequence": "56",
       "kind": "normal",
       "priority": "yellow",
       "progress": 0,
@@ -4685,11 +4767,11 @@
       ]
     },
     {
-      "id": "ai-22",
+      "id": "ai-23",
       "name": "交易快报智能生成",
       "department": "交易部",
       "departmentId": "dept-交易部",
-      "sequence": "21",
+      "sequence": "58",
       "kind": "normal",
       "priority": "yellow",
       "progress": 100,
@@ -4743,11 +4825,11 @@
       ]
     },
     {
-      "id": "ai-23",
+      "id": "ai-24",
       "name": "交易全流程自动化",
       "department": "交易部",
       "departmentId": "dept-交易部",
-      "sequence": "22",
+      "sequence": "60",
       "kind": "punch",
       "priority": "punch",
       "progress": 50,
@@ -4869,11 +4951,11 @@
       ]
     },
     {
-      "id": "ai-24",
+      "id": "ai-25",
       "name": "交易出清智能校核",
       "department": "交易部",
       "departmentId": "dept-交易部",
-      "sequence": "23",
+      "sequence": "66",
       "kind": "normal",
       "priority": "yellow",
       "progress": 0,
@@ -4927,11 +5009,11 @@
       ]
     },
     {
-      "id": "ai-25",
+      "id": "ai-26",
       "name": "省间交易/全国统一电力市场",
       "department": "交易部",
       "departmentId": "dept-交易部",
-      "sequence": "24",
+      "sequence": "68",
       "kind": "pending",
       "priority": "blue",
       "progress": 0,
@@ -4970,11 +5052,11 @@
       ]
     },
     {
-      "id": "ai-26",
+      "id": "ai-27",
       "name": "智能客服辅助",
       "department": "客服中心",
       "departmentId": "dept-客服中心",
-      "sequence": "25",
+      "sequence": "69",
       "kind": "normal",
       "priority": "yellow",
       "progress": 67,
@@ -5045,11 +5127,11 @@
       ]
     },
     {
-      "id": "ai-27",
+      "id": "ai-28",
       "name": "市场主体智能服务场景",
       "department": "客服中心",
       "departmentId": "dept-客服中心",
-      "sequence": "26",
+      "sequence": "72",
       "kind": "normal",
       "priority": "yellow",
       "progress": 0,
@@ -5137,11 +5219,11 @@
       ]
     },
     {
-      "id": "ai-28",
+      "id": "ai-29",
       "name": "话务工单智能分析",
       "department": "客服中心",
       "departmentId": "dept-客服中心",
-      "sequence": "27",
+      "sequence": "76",
       "kind": "punch",
       "priority": "punch",
       "progress": 0,
@@ -5229,11 +5311,11 @@
       ]
     },
     {
-      "id": "ai-29",
+      "id": "ai-30",
       "name": "融媒体智能制作",
       "department": "客服中心",
       "departmentId": "dept-客服中心",
-      "sequence": "28",
+      "sequence": "80",
       "kind": "risk",
       "priority": "yellow",
       "progress": 20,
@@ -5338,11 +5420,11 @@
       ]
     },
     {
-      "id": "ai-30",
+      "id": "ai-31",
       "name": "电量电价智能预测",
       "department": "研究室",
       "departmentId": "dept-研究室",
-      "sequence": "29",
+      "sequence": "85",
       "kind": "punch",
       "priority": "punch",
       "progress": 100,
@@ -5396,11 +5478,11 @@
       ]
     },
     {
-      "id": "ai-31",
+      "id": "ai-32",
       "name": "mirofish市场推演",
       "department": "研究室",
       "departmentId": "dept-研究室",
-      "sequence": "30",
+      "sequence": "87",
       "kind": "normal",
       "priority": "yellow",
       "progress": 0,
@@ -5437,11 +5519,11 @@
       ]
     },
     {
-      "id": "ai-32",
+      "id": "ai-33",
       "name": "大市场与微市场云边协同出清",
       "department": "研究室",
       "departmentId": "dept-研究室",
-      "sequence": "31",
+      "sequence": "88",
       "kind": "punch",
       "priority": "punch",
       "progress": 0,
@@ -6338,7 +6420,7 @@
       "range": "8月节点",
       "title": "首批场景交付",
       "date": "2026-08-07",
-      "taskId": "ai-13"
+      "taskId": "ai-14"
     },
     {
       "id": "sep",
@@ -6346,7 +6428,7 @@
       "range": "7–9月",
       "title": "三季度集成",
       "date": "2026-08-15",
-      "taskId": "ai-22"
+      "taskId": "ai-23"
     },
     {
       "id": "dec",
@@ -6354,7 +6436,7 @@
       "range": "10–12月",
       "title": "年度目标收口",
       "date": "2026-12-31",
-      "taskId": "ai-14"
+      "taskId": "ai-15"
     },
     {
       "id": "long",
@@ -6362,7 +6444,7 @@
       "range": "长期建设",
       "title": "持续优化",
       "date": "长期",
-      "taskId": "ai-21"
+      "taskId": "ai-22"
     }
   ]
 }
