@@ -379,55 +379,38 @@
           "name": "绿色消费核算数据稽核",
           "department": "结算部",
           "departmentId": "dept-结算部",
-          "sequence": "6",
+          "sequence": "5",
           "kind": "normal",
           "priority": "yellow",
-          "progress": 33,
-          "due": "2026-09-30",
+          "progress": 25,
+          "due": "2026-12-30",
           "businessOwner": "张晓龙",
           "techOwner": "王炜",
           "vendor": "启明星",
           "owner": "张晓龙",
           "role": "业务负责人 · 张晓龙 / 技术部对接人 · 王炜",
-          "description": "绿电零售与绿电批发消费核算、自发自用消费核算、用网电量营销零售对比稽核",
-          "next": "推进\"自发自用消费核算\"，计划节点：2026-09-30。",
+          "description": "基础数据稽核、绿电消费核算溯源分析",
+          "next": "推进\"基础数据稽核\"，计划节点：2026-12-30。",
           "risk": "",
           "milestones": [
             [
-              "绿电零售与绿电批发消费核算",
-              "2026-09-30",
-              "done"
-            ],
-            [
-              "自发自用消费核算",
-              "2026-09-30",
+              "基础数据稽核",
+              "2026-12-30",
               "todo"
             ],
             [
-              "用网电量营销零售对比稽核",
+              "绿电消费核算溯源分析",
               "2026-09-30",
-              "todo"
+              "current"
             ]
           ],
           "remarks": [],
           "items": [
             {
-              "detail": "绿电零售与绿电批发消费核算",
-              "status": "done",
-              "demo": "46234",
-              "due": "2026-09-30",
-              "canDemo": "是",
-              "integrated": "否",
-              "vendor": "启明星",
-              "techOwner": "王炜",
-              "businessOwner": "张晓龙",
-              "remark": ""
-            },
-            {
-              "detail": "自发自用消费核算",
+              "detail": "基础数据稽核",
               "status": "todo",
-              "demo": "46234",
-              "due": "2026-09-30",
+              "demo": "",
+              "due": "2026-12-30",
               "canDemo": "否",
               "integrated": "否",
               "vendor": "启明星",
@@ -436,8 +419,8 @@
               "remark": ""
             },
             {
-              "detail": "用网电量营销零售对比稽核",
-              "status": "todo",
+              "detail": "绿电消费核算溯源分析",
+              "status": "partial",
               "demo": "46234",
               "due": "2026-09-30",
               "canDemo": "否",
@@ -454,7 +437,7 @@
           "name": "新一代人工智能试点，非化石能源建设",
           "department": "结算部",
           "departmentId": "dept-结算部",
-          "sequence": "6",
+          "sequence": "5",
           "kind": "punch",
           "priority": "punch",
           "progress": 0,
@@ -464,27 +447,17 @@
           "vendor": "启明星",
           "owner": "张晓龙",
           "role": "业务负责人 · 张晓龙 / 技术部对接人 · 王炜",
-          "description": "基础数据校验、指标智能生成、非化石核算结果校验与溯源",
-          "next": "推进\"基础数据校验\"，计划节点：2026-12-30。",
+          "description": "指标智能生成（内+外）、非化石报表数据稽核、非化石计算过程skill",
+          "next": "推进\"指标智能生成（内+外）\"，计划节点：2026-12-30。",
           "risk": "",
           "milestones": [
             [
-              "基础数据校验",
+              "指标智能生成（内+外）",
               "2026-12-30",
               "todo"
             ],
             [
-              "指标智能生成",
-              "2026-12-30",
-              "todo"
-            ],
-            [
-              "非化石核算结果校验与溯源",
-              "2026-12-30",
-              "todo"
-            ],
-            [
-              "非化石指标分摊方案设计",
+              "非化石报表数据稽核",
               "2026-12-30",
               "todo"
             ],
@@ -492,26 +465,17 @@
               "非化石计算过程skill",
               "2026-12-30",
               "todo"
+            ],
+            [
+              "非化石指标分摊方案设计",
+              "2026-12-30",
+              "todo"
             ]
           ],
-          "remarks": [
-            "负责人黄恒孜，对接人张晓龙"
-          ],
+          "remarks": [],
           "items": [
             {
-              "detail": "基础数据校验",
-              "status": "todo",
-              "demo": "",
-              "due": "2026-12-30",
-              "canDemo": "否",
-              "integrated": "否",
-              "vendor": "启明星",
-              "techOwner": "王炜",
-              "businessOwner": "张晓龙",
-              "remark": "负责人黄恒孜，对接人张晓龙"
-            },
-            {
-              "detail": "指标智能生成",
+              "detail": "指标智能生成（内+外）",
               "status": "todo",
               "demo": "",
               "due": "2026-12-30",
@@ -523,24 +487,12 @@
               "remark": ""
             },
             {
-              "detail": "非化石核算结果校验与溯源",
+              "detail": "非化石报表数据稽核",
               "status": "todo",
               "demo": "",
               "due": "2026-12-30",
               "canDemo": "否",
-              "integrated": "否",
-              "vendor": "启明星",
-              "techOwner": "王炜",
-              "businessOwner": "张晓龙",
-              "remark": ""
-            },
-            {
-              "detail": "非化石指标分摊方案设计",
-              "status": "todo",
-              "demo": "",
-              "due": "2026-12-30",
-              "canDemo": "否",
-              "integrated": "否",
+              "integrated": "是",
               "vendor": "启明星",
               "techOwner": "王炜",
               "businessOwner": "张晓龙",
@@ -553,6 +505,18 @@
               "due": "2026-12-30",
               "canDemo": "否",
               "integrated": "是",
+              "vendor": "启明星",
+              "techOwner": "王炜",
+              "businessOwner": "张晓龙",
+              "remark": ""
+            },
+            {
+              "detail": "非化石指标分摊方案设计",
+              "status": "todo",
+              "demo": "",
+              "due": "2026-12-30",
+              "canDemo": "否",
+              "integrated": "否",
               "vendor": "启明星",
               "techOwner": "王炜",
               "businessOwner": "张晓龙",
@@ -626,14 +590,14 @@
           "sequence": "7",
           "kind": "normal",
           "priority": "yellow",
-          "progress": 50,
+          "progress": 25,
           "due": "2026-12-30",
-          "businessOwner": "龚建荣",
+          "businessOwner": "龚建荣、张晓龙",
           "techOwner": "王炜",
           "vendor": "电科院",
-          "owner": "龚建荣",
-          "role": "业务负责人 · 龚建荣 / 技术部对接人 · 王炜",
-          "description": "事中全流程辅助分析、事后报表数据稽核",
+          "owner": "龚建荣、张晓龙",
+          "role": "业务负责人 · 龚建荣、张晓龙 / 技术部对接人 · 王炜",
+          "description": "事中全流程辅助分析、事后报表数据稽核、大屏人工智能讲解",
           "next": "推进\"事中全流程辅助分析\"，计划节点：2026-12-30。",
           "risk": "",
           "milestones": [
@@ -646,6 +610,16 @@
               "事后报表数据稽核",
               "2026-12-30",
               "done"
+            ],
+            [
+              "大屏人工智能讲解",
+              "2026-12-30",
+              "todo"
+            ],
+            [
+              "人工智能自动项目跟进",
+              "2026-12-30",
+              "todo"
             ]
           ],
           "remarks": [],
@@ -671,13 +645,37 @@
               "integrated": "是",
               "vendor": "启明星",
               "techOwner": "王炜",
-              "businessOwner": "龚建荣",
+              "businessOwner": "张晓龙",
+              "remark": ""
+            },
+            {
+              "detail": "大屏人工智能讲解",
+              "status": "todo",
+              "demo": "",
+              "due": "2026-12-30",
+              "canDemo": "否",
+              "integrated": "是",
+              "vendor": "启明星",
+              "techOwner": "王炜",
+              "businessOwner": "张晓龙",
+              "remark": ""
+            },
+            {
+              "detail": "人工智能自动项目跟进",
+              "status": "todo",
+              "demo": "",
+              "due": "2026-12-30",
+              "canDemo": "否",
+              "integrated": "是",
+              "vendor": "启明星",
+              "techOwner": "王炜",
+              "businessOwner": "张晓龙",
               "remark": ""
             }
           ]
         }
       ],
-      "overall": 21,
+      "overall": 13,
       "active": 4,
       "nearest": "2026-08-31"
     },
@@ -1539,21 +1537,79 @@
       "scenarios": [
         {
           "id": "ai-22",
-          "name": "交易全流程自动化",
+          "name": "交易快报智能生成",
           "department": "交易部",
           "departmentId": "dept-交易部",
           "sequence": "21",
+          "kind": "normal",
+          "priority": "yellow",
+          "progress": 100,
+          "due": "2026-08-15",
+          "businessOwner": "骆希",
+          "techOwner": "王鹏程",
+          "vendor": "华云数据",
+          "owner": "骆希",
+          "role": "业务负责人 · 骆希 / 技术部对接人 · 王鹏程",
+          "description": "指标数据自动汇聚、交易快报一键生成",
+          "next": "完成最终验收并准备交付。",
+          "risk": "",
+          "milestones": [
+            [
+              "指标数据自动汇聚",
+              "2026-08-15",
+              "done"
+            ],
+            [
+              "交易快报一键生成",
+              "2026-08-15",
+              "done"
+            ]
+          ],
+          "remarks": [],
+          "items": [
+            {
+              "detail": "指标数据自动汇聚",
+              "status": "done",
+              "demo": "",
+              "due": "2026-08-15",
+              "canDemo": "是",
+              "integrated": "否",
+              "vendor": "华云数据",
+              "techOwner": "王鹏程",
+              "businessOwner": "骆希",
+              "remark": ""
+            },
+            {
+              "detail": "交易快报一键生成",
+              "status": "done",
+              "demo": "",
+              "due": "2026-08-15",
+              "canDemo": "是",
+              "integrated": "否",
+              "vendor": "华云数据",
+              "techOwner": "王鹏程",
+              "businessOwner": "骆希",
+              "remark": ""
+            }
+          ]
+        },
+        {
+          "id": "ai-23",
+          "name": "交易全流程自动化",
+          "department": "交易部",
+          "departmentId": "dept-交易部",
+          "sequence": "22",
           "kind": "punch",
           "priority": "punch",
-          "progress": 13,
-          "due": "2026-12-30",
+          "progress": 50,
+          "due": "2026-08-31",
           "businessOwner": "骆希",
           "techOwner": "王鹏程",
           "vendor": "华云数据",
           "owner": "骆希",
           "role": "业务负责人 · 骆希 / 技术部对接人 · 王鹏程",
           "description": "交易序列创建、设置限额、交易公告发布",
-          "next": "推进\"设置限额\"，计划节点：2026-08-31。",
+          "next": "推进\"交易公告发布\"，计划节点：2026-08-31。",
           "risk": "",
           "milestones": [
             [
@@ -1564,26 +1620,26 @@
             [
               "设置限额",
               "2026-08-31",
-              "todo"
+              "done"
             ],
             [
               "交易公告发布",
               "2026-08-31",
-              "todo"
+              "current"
             ],
             [
               "信息披露发布",
               "2026-08-31",
-              "todo"
+              "current"
             ],
             [
-              "事前辅助出清各元素的智能校核",
-              "2026-12-30",
+              "一键触发交易",
+              "2026-08-31",
               "todo"
             ],
             [
               "全省市场化响应自助交易",
-              "2026-12-30",
+              "2026-08-31",
               "todo"
             ]
           ],
@@ -1603,10 +1659,10 @@
             },
             {
               "detail": "设置限额",
-              "status": "todo",
+              "status": "done",
               "demo": "46234",
               "due": "2026-08-31",
-              "canDemo": "否",
+              "canDemo": "是",
               "integrated": "是",
               "vendor": "华云数据",
               "techOwner": "王鹏程",
@@ -1615,7 +1671,19 @@
             },
             {
               "detail": "交易公告发布",
-              "status": "todo",
+              "status": "partial",
+              "demo": "46234",
+              "due": "2026-08-31",
+              "canDemo": "是",
+              "integrated": "是",
+              "vendor": "华云数据",
+              "techOwner": "王鹏程",
+              "businessOwner": "骆希",
+              "remark": ""
+            },
+            {
+              "detail": "信息披露发布",
+              "status": "partial",
               "demo": "46234",
               "due": "2026-08-31",
               "canDemo": "否",
@@ -1626,9 +1694,9 @@
               "remark": ""
             },
             {
-              "detail": "信息披露发布",
+              "detail": "一键触发交易",
               "status": "todo",
-              "demo": "46234",
+              "demo": "",
               "due": "2026-08-31",
               "canDemo": "否",
               "integrated": "是",
@@ -1637,6 +1705,52 @@
               "businessOwner": "骆希",
               "remark": ""
             },
+            {
+              "detail": "全省市场化响应自助交易",
+              "status": "todo",
+              "demo": "",
+              "due": "2026-08-31",
+              "canDemo": "否",
+              "integrated": "是",
+              "vendor": "华云数据",
+              "techOwner": "王鹏程",
+              "businessOwner": "骆希",
+              "remark": ""
+            }
+          ]
+        },
+        {
+          "id": "ai-24",
+          "name": "交易出清智能校核",
+          "department": "交易部",
+          "departmentId": "dept-交易部",
+          "sequence": "23",
+          "kind": "normal",
+          "priority": "yellow",
+          "progress": 0,
+          "due": "2026-12-30",
+          "businessOwner": "骆希",
+          "techOwner": "王鹏程",
+          "vendor": "华云数据",
+          "owner": "骆希",
+          "role": "业务负责人 · 骆希 / 技术部对接人 · 王鹏程",
+          "description": "事前辅助出清各元素的智能校核、事后出清结果的智能复核",
+          "next": "推进\"事前辅助出清各元素的智能校核\"，计划节点：2026-12-30。",
+          "risk": "",
+          "milestones": [
+            [
+              "事前辅助出清各元素的智能校核",
+              "2026-12-30",
+              "todo"
+            ],
+            [
+              "事后出清结果的智能复核",
+              "2026-12-30",
+              "todo"
+            ]
+          ],
+          "remarks": [],
+          "items": [
             {
               "detail": "事前辅助出清各元素的智能校核",
               "status": "todo",
@@ -1660,39 +1774,15 @@
               "techOwner": "王鹏程",
               "businessOwner": "骆希",
               "remark": ""
-            },
-            {
-              "detail": "一键触发交易",
-              "status": "todo",
-              "demo": "",
-              "due": "2026-12-30",
-              "canDemo": "否",
-              "integrated": "是",
-              "vendor": "华云数据",
-              "techOwner": "王鹏程",
-              "businessOwner": "骆希",
-              "remark": ""
-            },
-            {
-              "detail": "全省市场化响应自助交易",
-              "status": "todo",
-              "demo": "",
-              "due": "2026-12-30",
-              "canDemo": "否",
-              "integrated": "是",
-              "vendor": "华云数据",
-              "techOwner": "王鹏程",
-              "businessOwner": "骆希",
-              "remark": ""
             }
           ]
         },
         {
-          "id": "ai-23",
+          "id": "ai-25",
           "name": "省间交易/全国统一电力市场",
           "department": "交易部",
           "departmentId": "dept-交易部",
-          "sequence": "22",
+          "sequence": "24",
           "kind": "pending",
           "priority": "blue",
           "progress": 0,
@@ -1712,7 +1802,9 @@
               "todo"
             ]
           ],
-          "remarks": [],
+          "remarks": [
+            "需求发起方是北交，承接北交的任务，具体需求待定"
+          ],
           "items": [
             {
               "detail": "场景建设推进",
@@ -1724,13 +1816,13 @@
               "vendor": "",
               "techOwner": "",
               "businessOwner": "",
-              "remark": ""
+              "remark": "需求发起方是北交，承接北交的任务，具体需求待定"
             }
           ]
         }
       ],
-      "overall": 7,
-      "active": 2,
+      "overall": 38,
+      "active": 3,
       "nearest": "2026-08-07"
     },
     {
@@ -1739,11 +1831,11 @@
       "thesis": "打造智能客服、语音、工单与融媒体服务能力。",
       "scenarios": [
         {
-          "id": "ai-24",
+          "id": "ai-26",
           "name": "智能客服辅助",
           "department": "客服中心",
           "departmentId": "dept-客服中心",
-          "sequence": "23",
+          "sequence": "25",
           "kind": "normal",
           "priority": "yellow",
           "progress": 67,
@@ -1814,11 +1906,11 @@
           ]
         },
         {
-          "id": "ai-25",
+          "id": "ai-27",
           "name": "市场主体智能服务场景",
           "department": "客服中心",
           "departmentId": "dept-客服中心",
-          "sequence": "24",
+          "sequence": "26",
           "kind": "normal",
           "priority": "yellow",
           "progress": 0,
@@ -1906,11 +1998,11 @@
           ]
         },
         {
-          "id": "ai-26",
+          "id": "ai-28",
           "name": "话务工单智能分析",
           "department": "客服中心",
           "departmentId": "dept-客服中心",
-          "sequence": "25",
+          "sequence": "27",
           "kind": "punch",
           "priority": "punch",
           "progress": 0,
@@ -1998,11 +2090,11 @@
           ]
         },
         {
-          "id": "ai-27",
+          "id": "ai-29",
           "name": "融媒体智能制作",
           "department": "客服中心",
           "departmentId": "dept-客服中心",
-          "sequence": "27",
+          "sequence": "28",
           "kind": "risk",
           "priority": "yellow",
           "progress": 20,
@@ -2117,14 +2209,14 @@
       "thesis": "推进预测、市场推演和云边协同出清等研究场景。",
       "scenarios": [
         {
-          "id": "ai-28",
+          "id": "ai-30",
           "name": "电量电价智能预测",
           "department": "研究室",
           "departmentId": "dept-研究室",
-          "sequence": "28",
+          "sequence": "29",
           "kind": "punch",
           "priority": "punch",
-          "progress": 50,
+          "progress": 100,
           "due": "2026-08-31",
           "businessOwner": "何阳",
           "techOwner": "王鹏程",
@@ -2132,25 +2224,25 @@
           "owner": "何阳",
           "role": "业务负责人 · 何阳 / 技术部对接人 · 王鹏程",
           "description": "电价预测、电量预测",
-          "next": "推进\"电价预测\"，计划节点：2026-08-31。",
+          "next": "完成最终验收并准备交付。",
           "risk": "",
           "milestones": [
             [
               "电价预测",
               "2026-08-31",
-              "current"
+              "done"
             ],
             [
               "电量预测",
               "2026-08-31",
-              "current"
+              "done"
             ]
           ],
           "remarks": [],
           "items": [
             {
               "detail": "电价预测",
-              "status": "partial",
+              "status": "done",
               "demo": "46241",
               "due": "2026-08-31",
               "canDemo": "是",
@@ -2162,7 +2254,7 @@
             },
             {
               "detail": "电量预测",
-              "status": "partial",
+              "status": "done",
               "demo": "46241",
               "due": "2026-08-31",
               "canDemo": "是",
@@ -2175,27 +2267,27 @@
           ]
         },
         {
-          "id": "ai-29",
+          "id": "ai-31",
           "name": "mirofish市场推演",
           "department": "研究室",
           "departmentId": "dept-研究室",
-          "sequence": "29",
-          "kind": "risk",
+          "sequence": "30",
+          "kind": "normal",
           "priority": "yellow",
           "progress": 0,
-          "due": "2026-07-30",
+          "due": "2026-09-30",
           "businessOwner": "何阳",
           "techOwner": "邵晨峰",
           "vendor": "电科院",
           "owner": "何阳",
           "role": "业务负责人 · 何阳 / 技术部对接人 · 邵晨峰",
           "description": "mirofish内网搭建",
-          "next": "推进\"mirofish内网搭建\"，计划节点：2026-07-30。",
-          "risk": "当前完成度 0%，最近节点为 2026-07-30，建议在本次汇报中确认推进责任与资源安排。",
+          "next": "推进\"mirofish内网搭建\"，计划节点：2026-09-30。",
+          "risk": "",
           "milestones": [
             [
               "mirofish内网搭建",
-              "2026-07-30",
+              "2026-09-30",
               "todo"
             ]
           ],
@@ -2205,7 +2297,7 @@
               "detail": "mirofish内网搭建",
               "status": "todo",
               "demo": "",
-              "due": "2026-07-30",
+              "due": "2026-09-30",
               "canDemo": "否",
               "integrated": "否",
               "vendor": "电科院",
@@ -2216,11 +2308,11 @@
           ]
         },
         {
-          "id": "ai-30",
+          "id": "ai-32",
           "name": "大市场与微市场云边协同出清",
           "department": "研究室",
           "departmentId": "dept-研究室",
-          "sequence": "30",
+          "sequence": "31",
           "kind": "punch",
           "priority": "punch",
           "progress": 0,
@@ -3110,9 +3202,9 @@
           ]
         }
       ],
-      "overall": 17,
-      "active": 3,
-      "nearest": "2026-07-30"
+      "overall": 33,
+      "active": 2,
+      "nearest": "2026-08-31"
     }
   ],
   "scenarios": [
@@ -3466,55 +3558,38 @@
       "name": "绿色消费核算数据稽核",
       "department": "结算部",
       "departmentId": "dept-结算部",
-      "sequence": "6",
+      "sequence": "5",
       "kind": "normal",
       "priority": "yellow",
-      "progress": 33,
-      "due": "2026-09-30",
+      "progress": 25,
+      "due": "2026-12-30",
       "businessOwner": "张晓龙",
       "techOwner": "王炜",
       "vendor": "启明星",
       "owner": "张晓龙",
       "role": "业务负责人 · 张晓龙 / 技术部对接人 · 王炜",
-      "description": "绿电零售与绿电批发消费核算、自发自用消费核算、用网电量营销零售对比稽核",
-      "next": "推进\"自发自用消费核算\"，计划节点：2026-09-30。",
+      "description": "基础数据稽核、绿电消费核算溯源分析",
+      "next": "推进\"基础数据稽核\"，计划节点：2026-12-30。",
       "risk": "",
       "milestones": [
         [
-          "绿电零售与绿电批发消费核算",
-          "2026-09-30",
-          "done"
-        ],
-        [
-          "自发自用消费核算",
-          "2026-09-30",
+          "基础数据稽核",
+          "2026-12-30",
           "todo"
         ],
         [
-          "用网电量营销零售对比稽核",
+          "绿电消费核算溯源分析",
           "2026-09-30",
-          "todo"
+          "current"
         ]
       ],
       "remarks": [],
       "items": [
         {
-          "detail": "绿电零售与绿电批发消费核算",
-          "status": "done",
-          "demo": "46234",
-          "due": "2026-09-30",
-          "canDemo": "是",
-          "integrated": "否",
-          "vendor": "启明星",
-          "techOwner": "王炜",
-          "businessOwner": "张晓龙",
-          "remark": ""
-        },
-        {
-          "detail": "自发自用消费核算",
+          "detail": "基础数据稽核",
           "status": "todo",
-          "demo": "46234",
-          "due": "2026-09-30",
+          "demo": "",
+          "due": "2026-12-30",
           "canDemo": "否",
           "integrated": "否",
           "vendor": "启明星",
@@ -3523,8 +3598,8 @@
           "remark": ""
         },
         {
-          "detail": "用网电量营销零售对比稽核",
-          "status": "todo",
+          "detail": "绿电消费核算溯源分析",
+          "status": "partial",
           "demo": "46234",
           "due": "2026-09-30",
           "canDemo": "否",
@@ -3541,7 +3616,7 @@
       "name": "新一代人工智能试点，非化石能源建设",
       "department": "结算部",
       "departmentId": "dept-结算部",
-      "sequence": "6",
+      "sequence": "5",
       "kind": "punch",
       "priority": "punch",
       "progress": 0,
@@ -3551,27 +3626,17 @@
       "vendor": "启明星",
       "owner": "张晓龙",
       "role": "业务负责人 · 张晓龙 / 技术部对接人 · 王炜",
-      "description": "基础数据校验、指标智能生成、非化石核算结果校验与溯源",
-      "next": "推进\"基础数据校验\"，计划节点：2026-12-30。",
+      "description": "指标智能生成（内+外）、非化石报表数据稽核、非化石计算过程skill",
+      "next": "推进\"指标智能生成（内+外）\"，计划节点：2026-12-30。",
       "risk": "",
       "milestones": [
         [
-          "基础数据校验",
+          "指标智能生成（内+外）",
           "2026-12-30",
           "todo"
         ],
         [
-          "指标智能生成",
-          "2026-12-30",
-          "todo"
-        ],
-        [
-          "非化石核算结果校验与溯源",
-          "2026-12-30",
-          "todo"
-        ],
-        [
-          "非化石指标分摊方案设计",
+          "非化石报表数据稽核",
           "2026-12-30",
           "todo"
         ],
@@ -3579,26 +3644,17 @@
           "非化石计算过程skill",
           "2026-12-30",
           "todo"
+        ],
+        [
+          "非化石指标分摊方案设计",
+          "2026-12-30",
+          "todo"
         ]
       ],
-      "remarks": [
-        "负责人黄恒孜，对接人张晓龙"
-      ],
+      "remarks": [],
       "items": [
         {
-          "detail": "基础数据校验",
-          "status": "todo",
-          "demo": "",
-          "due": "2026-12-30",
-          "canDemo": "否",
-          "integrated": "否",
-          "vendor": "启明星",
-          "techOwner": "王炜",
-          "businessOwner": "张晓龙",
-          "remark": "负责人黄恒孜，对接人张晓龙"
-        },
-        {
-          "detail": "指标智能生成",
+          "detail": "指标智能生成（内+外）",
           "status": "todo",
           "demo": "",
           "due": "2026-12-30",
@@ -3610,24 +3666,12 @@
           "remark": ""
         },
         {
-          "detail": "非化石核算结果校验与溯源",
+          "detail": "非化石报表数据稽核",
           "status": "todo",
           "demo": "",
           "due": "2026-12-30",
           "canDemo": "否",
-          "integrated": "否",
-          "vendor": "启明星",
-          "techOwner": "王炜",
-          "businessOwner": "张晓龙",
-          "remark": ""
-        },
-        {
-          "detail": "非化石指标分摊方案设计",
-          "status": "todo",
-          "demo": "",
-          "due": "2026-12-30",
-          "canDemo": "否",
-          "integrated": "否",
+          "integrated": "是",
           "vendor": "启明星",
           "techOwner": "王炜",
           "businessOwner": "张晓龙",
@@ -3640,6 +3684,18 @@
           "due": "2026-12-30",
           "canDemo": "否",
           "integrated": "是",
+          "vendor": "启明星",
+          "techOwner": "王炜",
+          "businessOwner": "张晓龙",
+          "remark": ""
+        },
+        {
+          "detail": "非化石指标分摊方案设计",
+          "status": "todo",
+          "demo": "",
+          "due": "2026-12-30",
+          "canDemo": "否",
+          "integrated": "否",
           "vendor": "启明星",
           "techOwner": "王炜",
           "businessOwner": "张晓龙",
@@ -3713,14 +3769,14 @@
       "sequence": "7",
       "kind": "normal",
       "priority": "yellow",
-      "progress": 50,
+      "progress": 25,
       "due": "2026-12-30",
-      "businessOwner": "龚建荣",
+      "businessOwner": "龚建荣、张晓龙",
       "techOwner": "王炜",
       "vendor": "电科院",
-      "owner": "龚建荣",
-      "role": "业务负责人 · 龚建荣 / 技术部对接人 · 王炜",
-      "description": "事中全流程辅助分析、事后报表数据稽核",
+      "owner": "龚建荣、张晓龙",
+      "role": "业务负责人 · 龚建荣、张晓龙 / 技术部对接人 · 王炜",
+      "description": "事中全流程辅助分析、事后报表数据稽核、大屏人工智能讲解",
       "next": "推进\"事中全流程辅助分析\"，计划节点：2026-12-30。",
       "risk": "",
       "milestones": [
@@ -3733,6 +3789,16 @@
           "事后报表数据稽核",
           "2026-12-30",
           "done"
+        ],
+        [
+          "大屏人工智能讲解",
+          "2026-12-30",
+          "todo"
+        ],
+        [
+          "人工智能自动项目跟进",
+          "2026-12-30",
+          "todo"
         ]
       ],
       "remarks": [],
@@ -3758,7 +3824,31 @@
           "integrated": "是",
           "vendor": "启明星",
           "techOwner": "王炜",
-          "businessOwner": "龚建荣",
+          "businessOwner": "张晓龙",
+          "remark": ""
+        },
+        {
+          "detail": "大屏人工智能讲解",
+          "status": "todo",
+          "demo": "",
+          "due": "2026-12-30",
+          "canDemo": "否",
+          "integrated": "是",
+          "vendor": "启明星",
+          "techOwner": "王炜",
+          "businessOwner": "张晓龙",
+          "remark": ""
+        },
+        {
+          "detail": "人工智能自动项目跟进",
+          "status": "todo",
+          "demo": "",
+          "due": "2026-12-30",
+          "canDemo": "否",
+          "integrated": "是",
+          "vendor": "启明星",
+          "techOwner": "王炜",
+          "businessOwner": "张晓龙",
           "remark": ""
         }
       ]
@@ -4596,21 +4686,79 @@
     },
     {
       "id": "ai-22",
-      "name": "交易全流程自动化",
+      "name": "交易快报智能生成",
       "department": "交易部",
       "departmentId": "dept-交易部",
       "sequence": "21",
+      "kind": "normal",
+      "priority": "yellow",
+      "progress": 100,
+      "due": "2026-08-15",
+      "businessOwner": "骆希",
+      "techOwner": "王鹏程",
+      "vendor": "华云数据",
+      "owner": "骆希",
+      "role": "业务负责人 · 骆希 / 技术部对接人 · 王鹏程",
+      "description": "指标数据自动汇聚、交易快报一键生成",
+      "next": "完成最终验收并准备交付。",
+      "risk": "",
+      "milestones": [
+        [
+          "指标数据自动汇聚",
+          "2026-08-15",
+          "done"
+        ],
+        [
+          "交易快报一键生成",
+          "2026-08-15",
+          "done"
+        ]
+      ],
+      "remarks": [],
+      "items": [
+        {
+          "detail": "指标数据自动汇聚",
+          "status": "done",
+          "demo": "",
+          "due": "2026-08-15",
+          "canDemo": "是",
+          "integrated": "否",
+          "vendor": "华云数据",
+          "techOwner": "王鹏程",
+          "businessOwner": "骆希",
+          "remark": ""
+        },
+        {
+          "detail": "交易快报一键生成",
+          "status": "done",
+          "demo": "",
+          "due": "2026-08-15",
+          "canDemo": "是",
+          "integrated": "否",
+          "vendor": "华云数据",
+          "techOwner": "王鹏程",
+          "businessOwner": "骆希",
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "id": "ai-23",
+      "name": "交易全流程自动化",
+      "department": "交易部",
+      "departmentId": "dept-交易部",
+      "sequence": "22",
       "kind": "punch",
       "priority": "punch",
-      "progress": 13,
-      "due": "2026-12-30",
+      "progress": 50,
+      "due": "2026-08-31",
       "businessOwner": "骆希",
       "techOwner": "王鹏程",
       "vendor": "华云数据",
       "owner": "骆希",
       "role": "业务负责人 · 骆希 / 技术部对接人 · 王鹏程",
       "description": "交易序列创建、设置限额、交易公告发布",
-      "next": "推进\"设置限额\"，计划节点：2026-08-31。",
+      "next": "推进\"交易公告发布\"，计划节点：2026-08-31。",
       "risk": "",
       "milestones": [
         [
@@ -4621,26 +4769,26 @@
         [
           "设置限额",
           "2026-08-31",
-          "todo"
+          "done"
         ],
         [
           "交易公告发布",
           "2026-08-31",
-          "todo"
+          "current"
         ],
         [
           "信息披露发布",
           "2026-08-31",
-          "todo"
+          "current"
         ],
         [
-          "事前辅助出清各元素的智能校核",
-          "2026-12-30",
+          "一键触发交易",
+          "2026-08-31",
           "todo"
         ],
         [
           "全省市场化响应自助交易",
-          "2026-12-30",
+          "2026-08-31",
           "todo"
         ]
       ],
@@ -4660,10 +4808,10 @@
         },
         {
           "detail": "设置限额",
-          "status": "todo",
+          "status": "done",
           "demo": "46234",
           "due": "2026-08-31",
-          "canDemo": "否",
+          "canDemo": "是",
           "integrated": "是",
           "vendor": "华云数据",
           "techOwner": "王鹏程",
@@ -4672,7 +4820,19 @@
         },
         {
           "detail": "交易公告发布",
-          "status": "todo",
+          "status": "partial",
+          "demo": "46234",
+          "due": "2026-08-31",
+          "canDemo": "是",
+          "integrated": "是",
+          "vendor": "华云数据",
+          "techOwner": "王鹏程",
+          "businessOwner": "骆希",
+          "remark": ""
+        },
+        {
+          "detail": "信息披露发布",
+          "status": "partial",
           "demo": "46234",
           "due": "2026-08-31",
           "canDemo": "否",
@@ -4683,9 +4843,9 @@
           "remark": ""
         },
         {
-          "detail": "信息披露发布",
+          "detail": "一键触发交易",
           "status": "todo",
-          "demo": "46234",
+          "demo": "",
           "due": "2026-08-31",
           "canDemo": "否",
           "integrated": "是",
@@ -4694,6 +4854,52 @@
           "businessOwner": "骆希",
           "remark": ""
         },
+        {
+          "detail": "全省市场化响应自助交易",
+          "status": "todo",
+          "demo": "",
+          "due": "2026-08-31",
+          "canDemo": "否",
+          "integrated": "是",
+          "vendor": "华云数据",
+          "techOwner": "王鹏程",
+          "businessOwner": "骆希",
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "id": "ai-24",
+      "name": "交易出清智能校核",
+      "department": "交易部",
+      "departmentId": "dept-交易部",
+      "sequence": "23",
+      "kind": "normal",
+      "priority": "yellow",
+      "progress": 0,
+      "due": "2026-12-30",
+      "businessOwner": "骆希",
+      "techOwner": "王鹏程",
+      "vendor": "华云数据",
+      "owner": "骆希",
+      "role": "业务负责人 · 骆希 / 技术部对接人 · 王鹏程",
+      "description": "事前辅助出清各元素的智能校核、事后出清结果的智能复核",
+      "next": "推进\"事前辅助出清各元素的智能校核\"，计划节点：2026-12-30。",
+      "risk": "",
+      "milestones": [
+        [
+          "事前辅助出清各元素的智能校核",
+          "2026-12-30",
+          "todo"
+        ],
+        [
+          "事后出清结果的智能复核",
+          "2026-12-30",
+          "todo"
+        ]
+      ],
+      "remarks": [],
+      "items": [
         {
           "detail": "事前辅助出清各元素的智能校核",
           "status": "todo",
@@ -4717,39 +4923,15 @@
           "techOwner": "王鹏程",
           "businessOwner": "骆希",
           "remark": ""
-        },
-        {
-          "detail": "一键触发交易",
-          "status": "todo",
-          "demo": "",
-          "due": "2026-12-30",
-          "canDemo": "否",
-          "integrated": "是",
-          "vendor": "华云数据",
-          "techOwner": "王鹏程",
-          "businessOwner": "骆希",
-          "remark": ""
-        },
-        {
-          "detail": "全省市场化响应自助交易",
-          "status": "todo",
-          "demo": "",
-          "due": "2026-12-30",
-          "canDemo": "否",
-          "integrated": "是",
-          "vendor": "华云数据",
-          "techOwner": "王鹏程",
-          "businessOwner": "骆希",
-          "remark": ""
         }
       ]
     },
     {
-      "id": "ai-23",
+      "id": "ai-25",
       "name": "省间交易/全国统一电力市场",
       "department": "交易部",
       "departmentId": "dept-交易部",
-      "sequence": "22",
+      "sequence": "24",
       "kind": "pending",
       "priority": "blue",
       "progress": 0,
@@ -4769,7 +4951,9 @@
           "todo"
         ]
       ],
-      "remarks": [],
+      "remarks": [
+        "需求发起方是北交，承接北交的任务，具体需求待定"
+      ],
       "items": [
         {
           "detail": "场景建设推进",
@@ -4781,16 +4965,16 @@
           "vendor": "",
           "techOwner": "",
           "businessOwner": "",
-          "remark": ""
+          "remark": "需求发起方是北交，承接北交的任务，具体需求待定"
         }
       ]
     },
     {
-      "id": "ai-24",
+      "id": "ai-26",
       "name": "智能客服辅助",
       "department": "客服中心",
       "departmentId": "dept-客服中心",
-      "sequence": "23",
+      "sequence": "25",
       "kind": "normal",
       "priority": "yellow",
       "progress": 67,
@@ -4861,11 +5045,11 @@
       ]
     },
     {
-      "id": "ai-25",
+      "id": "ai-27",
       "name": "市场主体智能服务场景",
       "department": "客服中心",
       "departmentId": "dept-客服中心",
-      "sequence": "24",
+      "sequence": "26",
       "kind": "normal",
       "priority": "yellow",
       "progress": 0,
@@ -4953,11 +5137,11 @@
       ]
     },
     {
-      "id": "ai-26",
+      "id": "ai-28",
       "name": "话务工单智能分析",
       "department": "客服中心",
       "departmentId": "dept-客服中心",
-      "sequence": "25",
+      "sequence": "27",
       "kind": "punch",
       "priority": "punch",
       "progress": 0,
@@ -5045,11 +5229,11 @@
       ]
     },
     {
-      "id": "ai-27",
+      "id": "ai-29",
       "name": "融媒体智能制作",
       "department": "客服中心",
       "departmentId": "dept-客服中心",
-      "sequence": "27",
+      "sequence": "28",
       "kind": "risk",
       "priority": "yellow",
       "progress": 20,
@@ -5154,14 +5338,14 @@
       ]
     },
     {
-      "id": "ai-28",
+      "id": "ai-30",
       "name": "电量电价智能预测",
       "department": "研究室",
       "departmentId": "dept-研究室",
-      "sequence": "28",
+      "sequence": "29",
       "kind": "punch",
       "priority": "punch",
-      "progress": 50,
+      "progress": 100,
       "due": "2026-08-31",
       "businessOwner": "何阳",
       "techOwner": "王鹏程",
@@ -5169,25 +5353,25 @@
       "owner": "何阳",
       "role": "业务负责人 · 何阳 / 技术部对接人 · 王鹏程",
       "description": "电价预测、电量预测",
-      "next": "推进\"电价预测\"，计划节点：2026-08-31。",
+      "next": "完成最终验收并准备交付。",
       "risk": "",
       "milestones": [
         [
           "电价预测",
           "2026-08-31",
-          "current"
+          "done"
         ],
         [
           "电量预测",
           "2026-08-31",
-          "current"
+          "done"
         ]
       ],
       "remarks": [],
       "items": [
         {
           "detail": "电价预测",
-          "status": "partial",
+          "status": "done",
           "demo": "46241",
           "due": "2026-08-31",
           "canDemo": "是",
@@ -5199,7 +5383,7 @@
         },
         {
           "detail": "电量预测",
-          "status": "partial",
+          "status": "done",
           "demo": "46241",
           "due": "2026-08-31",
           "canDemo": "是",
@@ -5212,27 +5396,27 @@
       ]
     },
     {
-      "id": "ai-29",
+      "id": "ai-31",
       "name": "mirofish市场推演",
       "department": "研究室",
       "departmentId": "dept-研究室",
-      "sequence": "29",
-      "kind": "risk",
+      "sequence": "30",
+      "kind": "normal",
       "priority": "yellow",
       "progress": 0,
-      "due": "2026-07-30",
+      "due": "2026-09-30",
       "businessOwner": "何阳",
       "techOwner": "邵晨峰",
       "vendor": "电科院",
       "owner": "何阳",
       "role": "业务负责人 · 何阳 / 技术部对接人 · 邵晨峰",
       "description": "mirofish内网搭建",
-      "next": "推进\"mirofish内网搭建\"，计划节点：2026-07-30。",
-      "risk": "当前完成度 0%，最近节点为 2026-07-30，建议在本次汇报中确认推进责任与资源安排。",
+      "next": "推进\"mirofish内网搭建\"，计划节点：2026-09-30。",
+      "risk": "",
       "milestones": [
         [
           "mirofish内网搭建",
-          "2026-07-30",
+          "2026-09-30",
           "todo"
         ]
       ],
@@ -5242,7 +5426,7 @@
           "detail": "mirofish内网搭建",
           "status": "todo",
           "demo": "",
-          "due": "2026-07-30",
+          "due": "2026-09-30",
           "canDemo": "否",
           "integrated": "否",
           "vendor": "电科院",
@@ -5253,11 +5437,11 @@
       ]
     },
     {
-      "id": "ai-30",
+      "id": "ai-32",
       "name": "大市场与微市场云边协同出清",
       "department": "研究室",
       "departmentId": "dept-研究室",
-      "sequence": "30",
+      "sequence": "31",
       "kind": "punch",
       "priority": "punch",
       "progress": 0,
@@ -6153,8 +6337,8 @@
       "label": "8月",
       "range": "8月节点",
       "title": "首批场景交付",
-      "date": "2026-07-30",
-      "taskId": "ai-29"
+      "date": "2026-08-07",
+      "taskId": "ai-13"
     },
     {
       "id": "sep",
@@ -6162,7 +6346,7 @@
       "range": "7–9月",
       "title": "三季度集成",
       "date": "2026-08-15",
-      "taskId": "ai-05"
+      "taskId": "ai-22"
     },
     {
       "id": "dec",

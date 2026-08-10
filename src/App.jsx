@@ -572,10 +572,6 @@ function App() {
             <strong>{totalScenarios}<small>个</small></strong>
             <span>重点场景</span>
           </div>
-          <div className="summary-item">
-            <strong>{sourceScenarios.filter((scenario) => scenario.progress >= 60).length}<small>个</small></strong>
-            <span>按期推进中</span>
-          </div>
           <div className="summary-item summary-item-punch">
             <strong>{punchCount}<small>个</small></strong>
             <span>年度拳头产品</span>
