@@ -1,12 +1,19 @@
 ﻿import XLSX from "xlsx";
 import fs from "node:fs/promises";
 
-const SOURCE = "source/人工智能场景计划表-0810.xlsx";
+const sourceFiles = (await fs.readdir("source"))
+  .filter((name) => /^人工智能场景计划表-\d{4}\.xlsx$/.test(name))
+  .sort();
+const sourceFile = sourceFiles.at(-1);
+if (!sourceFile) throw new Error("source 目录中未找到人工智能场景计划表-XXXX.xlsx");
+
+const SOURCE = `source/${sourceFile}`;
 const OUTPUT = "src/ai-plan-data.json";
-const CURRENT_DATE = "2026-08-10";
+const sourceDate = sourceFile.match(/-(\d{2})(\d{2})\.xlsx$/);
+const CURRENT_DATE = sourceDate ? `2026-${sourceDate[1]}-${sourceDate[2]}` : new Date().toISOString().slice(0, 10);
 const EXCLUDED_SCENARIOS = new Set(["智能大厅服务"]);
 
-const workbook = XLSX.readFile(SOURCE);
+const workbook = XLSX.readFile(SOURCE, { cellStyles: true });
 const sheet = workbook.Sheets["应用建设"];
 
 function excelSerialToISO(serial) {
@@ -111,6 +118,14 @@ function getScenarioKind(scenarioName) {
   return SCENARIO_KIND_MAP[scenarioName] || null;
 }
 
+function getFillKind(cell) {
+  const rgb = cell?.s?.fgColor?.rgb?.toUpperCase();
+  if (rgb === "D9F2D0") return "punch";
+  if (rgb === "FFFF00") return "yellow";
+  if (rgb === "00B0F0") return "blue";
+  return null;
+}
+
 const range = XLSX.utils.sheet_to_json(sheet, { header: 1, range: 2 });
 const rows = range;
 
@@ -121,6 +136,7 @@ let currentSequence = "";
 
 rows.forEach((row, index) => {
   const excelRow = index + 3;
+  if (row.every((value) => !cleanText(value))) return;
   const [sequence, department, scenario, detail, status, demo, due, canDemo, integrated, vendor, businessOwner, techOwner, completeStatus, remark] = row;
   if (cleanText(department)) currentDepartment = cleanText(department);
   if (cleanText(scenario)) currentScenario = cleanText(scenario);
@@ -154,6 +170,10 @@ rows.forEach((row, index) => {
     });
   }
   const group = groups.get(key);
+  const fillKind = getFillKind(sheet[`C${excelRow}`]);
+  if (fillKind === "punch") group.punch = true;
+  if (fillKind === "yellow") group.yellow = true;
+  if (fillKind === "blue") group.blue = true;
   group.items.push(item);
 });
 
@@ -263,9 +283,9 @@ const longTermScenario = scenarios.find((scenario) => scenario.due === "长期")
 quarterMilestones.push({ id: "long", label: "持续", range: "长期建设", title: "持续优化", date: "长期", taskId: longTermScenario?.id ?? scenarios[0]?.id });
 
 const output = {
-  sourceFile: "人工智能场景计划表-0810.xlsx",
+  sourceFile,
   sourceSheet: "应用建设",
-  reportDate: "2026-08-10",
+  reportDate: CURRENT_DATE,
   currentDate: CURRENT_DATE,
   departments,
   scenarios,

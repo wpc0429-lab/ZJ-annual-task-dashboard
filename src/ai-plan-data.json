@@ -1,8 +1,8 @@
 {
-  "sourceFile": "人工智能场景计划表-0810.xlsx",
+  "sourceFile": "人工智能场景计划表-0819.xlsx",
   "sourceSheet": "应用建设",
-  "reportDate": "2026-08-10",
-  "currentDate": "2026-08-10",
+  "reportDate": "2026-08-19",
+  "currentDate": "2026-08-19",
   "departments": [
     {
       "id": "dept-综合部",
@@ -17,7 +17,7 @@
           "sequence": "1",
           "kind": "normal",
           "priority": "yellow",
-          "progress": 75,
+          "progress": 100,
           "due": "2026-08-30",
           "businessOwner": "林烨",
           "techOwner": "王炜",
@@ -25,7 +25,7 @@
           "owner": "林烨",
           "role": "业务负责人 · 林烨 / 技术部对接人 · 王炜",
           "description": "word公文、格式转换、pdf拼接剪切、自动操作excel、加去水印等常用办公技能、ppt制作",
-          "next": "推进\"格式转换、pdf拼接剪切、自动操作excel、加去水印等常用办公技能\"，计划节点：2026-08-30。",
+          "next": "完成最终验收并准备交付。",
           "risk": "",
           "milestones": [
             [
@@ -36,7 +36,7 @@
             [
               "格式转换、pdf拼接剪切、自动操作excel、加去水印等常用办公技能",
               "2026-08-30",
-              "todo"
+              "done"
             ],
             [
               "ppt制作",
@@ -49,9 +49,7 @@
               "done"
             ]
           ],
-          "remarks": [
-            "自动操作Excel非可视化操作"
-          ],
+          "remarks": [],
           "items": [
             {
               "detail": "word公文",
@@ -67,7 +65,7 @@
             },
             {
               "detail": "格式转换、pdf拼接剪切、自动操作excel、加去水印等常用办公技能",
-              "status": "todo",
+              "status": "done",
               "demo": "",
               "due": "2026-08-30",
               "canDemo": "否",
@@ -75,7 +73,7 @@
               "vendor": "启明星",
               "techOwner": "王炜",
               "businessOwner": "林烨",
-              "remark": "自动操作Excel非可视化操作"
+              "remark": ""
             },
             {
               "detail": "ppt制作",
@@ -111,7 +109,7 @@
           "sequence": "5",
           "kind": "punch",
           "priority": "punch",
-          "progress": 0,
+          "progress": 13,
           "due": "2026-12-30",
           "businessOwner": "王凌",
           "techOwner": "王炜",
@@ -125,7 +123,7 @@
             [
               "舆情监测",
               "2026-08-22",
-              "todo"
+              "current"
             ],
             [
               "舆情研判",
@@ -143,11 +141,13 @@
               "todo"
             ]
           ],
-          "remarks": [],
+          "remarks": [
+            "业务已明确需求"
+          ],
           "items": [
             {
               "detail": "舆情监测",
-              "status": "todo",
+              "status": "partial",
               "demo": "",
               "due": "2026-08-22",
               "canDemo": "否",
@@ -155,7 +155,7 @@
               "vendor": "启明星",
               "techOwner": "王炜",
               "businessOwner": "王凌",
-              "remark": ""
+              "remark": "业务已明确需求"
             },
             {
               "detail": "舆情研判",
@@ -196,8 +196,8 @@
           ]
         }
       ],
-      "overall": 38,
-      "active": 2,
+      "overall": 57,
+      "active": 1,
       "nearest": "2026-08-07"
     },
     {
@@ -481,7 +481,7 @@
           "sequence": "17",
           "kind": "punch",
           "priority": "punch",
-          "progress": 0,
+          "progress": 13,
           "due": "2026-12-30",
           "businessOwner": "张晓龙",
           "techOwner": "王炜",
@@ -495,7 +495,7 @@
             [
               "指标智能生成（内+外）",
               "2026-12-30",
-              "todo"
+              "current"
             ],
             [
               "非化石报表数据稽核",
@@ -517,7 +517,7 @@
           "items": [
             {
               "detail": "指标智能生成（内+外）",
-              "status": "todo",
+              "status": "partial",
               "demo": "",
               "due": "2026-12-30",
               "canDemo": "否",
@@ -573,7 +573,7 @@
           "sequence": "21",
           "kind": "punch",
           "priority": "punch",
-          "progress": 0,
+          "progress": 25,
           "due": "2026-10-31",
           "businessOwner": "汪向阳",
           "techOwner": "王炜",
@@ -587,7 +587,7 @@
             [
               "询问信息披露数据",
               "2026-10-31",
-              "todo"
+              "current"
             ],
             [
               "信息披露的MCP制作",
@@ -599,7 +599,7 @@
           "items": [
             {
               "detail": "询问信息披露数据",
-              "status": "todo",
+              "status": "partial",
               "demo": "",
               "due": "2026-10-31",
               "canDemo": "否",
@@ -716,7 +716,7 @@
           ]
         }
       ],
-      "overall": 13,
+      "overall": 22,
       "active": 4,
       "nearest": "2026-08-31"
     },
@@ -727,13 +727,13 @@
       "scenarios": [
         {
           "id": "ai-11",
-          "name": "市场主体异常行为风险分析",
+          "name": "异常行为风险分析",
           "department": "合规部",
           "departmentId": "dept-合规部",
           "sequence": "27",
           "kind": "normal",
           "priority": "yellow",
-          "progress": 0,
+          "progress": 50,
           "due": "2026-09-20",
           "businessOwner": "陈成",
           "techOwner": "王炜",
@@ -747,14 +747,14 @@
             [
               "交叉分析市场主体报价行为是否有风险，人工智能售电公司盈利分析",
               "2026-09-20",
-              "todo"
+              "current"
             ]
           ],
           "remarks": [],
           "items": [
             {
               "detail": "交叉分析市场主体报价行为是否有风险，人工智能售电公司盈利分析",
-              "status": "todo",
+              "status": "partial",
               "demo": "46241",
               "due": "2026-09-20",
               "canDemo": "否",
@@ -774,7 +774,7 @@
           "sequence": "28",
           "kind": "normal",
           "priority": "yellow",
-          "progress": 0,
+          "progress": 50,
           "due": "2026-12-31",
           "businessOwner": "陈成",
           "techOwner": "王炜",
@@ -788,14 +788,14 @@
             [
               "稽核市场主体提交的资料",
               "2026-12-31",
-              "todo"
+              "current"
             ]
           ],
           "remarks": [],
           "items": [
             {
               "detail": "稽核市场主体提交的资料",
-              "status": "todo",
+              "status": "partial",
               "demo": "",
               "due": "2026-12-31",
               "canDemo": "否",
@@ -924,7 +924,7 @@
           ]
         }
       ],
-      "overall": 25,
+      "overall": 50,
       "active": 3,
       "nearest": "2026-08-07"
     },
@@ -939,9 +939,9 @@
           "department": "技术部",
           "departmentId": "dept-技术部",
           "sequence": "33",
-          "kind": "risk",
+          "kind": "normal",
           "priority": "yellow",
-          "progress": 40,
+          "progress": 50,
           "due": "2026-12-31",
           "businessOwner": "黄隽弢",
           "techOwner": "邵晨峰",
@@ -949,8 +949,8 @@
           "owner": "黄隽弢",
           "role": "业务负责人 · 黄隽弢 / 技术部对接人 · 邵晨峰",
           "description": "自动采集软硬件数据、自动回归测试、日志采集",
-          "next": "推进\"自动回归测试\"，计划节点：2026-12-31。",
-          "risk": "当前完成度 40%，最近节点为 2026-07-31，建议在本次汇报中确认推进责任与资源安排。",
+          "next": "推进\"自动回归测试\"，计划节点：2026-09-30。",
+          "risk": "",
           "milestones": [
             [
               "自动采集软硬件数据",
@@ -959,7 +959,7 @@
             ],
             [
               "自动回归测试",
-              "2026-12-31",
+              "2026-09-30",
               "current"
             ],
             [
@@ -975,7 +975,7 @@
             [
               "用户工单智能分析",
               "2026-12-31",
-              "todo"
+              "current"
             ]
           ],
           "remarks": [
@@ -999,7 +999,7 @@
               "detail": "自动回归测试",
               "status": "partial",
               "demo": "",
-              "due": "2026-12-31",
+              "due": "2026-09-30",
               "canDemo": "否",
               "integrated": "是",
               "vendor": "华云集成",
@@ -1033,8 +1033,8 @@
             },
             {
               "detail": "用户工单智能分析",
-              "status": "todo",
-              "demo": "",
+              "status": "partial",
+              "demo": "46264",
               "due": "2026-12-31",
               "canDemo": "否",
               "integrated": "是",
@@ -1075,9 +1075,7 @@
               "done"
             ]
           ],
-          "remarks": [
-            "流量与检测功能待确认"
-          ],
+          "remarks": [],
           "items": [
             {
               "detail": "采集异常行为",
@@ -1089,7 +1087,7 @@
               "vendor": "华云集成",
               "techOwner": "邵晨峰",
               "businessOwner": "魏骁",
-              "remark": "流量与检测功能待确认"
+              "remark": ""
             },
             {
               "detail": "生成异常分析报告",
@@ -1113,7 +1111,7 @@
           "sequence": "40",
           "kind": "normal",
           "priority": "yellow",
-          "progress": 67,
+          "progress": 100,
           "due": "2026-08-20",
           "businessOwner": "黄隽弢、魏骁",
           "techOwner": "邵晨峰",
@@ -1121,18 +1119,18 @@
           "owner": "黄隽弢、魏骁",
           "role": "业务负责人 · 黄隽弢、魏骁 / 技术部对接人 · 邵晨峰",
           "description": "测试用例生成、自动巡检、生成巡检报告",
-          "next": "推进\"测试用例生成\"，计划节点：2026-08-20。",
+          "next": "完成最终验收并准备交付。",
           "risk": "",
           "milestones": [
             [
               "测试用例生成",
               "2026-08-20",
-              "current"
+              "done"
             ],
             [
               "自动巡检",
               "2026-08-20",
-              "current"
+              "done"
             ],
             [
               "生成巡检报告",
@@ -1142,12 +1140,12 @@
           ],
           "remarks": [
             "（远期）基于人工智能，让市场用户参与到测试、功能迭代的环节中：预览版测试、灰度测试、用户反馈",
-            "MCP已集成PX-Code，模型幻觉问题正在沟通解决"
+            "后续增加更多巡检参数\n按照业务场景建立skill"
           ],
           "items": [
             {
               "detail": "测试用例生成",
-              "status": "partial",
+              "status": "done",
               "demo": "7月31日",
               "due": "2026-08-20",
               "canDemo": "是",
@@ -1159,7 +1157,7 @@
             },
             {
               "detail": "自动巡检",
-              "status": "partial",
+              "status": "done",
               "demo": "7月31日",
               "due": "2026-08-20",
               "canDemo": "是",
@@ -1167,7 +1165,7 @@
               "vendor": "华云集成",
               "techOwner": "邵晨峰",
               "businessOwner": "魏骁",
-              "remark": "MCP已集成PX-Code，模型幻觉问题正在沟通解决"
+              "remark": "后续增加更多巡检参数\n按照业务场景建立skill"
             },
             {
               "detail": "生成巡检报告",
@@ -1191,7 +1189,7 @@
           "sequence": "43",
           "kind": "punch",
           "priority": "punch",
-          "progress": 25,
+          "progress": 38,
           "due": "2026-08-31",
           "businessOwner": "黄隽弢",
           "techOwner": "邵晨峰、王炜、王鹏程",
@@ -1210,7 +1208,7 @@
             [
               "通过浙电work提升数据查询质量",
               "2026-08-31",
-              "todo"
+              "current"
             ],
             [
               "统一mcp、接口开发逻辑、安全规范",
@@ -1224,7 +1222,7 @@
             ]
           ],
           "remarks": [
-            "测试环境已有，尽快部生产，第一批指标集问数尽快上线",
+            "测试环境已有，尽快部生产\n预计8月24日完成部署",
             "后续给所有研发单位会议宣贯"
           ],
           "items": [
@@ -1238,11 +1236,11 @@
               "vendor": "华云数据",
               "techOwner": "邵晨峰",
               "businessOwner": "黄隽弢",
-              "remark": "测试环境已有，尽快部生产，第一批指标集问数尽快上线"
+              "remark": "测试环境已有，尽快部生产\n预计8月24日完成部署"
             },
             {
               "detail": "通过浙电work提升数据查询质量",
-              "status": "todo",
+              "status": "partial",
               "demo": "",
               "due": "2026-08-31",
               "canDemo": "否",
@@ -1567,8 +1565,8 @@
           ]
         }
       ],
-      "overall": 34,
-      "active": 7,
+      "overall": 41,
+      "active": 6,
       "nearest": "2026-07-24"
     },
     {
@@ -2192,7 +2190,7 @@
             {
               "detail": "生成宣传脚本",
               "status": "todo",
-              "demo": "46241",
+              "demo": "",
               "due": "2026-12-30",
               "canDemo": "否",
               "integrated": "是",
@@ -2204,7 +2202,7 @@
             {
               "detail": "图文素材",
               "status": "todo",
-              "demo": "46241",
+              "demo": "",
               "due": "2026-12-30",
               "canDemo": "否",
               "integrated": "是",
@@ -2216,7 +2214,7 @@
             {
               "detail": "短视频文案",
               "status": "todo",
-              "demo": "46241",
+              "demo": "",
               "due": "2026-12-30",
               "canDemo": "否",
               "integrated": "是",
@@ -2228,7 +2226,7 @@
             {
               "detail": "海报文案和新媒体推送内容",
               "status": "todo",
-              "demo": "46241",
+              "demo": "",
               "due": "2026-12-30",
               "canDemo": "否",
               "integrated": "是",
@@ -2386,16 +2384,6 @@
               "多时段自主交易",
               "2026-12-30",
               "todo"
-            ],
-            [
-              "场景建设推进",
-              "2026-12-30",
-              "todo"
-            ],
-            [
-              "场景建设推进",
-              "2026-12-30",
-              "todo"
             ]
           ],
           "remarks": [],
@@ -2447,798 +2435,6 @@
               "techOwner": "王鹏程",
               "businessOwner": "何阳",
               "remark": ""
-            },
-            {
-              "detail": "场景建设推进",
-              "status": "todo",
-              "demo": "",
-              "due": null,
-              "canDemo": "",
-              "integrated": "",
-              "vendor": "",
-              "techOwner": "",
-              "businessOwner": "",
-              "remark": ""
-            },
-            {
-              "detail": "场景建设推进",
-              "status": "todo",
-              "demo": "",
-              "due": null,
-              "canDemo": "",
-              "integrated": "",
-              "vendor": "",
-              "techOwner": "",
-              "businessOwner": "",
-              "remark": ""
-            },
-            {
-              "detail": "场景建设推进",
-              "status": "todo",
-              "demo": "",
-              "due": null,
-              "canDemo": "",
-              "integrated": "",
-              "vendor": "",
-              "techOwner": "",
-              "businessOwner": "",
-              "remark": ""
-            },
-            {
-              "detail": "场景建设推进",
-              "status": "todo",
-              "demo": "",
-              "due": null,
-              "canDemo": "",
-              "integrated": "",
-              "vendor": "",
-              "techOwner": "",
-              "businessOwner": "",
-              "remark": ""
-            },
-            {
-              "detail": "场景建设推进",
-              "status": "todo",
-              "demo": "",
-              "due": null,
-              "canDemo": "",
-              "integrated": "",
-              "vendor": "",
-              "techOwner": "",
-              "businessOwner": "",
-              "remark": ""
-            },
-            {
-              "detail": "场景建设推进",
-              "status": "todo",
-              "demo": "",
-              "due": null,
-              "canDemo": "",
-              "integrated": "",
-              "vendor": "",
-              "techOwner": "",
-              "businessOwner": "",
-              "remark": ""
-            },
-            {
-              "detail": "场景建设推进",
-              "status": "todo",
-              "demo": "",
-              "due": null,
-              "canDemo": "",
-              "integrated": "",
-              "vendor": "",
-              "techOwner": "",
-              "businessOwner": "",
-              "remark": ""
-            },
-            {
-              "detail": "场景建设推进",
-              "status": "todo",
-              "demo": "",
-              "due": null,
-              "canDemo": "",
-              "integrated": "",
-              "vendor": "",
-              "techOwner": "",
-              "businessOwner": "",
-              "remark": ""
-            },
-            {
-              "detail": "场景建设推进",
-              "status": "todo",
-              "demo": "",
-              "due": null,
-              "canDemo": "",
-              "integrated": "",
-              "vendor": "",
-              "techOwner": "",
-              "businessOwner": "",
-              "remark": ""
-            },
-            {
-              "detail": "场景建设推进",
-              "status": "todo",
-              "demo": "",
-              "due": null,
-              "canDemo": "",
-              "integrated": "",
-              "vendor": "",
-              "techOwner": "",
-              "businessOwner": "",
-              "remark": ""
-            },
-            {
-              "detail": "场景建设推进",
-              "status": "todo",
-              "demo": "",
-              "due": null,
-              "canDemo": "",
-              "integrated": "",
-              "vendor": "",
-              "techOwner": "",
-              "businessOwner": "",
-              "remark": ""
-            },
-            {
-              "detail": "场景建设推进",
-              "status": "todo",
-              "demo": "",
-              "due": null,
-              "canDemo": "",
-              "integrated": "",
-              "vendor": "",
-              "techOwner": "",
-              "businessOwner": "",
-              "remark": ""
-            },
-            {
-              "detail": "场景建设推进",
-              "status": "todo",
-              "demo": "",
-              "due": null,
-              "canDemo": "",
-              "integrated": "",
-              "vendor": "",
-              "techOwner": "",
-              "businessOwner": "",
-              "remark": ""
-            },
-            {
-              "detail": "场景建设推进",
-              "status": "todo",
-              "demo": "",
-              "due": null,
-              "canDemo": "",
-              "integrated": "",
-              "vendor": "",
-              "techOwner": "",
-              "businessOwner": "",
-              "remark": ""
-            },
-            {
-              "detail": "场景建设推进",
-              "status": "todo",
-              "demo": "",
-              "due": null,
-              "canDemo": "",
-              "integrated": "",
-              "vendor": "",
-              "techOwner": "",
-              "businessOwner": "",
-              "remark": ""
-            },
-            {
-              "detail": "场景建设推进",
-              "status": "todo",
-              "demo": "",
-              "due": null,
-              "canDemo": "",
-              "integrated": "",
-              "vendor": "",
-              "techOwner": "",
-              "businessOwner": "",
-              "remark": ""
-            },
-            {
-              "detail": "场景建设推进",
-              "status": "todo",
-              "demo": "",
-              "due": null,
-              "canDemo": "",
-              "integrated": "",
-              "vendor": "",
-              "techOwner": "",
-              "businessOwner": "",
-              "remark": ""
-            },
-            {
-              "detail": "场景建设推进",
-              "status": "todo",
-              "demo": "",
-              "due": null,
-              "canDemo": "",
-              "integrated": "",
-              "vendor": "",
-              "techOwner": "",
-              "businessOwner": "",
-              "remark": ""
-            },
-            {
-              "detail": "场景建设推进",
-              "status": "todo",
-              "demo": "",
-              "due": null,
-              "canDemo": "",
-              "integrated": "",
-              "vendor": "",
-              "techOwner": "",
-              "businessOwner": "",
-              "remark": ""
-            },
-            {
-              "detail": "场景建设推进",
-              "status": "todo",
-              "demo": "",
-              "due": null,
-              "canDemo": "",
-              "integrated": "",
-              "vendor": "",
-              "techOwner": "",
-              "businessOwner": "",
-              "remark": ""
-            },
-            {
-              "detail": "场景建设推进",
-              "status": "todo",
-              "demo": "",
-              "due": null,
-              "canDemo": "",
-              "integrated": "",
-              "vendor": "",
-              "techOwner": "",
-              "businessOwner": "",
-              "remark": ""
-            },
-            {
-              "detail": "场景建设推进",
-              "status": "todo",
-              "demo": "",
-              "due": null,
-              "canDemo": "",
-              "integrated": "",
-              "vendor": "",
-              "techOwner": "",
-              "businessOwner": "",
-              "remark": ""
-            },
-            {
-              "detail": "场景建设推进",
-              "status": "todo",
-              "demo": "",
-              "due": null,
-              "canDemo": "",
-              "integrated": "",
-              "vendor": "",
-              "techOwner": "",
-              "businessOwner": "",
-              "remark": ""
-            },
-            {
-              "detail": "场景建设推进",
-              "status": "todo",
-              "demo": "",
-              "due": null,
-              "canDemo": "",
-              "integrated": "",
-              "vendor": "",
-              "techOwner": "",
-              "businessOwner": "",
-              "remark": ""
-            },
-            {
-              "detail": "场景建设推进",
-              "status": "todo",
-              "demo": "",
-              "due": null,
-              "canDemo": "",
-              "integrated": "",
-              "vendor": "",
-              "techOwner": "",
-              "businessOwner": "",
-              "remark": ""
-            },
-            {
-              "detail": "场景建设推进",
-              "status": "todo",
-              "demo": "",
-              "due": null,
-              "canDemo": "",
-              "integrated": "",
-              "vendor": "",
-              "techOwner": "",
-              "businessOwner": "",
-              "remark": ""
-            },
-            {
-              "detail": "场景建设推进",
-              "status": "todo",
-              "demo": "",
-              "due": null,
-              "canDemo": "",
-              "integrated": "",
-              "vendor": "",
-              "techOwner": "",
-              "businessOwner": "",
-              "remark": ""
-            },
-            {
-              "detail": "场景建设推进",
-              "status": "todo",
-              "demo": "",
-              "due": null,
-              "canDemo": "",
-              "integrated": "",
-              "vendor": "",
-              "techOwner": "",
-              "businessOwner": "",
-              "remark": ""
-            },
-            {
-              "detail": "场景建设推进",
-              "status": "todo",
-              "demo": "",
-              "due": null,
-              "canDemo": "",
-              "integrated": "",
-              "vendor": "",
-              "techOwner": "",
-              "businessOwner": "",
-              "remark": ""
-            },
-            {
-              "detail": "场景建设推进",
-              "status": "todo",
-              "demo": "",
-              "due": null,
-              "canDemo": "",
-              "integrated": "",
-              "vendor": "",
-              "techOwner": "",
-              "businessOwner": "",
-              "remark": ""
-            },
-            {
-              "detail": "场景建设推进",
-              "status": "todo",
-              "demo": "",
-              "due": null,
-              "canDemo": "",
-              "integrated": "",
-              "vendor": "",
-              "techOwner": "",
-              "businessOwner": "",
-              "remark": ""
-            },
-            {
-              "detail": "场景建设推进",
-              "status": "todo",
-              "demo": "",
-              "due": null,
-              "canDemo": "",
-              "integrated": "",
-              "vendor": "",
-              "techOwner": "",
-              "businessOwner": "",
-              "remark": ""
-            },
-            {
-              "detail": "场景建设推进",
-              "status": "todo",
-              "demo": "",
-              "due": null,
-              "canDemo": "",
-              "integrated": "",
-              "vendor": "",
-              "techOwner": "",
-              "businessOwner": "",
-              "remark": ""
-            },
-            {
-              "detail": "场景建设推进",
-              "status": "todo",
-              "demo": "",
-              "due": null,
-              "canDemo": "",
-              "integrated": "",
-              "vendor": "",
-              "techOwner": "",
-              "businessOwner": "",
-              "remark": ""
-            },
-            {
-              "detail": "场景建设推进",
-              "status": "todo",
-              "demo": "",
-              "due": null,
-              "canDemo": "",
-              "integrated": "",
-              "vendor": "",
-              "techOwner": "",
-              "businessOwner": "",
-              "remark": ""
-            },
-            {
-              "detail": "场景建设推进",
-              "status": "todo",
-              "demo": "",
-              "due": null,
-              "canDemo": "",
-              "integrated": "",
-              "vendor": "",
-              "techOwner": "",
-              "businessOwner": "",
-              "remark": ""
-            },
-            {
-              "detail": "场景建设推进",
-              "status": "todo",
-              "demo": "",
-              "due": null,
-              "canDemo": "",
-              "integrated": "",
-              "vendor": "",
-              "techOwner": "",
-              "businessOwner": "",
-              "remark": ""
-            },
-            {
-              "detail": "场景建设推进",
-              "status": "todo",
-              "demo": "",
-              "due": null,
-              "canDemo": "",
-              "integrated": "",
-              "vendor": "",
-              "techOwner": "",
-              "businessOwner": "",
-              "remark": ""
-            },
-            {
-              "detail": "场景建设推进",
-              "status": "todo",
-              "demo": "",
-              "due": null,
-              "canDemo": "",
-              "integrated": "",
-              "vendor": "",
-              "techOwner": "",
-              "businessOwner": "",
-              "remark": ""
-            },
-            {
-              "detail": "场景建设推进",
-              "status": "todo",
-              "demo": "",
-              "due": null,
-              "canDemo": "",
-              "integrated": "",
-              "vendor": "",
-              "techOwner": "",
-              "businessOwner": "",
-              "remark": ""
-            },
-            {
-              "detail": "场景建设推进",
-              "status": "todo",
-              "demo": "",
-              "due": null,
-              "canDemo": "",
-              "integrated": "",
-              "vendor": "",
-              "techOwner": "",
-              "businessOwner": "",
-              "remark": ""
-            },
-            {
-              "detail": "场景建设推进",
-              "status": "todo",
-              "demo": "",
-              "due": null,
-              "canDemo": "",
-              "integrated": "",
-              "vendor": "",
-              "techOwner": "",
-              "businessOwner": "",
-              "remark": ""
-            },
-            {
-              "detail": "场景建设推进",
-              "status": "todo",
-              "demo": "",
-              "due": null,
-              "canDemo": "",
-              "integrated": "",
-              "vendor": "",
-              "techOwner": "",
-              "businessOwner": "",
-              "remark": ""
-            },
-            {
-              "detail": "场景建设推进",
-              "status": "todo",
-              "demo": "",
-              "due": null,
-              "canDemo": "",
-              "integrated": "",
-              "vendor": "",
-              "techOwner": "",
-              "businessOwner": "",
-              "remark": ""
-            },
-            {
-              "detail": "场景建设推进",
-              "status": "todo",
-              "demo": "",
-              "due": null,
-              "canDemo": "",
-              "integrated": "",
-              "vendor": "",
-              "techOwner": "",
-              "businessOwner": "",
-              "remark": ""
-            },
-            {
-              "detail": "场景建设推进",
-              "status": "todo",
-              "demo": "",
-              "due": null,
-              "canDemo": "",
-              "integrated": "",
-              "vendor": "",
-              "techOwner": "",
-              "businessOwner": "",
-              "remark": ""
-            },
-            {
-              "detail": "场景建设推进",
-              "status": "todo",
-              "demo": "",
-              "due": null,
-              "canDemo": "",
-              "integrated": "",
-              "vendor": "",
-              "techOwner": "",
-              "businessOwner": "",
-              "remark": ""
-            },
-            {
-              "detail": "场景建设推进",
-              "status": "todo",
-              "demo": "",
-              "due": null,
-              "canDemo": "",
-              "integrated": "",
-              "vendor": "",
-              "techOwner": "",
-              "businessOwner": "",
-              "remark": ""
-            },
-            {
-              "detail": "场景建设推进",
-              "status": "todo",
-              "demo": "",
-              "due": null,
-              "canDemo": "",
-              "integrated": "",
-              "vendor": "",
-              "techOwner": "",
-              "businessOwner": "",
-              "remark": ""
-            },
-            {
-              "detail": "场景建设推进",
-              "status": "todo",
-              "demo": "",
-              "due": null,
-              "canDemo": "",
-              "integrated": "",
-              "vendor": "",
-              "techOwner": "",
-              "businessOwner": "",
-              "remark": ""
-            },
-            {
-              "detail": "场景建设推进",
-              "status": "todo",
-              "demo": "",
-              "due": null,
-              "canDemo": "",
-              "integrated": "",
-              "vendor": "",
-              "techOwner": "",
-              "businessOwner": "",
-              "remark": ""
-            },
-            {
-              "detail": "场景建设推进",
-              "status": "todo",
-              "demo": "",
-              "due": null,
-              "canDemo": "",
-              "integrated": "",
-              "vendor": "",
-              "techOwner": "",
-              "businessOwner": "",
-              "remark": ""
-            },
-            {
-              "detail": "场景建设推进",
-              "status": "todo",
-              "demo": "",
-              "due": null,
-              "canDemo": "",
-              "integrated": "",
-              "vendor": "",
-              "techOwner": "",
-              "businessOwner": "",
-              "remark": ""
-            },
-            {
-              "detail": "场景建设推进",
-              "status": "todo",
-              "demo": "",
-              "due": null,
-              "canDemo": "",
-              "integrated": "",
-              "vendor": "",
-              "techOwner": "",
-              "businessOwner": "",
-              "remark": ""
-            },
-            {
-              "detail": "场景建设推进",
-              "status": "todo",
-              "demo": "",
-              "due": null,
-              "canDemo": "",
-              "integrated": "",
-              "vendor": "",
-              "techOwner": "",
-              "businessOwner": "",
-              "remark": ""
-            },
-            {
-              "detail": "场景建设推进",
-              "status": "todo",
-              "demo": "",
-              "due": null,
-              "canDemo": "",
-              "integrated": "",
-              "vendor": "",
-              "techOwner": "",
-              "businessOwner": "",
-              "remark": ""
-            },
-            {
-              "detail": "场景建设推进",
-              "status": "todo",
-              "demo": "",
-              "due": null,
-              "canDemo": "",
-              "integrated": "",
-              "vendor": "",
-              "techOwner": "",
-              "businessOwner": "",
-              "remark": ""
-            },
-            {
-              "detail": "场景建设推进",
-              "status": "todo",
-              "demo": "",
-              "due": null,
-              "canDemo": "",
-              "integrated": "",
-              "vendor": "",
-              "techOwner": "",
-              "businessOwner": "",
-              "remark": ""
-            },
-            {
-              "detail": "场景建设推进",
-              "status": "todo",
-              "demo": "",
-              "due": null,
-              "canDemo": "",
-              "integrated": "",
-              "vendor": "",
-              "techOwner": "",
-              "businessOwner": "",
-              "remark": ""
-            },
-            {
-              "detail": "场景建设推进",
-              "status": "todo",
-              "demo": "",
-              "due": null,
-              "canDemo": "",
-              "integrated": "",
-              "vendor": "",
-              "techOwner": "",
-              "businessOwner": "",
-              "remark": ""
-            },
-            {
-              "detail": "场景建设推进",
-              "status": "todo",
-              "demo": "",
-              "due": null,
-              "canDemo": "",
-              "integrated": "",
-              "vendor": "",
-              "techOwner": "",
-              "businessOwner": "",
-              "remark": ""
-            },
-            {
-              "detail": "场景建设推进",
-              "status": "todo",
-              "demo": "",
-              "due": null,
-              "canDemo": "",
-              "integrated": "",
-              "vendor": "",
-              "techOwner": "",
-              "businessOwner": "",
-              "remark": ""
-            },
-            {
-              "detail": "场景建设推进",
-              "status": "todo",
-              "demo": "",
-              "due": null,
-              "canDemo": "",
-              "integrated": "",
-              "vendor": "",
-              "techOwner": "",
-              "businessOwner": "",
-              "remark": ""
-            },
-            {
-              "detail": "场景建设推进",
-              "status": "todo",
-              "demo": "",
-              "due": null,
-              "canDemo": "",
-              "integrated": "",
-              "vendor": "",
-              "techOwner": "",
-              "businessOwner": "",
-              "remark": ""
-            },
-            {
-              "detail": "场景建设推进",
-              "status": "todo",
-              "demo": "",
-              "due": null,
-              "canDemo": "",
-              "integrated": "",
-              "vendor": "",
-              "techOwner": "",
-              "businessOwner": "",
-              "remark": ""
-            },
-            {
-              "detail": "场景建设推进",
-              "status": "todo",
-              "demo": "",
-              "due": null,
-              "canDemo": "",
-              "integrated": "",
-              "vendor": "",
-              "techOwner": "",
-              "businessOwner": "",
-              "remark": ""
             }
           ]
         }
@@ -3257,7 +2453,7 @@
       "sequence": "1",
       "kind": "normal",
       "priority": "yellow",
-      "progress": 75,
+      "progress": 100,
       "due": "2026-08-30",
       "businessOwner": "林烨",
       "techOwner": "王炜",
@@ -3265,7 +2461,7 @@
       "owner": "林烨",
       "role": "业务负责人 · 林烨 / 技术部对接人 · 王炜",
       "description": "word公文、格式转换、pdf拼接剪切、自动操作excel、加去水印等常用办公技能、ppt制作",
-      "next": "推进\"格式转换、pdf拼接剪切、自动操作excel、加去水印等常用办公技能\"，计划节点：2026-08-30。",
+      "next": "完成最终验收并准备交付。",
       "risk": "",
       "milestones": [
         [
@@ -3276,7 +2472,7 @@
         [
           "格式转换、pdf拼接剪切、自动操作excel、加去水印等常用办公技能",
           "2026-08-30",
-          "todo"
+          "done"
         ],
         [
           "ppt制作",
@@ -3289,9 +2485,7 @@
           "done"
         ]
       ],
-      "remarks": [
-        "自动操作Excel非可视化操作"
-      ],
+      "remarks": [],
       "items": [
         {
           "detail": "word公文",
@@ -3307,7 +2501,7 @@
         },
         {
           "detail": "格式转换、pdf拼接剪切、自动操作excel、加去水印等常用办公技能",
-          "status": "todo",
+          "status": "done",
           "demo": "",
           "due": "2026-08-30",
           "canDemo": "否",
@@ -3315,7 +2509,7 @@
           "vendor": "启明星",
           "techOwner": "王炜",
           "businessOwner": "林烨",
-          "remark": "自动操作Excel非可视化操作"
+          "remark": ""
         },
         {
           "detail": "ppt制作",
@@ -3351,7 +2545,7 @@
       "sequence": "5",
       "kind": "punch",
       "priority": "punch",
-      "progress": 0,
+      "progress": 13,
       "due": "2026-12-30",
       "businessOwner": "王凌",
       "techOwner": "王炜",
@@ -3365,7 +2559,7 @@
         [
           "舆情监测",
           "2026-08-22",
-          "todo"
+          "current"
         ],
         [
           "舆情研判",
@@ -3383,11 +2577,13 @@
           "todo"
         ]
       ],
-      "remarks": [],
+      "remarks": [
+        "业务已明确需求"
+      ],
       "items": [
         {
           "detail": "舆情监测",
-          "status": "todo",
+          "status": "partial",
           "demo": "",
           "due": "2026-08-22",
           "canDemo": "否",
@@ -3395,7 +2591,7 @@
           "vendor": "启明星",
           "techOwner": "王炜",
           "businessOwner": "王凌",
-          "remark": ""
+          "remark": "业务已明确需求"
         },
         {
           "detail": "舆情研判",
@@ -3701,7 +2897,7 @@
       "sequence": "17",
       "kind": "punch",
       "priority": "punch",
-      "progress": 0,
+      "progress": 13,
       "due": "2026-12-30",
       "businessOwner": "张晓龙",
       "techOwner": "王炜",
@@ -3715,7 +2911,7 @@
         [
           "指标智能生成（内+外）",
           "2026-12-30",
-          "todo"
+          "current"
         ],
         [
           "非化石报表数据稽核",
@@ -3737,7 +2933,7 @@
       "items": [
         {
           "detail": "指标智能生成（内+外）",
-          "status": "todo",
+          "status": "partial",
           "demo": "",
           "due": "2026-12-30",
           "canDemo": "否",
@@ -3793,7 +2989,7 @@
       "sequence": "21",
       "kind": "punch",
       "priority": "punch",
-      "progress": 0,
+      "progress": 25,
       "due": "2026-10-31",
       "businessOwner": "汪向阳",
       "techOwner": "王炜",
@@ -3807,7 +3003,7 @@
         [
           "询问信息披露数据",
           "2026-10-31",
-          "todo"
+          "current"
         ],
         [
           "信息披露的MCP制作",
@@ -3819,7 +3015,7 @@
       "items": [
         {
           "detail": "询问信息披露数据",
-          "status": "todo",
+          "status": "partial",
           "demo": "",
           "due": "2026-10-31",
           "canDemo": "否",
@@ -3937,13 +3133,13 @@
     },
     {
       "id": "ai-11",
-      "name": "市场主体异常行为风险分析",
+      "name": "异常行为风险分析",
       "department": "合规部",
       "departmentId": "dept-合规部",
       "sequence": "27",
       "kind": "normal",
       "priority": "yellow",
-      "progress": 0,
+      "progress": 50,
       "due": "2026-09-20",
       "businessOwner": "陈成",
       "techOwner": "王炜",
@@ -3957,14 +3153,14 @@
         [
           "交叉分析市场主体报价行为是否有风险，人工智能售电公司盈利分析",
           "2026-09-20",
-          "todo"
+          "current"
         ]
       ],
       "remarks": [],
       "items": [
         {
           "detail": "交叉分析市场主体报价行为是否有风险，人工智能售电公司盈利分析",
-          "status": "todo",
+          "status": "partial",
           "demo": "46241",
           "due": "2026-09-20",
           "canDemo": "否",
@@ -3984,7 +3180,7 @@
       "sequence": "28",
       "kind": "normal",
       "priority": "yellow",
-      "progress": 0,
+      "progress": 50,
       "due": "2026-12-31",
       "businessOwner": "陈成",
       "techOwner": "王炜",
@@ -3998,14 +3194,14 @@
         [
           "稽核市场主体提交的资料",
           "2026-12-31",
-          "todo"
+          "current"
         ]
       ],
       "remarks": [],
       "items": [
         {
           "detail": "稽核市场主体提交的资料",
-          "status": "todo",
+          "status": "partial",
           "demo": "",
           "due": "2026-12-31",
           "canDemo": "否",
@@ -4139,9 +3335,9 @@
       "department": "技术部",
       "departmentId": "dept-技术部",
       "sequence": "33",
-      "kind": "risk",
+      "kind": "normal",
       "priority": "yellow",
-      "progress": 40,
+      "progress": 50,
       "due": "2026-12-31",
       "businessOwner": "黄隽弢",
       "techOwner": "邵晨峰",
@@ -4149,8 +3345,8 @@
       "owner": "黄隽弢",
       "role": "业务负责人 · 黄隽弢 / 技术部对接人 · 邵晨峰",
       "description": "自动采集软硬件数据、自动回归测试、日志采集",
-      "next": "推进\"自动回归测试\"，计划节点：2026-12-31。",
-      "risk": "当前完成度 40%，最近节点为 2026-07-31，建议在本次汇报中确认推进责任与资源安排。",
+      "next": "推进\"自动回归测试\"，计划节点：2026-09-30。",
+      "risk": "",
       "milestones": [
         [
           "自动采集软硬件数据",
@@ -4159,7 +3355,7 @@
         ],
         [
           "自动回归测试",
-          "2026-12-31",
+          "2026-09-30",
           "current"
         ],
         [
@@ -4175,7 +3371,7 @@
         [
           "用户工单智能分析",
           "2026-12-31",
-          "todo"
+          "current"
         ]
       ],
       "remarks": [
@@ -4199,7 +3395,7 @@
           "detail": "自动回归测试",
           "status": "partial",
           "demo": "",
-          "due": "2026-12-31",
+          "due": "2026-09-30",
           "canDemo": "否",
           "integrated": "是",
           "vendor": "华云集成",
@@ -4233,8 +3429,8 @@
         },
         {
           "detail": "用户工单智能分析",
-          "status": "todo",
-          "demo": "",
+          "status": "partial",
+          "demo": "46264",
           "due": "2026-12-31",
           "canDemo": "否",
           "integrated": "是",
@@ -4275,9 +3471,7 @@
           "done"
         ]
       ],
-      "remarks": [
-        "流量与检测功能待确认"
-      ],
+      "remarks": [],
       "items": [
         {
           "detail": "采集异常行为",
@@ -4289,7 +3483,7 @@
           "vendor": "华云集成",
           "techOwner": "邵晨峰",
           "businessOwner": "魏骁",
-          "remark": "流量与检测功能待确认"
+          "remark": ""
         },
         {
           "detail": "生成异常分析报告",
@@ -4313,7 +3507,7 @@
       "sequence": "40",
       "kind": "normal",
       "priority": "yellow",
-      "progress": 67,
+      "progress": 100,
       "due": "2026-08-20",
       "businessOwner": "黄隽弢、魏骁",
       "techOwner": "邵晨峰",
@@ -4321,18 +3515,18 @@
       "owner": "黄隽弢、魏骁",
       "role": "业务负责人 · 黄隽弢、魏骁 / 技术部对接人 · 邵晨峰",
       "description": "测试用例生成、自动巡检、生成巡检报告",
-      "next": "推进\"测试用例生成\"，计划节点：2026-08-20。",
+      "next": "完成最终验收并准备交付。",
       "risk": "",
       "milestones": [
         [
           "测试用例生成",
           "2026-08-20",
-          "current"
+          "done"
         ],
         [
           "自动巡检",
           "2026-08-20",
-          "current"
+          "done"
         ],
         [
           "生成巡检报告",
@@ -4342,12 +3536,12 @@
       ],
       "remarks": [
         "（远期）基于人工智能，让市场用户参与到测试、功能迭代的环节中：预览版测试、灰度测试、用户反馈",
-        "MCP已集成PX-Code，模型幻觉问题正在沟通解决"
+        "后续增加更多巡检参数\n按照业务场景建立skill"
       ],
       "items": [
         {
           "detail": "测试用例生成",
-          "status": "partial",
+          "status": "done",
           "demo": "7月31日",
           "due": "2026-08-20",
           "canDemo": "是",
@@ -4359,7 +3553,7 @@
         },
         {
           "detail": "自动巡检",
-          "status": "partial",
+          "status": "done",
           "demo": "7月31日",
           "due": "2026-08-20",
           "canDemo": "是",
@@ -4367,7 +3561,7 @@
           "vendor": "华云集成",
           "techOwner": "邵晨峰",
           "businessOwner": "魏骁",
-          "remark": "MCP已集成PX-Code，模型幻觉问题正在沟通解决"
+          "remark": "后续增加更多巡检参数\n按照业务场景建立skill"
         },
         {
           "detail": "生成巡检报告",
@@ -4391,7 +3585,7 @@
       "sequence": "43",
       "kind": "punch",
       "priority": "punch",
-      "progress": 25,
+      "progress": 38,
       "due": "2026-08-31",
       "businessOwner": "黄隽弢",
       "techOwner": "邵晨峰、王炜、王鹏程",
@@ -4410,7 +3604,7 @@
         [
           "通过浙电work提升数据查询质量",
           "2026-08-31",
-          "todo"
+          "current"
         ],
         [
           "统一mcp、接口开发逻辑、安全规范",
@@ -4424,7 +3618,7 @@
         ]
       ],
       "remarks": [
-        "测试环境已有，尽快部生产，第一批指标集问数尽快上线",
+        "测试环境已有，尽快部生产\n预计8月24日完成部署",
         "后续给所有研发单位会议宣贯"
       ],
       "items": [
@@ -4438,11 +3632,11 @@
           "vendor": "华云数据",
           "techOwner": "邵晨峰",
           "businessOwner": "黄隽弢",
-          "remark": "测试环境已有，尽快部生产，第一批指标集问数尽快上线"
+          "remark": "测试环境已有，尽快部生产\n预计8月24日完成部署"
         },
         {
           "detail": "通过浙电work提升数据查询质量",
-          "status": "todo",
+          "status": "partial",
           "demo": "",
           "due": "2026-08-31",
           "canDemo": "否",
@@ -5372,7 +4566,7 @@
         {
           "detail": "生成宣传脚本",
           "status": "todo",
-          "demo": "46241",
+          "demo": "",
           "due": "2026-12-30",
           "canDemo": "否",
           "integrated": "是",
@@ -5384,7 +4578,7 @@
         {
           "detail": "图文素材",
           "status": "todo",
-          "demo": "46241",
+          "demo": "",
           "due": "2026-12-30",
           "canDemo": "否",
           "integrated": "是",
@@ -5396,7 +4590,7 @@
         {
           "detail": "短视频文案",
           "status": "todo",
-          "demo": "46241",
+          "demo": "",
           "due": "2026-12-30",
           "canDemo": "否",
           "integrated": "是",
@@ -5408,7 +4602,7 @@
         {
           "detail": "海报文案和新媒体推送内容",
           "status": "todo",
-          "demo": "46241",
+          "demo": "",
           "due": "2026-12-30",
           "canDemo": "否",
           "integrated": "是",
@@ -5556,16 +4750,6 @@
           "多时段自主交易",
           "2026-12-30",
           "todo"
-        ],
-        [
-          "场景建设推进",
-          "2026-12-30",
-          "todo"
-        ],
-        [
-          "场景建设推进",
-          "2026-12-30",
-          "todo"
         ]
       ],
       "remarks": [],
@@ -5616,798 +4800,6 @@
           "vendor": "电科院",
           "techOwner": "王鹏程",
           "businessOwner": "何阳",
-          "remark": ""
-        },
-        {
-          "detail": "场景建设推进",
-          "status": "todo",
-          "demo": "",
-          "due": null,
-          "canDemo": "",
-          "integrated": "",
-          "vendor": "",
-          "techOwner": "",
-          "businessOwner": "",
-          "remark": ""
-        },
-        {
-          "detail": "场景建设推进",
-          "status": "todo",
-          "demo": "",
-          "due": null,
-          "canDemo": "",
-          "integrated": "",
-          "vendor": "",
-          "techOwner": "",
-          "businessOwner": "",
-          "remark": ""
-        },
-        {
-          "detail": "场景建设推进",
-          "status": "todo",
-          "demo": "",
-          "due": null,
-          "canDemo": "",
-          "integrated": "",
-          "vendor": "",
-          "techOwner": "",
-          "businessOwner": "",
-          "remark": ""
-        },
-        {
-          "detail": "场景建设推进",
-          "status": "todo",
-          "demo": "",
-          "due": null,
-          "canDemo": "",
-          "integrated": "",
-          "vendor": "",
-          "techOwner": "",
-          "businessOwner": "",
-          "remark": ""
-        },
-        {
-          "detail": "场景建设推进",
-          "status": "todo",
-          "demo": "",
-          "due": null,
-          "canDemo": "",
-          "integrated": "",
-          "vendor": "",
-          "techOwner": "",
-          "businessOwner": "",
-          "remark": ""
-        },
-        {
-          "detail": "场景建设推进",
-          "status": "todo",
-          "demo": "",
-          "due": null,
-          "canDemo": "",
-          "integrated": "",
-          "vendor": "",
-          "techOwner": "",
-          "businessOwner": "",
-          "remark": ""
-        },
-        {
-          "detail": "场景建设推进",
-          "status": "todo",
-          "demo": "",
-          "due": null,
-          "canDemo": "",
-          "integrated": "",
-          "vendor": "",
-          "techOwner": "",
-          "businessOwner": "",
-          "remark": ""
-        },
-        {
-          "detail": "场景建设推进",
-          "status": "todo",
-          "demo": "",
-          "due": null,
-          "canDemo": "",
-          "integrated": "",
-          "vendor": "",
-          "techOwner": "",
-          "businessOwner": "",
-          "remark": ""
-        },
-        {
-          "detail": "场景建设推进",
-          "status": "todo",
-          "demo": "",
-          "due": null,
-          "canDemo": "",
-          "integrated": "",
-          "vendor": "",
-          "techOwner": "",
-          "businessOwner": "",
-          "remark": ""
-        },
-        {
-          "detail": "场景建设推进",
-          "status": "todo",
-          "demo": "",
-          "due": null,
-          "canDemo": "",
-          "integrated": "",
-          "vendor": "",
-          "techOwner": "",
-          "businessOwner": "",
-          "remark": ""
-        },
-        {
-          "detail": "场景建设推进",
-          "status": "todo",
-          "demo": "",
-          "due": null,
-          "canDemo": "",
-          "integrated": "",
-          "vendor": "",
-          "techOwner": "",
-          "businessOwner": "",
-          "remark": ""
-        },
-        {
-          "detail": "场景建设推进",
-          "status": "todo",
-          "demo": "",
-          "due": null,
-          "canDemo": "",
-          "integrated": "",
-          "vendor": "",
-          "techOwner": "",
-          "businessOwner": "",
-          "remark": ""
-        },
-        {
-          "detail": "场景建设推进",
-          "status": "todo",
-          "demo": "",
-          "due": null,
-          "canDemo": "",
-          "integrated": "",
-          "vendor": "",
-          "techOwner": "",
-          "businessOwner": "",
-          "remark": ""
-        },
-        {
-          "detail": "场景建设推进",
-          "status": "todo",
-          "demo": "",
-          "due": null,
-          "canDemo": "",
-          "integrated": "",
-          "vendor": "",
-          "techOwner": "",
-          "businessOwner": "",
-          "remark": ""
-        },
-        {
-          "detail": "场景建设推进",
-          "status": "todo",
-          "demo": "",
-          "due": null,
-          "canDemo": "",
-          "integrated": "",
-          "vendor": "",
-          "techOwner": "",
-          "businessOwner": "",
-          "remark": ""
-        },
-        {
-          "detail": "场景建设推进",
-          "status": "todo",
-          "demo": "",
-          "due": null,
-          "canDemo": "",
-          "integrated": "",
-          "vendor": "",
-          "techOwner": "",
-          "businessOwner": "",
-          "remark": ""
-        },
-        {
-          "detail": "场景建设推进",
-          "status": "todo",
-          "demo": "",
-          "due": null,
-          "canDemo": "",
-          "integrated": "",
-          "vendor": "",
-          "techOwner": "",
-          "businessOwner": "",
-          "remark": ""
-        },
-        {
-          "detail": "场景建设推进",
-          "status": "todo",
-          "demo": "",
-          "due": null,
-          "canDemo": "",
-          "integrated": "",
-          "vendor": "",
-          "techOwner": "",
-          "businessOwner": "",
-          "remark": ""
-        },
-        {
-          "detail": "场景建设推进",
-          "status": "todo",
-          "demo": "",
-          "due": null,
-          "canDemo": "",
-          "integrated": "",
-          "vendor": "",
-          "techOwner": "",
-          "businessOwner": "",
-          "remark": ""
-        },
-        {
-          "detail": "场景建设推进",
-          "status": "todo",
-          "demo": "",
-          "due": null,
-          "canDemo": "",
-          "integrated": "",
-          "vendor": "",
-          "techOwner": "",
-          "businessOwner": "",
-          "remark": ""
-        },
-        {
-          "detail": "场景建设推进",
-          "status": "todo",
-          "demo": "",
-          "due": null,
-          "canDemo": "",
-          "integrated": "",
-          "vendor": "",
-          "techOwner": "",
-          "businessOwner": "",
-          "remark": ""
-        },
-        {
-          "detail": "场景建设推进",
-          "status": "todo",
-          "demo": "",
-          "due": null,
-          "canDemo": "",
-          "integrated": "",
-          "vendor": "",
-          "techOwner": "",
-          "businessOwner": "",
-          "remark": ""
-        },
-        {
-          "detail": "场景建设推进",
-          "status": "todo",
-          "demo": "",
-          "due": null,
-          "canDemo": "",
-          "integrated": "",
-          "vendor": "",
-          "techOwner": "",
-          "businessOwner": "",
-          "remark": ""
-        },
-        {
-          "detail": "场景建设推进",
-          "status": "todo",
-          "demo": "",
-          "due": null,
-          "canDemo": "",
-          "integrated": "",
-          "vendor": "",
-          "techOwner": "",
-          "businessOwner": "",
-          "remark": ""
-        },
-        {
-          "detail": "场景建设推进",
-          "status": "todo",
-          "demo": "",
-          "due": null,
-          "canDemo": "",
-          "integrated": "",
-          "vendor": "",
-          "techOwner": "",
-          "businessOwner": "",
-          "remark": ""
-        },
-        {
-          "detail": "场景建设推进",
-          "status": "todo",
-          "demo": "",
-          "due": null,
-          "canDemo": "",
-          "integrated": "",
-          "vendor": "",
-          "techOwner": "",
-          "businessOwner": "",
-          "remark": ""
-        },
-        {
-          "detail": "场景建设推进",
-          "status": "todo",
-          "demo": "",
-          "due": null,
-          "canDemo": "",
-          "integrated": "",
-          "vendor": "",
-          "techOwner": "",
-          "businessOwner": "",
-          "remark": ""
-        },
-        {
-          "detail": "场景建设推进",
-          "status": "todo",
-          "demo": "",
-          "due": null,
-          "canDemo": "",
-          "integrated": "",
-          "vendor": "",
-          "techOwner": "",
-          "businessOwner": "",
-          "remark": ""
-        },
-        {
-          "detail": "场景建设推进",
-          "status": "todo",
-          "demo": "",
-          "due": null,
-          "canDemo": "",
-          "integrated": "",
-          "vendor": "",
-          "techOwner": "",
-          "businessOwner": "",
-          "remark": ""
-        },
-        {
-          "detail": "场景建设推进",
-          "status": "todo",
-          "demo": "",
-          "due": null,
-          "canDemo": "",
-          "integrated": "",
-          "vendor": "",
-          "techOwner": "",
-          "businessOwner": "",
-          "remark": ""
-        },
-        {
-          "detail": "场景建设推进",
-          "status": "todo",
-          "demo": "",
-          "due": null,
-          "canDemo": "",
-          "integrated": "",
-          "vendor": "",
-          "techOwner": "",
-          "businessOwner": "",
-          "remark": ""
-        },
-        {
-          "detail": "场景建设推进",
-          "status": "todo",
-          "demo": "",
-          "due": null,
-          "canDemo": "",
-          "integrated": "",
-          "vendor": "",
-          "techOwner": "",
-          "businessOwner": "",
-          "remark": ""
-        },
-        {
-          "detail": "场景建设推进",
-          "status": "todo",
-          "demo": "",
-          "due": null,
-          "canDemo": "",
-          "integrated": "",
-          "vendor": "",
-          "techOwner": "",
-          "businessOwner": "",
-          "remark": ""
-        },
-        {
-          "detail": "场景建设推进",
-          "status": "todo",
-          "demo": "",
-          "due": null,
-          "canDemo": "",
-          "integrated": "",
-          "vendor": "",
-          "techOwner": "",
-          "businessOwner": "",
-          "remark": ""
-        },
-        {
-          "detail": "场景建设推进",
-          "status": "todo",
-          "demo": "",
-          "due": null,
-          "canDemo": "",
-          "integrated": "",
-          "vendor": "",
-          "techOwner": "",
-          "businessOwner": "",
-          "remark": ""
-        },
-        {
-          "detail": "场景建设推进",
-          "status": "todo",
-          "demo": "",
-          "due": null,
-          "canDemo": "",
-          "integrated": "",
-          "vendor": "",
-          "techOwner": "",
-          "businessOwner": "",
-          "remark": ""
-        },
-        {
-          "detail": "场景建设推进",
-          "status": "todo",
-          "demo": "",
-          "due": null,
-          "canDemo": "",
-          "integrated": "",
-          "vendor": "",
-          "techOwner": "",
-          "businessOwner": "",
-          "remark": ""
-        },
-        {
-          "detail": "场景建设推进",
-          "status": "todo",
-          "demo": "",
-          "due": null,
-          "canDemo": "",
-          "integrated": "",
-          "vendor": "",
-          "techOwner": "",
-          "businessOwner": "",
-          "remark": ""
-        },
-        {
-          "detail": "场景建设推进",
-          "status": "todo",
-          "demo": "",
-          "due": null,
-          "canDemo": "",
-          "integrated": "",
-          "vendor": "",
-          "techOwner": "",
-          "businessOwner": "",
-          "remark": ""
-        },
-        {
-          "detail": "场景建设推进",
-          "status": "todo",
-          "demo": "",
-          "due": null,
-          "canDemo": "",
-          "integrated": "",
-          "vendor": "",
-          "techOwner": "",
-          "businessOwner": "",
-          "remark": ""
-        },
-        {
-          "detail": "场景建设推进",
-          "status": "todo",
-          "demo": "",
-          "due": null,
-          "canDemo": "",
-          "integrated": "",
-          "vendor": "",
-          "techOwner": "",
-          "businessOwner": "",
-          "remark": ""
-        },
-        {
-          "detail": "场景建设推进",
-          "status": "todo",
-          "demo": "",
-          "due": null,
-          "canDemo": "",
-          "integrated": "",
-          "vendor": "",
-          "techOwner": "",
-          "businessOwner": "",
-          "remark": ""
-        },
-        {
-          "detail": "场景建设推进",
-          "status": "todo",
-          "demo": "",
-          "due": null,
-          "canDemo": "",
-          "integrated": "",
-          "vendor": "",
-          "techOwner": "",
-          "businessOwner": "",
-          "remark": ""
-        },
-        {
-          "detail": "场景建设推进",
-          "status": "todo",
-          "demo": "",
-          "due": null,
-          "canDemo": "",
-          "integrated": "",
-          "vendor": "",
-          "techOwner": "",
-          "businessOwner": "",
-          "remark": ""
-        },
-        {
-          "detail": "场景建设推进",
-          "status": "todo",
-          "demo": "",
-          "due": null,
-          "canDemo": "",
-          "integrated": "",
-          "vendor": "",
-          "techOwner": "",
-          "businessOwner": "",
-          "remark": ""
-        },
-        {
-          "detail": "场景建设推进",
-          "status": "todo",
-          "demo": "",
-          "due": null,
-          "canDemo": "",
-          "integrated": "",
-          "vendor": "",
-          "techOwner": "",
-          "businessOwner": "",
-          "remark": ""
-        },
-        {
-          "detail": "场景建设推进",
-          "status": "todo",
-          "demo": "",
-          "due": null,
-          "canDemo": "",
-          "integrated": "",
-          "vendor": "",
-          "techOwner": "",
-          "businessOwner": "",
-          "remark": ""
-        },
-        {
-          "detail": "场景建设推进",
-          "status": "todo",
-          "demo": "",
-          "due": null,
-          "canDemo": "",
-          "integrated": "",
-          "vendor": "",
-          "techOwner": "",
-          "businessOwner": "",
-          "remark": ""
-        },
-        {
-          "detail": "场景建设推进",
-          "status": "todo",
-          "demo": "",
-          "due": null,
-          "canDemo": "",
-          "integrated": "",
-          "vendor": "",
-          "techOwner": "",
-          "businessOwner": "",
-          "remark": ""
-        },
-        {
-          "detail": "场景建设推进",
-          "status": "todo",
-          "demo": "",
-          "due": null,
-          "canDemo": "",
-          "integrated": "",
-          "vendor": "",
-          "techOwner": "",
-          "businessOwner": "",
-          "remark": ""
-        },
-        {
-          "detail": "场景建设推进",
-          "status": "todo",
-          "demo": "",
-          "due": null,
-          "canDemo": "",
-          "integrated": "",
-          "vendor": "",
-          "techOwner": "",
-          "businessOwner": "",
-          "remark": ""
-        },
-        {
-          "detail": "场景建设推进",
-          "status": "todo",
-          "demo": "",
-          "due": null,
-          "canDemo": "",
-          "integrated": "",
-          "vendor": "",
-          "techOwner": "",
-          "businessOwner": "",
-          "remark": ""
-        },
-        {
-          "detail": "场景建设推进",
-          "status": "todo",
-          "demo": "",
-          "due": null,
-          "canDemo": "",
-          "integrated": "",
-          "vendor": "",
-          "techOwner": "",
-          "businessOwner": "",
-          "remark": ""
-        },
-        {
-          "detail": "场景建设推进",
-          "status": "todo",
-          "demo": "",
-          "due": null,
-          "canDemo": "",
-          "integrated": "",
-          "vendor": "",
-          "techOwner": "",
-          "businessOwner": "",
-          "remark": ""
-        },
-        {
-          "detail": "场景建设推进",
-          "status": "todo",
-          "demo": "",
-          "due": null,
-          "canDemo": "",
-          "integrated": "",
-          "vendor": "",
-          "techOwner": "",
-          "businessOwner": "",
-          "remark": ""
-        },
-        {
-          "detail": "场景建设推进",
-          "status": "todo",
-          "demo": "",
-          "due": null,
-          "canDemo": "",
-          "integrated": "",
-          "vendor": "",
-          "techOwner": "",
-          "businessOwner": "",
-          "remark": ""
-        },
-        {
-          "detail": "场景建设推进",
-          "status": "todo",
-          "demo": "",
-          "due": null,
-          "canDemo": "",
-          "integrated": "",
-          "vendor": "",
-          "techOwner": "",
-          "businessOwner": "",
-          "remark": ""
-        },
-        {
-          "detail": "场景建设推进",
-          "status": "todo",
-          "demo": "",
-          "due": null,
-          "canDemo": "",
-          "integrated": "",
-          "vendor": "",
-          "techOwner": "",
-          "businessOwner": "",
-          "remark": ""
-        },
-        {
-          "detail": "场景建设推进",
-          "status": "todo",
-          "demo": "",
-          "due": null,
-          "canDemo": "",
-          "integrated": "",
-          "vendor": "",
-          "techOwner": "",
-          "businessOwner": "",
-          "remark": ""
-        },
-        {
-          "detail": "场景建设推进",
-          "status": "todo",
-          "demo": "",
-          "due": null,
-          "canDemo": "",
-          "integrated": "",
-          "vendor": "",
-          "techOwner": "",
-          "businessOwner": "",
-          "remark": ""
-        },
-        {
-          "detail": "场景建设推进",
-          "status": "todo",
-          "demo": "",
-          "due": null,
-          "canDemo": "",
-          "integrated": "",
-          "vendor": "",
-          "techOwner": "",
-          "businessOwner": "",
-          "remark": ""
-        },
-        {
-          "detail": "场景建设推进",
-          "status": "todo",
-          "demo": "",
-          "due": null,
-          "canDemo": "",
-          "integrated": "",
-          "vendor": "",
-          "techOwner": "",
-          "businessOwner": "",
-          "remark": ""
-        },
-        {
-          "detail": "场景建设推进",
-          "status": "todo",
-          "demo": "",
-          "due": null,
-          "canDemo": "",
-          "integrated": "",
-          "vendor": "",
-          "techOwner": "",
-          "businessOwner": "",
-          "remark": ""
-        },
-        {
-          "detail": "场景建设推进",
-          "status": "todo",
-          "demo": "",
-          "due": null,
-          "canDemo": "",
-          "integrated": "",
-          "vendor": "",
-          "techOwner": "",
-          "businessOwner": "",
-          "remark": ""
-        },
-        {
-          "detail": "场景建设推进",
-          "status": "todo",
-          "demo": "",
-          "due": null,
-          "canDemo": "",
-          "integrated": "",
-          "vendor": "",
-          "techOwner": "",
-          "businessOwner": "",
-          "remark": ""
-        },
-        {
-          "detail": "场景建设推进",
-          "status": "todo",
-          "demo": "",
-          "due": null,
-          "canDemo": "",
-          "integrated": "",
-          "vendor": "",
-          "techOwner": "",
-          "businessOwner": "",
           "remark": ""
         }
       ]

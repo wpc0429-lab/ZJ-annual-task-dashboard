@@ -37,8 +37,7 @@ npm run preview
 ## 数据更新
 
 1. 将最新的 Excel 计划表放入 `source/` 目录
-2. 修改 `scripts/generate-ai-data-v2.mjs` 顶部的 `SOURCE` 与 `CURRENT_DATE`
-3. 运行生成脚本：
+2. 运行生成脚本（会自动选择文件名日期最新的计划表）：
 
 ```bash
 node scripts/generate-ai-data-v2.mjs
