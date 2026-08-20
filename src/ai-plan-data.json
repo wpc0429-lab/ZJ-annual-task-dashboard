@@ -1,8 +1,8 @@
 {
-  "sourceFile": "人工智能场景计划表-0819.xlsx",
+  "sourceFile": "人工智能场景计划表-0820.xlsx",
   "sourceSheet": "应用建设",
-  "reportDate": "2026-08-19",
-  "currentDate": "2026-08-19",
+  "reportDate": "2026-08-20",
+  "currentDate": "2026-08-20",
   "departments": [
     {
       "id": "dept-综合部",
@@ -141,9 +141,7 @@
               "todo"
             ]
           ],
-          "remarks": [
-            "业务已明确需求"
-          ],
+          "remarks": [],
           "items": [
             {
               "detail": "舆情监测",
@@ -155,7 +153,7 @@
               "vendor": "启明星",
               "techOwner": "王炜",
               "businessOwner": "王凌",
-              "remark": "业务已明确需求"
+              "remark": ""
             },
             {
               "detail": "舆情研判",
@@ -1189,7 +1187,7 @@
           "sequence": "43",
           "kind": "punch",
           "priority": "punch",
-          "progress": 38,
+          "progress": 50,
           "due": "2026-08-31",
           "businessOwner": "黄隽弢",
           "techOwner": "邵晨峰、王炜、王鹏程",
@@ -1213,7 +1211,7 @@
             [
               "统一mcp、接口开发逻辑、安全规范",
               "2026-08-18",
-              "todo"
+              "current"
             ],
             [
               "浙电work协同模式设计",
@@ -1252,7 +1250,7 @@
             },
             {
               "detail": "统一mcp、接口开发逻辑、安全规范",
-              "status": "todo",
+              "status": "partial",
               "demo": "",
               "due": "2026-08-18",
               "canDemo": "否",
@@ -1565,7 +1563,7 @@
           ]
         }
       ],
-      "overall": 41,
+      "overall": 43,
       "active": 6,
       "nearest": "2026-07-24"
     },
@@ -2577,9 +2575,7 @@
           "todo"
         ]
       ],
-      "remarks": [
-        "业务已明确需求"
-      ],
+      "remarks": [],
       "items": [
         {
           "detail": "舆情监测",
@@ -2591,7 +2587,7 @@
           "vendor": "启明星",
           "techOwner": "王炜",
           "businessOwner": "王凌",
-          "remark": "业务已明确需求"
+          "remark": ""
         },
         {
           "detail": "舆情研判",
@@ -3585,7 +3581,7 @@
       "sequence": "43",
       "kind": "punch",
       "priority": "punch",
-      "progress": 38,
+      "progress": 50,
       "due": "2026-08-31",
       "businessOwner": "黄隽弢",
       "techOwner": "邵晨峰、王炜、王鹏程",
@@ -3609,7 +3605,7 @@
         [
           "统一mcp、接口开发逻辑、安全规范",
           "2026-08-18",
-          "todo"
+          "current"
         ],
         [
           "浙电work协同模式设计",
@@ -3648,7 +3644,7 @@
         },
         {
           "detail": "统一mcp、接口开发逻辑、安全规范",
-          "status": "todo",
+          "status": "partial",
           "demo": "",
           "due": "2026-08-18",
           "canDemo": "否",
