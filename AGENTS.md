@@ -12,7 +12,7 @@ Build app UI in `src/`. Keep `.openai/hosting.json`, `worker/index.js`, `scripts
 
 - The selected direction is “曜石白编辑部”: warm stone canvas, editorial Chinese serif display type, clean sans-serif data type, graphite hairlines, restrained cobalt progress, and emerald reserved only for “年度拳头产品”.
 - The primary leadership flow is summary-first: department, scenario, expected completion date, and progress stay visible; clicking a scenario opens the full details in a right-side inspector.
-- The current source is `source/人工智能场景计划表-0819.xlsx`; its green fills in the 应用场景 column drive the “年度拳头产品” state, and progress is derived from 是否已完成 (已完成/是 = 100%, 部分完成 = 50%, 否 = 0%).
+- The current source is `source/人工智能场景计划表-0820.xlsx`; its green fills in the 应用场景 column drive the “年度拳头产品” state, and progress is derived from 是否已完成 (已完成/是 = 100%, 部分完成 = 50%, 否 = 0%). The 子任务 是否演示 column drives the “820演示场景” filter (any scenario where `canDemo === '是'` shows under the 演示筛选 = 820演示场景 dropdown, and its demoable items surface in the inspector’s 2026-08-20演示场景 section).
 - The generated `src/ai-plan-data.json` is the replaceable normalized data layer, preserving the source’s department, scenario, subtask, due date, vendor, technical contact, business contact, and special-fill signals.
 - Detail drawer responsibility labels use “责任部门”, “需求方 / 业务负责人”, “技术部对接人”, and “研发单位”; business and technical contacts must remain separate rather than collapsing into one owner line.
 
