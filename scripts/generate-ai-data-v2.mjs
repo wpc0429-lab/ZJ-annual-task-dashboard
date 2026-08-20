@@ -191,7 +191,11 @@ const scenarios = [...groups.values()].map((group, index) => {
   const progress = Math.round(group.items.reduce((sum, item) => sum + progressFromStatus(item.status), 0) / Math.max(group.items.length, 1));
   const dueDates = group.items.map((item) => item.due).filter(Boolean).sort(compareDate);
   const due = dueDates.at(-1) ?? null;
-  const firstDue = dueDates[0] ?? null;
+  const firstDue = group.items
+    .filter((item) => item.status !== "done")
+    .map((item) => item.due)
+    .filter(Boolean)
+    .sort(compareDate)[0] ?? null;
   
   // 优先使用映射表的类型
   const mappedKind = getScenarioKind(group.scenario);

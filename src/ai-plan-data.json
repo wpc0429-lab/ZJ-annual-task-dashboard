@@ -2132,7 +2132,7 @@
           "department": "客服中心",
           "departmentId": "dept-客服中心",
           "sequence": "80",
-          "kind": "risk",
+          "kind": "normal",
           "priority": "yellow",
           "progress": 20,
           "due": "2026-12-30",
@@ -2143,7 +2143,7 @@
           "role": "业务负责人 · 吕瑞扬 / 技术部对接人 · 王鹏程",
           "description": "数字人、生成宣传脚本、图文素材",
           "next": "推进\"生成宣传脚本\"，计划节点：2026-12-30。",
-          "risk": "当前完成度 20%，最近节点为 2026-08-15，建议在本次汇报中确认推进责任与资源安排。",
+          "risk": "",
           "milestones": [
             [
               "数字人",
@@ -4506,7 +4506,7 @@
       "department": "客服中心",
       "departmentId": "dept-客服中心",
       "sequence": "80",
-      "kind": "risk",
+      "kind": "normal",
       "priority": "yellow",
       "progress": 20,
       "due": "2026-12-30",
@@ -4517,7 +4517,7 @@
       "role": "业务负责人 · 吕瑞扬 / 技术部对接人 · 王鹏程",
       "description": "数字人、生成宣传脚本、图文素材",
       "next": "推进\"生成宣传脚本\"，计划节点：2026-12-30。",
-      "risk": "当前完成度 20%，最近节点为 2026-08-15，建议在本次汇报中确认推进责任与资源安排。",
+      "risk": "",
       "milestones": [
         [
           "数字人",
